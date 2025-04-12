@@ -76,20 +76,47 @@ for href_id, (text_pl, text_code) in unified.items():
     if href_id.startswith("uknf_tN"):
         headers = text_pl
 
-kolumny_wynik = []
-tabele_wynik = []
-
+wynik = {}
+tabele = []
+kolumny=[]
 if len(columns_ending_9) == 0:
     for col in sorted_cols_0_list:
-        kolumny_wynik.append(col[1])
-    tabele_wynik.append(headers)
-    print("kolumny", kolumny_wynik)
-    print("tabele", tabele_wynik)
+        kolumny.append(col[1])
+    wynik[headers] = kolumny
+    tabele.append(headers)
 
 else:
-    for col in sorted_cols_0_list:
-        kolumny_wynik.append(col[1])
-    for col in sorted_cols_9_list:
-        tabele_wynik.append(col[1])
-    print("kolumny", kolumny_wynik)
-    print("tabele", tabele_wynik)
+    if len(sorted_cols_9_list) == 1:
+        for col in sorted_cols_0_list:
+            kolumny.append(col[1])
+        wynik[sorted_cols_9_list[1]] = kolumny
+        tabele.append([sorted_cols_9_list[1]])
+    else:
+        for col in range(0, len(sorted_cols_9_list)):
+            start = int(sorted_cols_9_list[col][2])
+            tabela = sorted_cols_9_list[col][1]
+            kolumny=[]
+            if col!=len(sorted_cols_9_list) - 1:
+               stop = int(sorted_cols_9_list[col + 1][2])
+               for i in sorted_cols_0_list:
+                    wartosc = int(i[2])
+                    if wartosc > start and wartosc < stop:
+                       kolumny.append(i[1])
+               wynik[tabela] = kolumny
+               tabele.append(tabela)
+            else:
+                for i in sorted_cols_0_list:
+                    wartosc = int(i[2])
+                    if wartosc > start:
+                        kolumny.append(i[1])
+                wynik[tabela] = kolumny
+                tabele.append(tabela)
+
+
+
+print(wynik)
+
+
+# print(wynik[tabele[1]])
+
+
