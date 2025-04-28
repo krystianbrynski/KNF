@@ -1,4 +1,4 @@
-# Wybór technologiI
+# Wybór technologii
 
 ## FastAPI + MSSQL
 
