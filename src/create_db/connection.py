@@ -35,7 +35,6 @@ def connect(FILE_PATH):
                     f'VALUES ({", ".join(["?" for _ in columns])})',
                     null
                 )
-                print(f"Insert:'{table_name}'.")
 
             except Exception as e:
                 print(f"Error in '{table_name}': {e}")
