@@ -1,17 +1,13 @@
-import xml.etree.ElementTree as ET
-path_file = "C:/Users/marta/PycharmProjects/KNF/data/taxonomy/TaksonomiaBION/www.uknf.gov.pl/pl/fr/xbrl/dict/met/met.xsd"
+from extractor.extractor_types import extract_types
+from config.paths import PATH_FILE
 
-tree = ET.parse(path_file)
-root = tree.getroot()
 
-wyniki = []
+def run_pipeline() -> None:
+    named_types_list = extract_types(PATH_FILE)
 
-for elem in root.iter():
-    if elem.tag.endswith('element'):
-        name = elem.attrib.get('name')
-        typ = elem.attrib.get('type')
-        if name and typ:
-            wyniki.append((name, typ))
+    for name, typ in named_types_list:
+        print(f"Name: {name}, Type: {typ}")
 
-for name, typ in wyniki:
-    print(f"Nazwa: {name}, Typ: {typ}")
+
+if __name__ == "__main__":
+    run_pipeline()
