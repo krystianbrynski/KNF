@@ -4,7 +4,7 @@ from src.config.paths import FILE_PATH
 
 app = FastAPI()
 
-@app.post("/upload")
+@app.on_event("startup")
 def upload():
     try:
         connect(FILE_PATH)

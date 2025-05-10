@@ -10,29 +10,65 @@ def connect(FILE_PATH):
         "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
 
-    with engine.begin() as conn:
-        for table_name, columns in json_data.items():
-            if columns:
-                try:
-                    kolumny_sql = ", ".join([f'[{column}] NVARCHAR(MAX)' for column in columns])
+    try:
+        with engine.begin() as conn:
+            create_label_list = '''
+                IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'label_list')
+                BEGIN
+                    CREATE TABLE label_list (
+                        id_label INT PRIMARY KEY,
+                        label_tresc NVARCHAR(MAX)
+                    )
+                END
+            '''
+            create_data = '''
+                IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'data')
+                BEGIN
+                    CREATE TABLE data (
+                        id_data INT PRIMARY KEY,
+                        id_label INT FOREIGN KEY REFERENCES label_list(id_label),
+                        data NVARCHAR(MAX),
+                        data_point NVARCHAR(100),
+                        data_type NVARCHAR(100)
+                    )
+                END
+            '''
+            conn.execute(text(create_label_list))
+            conn.execute(text(create_data))
 
-                    create_stmt = f'''
-                        IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = '{table_name}')
-                        BEGIN
-                            CREATE TABLE [{table_name}] (
-                                {kolumny_sql}
-                            )
-                        END
+            id_label_counter = 1
+            id_data_counter = 1
+
+            for label_tresc, content in json_data.items():
+                insert_label = '''
+                    INSERT INTO label_list (id_label, label_tresc)
+                    VALUES (:id_label, :label_tresc)
+                '''
+                conn.execute(text(insert_label), {
+                    "id_label": id_label_counter,
+                    "label_tresc": label_tresc
+                })
+
+                data_point_list = content.get("data_point", [])
+                data_type = content.get("datatype", None)
+
+                for dp in data_point_list:
+                    insert_data = '''
+                        INSERT INTO data (id_data, id_label, data, data_point, data_type)
+                        VALUES (:id_data, :id_label, :data, :data_point, :data_type)
                     '''
-                    conn.execute(text(create_stmt))
-                    print(f"{table_name} is created.")
+                    conn.execute(text(insert_data), {
+                        "id_data": id_data_counter,
+                        "id_label": id_label_counter,
+                        "data": None,
+                        "data_point": dp,
+                        "data_type": data_type
+                    })
+                    id_data_counter += 1
 
-                    null_row = {col: None for col in columns}
-                    insert_stmt = f'''
-                        INSERT INTO [{table_name}] ({", ".join(f"[{col}]" for col in columns)})
-                        VALUES ({", ".join(f":{col}" for col in columns)})
-                    '''
-                    conn.execute(text(insert_stmt), null_row)
+                id_label_counter += 1
 
-                except SQLAlchemyError as e:
-                    print(f"Error in '{table_name}': {e}")
+            print("Data are loaded.")
+
+    except SQLAlchemyError as e:
+        print(f"Error {e}")
