@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:iaf="http://www.eurofiling.info/xbrl/func/interval-arithmetics" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:uknf_dim="http://www.uknf.gov.pl/xbrl/dict/dim" xmlns:uknf_RR="http://www.uknf.gov.pl/xbrl/dict/dom/RR" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:variable="http://xbrl.org/2008/variable" xmlns:uknf_RP="http://www.uknf.gov.pl/xbrl/dict/dom/RP" xmlns:uknf_met="http://www.uknf.gov.pl/xbrl/dict/met" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:uknf_KG="http://www.uknf.gov.pl/xbrl/dict/dom/KG" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/variable http://www.xbrl.org/2008/variable.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd">
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-filter" />
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <va:valueAssertion xlink:type="resource" xlink:label="uknf_v0111_m" test="iaf:numeric-equal($a, iaf:sum((iaf:sum($b), $c, $d, $e, iaf:sum($f), iaf:sum($g))))" aspectModel="dimensional" implicitFiltering="true" id="uknf_v0111_m" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.f2" id="uknf_v0111_m.f2">
+      <df:dimension>
+        <df:qname>uknf_dim:KRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x177</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.f2" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.f3" id="uknf_v0111_m.f3">
+      <df:dimension>
+        <df:qname>uknf_dim:PDM</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RP:x33</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.f3" complement="false" order="2" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.a" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.a" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.a.f1" id="uknf_v0111_m.a.f1">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2192</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.a" xlink:to="uknf_v0111_m.a.f1" cover="true" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.a.f4" id="uknf_v0111_m.a.f4">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x192</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.a" xlink:to="uknf_v0111_m.a.f4" cover="true" complement="false" order="2" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.a.f40" id="uknf_v0111_m.a.f40">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.a" xlink:to="uknf_v0111_m.a.f40" cover="true" complement="true" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.a.f42" id="uknf_v0111_m.a.f42">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.a" xlink:to="uknf_v0111_m.a.f42" cover="true" complement="true" order="4" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.a.f44" id="uknf_v0111_m.a.f44">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.a" xlink:to="uknf_v0111_m.a.f44" cover="true" complement="true" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.a" name="a" order="1" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.b" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.b" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.b.f10" id="uknf_v0111_m.b.f10">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x0</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.b" xlink:to="uknf_v0111_m.b.f10" cover="true" complement="false" order="1" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.b.f45" id="uknf_v0111_m.b.f45">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.b" xlink:to="uknf_v0111_m.b.f45" cover="true" complement="true" order="2" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.b.f5" id="uknf_v0111_m.b.f5">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2194</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.b" xlink:to="uknf_v0111_m.b.f5" cover="true" complement="false" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.b.f8" id="uknf_v0111_m.b.f8">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x185</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.b" xlink:to="uknf_v0111_m.b.f8" cover="true" complement="false" order="4" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.b.f9" id="uknf_v0111_m.b.f9">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x462</df:qname>
+      </df:member>
+      <df:member>
+        <df:qname>uknf_KG:x463</df:qname>
+      </df:member>
+      <df:member>
+        <df:qname>uknf_KG:x465</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.b" xlink:to="uknf_v0111_m.b.f9" cover="true" complement="false" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.b" name="b" order="2" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.c" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.c" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.c.f11" id="uknf_v0111_m.c.f11">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2194</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.c" xlink:to="uknf_v0111_m.c.f11" cover="true" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.c.f13" id="uknf_v0111_m.c.f13">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x423</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.c" xlink:to="uknf_v0111_m.c.f13" cover="true" complement="false" order="2" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.c.f15" id="uknf_v0111_m.c.f15">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x0</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.c" xlink:to="uknf_v0111_m.c.f15" cover="true" complement="false" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.c.f16" id="uknf_v0111_m.c.f16">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x185</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.c" xlink:to="uknf_v0111_m.c.f16" cover="true" complement="false" order="4" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.c.f46" id="uknf_v0111_m.c.f46">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.c" xlink:to="uknf_v0111_m.c.f46" cover="true" complement="true" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.c" name="c" order="3" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.d" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.d" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.d.f17" id="uknf_v0111_m.d.f17">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2194</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.d" xlink:to="uknf_v0111_m.d.f17" cover="true" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.d.f19" id="uknf_v0111_m.d.f19">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x466</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.d" xlink:to="uknf_v0111_m.d.f19" cover="true" complement="false" order="2" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.d.f21" id="uknf_v0111_m.d.f21">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x0</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.d" xlink:to="uknf_v0111_m.d.f21" cover="true" complement="false" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.d.f22" id="uknf_v0111_m.d.f22">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x185</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.d" xlink:to="uknf_v0111_m.d.f22" cover="true" complement="false" order="4" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.d.f47" id="uknf_v0111_m.d.f47">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.d" xlink:to="uknf_v0111_m.d.f47" cover="true" complement="true" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.d" name="d" order="4" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.e" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.e" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.e.f23" id="uknf_v0111_m.e.f23">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2194</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.e" xlink:to="uknf_v0111_m.e.f23" cover="true" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.e.f25" id="uknf_v0111_m.e.f25">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x482</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.e" xlink:to="uknf_v0111_m.e.f25" cover="true" complement="false" order="2" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.e.f27" id="uknf_v0111_m.e.f27">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x0</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.e" xlink:to="uknf_v0111_m.e.f27" cover="true" complement="false" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.e.f28" id="uknf_v0111_m.e.f28">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x185</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.e" xlink:to="uknf_v0111_m.e.f28" cover="true" complement="false" order="4" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.e.f48" id="uknf_v0111_m.e.f48">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.e" xlink:to="uknf_v0111_m.e.f48" cover="true" complement="true" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.e" name="e" order="5" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.f" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.f" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.f.f29" id="uknf_v0111_m.f.f29">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2194</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.f" xlink:to="uknf_v0111_m.f.f29" cover="true" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.f.f31" id="uknf_v0111_m.f.f31">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x488</df:qname>
+      </df:member>
+      <df:member>
+        <df:qname>uknf_KG:x489</df:qname>
+      </df:member>
+      <df:member>
+        <df:qname>uknf_KG:x490</df:qname>
+      </df:member>
+      <df:member>
+        <df:qname>uknf_KG:x491</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.f" xlink:to="uknf_v0111_m.f.f31" cover="true" complement="false" order="2" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.f.f33" id="uknf_v0111_m.f.f33">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_KG:x0</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.f" xlink:to="uknf_v0111_m.f.f33" cover="true" complement="false" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.f.f34" id="uknf_v0111_m.f.f34">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x185</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.f" xlink:to="uknf_v0111_m.f.f34" cover="true" complement="false" order="4" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.f.f49" id="uknf_v0111_m.f.f49">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.f" xlink:to="uknf_v0111_m.f.f49" cover="true" complement="true" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.f" name="f" order="6" />
+    <variable:factVariable xlink:type="resource" xlink:label="uknf_v0111_m.g" bindAsSequence="false" fallbackValue="0" id="uknf_v0111_m.g" />
+    <cf:conceptName xlink:type="resource" xlink:label="uknf_v0111_m.g.f35" id="uknf_v0111_m.g.f35">
+      <cf:concept>
+        <cf:qname>uknf_met:mi2194</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.g" xlink:to="uknf_v0111_m.g.f35" cover="true" complement="false" order="1" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.g.f38" id="uknf_v0111_m.g.f38">
+      <df:dimension>
+        <df:qname>uknf_dim:SRP</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>uknf_RR:x186</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.g" xlink:to="uknf_v0111_m.g.f38" cover="true" complement="false" order="2" />
+    <df:typedDimension xlink:type="resource" xlink:label="uknf_v0111_m.g.f39" id="uknf_v0111_m.g.f39">
+      <df:dimension>
+        <df:qname>uknf_dim:BION.ZK.KW_ID</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.g" xlink:to="uknf_v0111_m.g.f39" cover="true" complement="false" order="3" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.g.f41" id="uknf_v0111_m.g.f41">
+      <df:dimension>
+        <df:qname>uknf_dim:KTR</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.g" xlink:to="uknf_v0111_m.g.f41" cover="true" complement="true" order="4" />
+    <df:explicitDimension xlink:type="resource" xlink:label="uknf_v0111_m.g.f43" id="uknf_v0111_m.g.f43">
+      <df:dimension>
+        <df:qname>uknf_dim:PKR</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="uknf_v0111_m.g" xlink:to="uknf_v0111_m.g.f43" cover="true" complement="true" order="5" />
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="uknf_v0111_m" xlink:to="uknf_v0111_m.g" name="g" order="7" />
+  </gen:link>
+</link:linkbase>

@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2120" xlink:label="loc_uknf_di2120" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2120" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Data udzielenia finansowania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2120" xlink:to="label_uknf_di2120" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2121" xlink:label="loc_uknf_di2121" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2121" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Pierwotny termin spłaty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2121" xlink:to="label_uknf_di2121" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2122" xlink:label="loc_uknf_di2122" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2122" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Aktualny termin spłaty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2122" xlink:to="label_uknf_di2122" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2160" xlink:label="loc_uknf_di2160" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2160" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Początek okresu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2160" xlink:to="label_uknf_di2160" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2161" xlink:label="loc_uknf_di2161" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2161" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Koniec okresu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2161" xlink:to="label_uknf_di2161" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2273" xlink:label="loc_uknf_di2273" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2273" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Początek okresu sprawozdawczego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2273" xlink:to="label_uknf_di2273" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di2274" xlink:label="loc_uknf_di2274" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di2274" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Koniec okresu sprawozdawczego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di2274" xlink:to="label_uknf_di2274" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di3002" xlink:label="loc_uknf_di3002" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di3002" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Data przekazania informacji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di3002" xlink:to="label_uknf_di3002" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di3023" xlink:label="loc_uknf_di3023" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di3023" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Data zdarzenia dotyczącego czynności związanych z lokatami strukturyzowanymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di3023" xlink:to="label_uknf_di3023" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_di3024" xlink:label="loc_uknf_di3024" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_di3024" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Data naruszenia przepisów</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_di3024" xlink:to="label_uknf_di3024" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei1" xlink:label="loc_uknf_ei1" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Flaga korekty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei1" xlink:to="label_uknf_ei1" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei1_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Oznaczenie czy plik zawiera raport podstawowy czy korektę, 0 - podstawowy, 1 - korekta</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei1" xlink:to="label_uknf_ei1_1" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2118" xlink:label="loc_uknf_ei2118" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2118" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Waluta udzielonego finansowania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2118" xlink:to="label_uknf_ei2118" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2162" xlink:label="loc_uknf_ei2162" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2162" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Flaga obszaru objętego planem audytu na rok sprawozdawczy </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2162" xlink:to="label_uknf_ei2162" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2163" xlink:label="loc_uknf_ei2163" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2163" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Flaga obszaru objętego badaniem audytowym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2163" xlink:to="label_uknf_ei2163" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2195" xlink:label="loc_uknf_ei2195" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2195" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Flaga zmiany  metody kalkulacji ilościowej kategorii/podkategorii ryzyka od ostatniego badania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2195" xlink:to="label_uknf_ei2195" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2196" xlink:label="loc_uknf_ei2196" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2196" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kategoria ryzyka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2196" xlink:to="label_uknf_ei2196" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2272" xlink:label="loc_uknf_ei2272" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2272" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Flaga uznania przez bank rodzaju ryzyka za istotny</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2272" xlink:to="label_uknf_ei2272" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei2282" xlink:label="loc_uknf_ei2282" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei2282" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rodzaj definicji aktywnego klienta</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei2282" xlink:to="label_uknf_ei2282" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei3118" xlink:label="loc_uknf_ei3118" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei3118" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Waluta lokaty strukturyzowanej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei3118" xlink:to="label_uknf_ei3118" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ei3125" xlink:label="loc_uknf_ei3125" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ei3125" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rodzaj podmiotu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ei3125" xlink:to="label_uknf_ei3125" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2131" xlink:label="loc_uknf_ii2131" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2131" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba zdarzeń z tytułu ryzyka operacyjnego w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2131" xlink:to="label_uknf_ii2131" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2139" xlink:label="loc_uknf_ii2139" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2139" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba near-miss z tytułu zdarzeń operacyjnych z okresu sprawozdawczego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2139" xlink:to="label_uknf_ii2139" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2142" xlink:label="loc_uknf_ii2142" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2142" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba największych strat  w okresie sprawozdawczym odpowiadająca za min. 80% łącznych strat</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2142" xlink:to="label_uknf_ii2142" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2143" xlink:label="loc_uknf_ii2143" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2143" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2143" xlink:to="label_uknf_ii2143" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2144" xlink:label="loc_uknf_ii2144" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2144" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba nowych modeli, które zostały wprowadzone w Banku w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2144" xlink:to="label_uknf_ii2144" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2145" xlink:label="loc_uknf_ii2145" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2145" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli, dla których nie został wyznaczony poziom istotności modelu w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2145" xlink:to="label_uknf_ii2145" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2147" xlink:label="loc_uknf_ii2147" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2147" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób zatrudnionych w jednostce walidacji wewnętrznej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2147" xlink:to="label_uknf_ii2147" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2148" xlink:label="loc_uknf_ii2148" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2148" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy nie przeprowadzono monitoringu </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2148" xlink:to="label_uknf_ii2148" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2149" xlink:label="loc_uknf_ii2149" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2149" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli, dla których nie przeprowadzono oceny jakości danych w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2149" xlink:to="label_uknf_ii2149" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2150" xlink:label="loc_uknf_ii2150" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2150" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli, dla których nie była dostępna kompletna dokumentacja modelu zgodna z wymaganiami Rekomendacji W</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2150" xlink:to="label_uknf_ii2150" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2151" xlink:label="loc_uknf_ii2151" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2151" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli, dla których nie była dostępna dokumentacja wdrożeniowa lub które nie zostały objęte testami wdrożeniowymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2151" xlink:to="label_uknf_ii2151" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2152" xlink:label="loc_uknf_ii2152" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2152" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba nowych modeli istotnych, które zostały wprowadzone w Banku w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2152" xlink:to="label_uknf_ii2152" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2152_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Liczba musi być zgodna z załącznikiem Z4</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2152" xlink:to="label_uknf_ii2152_1" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2153" xlink:label="loc_uknf_ii2153" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2153" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli istotnych.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2153" xlink:to="label_uknf_ii2153" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2154" xlink:label="loc_uknf_ii2154" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2154" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli istotnych, które nie podlegały walidacji w okresie </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2154" xlink:to="label_uknf_ii2154" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2155" xlink:label="loc_uknf_ii2155" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2155" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli istotnych, dla których przeprowadzono równocześnie backtesting, jedno i wieloczynnikową analizę wrażliwości, stress-testy, benchmarking oraz analizę jakościową (zgodnie z rekomendacją 13.7 Rekomendacji W).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2155" xlink:to="label_uknf_ii2155" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2156" xlink:label="loc_uknf_ii2156" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2156" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli sztucznej inteligencji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2156" xlink:to="label_uknf_ii2156" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2157" xlink:label="loc_uknf_ii2157" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2157" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba zwalidowanych modeli sztucznej inteligencji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2157" xlink:to="label_uknf_ii2157" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2158" xlink:label="loc_uknf_ii2158" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2158" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2158" xlink:to="label_uknf_ii2158" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii218" xlink:label="loc_uknf_ii218" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii218" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba spraw spornych, w których bank wstępował jako strona pozwana / wezwana i które przybrały formę formalnego rozstrzygnięcia (np. sprawy sądowe toczone przed sądami powszechnymi, sprawy przed sądem polubowny, sądem arbitrażowym, sądem konsumenckim, Rzecznikiem praw konsumentów, Rzecznikiem finansowym, UOKiK itp.) w  danym okresie - ogółem w okresie.   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii218" xlink:to="label_uknf_ii218" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2199" xlink:label="loc_uknf_ii2199" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2199" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba skarg i reklamacji złożonych przez klientów</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2199" xlink:to="label_uknf_ii2199" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2200" xlink:label="loc_uknf_ii2200" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2200" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba skarg i reklamacji złożonych przez klientów które zostały uznane / pozytywnie rozpatrzone przez bank    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2200" xlink:to="label_uknf_ii2200" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2201" xlink:label="loc_uknf_ii2201" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2201" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba skarg i reklamacji złożonych przez klientów, które zostały automatycznie uznane bez rozpatrzenia ich zasadności przez bank    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2201" xlink:to="label_uknf_ii2201" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2203" xlink:label="loc_uknf_ii2203" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2203" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średnia liczba aktywnych klientów w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2203" xlink:to="label_uknf_ii2203" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2203_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">wyznaczona jako średnia w okresie = (liczba na początek okresu + liczba na koniec okresu /2</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2203" xlink:to="label_uknf_ii2203_1" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2204" xlink:label="loc_uknf_ii2204" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2204" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba klientów którzy złożyli skargę   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2204" xlink:to="label_uknf_ii2204" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2205" xlink:label="loc_uknf_ii2205" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2205" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba klientów którzy złożyli w tej samej sprawie skargę po raz drugi   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2205" xlink:to="label_uknf_ii2205" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2206" xlink:label="loc_uknf_ii2206" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2206" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba skarg klientów, którzy stwierdzili, że nie rozumieli podpisanej umowy lub że zostali wprowdzeni w błąd  </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2206" xlink:to="label_uknf_ii2206" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2207" xlink:label="loc_uknf_ii2207" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2207" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">liczba skarg i reklamacji złożonych przez klientów dot. oprocentowania kredytów   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2207" xlink:to="label_uknf_ii2207" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2208" xlink:label="loc_uknf_ii2208" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2208" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">liczba skarg i reklamacji złożonych przez klientów dot. kredytów walutowych   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2208" xlink:to="label_uknf_ii2208" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2220" xlink:label="loc_uknf_ii2220" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2220" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Postępowania, o których Bank został powiadomiony, toczone przeciwko niemu przez organy nadzoru,  kontroli (np. KNF, UOKiK, UODO, GIIF, PIP, Sanepid itd.) z możliwością nałożenia kary   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2220" xlink:to="label_uknf_ii2220" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2224" xlink:label="loc_uknf_ii2224" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2224" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Postępowania z powództwa Banku przy czym drugą stroną byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku. Pozycja nie obejmuje spraw pracowniczych ani postępowania z tytułu udzielonych przez Bank kredytów, gwarancji na koniec okresu    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2224" xlink:to="label_uknf_ii2224" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2240" xlink:label="loc_uknf_ii2240" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2240" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba transakcji zgłoszonych przez klientów jako nieautoryzowane, a uznanych przez bank za autoryzowane </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2240" xlink:to="label_uknf_ii2240" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2241" xlink:label="loc_uknf_ii2241" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2241" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba transakcji uznanych przez bank za nieautoryzowane </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2241" xlink:to="label_uknf_ii2241" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2244" xlink:label="loc_uknf_ii2244" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2244" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli istotnych, dla których nie dokonano (po raz pierwszy) oceny poziomu ryzyka modelu albo nie dokonano aktualizacji poziomu ryzyka w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2244" xlink:to="label_uknf_ii2244" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2245" xlink:label="loc_uknf_ii2245" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2245" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli objętych procesem walidacji (wewnętrznej lub zewnętrznej) w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2245" xlink:to="label_uknf_ii2245" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2246" xlink:label="loc_uknf_ii2246" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2246" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli objętych procesem walidacji zewnętrznej w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2246" xlink:to="label_uknf_ii2246" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2247" xlink:label="loc_uknf_ii2247" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2247" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba przeterminowanych rekomendacji walidacyjnych lub audytu odnoszących się do procesu zarządzania ryzykiem modeli</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2247" xlink:to="label_uknf_ii2247" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2249" xlink:label="loc_uknf_ii2249" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2249" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli dla których nie była dostępna dokumentacja wdrożeniowa</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2249" xlink:to="label_uknf_ii2249" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2250" xlink:label="loc_uknf_ii2250" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2250" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli istotnych w stosunku do których od początku funkcjonowania modelu nie przeprowadzono walidacji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2250" xlink:to="label_uknf_ii2250" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2253" xlink:label="loc_uknf_ii2253" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2253" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba otwartych rekomendacji walidacyjnych lub audytowych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2253" xlink:to="label_uknf_ii2253" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2254" xlink:label="loc_uknf_ii2254" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2254" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli, wobec których w wyniku walidacji, audytu lub monitoringu zostały podjęte działania zaradcze lub naprawcze</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2254" xlink:to="label_uknf_ii2254" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2255" xlink:label="loc_uknf_ii2255" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2255" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba wydanych rekomendacji walidacyjnych lub audytowych odnoszących się do procesu zarządzania ryzykiem modeli </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2255" xlink:to="label_uknf_ii2255" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2260" xlink:label="loc_uknf_ii2260" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2260" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób zatrudnionych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2260" xlink:to="label_uknf_ii2260" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2261" xlink:label="loc_uknf_ii2261" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2261" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób, które zakończyły pracę w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2261" xlink:to="label_uknf_ii2261" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2262" xlink:label="loc_uknf_ii2262" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2262" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób, które zakończyły pracę w okresie i pracowały krócej niż rok</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2262" xlink:to="label_uknf_ii2262" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2263" xlink:label="loc_uknf_ii2263" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2263" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób, które rozpoczęły pracę w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2263" xlink:to="label_uknf_ii2263" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2264" xlink:label="loc_uknf_ii2264" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2264" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób z orzeczoną niepełnosprawnością</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2264" xlink:to="label_uknf_ii2264" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2267" xlink:label="loc_uknf_ii2267" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2267" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba nowych pozwów skierowanych przez pracowników i byłych pracowników przeciwko Bankowi w okresie </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2267" xlink:to="label_uknf_ii2267" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2268" xlink:label="loc_uknf_ii2268" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2268" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba członków zarządu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2268" xlink:to="label_uknf_ii2268" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2269" xlink:label="loc_uknf_ii2269" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2269" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba kobiet będących członkami zarządu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2269" xlink:to="label_uknf_ii2269" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2270" xlink:label="loc_uknf_ii2270" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2270" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba odwołanych członków zarządu w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2270" xlink:to="label_uknf_ii2270" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2271" xlink:label="loc_uknf_ii2271" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2271" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba powołanych członków zarządu w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2271" xlink:to="label_uknf_ii2271" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii2286" xlink:label="loc_uknf_ii2286" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii2286" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba spraw spornych, w których bank wstępował jako strona pozwana / wezwana i które przybrały formę formalnego rozstrzygnięcia (np. sprawy sądowe toczone przed sądami powszechnymi, sprawy przed sądem polubowny, sądem arbitrażowym, sądem konsumenckim, Rzecznikiem praw konsumentów, Rzecznikiem finansowym, UOKiK itp.) - i których rozstrzygnięcie było niekorzystne dla banku przy czym jeżeli zapadło szereg wyroków należy brać pod uwagę jedynie ostatnie rozstrzygniecie ogółem w okresie.    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii2286" xlink:to="label_uknf_ii2286" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3014" xlink:label="loc_uknf_ii3014" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3014" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba klientów, którzy wpłacili środki na lokatę strukturyzowaną w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3014" xlink:to="label_uknf_ii3014" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3016" xlink:label="loc_uknf_ii3016" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3016" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba klientów, których lokaty strukturyzowane zostały zakończone w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3016" xlink:to="label_uknf_ii3016" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3018" xlink:label="loc_uknf_ii3018" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3018" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba klientów, którzy zawarli umowę lokaty strukturyzowanej na koniec okresu sprawozdawczego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3018" xlink:to="label_uknf_ii3018" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3019" xlink:label="loc_uknf_ii3019" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3019" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Numer sprawozdania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3019" xlink:to="label_uknf_ii3019" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3119" xlink:label="loc_uknf_ii3119" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3119" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średnia liczba pracowników w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3119" xlink:to="label_uknf_ii3119" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3126" xlink:label="loc_uknf_ii3126" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3126" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba otwartych podstawowych rachunków płatniczych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3126" xlink:to="label_uknf_ii3126" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3128" xlink:label="loc_uknf_ii3128" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3128" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba przeniesionych rachunków płatniczych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3128" xlink:to="label_uknf_ii3128" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ii3129" xlink:label="loc_uknf_ii3129" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ii3129" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba niezrealizowanych upoważnień do przeniesienia rachunku płatniczego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ii3129" xlink:to="label_uknf_ii3129" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2112" xlink:label="loc_uknf_mi2112" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2112" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość depozytów niestabilnych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2112" xlink:to="label_uknf_mi2112" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2114" xlink:label="loc_uknf_mi2114" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2114" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2114" xlink:to="label_uknf_mi2114" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2119" xlink:label="loc_uknf_mi2119" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2119" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota pozostająca do spłaty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2119" xlink:to="label_uknf_mi2119" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2127" xlink:label="loc_uknf_mi2127" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2127" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Koszty poniesione przez bank z tytułu umowy w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2127" xlink:to="label_uknf_mi2127" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2128" xlink:label="loc_uknf_mi2128" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2128" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość środków ze źródła finansowania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2128" xlink:to="label_uknf_mi2128" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2132" xlink:label="loc_uknf_mi2132" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2132" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label"> Łączna kwota strat (bez uwzględnienia ewentualnych odzysków)  w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2132" xlink:to="label_uknf_mi2132" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2133" xlink:label="loc_uknf_mi2133" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2133" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label"> Kwota odzysków (od sprawcy oraz od osoby trzeciej, w tym zakładu ubezpieczeniowego) w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2133" xlink:to="label_uknf_mi2133" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2134" xlink:label="loc_uknf_mi2134" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2134" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label"> Maksymalna kwota strat (bez odzysków) poniesionych  w okresie sprawozdawczym z tytułu pojedynczego zdarzenia</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2134" xlink:to="label_uknf_mi2134" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2135" xlink:label="loc_uknf_mi2135" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2135" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label"> Maksymalna kwota strat (po uwzglednieniu odzysków) poniesionych w okresie sprawozdawczym z tytułu pojedynczego zdarzenia</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2135" xlink:to="label_uknf_mi2135" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2136" xlink:label="loc_uknf_mi2136" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2136" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Suma dziesięciu największych strat (brutto) w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2136" xlink:to="label_uknf_mi2136" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2137" xlink:label="loc_uknf_mi2137" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2137" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota strat w okresie sprawozdawczym</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2137" xlink:to="label_uknf_mi2137" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2138" xlink:label="loc_uknf_mi2138" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2138" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label"> Łączna kwota zysków w okresie sprawozdawczym z tytułu zdarzeń operacyjnych ( pod warunkiem że kwota zysku wynosi minimum 5000)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2138" xlink:to="label_uknf_mi2138" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2140" xlink:label="loc_uknf_mi2140" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2140" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Próg rejestracji zdarzeń operacyjnych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2140" xlink:to="label_uknf_mi2140" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2168" xlink:label="loc_uknf_mi2168" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2168" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość M-t-M portfela na koniec okresu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2168" xlink:to="label_uknf_mi2168" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2169" xlink:label="loc_uknf_mi2169" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2169" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średnia wartość M-t-M (wg częstotliwości przeprowadzania wycen) portfela w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2169" xlink:to="label_uknf_mi2169" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2170" xlink:label="loc_uknf_mi2170" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2170" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średnia dzienna wartość M-t-M  portfela w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2170" xlink:to="label_uknf_mi2170" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2171" xlink:label="loc_uknf_mi2171" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2171" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość bilansowa portfela na koniec okresu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2171" xlink:to="label_uknf_mi2171" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2175" xlink:label="loc_uknf_mi2175" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2175" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Zmiana wartości bilansowej brutto</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2175" xlink:to="label_uknf_mi2175" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2177" xlink:label="loc_uknf_mi2177" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2177" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">wycena pozycji portfela handlowego zgodnie z art. 105 rozporządzenia nr 575/2013</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2177" xlink:to="label_uknf_mi2177" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2178" xlink:label="loc_uknf_mi2178" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2178" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">korekta wyceny pozycji portfela handlowego wyliczona zgodnie z art. 105 ust. 11 i 12 rozporządzenia nr 575/2013 </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2178" xlink:to="label_uknf_mi2178" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2180" xlink:label="loc_uknf_mi2180" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2180" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BPV portfela handlowego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2180" xlink:to="label_uknf_mi2180" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2181" xlink:label="loc_uknf_mi2181" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2181" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BPV portfela wycenianego wg WGPCD </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2181" xlink:to="label_uknf_mi2181" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2182" xlink:label="loc_uknf_mi2182" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2182" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BPV portfela wycenianego wg zamortyzowanego kosztu </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2182" xlink:to="label_uknf_mi2182" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2183" xlink:label="loc_uknf_mi2183" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2183" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BPV Banku</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2183" xlink:to="label_uknf_mi2183" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2185" xlink:label="loc_uknf_mi2185" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2185" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">VaR 10-dniowy przy poziomie ufności 99% dla portfela handlowego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2185" xlink:to="label_uknf_mi2185" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2190" xlink:label="loc_uknf_mi2190" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2190" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">VaR 10-dniowy przy poziomie ufności 99%</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2190" xlink:to="label_uknf_mi2190" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2192" xlink:label="loc_uknf_mi2192" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2192" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Łączna kwota kapitału wewnętrznego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2192" xlink:to="label_uknf_mi2192" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2193" xlink:label="loc_uknf_mi2193" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2193" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Łączna kwota wymogu regulacyjnego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2193" xlink:to="label_uknf_mi2193" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2194" xlink:label="loc_uknf_mi2194" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2194" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kapitał wewnętrzny</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2194" xlink:to="label_uknf_mi2194" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2210" xlink:label="loc_uknf_mi2210" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2210" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość wszystkich potencjalnych świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. (odszkodowań, kar, rekompensat) co do których bank otrzymał żądanie ich wypłacenia (z wyjątkiem żądań dla których prawdopodobieństwo ich uznania przez Bank lub na mocy wyroku sądowego, arbitrażu jest zerowe) w danym okresie wartość ogółem    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2210" xlink:to="label_uknf_mi2210" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2211" xlink:label="loc_uknf_mi2211" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2211" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość wszystkich rezerw brutto utworzonych w związku ze sprawami spornymi, skargami, reklamacjami, itp. w okresie - wartość ogółem   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2211" xlink:to="label_uknf_mi2211" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2212" xlink:label="loc_uknf_mi2212" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2212" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość wszystkich rezerw brutto utworzonych na ryzyko prawne związane z kredytami walutowymi.   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2212" xlink:to="label_uknf_mi2212" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2213" xlink:label="loc_uknf_mi2213" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2213" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość wszystkich rozwiązanych rezerw  w związku ze sprawami spornymi, skargami, reklamacjami, itp. w okresie - wartość ogółem   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2213" xlink:to="label_uknf_mi2213" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2214" xlink:label="loc_uknf_mi2214" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2214" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota rezerw w związku ze sprawami spornymi, skargami, reklamacjami, itp.  na koniec okresu (wartość ogółem)    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2214" xlink:to="label_uknf_mi2214" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2216" xlink:label="loc_uknf_mi2216" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2216" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość wszystkich świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. (odszkodowań, kar, rekompensat) które bank wypłacił, również w wyniku ugody, w okresie - wartość ogółem    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2216" xlink:to="label_uknf_mi2216" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2221" xlink:label="loc_uknf_mi2221" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2221" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Utworzone rezerwy w związku z postępowaniami  przed organami nadzoru lub kontroli </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2221" xlink:to="label_uknf_mi2221" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2222" xlink:label="loc_uknf_mi2222" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2222" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rozwiązanie rezerwy w związku  postępowaniami przed organami nadzoru lub kontroli</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2222" xlink:to="label_uknf_mi2222" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2223" xlink:label="loc_uknf_mi2223" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2223" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Suma rezerw na postępowania przed organami nadzoru lub kontroli wg stanu na datę BION.    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2223" xlink:to="label_uknf_mi2223" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2225" xlink:label="loc_uknf_mi2225" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2225" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota roszczeń Banku z tytułu powództw, w których drugą stroną sporu byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2225" xlink:to="label_uknf_mi2225" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2228" xlink:label="loc_uknf_mi2228" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2228" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota uzyskana z powództw Banku  w danym okresie przy czym drugą stroną sporu byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2228" xlink:to="label_uknf_mi2228" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2229" xlink:label="loc_uknf_mi2229" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2229" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota uzyskana przez Bank (na drodze nie sądowej) w danym okresie od kontrahentów,  dostawców,  sprzedawców lub inne podmioty świadczące usługi na rzecz Banku z tytułu odszkodowania lub zadośćuczynienia    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2229" xlink:to="label_uknf_mi2229" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2230" xlink:label="loc_uknf_mi2230" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2230" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość bilansowa brutto</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2230" xlink:to="label_uknf_mi2230" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2236" xlink:label="loc_uknf_mi2236" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2236" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">skumulowana urealniona luka przeszacowania pozycji zaliczanych do portfela bankowego   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2236" xlink:to="label_uknf_mi2236" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2239" xlink:label="loc_uknf_mi2239" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2239" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość transakcji uznanych przez bank za nieautoryzowane </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2239" xlink:to="label_uknf_mi2239" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2242" xlink:label="loc_uknf_mi2242" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2242" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość transakcji zgłoszonych przez klientów jako nieautoryzowane, a uznanych przez bank za autoryzowane</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2242" xlink:to="label_uknf_mi2242" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2248" xlink:label="loc_uknf_mi2248" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2248" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba modeli dla których nie była dostępna dokumentacja modelu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2248" xlink:to="label_uknf_mi2248" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2256" xlink:label="loc_uknf_mi2256" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2256" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Łączny poziom ryzyka (wszystkich) modeli w PLN  o ile został policzony</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2256" xlink:to="label_uknf_mi2256" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2258" xlink:label="loc_uknf_mi2258" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2258" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Łączny poziom tolerancji ryzyka (wszystkich) modeli w PLN (jeżeli został on wyznaczony) - maksymalny akceptowalny poziom ryzyka modeli</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2258" xlink:to="label_uknf_mi2258" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2265" xlink:label="loc_uknf_mi2265" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2265" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Całkowity koszt wynagrodzeń w okresie z wyłaczeniem wynagrodzeń członków zarządu zatrudnionych na umowę o pracę</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2265" xlink:to="label_uknf_mi2265" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2266" xlink:label="loc_uknf_mi2266" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2266" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba dni nieobecności pracowników z tytułu zwolnień lekarskich w okresie (z wyłączeniem zwolnień z tytułu ciąży)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2266" xlink:to="label_uknf_mi2266" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2275" xlink:label="loc_uknf_mi2275" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2275" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Liczba osób zaangażowanych w badania audytowe</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2275" xlink:to="label_uknf_mi2275" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2278" xlink:label="loc_uknf_mi2278" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2278" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wielkość bazy depozytowej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2278" xlink:to="label_uknf_mi2278" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2284" xlink:label="loc_uknf_mi2284" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2284" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota wypłat z tytułu niekorzystnych dla Banku roztrzygnięć w sporach z pracownikami</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2284" xlink:to="label_uknf_mi2284" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi2285" xlink:label="loc_uknf_mi2285" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi2285" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota rezerw na pozwy pracowników</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi2285" xlink:to="label_uknf_mi2285" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi3013" xlink:label="loc_uknf_mi3013" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi3013" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość środków wpłaconych przez klientów na lokatę strukturyzowaną w okresie sprawozdawczym (w PLN)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi3013" xlink:to="label_uknf_mi3013" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi3015" xlink:label="loc_uknf_mi3015" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi3015" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość zakończonych lokat strukturyzowanych w okresie sprawozdawczym (w PLN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi3015" xlink:to="label_uknf_mi3015" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi3017" xlink:label="loc_uknf_mi3017" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi3017" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wartość zobowiązań banku wynikających z aktywnej lokaty strukturyzowanej na koniec okresu sprawozdawczego</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi3017" xlink:to="label_uknf_mi3017" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi3121" xlink:label="loc_uknf_mi3121" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi3121" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średnia wartość bilansowa portfela instrumentów dłużnych w okresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi3121" xlink:to="label_uknf_mi3121" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_mi3123" xlink:label="loc_uknf_mi3123" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mi3123" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwota finansowania w walucie oryginalnej w dniu udzielenia finansowania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mi3123" xlink:to="label_uknf_mi3123" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2107" xlink:label="loc_uknf_pi2107" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2107" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Najniższa dzienna wartość wskaźnika  w okresie/podokresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2107" xlink:to="label_uknf_pi2107" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2108" xlink:label="loc_uknf_pi2108" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2108" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Najwyższa dzienna wartość wskaźnika  w okresie/podokresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2108" xlink:to="label_uknf_pi2108" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2109" xlink:label="loc_uknf_pi2109" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2109" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średnia wartość wskaźnika  w okresie/podokresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2109" xlink:to="label_uknf_pi2109" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2111" xlink:label="loc_uknf_pi2111" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2111" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Mediana wskaźnika w okresie/podokresie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2111" xlink:to="label_uknf_pi2111" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2115" xlink:label="loc_uknf_pi2115" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2115" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Udział w ogólnej bazie depozytowej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2115" xlink:to="label_uknf_pi2115" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2146" xlink:label="loc_uknf_pi2146" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2146" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Procent realizacji planu walidacji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2146" xlink:to="label_uknf_pi2146" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2166" xlink:label="loc_uknf_pi2166" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2166" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2166" xlink:to="label_uknf_pi2166" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2166_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Prawdopodobieństwo niewykonania zobowiązania (ang. Probability of Default)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2166" xlink:to="label_uknf_pi2166_1" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2167" xlink:label="loc_uknf_pi2167" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2167" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LGD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2167" xlink:to="label_uknf_pi2167" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2167_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2167" xlink:to="label_uknf_pi2167_1" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2179" xlink:label="loc_uknf_pi2179" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2179" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">wycena M-t-M portfela wycenianego wg WGPCD / wartość bilansowa portfela wycenianego wg WGPCD </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2179" xlink:to="label_uknf_pi2179" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2184" xlink:label="loc_uknf_pi2184" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2184" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">wynik z działalności handlowej do wyniku z działalności bankowej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2184" xlink:to="label_uknf_pi2184" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2186" xlink:label="loc_uknf_pi2186" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2186" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">maksymalna zaobserwowana pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2186" xlink:to="label_uknf_pi2186" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2187" xlink:label="loc_uknf_pi2187" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2187" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">średnia pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2187" xlink:to="label_uknf_pi2187" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2188" xlink:label="loc_uknf_pi2188" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2188" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">zmiana kursów WAL/PLN o 30% (test warunków skrajnych) na wynik z działalności bankowej (%)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2188" xlink:to="label_uknf_pi2188" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2189" xlink:label="loc_uknf_pi2189" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2189" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">zmiana kursów WAL/PLN o 30% (test warunków skrajnych) do funuszy własnych (%)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2189" xlink:to="label_uknf_pi2189" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi219" xlink:label="loc_uknf_pi219" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi219" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wskaźnik udziału spraw, w których zapadło niekorzystne rozstrzygnięcie dla Banku  zarówno prawomocnych jak i nieprawomocnych.       </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi219" xlink:to="label_uknf_pi219" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2191" xlink:label="loc_uknf_pi2191" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2191" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Limit pozycji całkowitej / fundusze własne (%)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2191" xlink:to="label_uknf_pi2191" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2217" xlink:label="loc_uknf_pi2217" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2217" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wskaźnik udziału wartości wypłaconych świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. w stosunku do kwoty roszczeń    </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2217" xlink:to="label_uknf_pi2217" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2232" xlink:label="loc_uknf_pi2232" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2232" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">zmiana wartości ekonomicznej kapitału banku (EVE) w wyniku najdotkliwszego scenariusza szoku ryzyka stopy procentowej (SOT EVE), jako [%] kapitału Tier 1 banku [1A]   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2232" xlink:to="label_uknf_pi2232" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2233" xlink:label="loc_uknf_pi2233" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2233" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">zmiana wyniku odsetkowego netto (NII) w wyniku najdotkliwszego scenariusza szoku ryzyka stopy procentowej (SOT NII) jako [%] kapitału Tier 1 banku [1B]   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2233" xlink:to="label_uknf_pi2233" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2243" xlink:label="loc_uknf_pi2243" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2243" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Udział wartości transkacji uznanych przez bank za nieautoryzowane w transkacjach płatniczych ogółem (w %)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2243" xlink:to="label_uknf_pi2243" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_pi2277" xlink:label="loc_uknf_pi2277" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_pi2277" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Zakładany, zgodnie z najbardziej dotkliwym scenariuszem wewnętrznym testów warunków skrajnych, wypływ depozytów detalicznych, który może nastąpić w okresie 1 miesiąca (%)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_pi2277" xlink:to="label_uknf_pi2277" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ri2234" xlink:label="loc_uknf_ri2234" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri2234" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">średni okres zwrotu (duracja) aktywów klasyfikowanych do portfela bankowego   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri2234" xlink:to="label_uknf_ri2234" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ri2235" xlink:label="loc_uknf_ri2235" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri2235" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">średni okres zwrotu (duracja) pasywów klasyfikowanych do portfela bankowego   </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri2235" xlink:to="label_uknf_ri2235" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ri2251" xlink:label="loc_uknf_ri2251" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri2251" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wyniki oceny ryzyka modeli istotnych dla których dokonano oceny poziomu ryzyka lub jego aktualizacji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri2251" xlink:to="label_uknf_ri2251" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ri2252" xlink:label="loc_uknf_ri2252" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri2252" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wyniki oceny jakości danych dla modeli istotnych dla których dokonano oceny.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri2252" xlink:to="label_uknf_ri2252" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ri3120" xlink:label="loc_uknf_ri3120" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri3120" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Średni staż pracy w banku pracowników zatrudnionych w okresie </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri3120" xlink:to="label_uknf_ri3120" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri3120_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">"Średni staż pracy w banku pracowników zatrudnionych w okresie (staż pracy ""w banku"" a nie staż pracy ogółem) </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri3120" xlink:to="label_uknf_ri3120_1" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_ri3127" xlink:label="loc_uknf_ri3127" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ri3127" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Stosunek liczby przypadków odmowy zawarcia umowy podstawowego rachunku płatniczego do liczby złożonych wniosków</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ri3127" xlink:to="label_uknf_ri3127" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2101" xlink:label="loc_uknf_si2101" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2101" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Identyfikator podmiotu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2101" xlink:to="label_uknf_si2101" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2102" xlink:label="loc_uknf_si2102" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2102" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Imię</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2102" xlink:to="label_uknf_si2102" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2103" xlink:label="loc_uknf_si2103" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2103" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwisko</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2103" xlink:to="label_uknf_si2103" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2104" xlink:label="loc_uknf_si2104" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2104" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Telefon</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2104" xlink:to="label_uknf_si2104" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2105" xlink:label="loc_uknf_si2105" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2105" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">e-mail</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2105" xlink:to="label_uknf_si2105" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2116" xlink:label="loc_uknf_si2116" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2116" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwa podmiotu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2116" xlink:to="label_uknf_si2116" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2117" xlink:label="loc_uknf_si2117" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2117" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rodzaj finansowania</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2117" xlink:to="label_uknf_si2117" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2123" xlink:label="loc_uknf_si2123" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2123" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Informacje dodatkowe i komentarze</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2123" xlink:to="label_uknf_si2123" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2124" xlink:label="loc_uknf_si2124" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2124" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwa umowy</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2124" xlink:to="label_uknf_si2124" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2125" xlink:label="loc_uknf_si2125" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2125" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Strony umowy</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2125" xlink:to="label_uknf_si2125" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2126" xlink:label="loc_uknf_si2126" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2126" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Przedmiot umowy</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2126" xlink:to="label_uknf_si2126" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2129" xlink:label="loc_uknf_si2129" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2129" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Dostępne finansowanie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2129" xlink:to="label_uknf_si2129" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2141" xlink:label="loc_uknf_si2141" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2141" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Komentarz do progu rejestracji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2141" xlink:to="label_uknf_si2141" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2159" xlink:label="loc_uknf_si2159" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2159" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wyjaśnienie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2159" xlink:to="label_uknf_si2159" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2164" xlink:label="loc_uknf_si2164" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2164" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwa obszaru mapy ryzyka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2164" xlink:to="label_uknf_si2164" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2165" xlink:label="loc_uknf_si2165" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2165" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Istotność ryzyka (wg skali stosowanej przez bank) </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2165" xlink:to="label_uknf_si2165" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2197" xlink:label="loc_uknf_si2197" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2197" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwa podkategorii ryzyka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2197" xlink:to="label_uknf_si2197" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2198" xlink:label="loc_uknf_si2198" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2198" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Definicja ryzyka stosowana w banku</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2198" xlink:to="label_uknf_si2198" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2202" xlink:label="loc_uknf_si2202" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2202" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Opis kryteriów automatycznego uznania reklamacji</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2202" xlink:to="label_uknf_si2202" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2231" xlink:label="loc_uknf_si2231" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2231" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Opis skali istotności stosowanej przez komórkę audytu wewnętrznego na potrzeby mapy ryzyka </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2231" xlink:to="label_uknf_si2231" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2257" xlink:label="loc_uknf_si2257" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2257" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Opis sposobu wyznaczenia poziomu ryzyka modeli</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2257" xlink:to="label_uknf_si2257" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2259" xlink:label="loc_uknf_si2259" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2259" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Opis sposobu wyznaczania poziomu tolerancji ryzyka modeli</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2259" xlink:to="label_uknf_si2259" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si2283" xlink:label="loc_uknf_si2283" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si2283" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Opis definicji niestandardowej aktywnego klienta</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si2283" xlink:to="label_uknf_si2283" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si24" xlink:label="loc_uknf_si24" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si24" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Funkcja członka zarządu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si24" xlink:to="label_uknf_si24" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si25" xlink:label="loc_uknf_si25" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si25" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Funkcja członka rady nadzorczej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si25" xlink:to="label_uknf_si25" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si26" xlink:label="loc_uknf_si26" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si26" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Numer wpisu do rejestru  instytucji pozyczkowych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si26" xlink:to="label_uknf_si26" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si27" xlink:label="loc_uknf_si27" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si27" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwa Instytucji pożyczkowej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si27" xlink:to="label_uknf_si27" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si29" xlink:label="loc_uknf_si29" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si29" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rodzaj prokury</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si29" xlink:to="label_uknf_si29" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3005" xlink:label="loc_uknf_si3005" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3005" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Kwartał</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3005" xlink:to="label_uknf_si3005" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3008" xlink:label="loc_uknf_si3008" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3008" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Stanowisko</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3008" xlink:to="label_uknf_si3008" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3011" xlink:label="loc_uknf_si3011" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3011" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Nazwa lokaty strukturyzowanej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3011" xlink:to="label_uknf_si3011" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3012" xlink:label="loc_uknf_si3012" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3012" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Warunki wypłaty odsetek lub świadczeń dodatkowych z lokaty strukturyzowanej albo wysokość tych odsetek lub świadczeń dodatkowych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3012" xlink:to="label_uknf_si3012" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3021" xlink:label="loc_uknf_si3021" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3021" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rodzaj czynności w ramach prowadzonej działalności związanej z lokatami strukturyzowanymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3021" xlink:to="label_uknf_si3021" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3022" xlink:label="loc_uknf_si3022" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3022" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rodzaj zdarzenia dotyczącego czynności związanych z lokatami strukturyzowanymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3022" xlink:to="label_uknf_si3022" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3025" xlink:label="loc_uknf_si3025" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3025" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wskazanie naruszenia przepisów</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3025" xlink:to="label_uknf_si3025" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3106" xlink:label="loc_uknf_si3106" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3106" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rok sprawozdawczy</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3106" xlink:to="label_uknf_si3106" />
+    <link:loc xlink:type="locator" xlink:href="met.xsd#uknf_si3122" xlink:label="loc_uknf_si3122" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_si3122" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Dodatkowe wyjaśnienia</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_si3122" xlink:to="label_uknf_si3122" />
+  </link:labelLink>
+</link:linkbase>

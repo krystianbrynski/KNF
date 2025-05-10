@@ -1,0 +1,598 @@
+[
+    {
+        "ID banku": {
+            "data_point": [
+                "0010"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Początek okresu sprawozdawczego BION": {
+            "data_point": [
+                "0020"
+            ],
+            "datatype": "xbrli:dateItemType"
+        },
+        "Koniec okresu sprawozdawczego BION (Data BION)": {
+            "data_point": [
+                "0030"
+            ],
+            "datatype": "xbrli:dateItemType"
+        },
+        "Flaga korekty": {
+            "data_point": [
+                "0040"
+            ],
+            "datatype": "xbrli:QNameItemType"
+        }
+    },
+    {
+        "Imię": {
+            "data_point": [
+                "0010"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Nazwisko": {
+            "data_point": [
+                "0020"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "telefon": {
+            "data_point": [
+                "0030"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "e-mail": {
+            "data_point": [
+                "0040"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Imię_2": {
+            "data_point": [
+                "0050"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Nazwisko_2": {
+            "data_point": [
+                "0060"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "telefon_2": {
+            "data_point": [
+                "0070"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "e-mail_2": {
+            "data_point": [
+                "0080"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Imię_3": {
+            "data_point": [
+                "0130"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Nazwisko_3": {
+            "data_point": [
+                "0140"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "telefon_3": {
+            "data_point": [
+                "0150"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "e-mail_3": {
+            "data_point": [
+                "0160"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Imię_4": {
+            "data_point": [
+                "0090"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "Nazwisko_4": {
+            "data_point": [
+                "0100"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "telefon_4": {
+            "data_point": [
+                "0110"
+            ],
+            "datatype": "xbrli:stringItemType"
+        },
+        "e-mail_4": {
+            "data_point": [
+                "0120"
+            ],
+            "datatype": "xbrli:stringItemType"
+        }
+    },
+    {
+        "wycena pozycji portfela handlowego zgodnie z art. 105 rozporządzenia nr 575/2013": {
+            "data_point": [
+                "0010X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "korekta wyceny pozycji portfela handlowego wyliczona zgodnie z art. 105 ust. 11 i 12 rozporządzenia nr 575/2013": {
+            "data_point": [
+                "0020X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "wycena M-t-M portfela wycenianego wg WGPCD / wartość bilansowa portfela wycenianego wg WGPCD": {
+            "data_point": [
+                "0030X0010"
+            ],
+            "datatype": "num:percentItemType"
+        },
+        "Basic Point Value": {
+            "data_point": [
+                "0040X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "BPV portfela wycenianego wg WGPCD": {
+            "data_point": [
+                "0050X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "BPV portfela wycenianego wg zamortyzowanego kosztu": {
+            "data_point": [
+                "0060X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "BPV Banku": {
+            "data_point": [
+                "0070X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "wynik z działalności handlowej do wyniku z działalności bankowej": {
+            "data_point": [
+                "0080X0010"
+            ],
+            "datatype": "num:percentItemType"
+        },
+        "VaR 10-dniowy przy poziomie ufności 99% dla portfela handlowego": {
+            "data_point": [
+                "0090X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "maksymalna zaobserwowana pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)": {
+            "data_point": [
+                "0100X0010"
+            ],
+            "datatype": "num:percentItemType"
+        },
+        "średnia pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)": {
+            "data_point": [
+                "0110X0010"
+            ],
+            "datatype": "num:percentItemType"
+        },
+        "zmiana kursów WAL/PLN o 30% (test warunków skrajnych) na wynik z działalności bankowej (%)": {
+            "data_point": [
+                "0120X0010"
+            ],
+            "datatype": "num:percentItemType"
+        },
+        "zmiana kursów WAL/PLN o 30% (test warunków skrajnych) do funuszy własnych (%)": {
+            "data_point": [
+                "0130X0010"
+            ],
+            "datatype": "num:percentItemType"
+        },
+        "Maksymalna strata na portfelu, jaka może wystąpić przy założonym poziomie ufności": {
+            "data_point": [
+                "0140X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Limit pozycji całkowitej / fundusze własne (%)": {
+            "data_point": [
+                "0150X0010"
+            ],
+            "datatype": "num:percentItemType"
+        }
+    },
+    {
+        "Wartość M-t-M portfela instrumentów dłużnych zaliczanych do portfela handlowego na koniec okresu, w tym:": {
+            "data_point": [
+                "0010X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów": {
+            "data_point": [
+                "0020X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski": {
+            "data_point": [
+                "0030X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku": {
+            "data_point": [
+                "0040X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce": {
+            "data_point": [
+                "0050X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)": {
+            "data_point": [
+                "0060X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Średnia wartość M-t-M (wg częstotliwości przeprowadzania wycen) portfela instrumentów dłużnych zaliczanych do portfela handlowego w okresie, w tym:": {
+            "data_point": [
+                "0070X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_2": {
+            "data_point": [
+                "0080X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_2": {
+            "data_point": [
+                "0090X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_2": {
+            "data_point": [
+                "0100X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_2": {
+            "data_point": [
+                "0110X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_2": {
+            "data_point": [
+                "0120X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość M-t-M portfela bankowego wycenianego wg wartości godziwej na koniec okresu, w tym:": {
+            "data_point": [
+                "0130X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_3": {
+            "data_point": [
+                "0140X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_3": {
+            "data_point": [
+                "0150X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_3": {
+            "data_point": [
+                "0160X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_3": {
+            "data_point": [
+                "0170X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_3": {
+            "data_point": [
+                "0180X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Średnia dzienna wartość M-t-M  portfela bankowego wycenianego wg wartości godziwej w okresie, w tym:": {
+            "data_point": [
+                "0190X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_4": {
+            "data_point": [
+                "0200X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_4": {
+            "data_point": [
+                "0210X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_4": {
+            "data_point": [
+                "0220X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_4": {
+            "data_point": [
+                "0230X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_4": {
+            "data_point": [
+                "0240X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość bilansowa portfela instrumentów dłużnych wycenianego wg zamortyzowanego kosztu na koniec okresu, w tym:": {
+            "data_point": [
+                "0250X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_5": {
+            "data_point": [
+                "0260X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_5": {
+            "data_point": [
+                "0270X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_5": {
+            "data_point": [
+                "0280X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_5": {
+            "data_point": [
+                "0290X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_5": {
+            "data_point": [
+                "0300X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Średnia wartość bilansowa portfela instrumentów dłużnych wycenianego wg zamortyzowanego kosztu w okresie, w tym:": {
+            "data_point": [
+                "0310X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_6": {
+            "data_point": [
+                "0320X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_6": {
+            "data_point": [
+                "0330X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_6": {
+            "data_point": [
+                "0340X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_6": {
+            "data_point": [
+                "0350X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_6": {
+            "data_point": [
+                "0360X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość M-t-M portfela bankowego wycenianego wg wartości godziwej na koniec okresu, w tym:_2": {
+            "data_point": [
+                "0370X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_7": {
+            "data_point": [
+                "0380X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_7": {
+            "data_point": [
+                "0390X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_7": {
+            "data_point": [
+                "0400X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_7": {
+            "data_point": [
+                "0410X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_7": {
+            "data_point": [
+                "0420X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Średnia dzienna wartość M-t-M  portfela bankowego wycenianego wg wartości godziwej w okresie, w tym:_2": {
+            "data_point": [
+                "0430X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Ministerstwo Finansów_8": {
+            "data_point": [
+                "0440X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Narodowy Bank Polski_8": {
+            "data_point": [
+                "0450X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku_8": {
+            "data_point": [
+                "0460X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce_8": {
+            "data_point": [
+                "0470X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)_8": {
+            "data_point": [
+                "0480X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość na początku okresu": {
+            "data_point": [
+                "0490X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Nabycie instrumentów dłużnych": {
+            "data_point": [
+                "0500X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Sprzedaż instrumentów dłużnych": {
+            "data_point": [
+                "0510X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Inne zmiany": {
+            "data_point": [
+                "0520X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość na koniec okresu": {
+            "data_point": [
+                "0530X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość na początku okresu_2": {
+            "data_point": [
+                "0540X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Nabycie instrumentów dłużnych_2": {
+            "data_point": [
+                "0550X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Sprzedaż instrumentów dłużnych_2": {
+            "data_point": [
+                "0560X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Inne zmiany_2": {
+            "data_point": [
+                "0570X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość na koniec okresu_2": {
+            "data_point": [
+                "0580X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość na początku okresu_3": {
+            "data_point": [
+                "0590X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Nabycie instrumentów dłużnych_3": {
+            "data_point": [
+                "0600X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Sprzedaż instrumentów dłużnych_3": {
+            "data_point": [
+                "0610X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Inne zmiany_3": {
+            "data_point": [
+                "0620X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        },
+        "Wartość na koniec okresu_3": {
+            "data_point": [
+                "0630X0010"
+            ],
+            "datatype": "xbrli:monetaryItemType"
+        }
+    }
+]

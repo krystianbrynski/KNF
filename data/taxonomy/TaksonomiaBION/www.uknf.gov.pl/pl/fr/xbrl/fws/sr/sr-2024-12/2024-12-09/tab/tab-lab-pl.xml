@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgLS_NAR" xlink:label="loc_uknf_tgLS_NAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgLS_NAR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Naruszenie przepisów dotyczących lokat strukturyzowanych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgLS_NAR" xlink:to="label_uknf_tgLS_NAR" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgLS_OIZ" xlink:label="loc_uknf_tgLS_OIZ" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgLS_OIZ" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Lokaty strukturyzowane</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgLS_OIZ" xlink:to="label_uknf_tgLS_OIZ" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgLS_ROZ" xlink:label="loc_uknf_tgLS_ROZ" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgLS_ROZ" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rozpoczęcie, ograniczenie lub zaprzestanie działalności związanej z lokatami strukturyzowanymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgLS_ROZ" xlink:to="label_uknf_tgLS_ROZ" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgOIZ.01" xlink:label="loc_uknf_tgOIZ.01" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgOIZ.01" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Informacje dotyczące oferowanych i zawieranych lokat strukturyzowanych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgOIZ.01" xlink:to="label_uknf_tgOIZ.01" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgRPP" xlink:label="loc_uknf_tgRPP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgRPP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Rachunki podstawowe i płatnicze</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgRPP" xlink:to="label_uknf_tgRPP" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgRPP.01" xlink:label="loc_uknf_tgRPP.01" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgRPP.01" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Informacje o rachunkach podstawowych i płatniczych</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgRPP.01" xlink:to="label_uknf_tgRPP.01" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgV.NAR.01" xlink:label="loc_uknf_tgV.NAR.01" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgV.NAR.01" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Informacje dotyczące naruszenia przepisów związanych z prowadzeniem działalności związanej z lokatami strukturyzowanymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgV.NAR.01" xlink:to="label_uknf_tgV.NAR.01" />
+    <link:loc xlink:type="locator" xlink:href="tab.xsd#uknf_tgV.ROiZ.01" xlink:label="loc_uknf_tgV.ROiZ.01" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_tgV.ROiZ.01" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Informacje dotyczące rozpoczęcia, ograniczenia i zaprzestania prowadzenia działalności związanej z lokatami strukturyzowanymi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_tgV.ROiZ.01" xlink:to="label_uknf_tgV.ROiZ.01" />
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd">
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label" />
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" />
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_a1" xlink:label="loc_uknf_a1" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_a1" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">wiersze</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_a1" xlink:to="label_uknf_a1" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c10" xlink:label="loc_uknf_c10" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c10" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Flaga korekty</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c10" xlink:to="label_uknf_c10" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c11" xlink:label="loc_uknf_c11" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c11" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Sporządził(a)</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c11" xlink:to="label_uknf_c11" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c12" xlink:label="loc_uknf_c12" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c12" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Imię</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c12" xlink:to="label_uknf_c12" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c13" xlink:label="loc_uknf_c13" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c13" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Nazwisko</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c13" xlink:to="label_uknf_c13" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c14" xlink:label="loc_uknf_c14" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c14" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Stanowisko</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c14" xlink:to="label_uknf_c14" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c15" xlink:label="loc_uknf_c15" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c15" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Telefon</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c15" xlink:to="label_uknf_c15" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c16" xlink:label="loc_uknf_c16" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c16" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">E-mail</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c16" xlink:to="label_uknf_c16" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c17" xlink:label="loc_uknf_c17" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c17" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Zatwierdził(a)</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c17" xlink:to="label_uknf_c17" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c19" xlink:label="loc_uknf_c19" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c19" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Imię</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c19" xlink:to="label_uknf_c19" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c20" xlink:label="loc_uknf_c20" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c20" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Nazwisko</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c20" xlink:to="label_uknf_c20" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c21" xlink:label="loc_uknf_c21" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c21" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Stanowisko</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c21" xlink:to="label_uknf_c21" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c22" xlink:label="loc_uknf_c22" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c22" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Telefon</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c22" xlink:to="label_uknf_c22" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c23" xlink:label="loc_uknf_c23" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c23" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">E-mail</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c23" xlink:to="label_uknf_c23" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c3" xlink:label="loc_uknf_c3" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c3" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Data przekazania informacji</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c3" xlink:to="label_uknf_c3" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c4" xlink:label="loc_uknf_c4" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c4" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Dane identyfikacyjne banku</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c4" xlink:to="label_uknf_c4" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c5" xlink:label="loc_uknf_c5" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c5" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Identyfikator banku</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c5" xlink:to="label_uknf_c5" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c6" xlink:label="loc_uknf_c6" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c6" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Nazwa banku</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c6" xlink:to="label_uknf_c6" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c7" xlink:label="loc_uknf_c7" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c7" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Okres sprawozdawczy</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c7" xlink:to="label_uknf_c7" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c8" xlink:label="loc_uknf_c8" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c8" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Rok sprawozdawczy</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c8" xlink:to="label_uknf_c8" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_c9" xlink:label="loc_uknf_c9" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_c9" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Kwartał roku sprawozdawczego</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_c9" xlink:to="label_uknf_c9" />
+    <link:loc xlink:type="locator" xlink:href="v.oiz.01.00-rend.xml#uknf_tV.OIZ.01.00" xlink:label="loc_uknf_tV.OIZ.01.00" />
+    <label:label xlink:type="resource" xlink:label="label_uknf_tV.OIZ.01.00" xml:lang="pl" xlink:role="http://www.xbrl.org/2008/role/label">Nagłówek</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_uknf_tV.OIZ.01.00" xlink:to="label_uknf_tV.OIZ.01.00" />
+  </gen:link>
+</link:linkbase>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_BION.PiF.DZ_ID" xlink:label="loc_uknf_BION.PiF.DZ_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BION.PiF.DZ_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDENTYFIKATOR WIERSZA. ZESTAWIENIE POSIADANYCH PRZEZ BANK DŁUGOTERMINOWYCH ŹRÓDEŁ FINANSOWANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BION.PiF.DZ_ID" xlink:to="label_uknf_BION.PiF.DZ_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_BION.ZB.KS_ID" xlink:label="loc_uknf_BION.ZB.KS_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BION.ZB.KS_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDENTYFIKATOR WIERSZA. ZESTAWIENIE KOSZTÓW BANKU Z TYTUŁU UMÓW ZAWARTYCH Z PODMIOTAMI Z GRUPY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BION.ZB.KS_ID" xlink:to="label_uknf_BION.ZB.KS_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_BION.ZB.MR_ID" xlink:label="loc_uknf_BION.ZB.MR_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BION.ZB.MR_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDENTYFIKATOR WIERSZA. MAPA RYZYKA I BADANIA AUDYTOWE</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BION.ZB.MR_ID" xlink:to="label_uknf_BION.ZB.MR_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_BION.ZB.ZF_ID" xlink:label="loc_uknf_BION.ZB.ZF_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BION.ZB.ZF_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDENTYFIKATOR WIERSZA. ZESTAWIENIE ŹRÓDEŁ FINANSOWANIA BANKU OD PODMIOTÓW Z GRUPY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BION.ZB.ZF_ID" xlink:to="label_uknf_BION.ZB.ZF_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_BION.ZK.KW_ID" xlink:label="loc_uknf_BION.ZK.KW_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BION.ZK.KW_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDENTYFIKATOR WIERSZA. KAPITAŁ WEWNĘTRZNY (DODATKOWE PODKATEGORIE I RODZAJE RYZYKA)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BION.ZK.KW_ID" xlink:to="label_uknf_BION.ZK.KW_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_ESP" xlink:label="loc_uknf_ESP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ESP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">EMITENT SKŁADNIKA PORTFELA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ESP" xlink:to="label_uknf_ESP" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KRP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KATEGORIA RAPORTU/ SPRAWOZDANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KRP" xlink:to="label_uknf_KRP" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_KTR" xlink:label="loc_uknf_KTR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KTR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KATEGORIA RYZYKA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KTR" xlink:to="label_uknf_KTR" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PDM" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ PODMIOTU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PDM" xlink:to="label_uknf_PDM" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PDO" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label"> ZA OKRES / PODOKRES</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PDO" xlink:to="label_uknf_PDO" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_PKR" xlink:label="loc_uknf_PKR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PKR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PODKATEGORIA RYZYKA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PKR" xlink:to="label_uknf_PKR" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RRL" xlink:label="loc_uknf_RRL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RRL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ ROLI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RRL" xlink:to="label_uknf_RRL" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RRN" xlink:label="loc_uknf_RRN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RRN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ WSKAŹNIKA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RRN" xlink:to="label_uknf_RRN" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RRO" xlink:label="loc_uknf_RRO" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RRO" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SEGMENT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RRO" xlink:to="label_uknf_RRO" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RRP" xlink:label="loc_uknf_RRP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RRP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ DEPOZYTU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RRP" xlink:to="label_uknf_RRP" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RRT" xlink:label="loc_uknf_RRT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RRT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ ROTACJI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RRT" xlink:to="label_uknf_RRT" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RZO" xlink:label="loc_uknf_RZO" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RZO" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ RYZYKA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RZO" xlink:to="label_uknf_RZO" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RZP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">POWIĄZANIE Z RYZYKIEM</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RZP" xlink:to="label_uknf_RZP" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SR.NAR_ID" xlink:label="loc_uknf_SR.NAR_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SR.NAR_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">INFORMACJE O NARUSZENIU PRZEPISÓW ZWIĄZANYCH Z LOKATAMI STRUKTURYZOWANYMI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SR.NAR_ID" xlink:to="label_uknf_SR.NAR_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SR.OFiZ_ID" xlink:label="loc_uknf_SR.OFiZ_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SR.OFiZ_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDENTYFIKATOR WIERSZA. INFORMACJE DOTYCZĄCE OFEROWANYCH I ZAWIERANYCH LOKAT STRUKTURYZOWANYCH</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SR.OFiZ_ID" xlink:to="label_uknf_SR.OFiZ_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SR.ROiZ_ID" xlink:label="loc_uknf_SR.ROiZ_ID" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SR.ROiZ_ID" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">INFORMACJE O ROZPOCZĘCIU, OGRANICZENIU i ZAPRZESTANIU DZIAŁALNOŚCI W ZAKRESIE LOKAT STRUKTURYZOWANYCH</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SR.ROiZ_ID" xlink:to="label_uknf_SR.ROiZ_ID" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SKŁADNIK RAPORTU/SPRAWOZDANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRP" xlink:to="label_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SRR" xlink:label="loc_uknf_SRR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">WYKORZYSTANIE ŹRÓDŁA FINANSOWANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRR" xlink:to="label_uknf_SRR" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SRS" xlink:label="loc_uknf_SRS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">DYSPONENT ŹRÓDŁA FINANSOWANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRS" xlink:to="label_uknf_SRS" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LINIA BIZNESOWA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRT" xlink:to="label_uknf_SRT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRT_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Linia biznesowa wg podziału na linie biznesowe dla metody standardowej (art. 317 CRR)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRT" xlink:to="label_uknf_SRT_1" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRU" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ ZDARZENIA OPERACYJNEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRU" xlink:to="label_uknf_SRU" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_TSP" xlink:label="loc_uknf_TSP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TSP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TYP OKRESU SPRAWOZDAWCZEGO RAPORTU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TSP" xlink:to="label_uknf_TSP" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJS" xlink:label="loc_uknf_WJS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TYTUŁ WYJAŚNIENIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJS" xlink:to="label_uknf_WJS" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJT" xlink:label="loc_uknf_WJT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ  OKRESU/PODOKRESU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJT" xlink:to="label_uknf_WJT" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJU" xlink:label="loc_uknf_WJU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJU" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ ZOBOWIĄZANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJU" xlink:to="label_uknf_WJU" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJV" xlink:label="loc_uknf_WJV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJV" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TYP KONTRAHENTA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJV" xlink:to="label_uknf_WJV" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJW" xlink:label="loc_uknf_WJW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJW" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">FAZA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJW" xlink:to="label_uknf_WJW" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJX" xlink:label="loc_uknf_WJX" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJX" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ PORTFELA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJX" xlink:to="label_uknf_WJX" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WJY" xlink:label="loc_uknf_WJY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WJY" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RODZAJ ZMIANY WARTOŚCI BILANSOWEJ BRUTTO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WJY" xlink:to="label_uknf_WJY" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WMH" xlink:label="loc_uknf_WMH" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WMH" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">WEDŁUG STANU NA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WMH" xlink:to="label_uknf_WMH" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WML" xlink:label="loc_uknf_WML" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WML" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">POZIOM STANOWISKA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WML" xlink:to="label_uknf_WML" />
+    <link:loc xlink:type="locator" xlink:href="dim.xsd#uknf_WMM" xlink:label="loc_uknf_WMM" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WMM" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRZYPISANY OBSZAR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WMM" xlink:to="label_uknf_WMM" />
+  </link:labelLink>
+</link:linkbase>

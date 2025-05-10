@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:model="http://www.eurofiling.info/xbrl/ext/model" xmlns:uknf_tab="http://www.uknf.gov.pl/xbrl/fws/sr/sr-2024-12/2024-12-09_tab" targetNamespace="http://www.uknf.gov.pl/xbrl/fws/sr/sr-2024-12/2024-12-09_tab" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xs:import namespace="http://www.eurofiling.info/xbrl/ext/model" schemaLocation="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd" />
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:href="tab-lab-pl.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="tgLS_NAR" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2024-12-09" id="uknf_tgLS_NAR" />
+  <xs:element name="tgV.NAR.01" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2024-12-09" id="uknf_tgV.NAR.01" />
+  <xs:element name="tgLS_OIZ" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2024-12-09" id="uknf_tgLS_OIZ" />
+  <xs:element name="tgOIZ.01" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2024-12-09" id="uknf_tgOIZ.01" />
+  <xs:element name="tgLS_ROZ" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2024-12-09" id="uknf_tgLS_ROZ" />
+  <xs:element name="tgV.ROiZ.01" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2024-12-09" id="uknf_tgV.ROiZ.01" />
+  <xs:element name="tgRPP" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2025-02-24" id="uknf_tgRPP" />
+  <xs:element name="tgRPP.01" type="model:tableGroupType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true" model:creationDate="2025-02-24" id="uknf_tgRPP.01" />
+</xs:schema>
