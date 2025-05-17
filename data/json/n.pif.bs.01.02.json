@@ -1,0 +1,18 @@
+{
+    "uknf_c4": {
+        "rows": "Wielkosć bazy depozytowej ogółem wg. stanu na koniec okresu",
+        "data_point": [
+            "0010"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2278"
+    },
+    "uknf_c6": {
+        "rows": "Zakładany, zgodnie z najbardziej dotkliwym scenariuszem wewnętrznym testów warunków skrajnych, wypływ depozytów detalicznych, który może nastąpić w okresie 1 miesiąca (%)",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2277"
+    }
+}

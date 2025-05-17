@@ -1,20 +1,30 @@
-def transform_labels_unique(input_dict):
+def transform_labels_unique(input_dict,column_flag):
     output = {}
-    label_counts = {}
-
-    for key, values in input_dict.items():
-        label = values[0].strip()
-        code = values[1]
-        datatype = values[2] if len(values) > 2 else None
-
-        count = label_counts.get(label, 0) + 1
-        label_counts[label] = count
-
-        unique_label = f"{label}_{count}" if count > 1 else label
-
-        output[unique_label] = {
-            "data_point": code,
-            "datatype": datatype
-        }
+    if column_flag:
+        for key, values in input_dict.items():
+            label_row = values[0]                      # np. "Liczba zdarzen"
+            data_point = values[1]                     # np. ["A", "B"]
+            label_col = values[2]
+            datatype = values[3] if values[3] else "string"
+            qname = values[4]
+            output[key] = {
+                "rows": label_row,
+                "data_point": data_point,
+                "cols": label_col,
+                "datatype": datatype,
+                "qname": qname
+            }
+    else:
+        for key, values in input_dict.items():
+            label_row = values[0]                      # np. "Liczba zdarzen"
+            data_point = values[1]                     # np. ["A", "B"]
+            datatype = values[2]
+            qname = values[3]
+            output[key] = {
+                "rows": label_row,
+                "data_point": data_point,
+                "datatype": datatype,
+                "qname": qname
+            }
 
     return output

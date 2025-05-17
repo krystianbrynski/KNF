@@ -1,0 +1,34 @@
+{
+    "uknf_c3": {
+        "rows": "Kategoria ryzyka",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:QNameItemType",
+        "qname": "ei2196"
+    },
+    "uknf_c4": {
+        "rows": "Nazwa podkategorii ryzyka",
+        "data_point": [
+            "0030"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2197"
+    },
+    "uknf_c5": {
+        "rows": "Definicja ryzyka stosowana w banku",
+        "data_point": [
+            "0040"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2198"
+    },
+    "uknf_c6": {
+        "rows": "Kapitał wewnętrzny",
+        "data_point": [
+            "0050"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2194"
+    }
+}

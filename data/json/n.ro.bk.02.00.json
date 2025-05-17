@@ -1,0 +1,130 @@
+{
+    "uknf_c33": {
+        "rows": "Imię",
+        "data_point": [
+            "0010"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2102"
+    },
+    "uknf_c34": {
+        "rows": "Nazwisko",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2103"
+    },
+    "uknf_c35": {
+        "rows": "telefon",
+        "data_point": [
+            "0030"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2104"
+    },
+    "uknf_c36": {
+        "rows": "e-mail",
+        "data_point": [
+            "0040"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2105"
+    },
+    "uknf_c39": {
+        "rows": "Imię",
+        "data_point": [
+            "0050"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2102"
+    },
+    "uknf_c40": {
+        "rows": "Nazwisko",
+        "data_point": [
+            "0060"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2103"
+    },
+    "uknf_c41": {
+        "rows": "telefon",
+        "data_point": [
+            "0070"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2104"
+    },
+    "uknf_c42": {
+        "rows": "e-mail",
+        "data_point": [
+            "0080"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2105"
+    },
+    "uknf_c51": {
+        "rows": "Imię",
+        "data_point": [
+            "0130"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2102"
+    },
+    "uknf_c52": {
+        "rows": "Nazwisko",
+        "data_point": [
+            "0140"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2103"
+    },
+    "uknf_c53": {
+        "rows": "telefon",
+        "data_point": [
+            "0150"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2104"
+    },
+    "uknf_c54": {
+        "rows": "e-mail",
+        "data_point": [
+            "0160"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2105"
+    },
+    "uknf_c45": {
+        "rows": "Imię",
+        "data_point": [
+            "0090"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2102"
+    },
+    "uknf_c46": {
+        "rows": "Nazwisko",
+        "data_point": [
+            "0100"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2103"
+    },
+    "uknf_c47": {
+        "rows": "telefon",
+        "data_point": [
+            "0110"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2104"
+    },
+    "uknf_c48": {
+        "rows": "e-mail",
+        "data_point": [
+            "0120"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2105"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "uknf_c3": {
+        "rows": "Dostępne finansowanie",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2129"
+    },
+    "uknf_c13": {
+        "rows": "przyznane",
+        "data_point": [
+            "0030"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2128"
+    },
+    "uknf_c14": {
+        "rows": "wykorzystane",
+        "data_point": [
+            "0040"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2128"
+    },
+    "uknf_c15": {
+        "rows": "przyznane",
+        "data_point": [
+            "0050"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2128"
+    },
+    "uknf_c16": {
+        "rows": "wykorzystane",
+        "data_point": [
+            "0060"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2128"
+    }
+}

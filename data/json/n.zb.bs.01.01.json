@@ -1,0 +1,74 @@
+{
+    "uknf_c3": {
+        "rows": "Stosowana mapa ryzyka  - nazwy obszarów. Należy wskazać wszystkie obszary mapy ryzyka wyodrębniane przez audyt wewnętrzny banku, nie tylko te objęte Planem Audytu na okres sprawozdawczy",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2164"
+    },
+    "uknf_c4": {
+        "rows": "Istotność ryzyka (wg skali stosowanej przez bank) ",
+        "data_point": [
+            "0030"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2165"
+    },
+    "uknf_c5": {
+        "rows": "Obszar objęty Planem Audytu w okresie sprawozdawczym (tak/nie)",
+        "data_point": [
+            "0040"
+        ],
+        "datatype": "xbrli:QNameItemType",
+        "qname": "ei2162"
+    },
+    "uknf_c6": {
+        "rows": "Obszar objęty badaniem audytowym w okresie sprawozdawczym (tak/nie)",
+        "data_point": [
+            "0050"
+        ],
+        "datatype": "xbrli:QNameItemType",
+        "qname": "ei2163"
+    },
+    "uknf_c8": {
+        "rows": "data rozpoczęcia (dd-mm-rrrr)",
+        "data_point": [
+            "0060"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2160"
+    },
+    "uknf_c9": {
+        "rows": "data zakończenia (dd-mm-rrrr)",
+        "data_point": [
+            "0070"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2161"
+    },
+    "uknf_c12": {
+        "rows": "pracowników audytu wewnętrznego",
+        "data_point": [
+            "0080"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2275"
+    },
+    "uknf_c13": {
+        "rows": "pracowników podmiotu dominującego",
+        "data_point": [
+            "0090"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2275"
+    },
+    "uknf_c14": {
+        "rows": "pracowników firm zewnętrznych",
+        "data_point": [
+            "0100"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2275"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "uknf_c2": {
+        "rows": "Łączna kwota kapitału wewnętrznego (Tabela A + Tabela B) (w tys. zł)",
+        "data_point": [
+            "0010"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2192"
+    },
+    "uknf_c3": {
+        "rows": "Łączna kwota wymogu regulacyjnego",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2193"
+    }
+}

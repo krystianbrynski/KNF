@@ -1,0 +1,74 @@
+{
+    "uknf_c3": {
+        "rows": "Podmiot udzielający finansowania (proszę podać pełną nazwę podmiotu)",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2116"
+    },
+    "uknf_c4": {
+        "rows": "Rodzaj finansowania (np. kredyt/pożyczka/pożyczka podporządkowana/obligacje)",
+        "data_point": [
+            "0030"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2117"
+    },
+    "uknf_c11": {
+        "rows": "Kwota finansowania w walucie oryginalnej w dniu udzielenia finansowania",
+        "data_point": [
+            "0040"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi3123"
+    },
+    "uknf_c5": {
+        "rows": "Waluta udzielonego finansowania",
+        "data_point": [
+            "0050"
+        ],
+        "datatype": "xbrli:QNameItemType",
+        "qname": "ei2118"
+    },
+    "uknf_c6": {
+        "rows": "Kwota pozostająca do spłaty wg stanu na koniec roku sprawozdawczego",
+        "data_point": [
+            "0060"
+        ],
+        "datatype": "xbrli:monetaryItemType",
+        "qname": "mi2119"
+    },
+    "uknf_c7": {
+        "rows": "Data udzielenia finansowania",
+        "data_point": [
+            "0070"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2120"
+    },
+    "uknf_c8": {
+        "rows": "Pierwotny termin spłaty",
+        "data_point": [
+            "0080"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2121"
+    },
+    "uknf_c9": {
+        "rows": "Aktualny termin spłaty",
+        "data_point": [
+            "0090"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2122"
+    },
+    "uknf_c10": {
+        "rows": "Informacje dodatkowe / komentarze",
+        "data_point": [
+            "0100"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2123"
+    }
+}

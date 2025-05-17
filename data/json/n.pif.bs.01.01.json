@@ -1,0 +1,138 @@
+{
+    "uknf_c13": {
+        "rows": "Najniższa dzienna wartość wskaźnika w kwartale",
+        "data_point": [
+            "0010X0010",
+            "0010X0020",
+            "0010X0030",
+            "0010X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2107"
+    },
+    "uknf_c14": {
+        "rows": "Najwyższa dzienna wartość wskaźnika w kwartale",
+        "data_point": [
+            "0020X0010",
+            "0020X0020",
+            "0020X0030",
+            "0020X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2108"
+    },
+    "uknf_c15": {
+        "rows": "Średnia wartość wskaźnika w kwartale",
+        "data_point": [
+            "0030X0010",
+            "0030X0020",
+            "0030X0030",
+            "0030X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2109"
+    },
+    "uknf_c16": {
+        "rows": "Mediana wskaźnika w kwartale",
+        "data_point": [
+            "0040X0010",
+            "0040X0020",
+            "0040X0030",
+            "0040X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2111"
+    },
+    "uknf_c19": {
+        "rows": "Najniższa dzienna wartość wskaźnika w kwartale",
+        "data_point": [
+            "0050X0010",
+            "0050X0020",
+            "0050X0030",
+            "0050X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2107"
+    },
+    "uknf_c20": {
+        "rows": "Najwyższa dzienna wartość wskaźnika w kwartale",
+        "data_point": [
+            "0060X0010",
+            "0060X0020",
+            "0060X0030",
+            "0060X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2108"
+    },
+    "uknf_c21": {
+        "rows": "Średnia wartość wskaźnika w kwartale",
+        "data_point": [
+            "0070X0010",
+            "0070X0020",
+            "0070X0030",
+            "0070X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2109"
+    },
+    "uknf_c22": {
+        "rows": "Mediana wskaźnika w kwartale",
+        "data_point": [
+            "0080X0010",
+            "0080X0020",
+            "0080X0030",
+            "0080X0040"
+        ],
+        "cols": [
+            "I kwartał",
+            "II kwartał",
+            "III kwartał",
+            "IV kwartał"
+        ],
+        "datatype": "num:percentItemType",
+        "qname": "pi2111"
+    }
+}

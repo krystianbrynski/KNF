@@ -1,0 +1,106 @@
+{
+    "uknf_c3": {
+        "rows": "Obszar mapy ryzyka ",
+        "data_point": [
+            "0020"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2164"
+    },
+    "uknf_c4": {
+        "rows": "Istotność ryzyka (wg skali stosowanej przez bank) ",
+        "data_point": [
+            "0030"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2165"
+    },
+    "uknf_c5": {
+        "rows": "Obszar objęty Planem audytu na rok sprawozdawczy (tak/nie)",
+        "data_point": [
+            "0040"
+        ],
+        "datatype": "xbrli:QNameItemType",
+        "qname": "ei2162"
+    },
+    "uknf_c6": {
+        "rows": "Obszar objęty badaniem audytowym (tak/nie)",
+        "data_point": [
+            "0050"
+        ],
+        "datatype": "xbrli:QNameItemType",
+        "qname": "ei2163"
+    },
+    "uknf_c8": {
+        "rows": "data rozpoczęcia",
+        "data_point": [
+            "0060"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2160"
+    },
+    "uknf_c9": {
+        "rows": "data zakończenia",
+        "data_point": [
+            "0070"
+        ],
+        "datatype": "xbrli:dateItemType",
+        "qname": "di2161"
+    },
+    "uknf_c12": {
+        "rows": "pracowników audytu wewnętrznego",
+        "data_point": [
+            "0080"
+        ],
+        "datatype": "xbrli:integerItemType",
+        "qname": "ii2158"
+    },
+    "uknf_c13": {
+        "rows": "pracowników podmiotu dominującego",
+        "data_point": [
+            "0090"
+        ],
+        "datatype": "xbrli:integerItemType",
+        "qname": "ii2158"
+    },
+    "uknf_c14": {
+        "rows": "pracowników firm zewnętrznych",
+        "data_point": [
+            "0100"
+        ],
+        "datatype": "xbrli:integerItemType",
+        "qname": "ii2158"
+    },
+    "uknf_c15": {
+        "rows": "braku realizacji Planu audytu na rok sprawozdawczy",
+        "data_point": [
+            "0110"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2159"
+    },
+    "uknf_c16": {
+        "rows": "realizacji badania pozaplanowego ",
+        "data_point": [
+            "0120"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2159"
+    },
+    "uknf_c17": {
+        "rows": "nieobjęcia Planem audytu na rok sprawozdawczy/ badaniami obszaru mapy ryzyka",
+        "data_point": [
+            "0130"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2159"
+    },
+    "uknf_c18": {
+        "rows": "realizacji badania przy udziale podmiotu dominującego / firmy zewnętrznej",
+        "data_point": [
+            "0140"
+        ],
+        "datatype": "xbrli:stringItemType",
+        "qname": "si2159"
+    }
+}
