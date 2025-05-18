@@ -1,3 +1,5 @@
+import uvicorn
+from src.api_interface import api
 from create_json_structure.json_structure import create_json_structure
 
 def run_pipeline() -> None:
