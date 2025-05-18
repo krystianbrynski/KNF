@@ -1,34 +1,44 @@
 {
-    "uknf_c28": {
-        "rows": " Liczba powołanych członków Zarządu w okresie ",
-        "data_point": [
-            "0010"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2271"
-    },
-    "uknf_c31": {
-        "rows": " Liczba odwołanych członków Zarządu  w okresie ",
-        "data_point": [
-            "0020"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2270"
-    },
-    "uknf_c32": {
-        "rows": "Liczba członków  Zarządu na koniec okresu",
-        "data_point": [
-            "0030"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2268"
-    },
-    "uknf_c33": {
-        "rows": "Liczba kobiet w Zarządzie na koniec okresu",
-        "data_point": [
-            "0040"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2269"
+    "n.ro.bs": {
+        "uknf_c28": {
+            "rows": " Liczba powołanych członków Zarządu w okresie ",
+            "data_point": [
+                "0010"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2271",
+            "report_name": "n.ro.bs.04.02"
+        },
+        "uknf_c31": {
+            "rows": " Liczba odwołanych członków Zarządu  w okresie ",
+            "data_point": [
+                "0020"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2270",
+            "report_name": "n.ro.bs.04.02"
+        },
+        "uknf_c32": {
+            "rows": "Liczba członków  Zarządu na koniec okresu",
+            "data_point": [
+                "0030"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2268",
+            "report_name": "n.ro.bs.04.02"
+        },
+        "uknf_c33": {
+            "rows": "Liczba kobiet w Zarządzie na koniec okresu",
+            "data_point": [
+                "0040"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2269",
+            "report_name": "n.ro.bs.04.02"
+        }
     }
 }

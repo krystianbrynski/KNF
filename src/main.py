@@ -41,9 +41,10 @@ def run_pipeline() -> None:
     combined_data = []
     folder_path = "../data/taxonomy/TaksonomiaBION/www.uknf.gov.pl/pl/fr/xbrl/fws/bion/bion-2024-12/2024-10-21/tab"
     prefixes = collect_unique_folder_prefixes(folder_path)
-    print(prefixes)
-    print(prefixes)
-    for prefix in prefixes:
+
+    for i, prefix in enumerate(prefixes):
+
+        #kod do dodania nazw formularza + id_formualrza
         # Przechodzimy po wszystkich elementach w folderze
         for folder_name in os.listdir(folder_path):
             folder_path_full = os.path.join(folder_path, folder_name)
@@ -79,10 +80,13 @@ def run_pipeline() -> None:
                                                                  lab_pl_labels_and_value)
                 label_and_data_type = prepare_label_and_data_type(rend_labels_and_qnames, data_types)
                 data_with_types = prepare_type_into_dict(label_and_data_type, data)
-                transformed_data = transform_labels_unique(data_with_types, column_flag)
+                transformed_data = transform_labels_unique(data_with_types, column_flag, folder_name)
                 folder_name = Path(files_of_interest[0]).parent.name
+
+                wrapped_data = {f"{prefix}": transformed_data}
                 with open(f'../data/json/{folder_name}.json', 'a', encoding='utf-8') as json_file:
-                   json.dump(transformed_data, json_file, ensure_ascii=False, indent=4)
+                   json.dump(wrapped_data, json_file, ensure_ascii=False, indent=4)
+
 
 
 

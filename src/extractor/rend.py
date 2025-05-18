@@ -9,7 +9,6 @@ def extract_rend_file(root):
             labels.append(elem.attrib['axis'])
 
     labels = [elem for elem in labels if not elem.startswith('uknf_a')]
-    print(labels)
     return labels
 
 def extract_rend_file_labels_and_qnames(root):

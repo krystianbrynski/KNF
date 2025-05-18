@@ -1,167 +1,184 @@
 {
-    "uknf_c6": {
-        "rows": "wycena pozycji portfela handlowego zgodnie z art. 105 rozporządzenia nr 575/2013",
-        "data_point": [
-            "0010X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2177"
-    },
-    "uknf_c7": {
-        "rows": "korekta wyceny pozycji portfela handlowego wyliczona zgodnie z art. 105 ust. 11 i 12 rozporządzenia nr 575/2013 ",
-        "data_point": [
-            "0020X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2178"
-    },
-    "uknf_c8": {
-        "rows": "wycena M-t-M portfela wycenianego wg WGPCD / wartość bilansowa portfela wycenianego wg WGPCD ",
-        "data_point": [
-            "0030X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2179"
-    },
-    "uknf_c9": {
-        "rows": "Basic Point Value",
-        "data_point": [
-            "0040X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2180"
-    },
-    "uknf_c10": {
-        "rows": "BPV portfela wycenianego wg WGPCD ",
-        "data_point": [
-            "0050X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2181"
-    },
-    "uknf_c11": {
-        "rows": "BPV portfela wycenianego wg zamortyzowanego kosztu ",
-        "data_point": [
-            "0060X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2182"
-    },
-    "uknf_c12": {
-        "rows": "BPV Banku",
-        "data_point": [
-            "0070X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2183"
-    },
-    "uknf_c13": {
-        "rows": "wynik z działalności handlowej do wyniku z działalności bankowej",
-        "data_point": [
-            "0080X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2184"
-    },
-    "uknf_c20": {
-        "rows": "VaR 10-dniowy przy poziomie ufności 99% dla portfela handlowego",
-        "data_point": [
-            "0090X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2185"
-    },
-    "uknf_c14": {
-        "rows": "maksymalna zaobserwowana pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)",
-        "data_point": [
-            "0100X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2186"
-    },
-    "uknf_c15": {
-        "rows": "średnia pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)",
-        "data_point": [
-            "0110X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2187"
-    },
-    "uknf_c16": {
-        "rows": "zmiana kursów WAL/PLN o 30% (test warunków skrajnych) na wynik z działalności bankowej (%)",
-        "data_point": [
-            "0120X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2188"
-    },
-    "uknf_c17": {
-        "rows": "zmiana kursów WAL/PLN o 30% (test warunków skrajnych) do funuszy własnych (%)",
-        "data_point": [
-            "0130X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2189"
-    },
-    "uknf_c18": {
-        "rows": "Maksymalna strata na portfelu, jaka może wystąpić przy założonym poziomie ufności",
-        "data_point": [
-            "0140X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2190"
-    },
-    "uknf_c21": {
-        "rows": "Limit pozycji całkowitej / fundusze własne (%)",
-        "data_point": [
-            "0150X0010"
-        ],
-        "cols": [
-            "wartość wskaźnika/ kwota"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi219"
+    "n.rr.bk": {
+        "uknf_c6": {
+            "rows": "wycena pozycji portfela handlowego zgodnie z art. 105 rozporządzenia nr 575/2013",
+            "data_point": [
+                "0010X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2177",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c7": {
+            "rows": "korekta wyceny pozycji portfela handlowego wyliczona zgodnie z art. 105 ust. 11 i 12 rozporządzenia nr 575/2013 ",
+            "data_point": [
+                "0020X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2178",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c8": {
+            "rows": "wycena M-t-M portfela wycenianego wg WGPCD / wartość bilansowa portfela wycenianego wg WGPCD ",
+            "data_point": [
+                "0030X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2179",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c9": {
+            "rows": "Basic Point Value",
+            "data_point": [
+                "0040X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2180",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c10": {
+            "rows": "BPV portfela wycenianego wg WGPCD ",
+            "data_point": [
+                "0050X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2181",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c11": {
+            "rows": "BPV portfela wycenianego wg zamortyzowanego kosztu ",
+            "data_point": [
+                "0060X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2182",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c12": {
+            "rows": "BPV Banku",
+            "data_point": [
+                "0070X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2183",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c13": {
+            "rows": "wynik z działalności handlowej do wyniku z działalności bankowej",
+            "data_point": [
+                "0080X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2184",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c20": {
+            "rows": "VaR 10-dniowy przy poziomie ufności 99% dla portfela handlowego",
+            "data_point": [
+                "0090X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2185",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c14": {
+            "rows": "maksymalna zaobserwowana pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)",
+            "data_point": [
+                "0100X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2186",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c15": {
+            "rows": "średnia pozycja całkowita podmiotu za okres 12 m-cy / fundusze własne (%)",
+            "data_point": [
+                "0110X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2187",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c16": {
+            "rows": "zmiana kursów WAL/PLN o 30% (test warunków skrajnych) na wynik z działalności bankowej (%)",
+            "data_point": [
+                "0120X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2188",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c17": {
+            "rows": "zmiana kursów WAL/PLN o 30% (test warunków skrajnych) do funuszy własnych (%)",
+            "data_point": [
+                "0130X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2189",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c18": {
+            "rows": "Maksymalna strata na portfelu, jaka może wystąpić przy założonym poziomie ufności",
+            "data_point": [
+                "0140X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2190",
+            "report_name": "n.rr.bk.01.01"
+        },
+        "uknf_c21": {
+            "rows": "Limit pozycji całkowitej / fundusze własne (%)",
+            "data_point": [
+                "0150X0010"
+            ],
+            "cols": [
+                "wartość wskaźnika/ kwota"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi219",
+            "report_name": "n.rr.bk.01.01"
+        }
     }
 }

@@ -1,354 +1,388 @@
 {
-    "uknf_c4": {
-        "rows": "Liczba skarg i reklamacji złożonych przez klientów",
-        "data_point": [
-            "0010X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2199"
-    },
-    "uknf_c7": {
-        "rows": "Liczba skarg i reklamacji złożonych przez klientów które zostały uznane / pozytywnie rozpatrzone przez bank    ",
-        "data_point": [
-            "0020X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2200"
-    },
-    "uknf_c8": {
-        "rows": "Liczba skarg i reklamacji złożonych przez klientów, które zostały automatycznie uznane bez rozpatrzenia ich zasadności przez bank    ",
-        "data_point": [
-            "0030X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2201"
-    },
-    "uknf_c9": {
-        "rows": "Proszę opisać kryteria automatycznego uznania reklamacji np. Kwota reklamacji nie przekracza X PLN w przypadku gdy reklamacja dotyczy tematu ...)   ",
-        "data_point": [
-            "0040X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:stringItemType",
-        "qname": "si2202"
-    },
-    "uknf_c42": {
-        "rows": "Liczba aktywnych klientów",
-        "data_point": [
-            "0050X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2203"
-    },
-    "uknf_c43": {
-        "rows": "Definicja aktywnego klienta",
-        "data_point": [
-            "0060X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:QNameItemType",
-        "qname": "ei2282"
-    },
-    "uknf_c44": {
-        "rows": "Opis niestandardowej definicji aktywnego klienta (wypełnić jeśli w poprzednim polu wybrano definicję niestandardową)",
-        "data_point": [
-            "0070X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:stringItemType",
-        "qname": "si2283"
-    },
-    "uknf_c11": {
-        "rows": "Liczba klientów którzy złożyli skargę / reklamację / roszczenie    ",
-        "data_point": [
-            "0080X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2204"
-    },
-    "uknf_c12": {
-        "rows": "Liczba klientów którzy złożyli w tej samej sprawie skargę / reklamację / roszczenie po raz kolejny    ",
-        "data_point": [
-            "0090X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2205"
-    },
-    "uknf_c13": {
-        "rows": "Liczba skarg klientów, którzy stwierdzili, że nie rozumieli podpisanej umowy lub że zostali wprowdzeni w błąd   ",
-        "data_point": [
-            "0100X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2206"
-    },
-    "uknf_c15": {
-        "rows": "Wartość wszystkich potencjalnych świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. (odszkodowań, kar, rekompensat) co do których bank otrzymał żądanie ich wypłacenia (z wyjątkiem żądań dla których prawdopodobieństwo ich uznania przez Bank lub na mocy wyroku sądowego, arbitrażu jest zerowe) w danym okresie wartość ogółem    ",
-        "data_point": [
-            "0110X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2210"
-    },
-    "uknf_c24": {
-        "rows": "Wartość wszystkich rezerw utworzonych w związku ze sprawami spornymi, skargami, reklamacjami, itp. w okresie - wartość ogółem   ",
-        "data_point": [
-            "0120X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2211"
-    },
-    "uknf_c26": {
-        "rows": "Wartość wszystkich rozwiązanych rezerw  w związku ze sprawami spornymi, skargami, reklamacjami, itp. w okresie - wartość ogółem   ",
-        "data_point": [
-            "0130X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2213"
-    },
-    "uknf_c27": {
-        "rows": "Kwota rezerw w związku ze sprawami spornymi, skargami, reklamacjami, itp.  na koniec okresu (wartość ogółem)    ",
-        "data_point": [
-            "0140X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2214"
-    },
-    "uknf_c28": {
-        "rows": "Wartość wszystkich świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. (odszkodowań, kar, rekompensat) które bank wypłacił, również w wyniku ugody, w okresie - wartość ogółem    ",
-        "data_point": [
-            "0150X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2216"
-    },
-    "uknf_c29": {
-        "rows": "Wskaźnik udziału wartości wypłaconych świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. w stosunku do kwoty roszczeń    ",
-        "data_point": [
-            "0160X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2217"
-    },
-    "uknf_c30": {
-        "rows": "Liczba spraw spornych, w których bank wstępował jako strona pozwana / wezwana i które przybrały formę formalnego rozstrzygnięcia (np. sprawy sądowe toczone przed sądami powszechnymi, sprawy przed sądem polubowny, sądem arbitrażowym, sądem konsumenckim, Rzecznikiem praw konsumentów, Rzecznikiem finansowym, UOKiK itp.) w  danym okresie - ogółem w okresie.   ",
-        "data_point": [
-            "0170X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii218"
-    },
-    "uknf_c45": {
-        "rows": "Liczba spraw spornych, w których bank wstępował jako strona pozwana / wezwana i które przybrały formę formalnego rozstrzygnięcia (np. sprawy sądowe toczone przed sądami powszechnymi, sprawy przed sądem polubowny, sądem arbitrażowym, sądem konsumenckim, Rzecznikiem praw konsumentów, Rzecznikiem finansowym, UOKiK itp.) - i których rozstrzygnięcie było niekorzystne dla banku przy czym jeżeli zapadło szereg wyroków należy brać pod uwagę jedynie ostatnie rozstrzygniecie ogółem w okresie.    ",
-        "data_point": [
-            "0180X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2286"
-    },
-    "uknf_c32": {
-        "rows": "Wskaźnik udziału spraw, w których zapadło niekorzystne rozstrzygnięcie dla Banku  zarówno prawomocnych jak i nieprawomocnych.       ",
-        "data_point": [
-            "0190X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi219"
-    },
-    "uknf_c33": {
-        "rows": "Postępowania, o których Bank został powiadomiony,  toczone przeciwko niemu przez organy nadzoru,  kontroli (np. KNF, UOKiK, UODO, GIIF, PIP, Sanepid itd.) z możliwością nałożenia kary  - liczba takich postępowań na datę BION.    ",
-        "data_point": [
-            "0200X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2220"
-    },
-    "uknf_c34": {
-        "rows": "Utworzone rezerwy w związku z powyższymi postępowaniami   ",
-        "data_point": [
-            "0210X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2221"
-    },
-    "uknf_c35": {
-        "rows": "Rozwiązanie rezerwy w związku z powyższymi postępowaniami   ",
-        "data_point": [
-            "0220X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2222"
-    },
-    "uknf_c36": {
-        "rows": "Suma rezerw na postępowania przed organami nadzoru lub kontroli wg stanu na datę BION.    ",
-        "data_point": [
-            "0230X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2223"
-    },
-    "uknf_c37": {
-        "rows": "Postępowania z powództwa Banku, przy czym drugą stroną byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku. Pozycja nie obejmuje spraw pracowniczych ani postępowania z tytułu udzielonych przez Bank kredytów, gwarancji  na datę BION.    ",
-        "data_point": [
-            "0240X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2224"
-    },
-    "uknf_c38": {
-        "rows": "Kwota roszczeń Banku z tytułu powyższych powództw wg stanu na datę BION.   ",
-        "data_point": [
-            "0250X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2225"
-    },
-    "uknf_c39": {
-        "rows": "Kwota uzyskana z powództw Banku  w danym okresie przy czym drugą stroną sporu byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku   ",
-        "data_point": [
-            "0260X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2228"
-    },
-    "uknf_c40": {
-        "rows": "Kwota uzyskana przez Bank od kontrahentów, dostawców, sprzedawców lub inne podmioty świadczące usługi na rzecz Banku z tytułu odszkodowania lub zadośćuczynienia na drodze nie sądowej.    ",
-        "data_point": [
-            "0270X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2229"
-    },
-    "uknf_c48": {
-        "rows": "Liczba transakcji uznanych przez bank za nieautoryzowane ",
-        "data_point": [
-            "0310X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2241"
-    },
-    "uknf_c49": {
-        "rows": "Wartość transakcji uznanych przez bank za nieautoryzowane ",
-        "data_point": [
-            "0320X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2239"
-    },
-    "uknf_c50": {
-        "rows": "Udział wartości transkacji uznanych przez bank za nieautoryzowane w transkacjach płatniczych ogółem (w %)",
-        "data_point": [
-            "0330X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "num:percentItemType",
-        "qname": "pi2243"
-    },
-    "uknf_c51": {
-        "rows": "Liczba transakcji zgłoszonych przez klientów jako nieautoryzowane, a uznanych przez bank za autoryzowane ",
-        "data_point": [
-            "0340X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:integerItemType",
-        "qname": "ii2240"
-    },
-    "uknf_c52": {
-        "rows": "Wartość transakcji zgłoszonych przez klientów jako nieautoryzowane, a uznanych przez bank za autoryzowane",
-        "data_point": [
-            "0350X0010"
-        ],
-        "cols": [
-            "wartość"
-        ],
-        "datatype": "xbrli:monetaryItemType",
-        "qname": "mi2242"
+    "n.ro.bs": {
+        "uknf_c4": {
+            "rows": "Liczba skarg i reklamacji złożonych przez klientów",
+            "data_point": [
+                "0010X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2199",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c7": {
+            "rows": "Liczba skarg i reklamacji złożonych przez klientów które zostały uznane / pozytywnie rozpatrzone przez bank    ",
+            "data_point": [
+                "0020X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2200",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c8": {
+            "rows": "Liczba skarg i reklamacji złożonych przez klientów, które zostały automatycznie uznane bez rozpatrzenia ich zasadności przez bank    ",
+            "data_point": [
+                "0030X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2201",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c9": {
+            "rows": "Proszę opisać kryteria automatycznego uznania reklamacji np. Kwota reklamacji nie przekracza X PLN w przypadku gdy reklamacja dotyczy tematu ...)   ",
+            "data_point": [
+                "0040X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2202",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c42": {
+            "rows": "Liczba aktywnych klientów",
+            "data_point": [
+                "0050X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2203",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c43": {
+            "rows": "Definicja aktywnego klienta",
+            "data_point": [
+                "0060X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:QNameItemType",
+            "qname": "ei2282",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c44": {
+            "rows": "Opis niestandardowej definicji aktywnego klienta (wypełnić jeśli w poprzednim polu wybrano definicję niestandardową)",
+            "data_point": [
+                "0070X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2283",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c11": {
+            "rows": "Liczba klientów którzy złożyli skargę / reklamację / roszczenie    ",
+            "data_point": [
+                "0080X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2204",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c12": {
+            "rows": "Liczba klientów którzy złożyli w tej samej sprawie skargę / reklamację / roszczenie po raz kolejny    ",
+            "data_point": [
+                "0090X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2205",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c13": {
+            "rows": "Liczba skarg klientów, którzy stwierdzili, że nie rozumieli podpisanej umowy lub że zostali wprowdzeni w błąd   ",
+            "data_point": [
+                "0100X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2206",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c15": {
+            "rows": "Wartość wszystkich potencjalnych świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. (odszkodowań, kar, rekompensat) co do których bank otrzymał żądanie ich wypłacenia (z wyjątkiem żądań dla których prawdopodobieństwo ich uznania przez Bank lub na mocy wyroku sądowego, arbitrażu jest zerowe) w danym okresie wartość ogółem    ",
+            "data_point": [
+                "0110X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2210",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c24": {
+            "rows": "Wartość wszystkich rezerw utworzonych w związku ze sprawami spornymi, skargami, reklamacjami, itp. w okresie - wartość ogółem   ",
+            "data_point": [
+                "0120X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2211",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c26": {
+            "rows": "Wartość wszystkich rozwiązanych rezerw  w związku ze sprawami spornymi, skargami, reklamacjami, itp. w okresie - wartość ogółem   ",
+            "data_point": [
+                "0130X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2213",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c27": {
+            "rows": "Kwota rezerw w związku ze sprawami spornymi, skargami, reklamacjami, itp.  na koniec okresu (wartość ogółem)    ",
+            "data_point": [
+                "0140X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2214",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c28": {
+            "rows": "Wartość wszystkich świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. (odszkodowań, kar, rekompensat) które bank wypłacił, również w wyniku ugody, w okresie - wartość ogółem    ",
+            "data_point": [
+                "0150X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2216",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c29": {
+            "rows": "Wskaźnik udziału wartości wypłaconych świadczeń wynikających ze spraw spornych, skarg, reklamacji, itp. w stosunku do kwoty roszczeń    ",
+            "data_point": [
+                "0160X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2217",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c30": {
+            "rows": "Liczba spraw spornych, w których bank wstępował jako strona pozwana / wezwana i które przybrały formę formalnego rozstrzygnięcia (np. sprawy sądowe toczone przed sądami powszechnymi, sprawy przed sądem polubowny, sądem arbitrażowym, sądem konsumenckim, Rzecznikiem praw konsumentów, Rzecznikiem finansowym, UOKiK itp.) w  danym okresie - ogółem w okresie.   ",
+            "data_point": [
+                "0170X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii218",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c45": {
+            "rows": "Liczba spraw spornych, w których bank wstępował jako strona pozwana / wezwana i które przybrały formę formalnego rozstrzygnięcia (np. sprawy sądowe toczone przed sądami powszechnymi, sprawy przed sądem polubowny, sądem arbitrażowym, sądem konsumenckim, Rzecznikiem praw konsumentów, Rzecznikiem finansowym, UOKiK itp.) - i których rozstrzygnięcie było niekorzystne dla banku przy czym jeżeli zapadło szereg wyroków należy brać pod uwagę jedynie ostatnie rozstrzygniecie ogółem w okresie.    ",
+            "data_point": [
+                "0180X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2286",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c32": {
+            "rows": "Wskaźnik udziału spraw, w których zapadło niekorzystne rozstrzygnięcie dla Banku  zarówno prawomocnych jak i nieprawomocnych.       ",
+            "data_point": [
+                "0190X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi219",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c33": {
+            "rows": "Postępowania, o których Bank został powiadomiony,  toczone przeciwko niemu przez organy nadzoru,  kontroli (np. KNF, UOKiK, UODO, GIIF, PIP, Sanepid itd.) z możliwością nałożenia kary  - liczba takich postępowań na datę BION.    ",
+            "data_point": [
+                "0200X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2220",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c34": {
+            "rows": "Utworzone rezerwy w związku z powyższymi postępowaniami   ",
+            "data_point": [
+                "0210X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2221",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c35": {
+            "rows": "Rozwiązanie rezerwy w związku z powyższymi postępowaniami   ",
+            "data_point": [
+                "0220X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2222",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c36": {
+            "rows": "Suma rezerw na postępowania przed organami nadzoru lub kontroli wg stanu na datę BION.    ",
+            "data_point": [
+                "0230X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2223",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c37": {
+            "rows": "Postępowania z powództwa Banku, przy czym drugą stroną byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku. Pozycja nie obejmuje spraw pracowniczych ani postępowania z tytułu udzielonych przez Bank kredytów, gwarancji  na datę BION.    ",
+            "data_point": [
+                "0240X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2224",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c38": {
+            "rows": "Kwota roszczeń Banku z tytułu powyższych powództw wg stanu na datę BION.   ",
+            "data_point": [
+                "0250X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2225",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c39": {
+            "rows": "Kwota uzyskana z powództw Banku  w danym okresie przy czym drugą stroną sporu byli kontrahenci, dostawcy, sprzedawcy lub inne podmioty świadczące usługi na rzecz Banku   ",
+            "data_point": [
+                "0260X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2228",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c40": {
+            "rows": "Kwota uzyskana przez Bank od kontrahentów, dostawców, sprzedawców lub inne podmioty świadczące usługi na rzecz Banku z tytułu odszkodowania lub zadośćuczynienia na drodze nie sądowej.    ",
+            "data_point": [
+                "0270X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2229",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c48": {
+            "rows": "Liczba transakcji uznanych przez bank za nieautoryzowane ",
+            "data_point": [
+                "0310X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2241",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c49": {
+            "rows": "Wartość transakcji uznanych przez bank za nieautoryzowane ",
+            "data_point": [
+                "0320X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2239",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c50": {
+            "rows": "Udział wartości transkacji uznanych przez bank za nieautoryzowane w transkacjach płatniczych ogółem (w %)",
+            "data_point": [
+                "0330X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2243",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c51": {
+            "rows": "Liczba transakcji zgłoszonych przez klientów jako nieautoryzowane, a uznanych przez bank za autoryzowane ",
+            "data_point": [
+                "0340X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2240",
+            "report_name": "n.ro.bs.03.01"
+        },
+        "uknf_c52": {
+            "rows": "Wartość transakcji zgłoszonych przez klientów jako nieautoryzowane, a uznanych przez bank za autoryzowane",
+            "data_point": [
+                "0350X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2242",
+            "report_name": "n.ro.bs.03.01"
+        }
     }
 }

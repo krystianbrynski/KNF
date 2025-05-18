@@ -1,54 +1,60 @@
 {
-    "uknf_c5": {
-        "rows": "Wartość depozytu największego deponenta",
-        "data_point": [
-            "0010X0010",
-            "0010X0020"
-        ],
-        "cols": [
-            "Wartość",
-            "Udział w depozytach ogółem (%)"
-        ],
-        "datatype": "string",
-        "qname": "none"
-    },
-    "uknf_c6": {
-        "rows": "Suma wartości depozytów 5 największych deponentów",
-        "data_point": [
-            "0020X0010",
-            "0020X0020"
-        ],
-        "cols": [
-            "Wartość",
-            "Udział w depozytach ogółem (%)"
-        ],
-        "datatype": "string",
-        "qname": "none"
-    },
-    "uknf_c7": {
-        "rows": "Suma wartości depozytów 10 największych deponentów",
-        "data_point": [
-            "0030X0010",
-            "0030X0020"
-        ],
-        "cols": [
-            "Wartość",
-            "Udział w depozytach ogółem (%)"
-        ],
-        "datatype": "string",
-        "qname": "none"
-    },
-    "uknf_c8": {
-        "rows": "Suma wartości depozytów 20 największych deponentów",
-        "data_point": [
-            "0040X0010",
-            "0040X0020"
-        ],
-        "cols": [
-            "Wartość",
-            "Udział w depozytach ogółem (%)"
-        ],
-        "datatype": "string",
-        "qname": "none"
+    "n.pif.bk": {
+        "uknf_c5": {
+            "rows": "Wartość depozytu największego deponenta",
+            "data_point": [
+                "0010X0010",
+                "0010X0020"
+            ],
+            "cols": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.pif.bk.01.03"
+        },
+        "uknf_c6": {
+            "rows": "Suma wartości depozytów 5 największych deponentów",
+            "data_point": [
+                "0020X0010",
+                "0020X0020"
+            ],
+            "cols": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.pif.bk.01.03"
+        },
+        "uknf_c7": {
+            "rows": "Suma wartości depozytów 10 największych deponentów",
+            "data_point": [
+                "0030X0010",
+                "0030X0020"
+            ],
+            "cols": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.pif.bk.01.03"
+        },
+        "uknf_c8": {
+            "rows": "Suma wartości depozytów 20 największych deponentów",
+            "data_point": [
+                "0040X0010",
+                "0040X0020"
+            ],
+            "cols": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.pif.bk.01.03"
+        }
     }
 }
