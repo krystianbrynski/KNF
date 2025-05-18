@@ -1,0 +1,44 @@
+{
+    "n.zb.bk": {
+        "uknf_c3": {
+            "rows": "Nazwa umowy ",
+            "data_point": [
+                "0020"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2124",
+            "report_name": "n.zb.bk.01.01"
+        },
+        "uknf_c4": {
+            "rows": "Strony umowy ",
+            "data_point": [
+                "0030"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2125",
+            "report_name": "n.zb.bk.01.01"
+        },
+        "uknf_c5": {
+            "rows": "Przedmiot umowy ",
+            "data_point": [
+                "0040"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2126",
+            "report_name": "n.zb.bk.01.01"
+        },
+        "uknf_c6": {
+            "rows": "Koszty poniesione przez bank z tytułu umowy w okresie sprawozdawczym",
+            "data_point": [
+                "0050"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2127",
+            "report_name": "n.zb.bk.01.01"
+        }
+    }
+}

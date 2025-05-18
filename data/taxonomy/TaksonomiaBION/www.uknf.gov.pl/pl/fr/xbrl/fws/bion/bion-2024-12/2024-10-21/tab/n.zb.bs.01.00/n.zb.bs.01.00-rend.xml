@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:formula="http://xbrl.org/2008/formula" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:table="http://xbrl.org/PWD/2013-05-17/table" xmlns:model="http://www.eurofiling.info/xbrl/ext/model" xmlns:uknf_dim="http://www.uknf.gov.pl/xbrl/dict/dim" xmlns:uknf_RR="http://www.uknf.gov.pl/xbrl/dict/dom/RR" xmlns:uknf_RP="http://www.uknf.gov.pl/xbrl/dict/dom/RP" xmlns:uknf_RL="http://www.uknf.gov.pl/xbrl/dict/dom/RL" xmlns:uknf_met="http://www.uknf.gov.pl/xbrl/dict/met" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/PWD/2013-05-17/table http://www.xbrl.org/PWD/2013-05-17/table.xsd http://www.eurofiling.info/xbrl/ext/model http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd">
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/PWD/2013-05-17/breakdown-tree" xlink:type="simple" xlink:href="http://www.xbrl.org/PWD/2013-05-17/table.xsd#breakdown-tree" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:type="simple" xlink:href="http://www.xbrl.org/PWD/2013-05-17/table.xsd#definition-node-subtree" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/PWD/2013-05-17/table-breakdown" xlink:type="simple" xlink:href="http://www.xbrl.org/PWD/2013-05-17/table.xsd#table-breakdown" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.ZB.BS.01.00" xlink:type="simple" xlink:href="n.zb.bs.01.00.xsd#role" />
+  <gen:link xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.ZB.BS.01.00">
+    <table:table xlink:type="resource" xlink:label="uknf_tN.ZB.BS.01.00" aspectModel="dimensional" id="uknf_tN.ZB.BS.01.00" />
+    <table:breakdown xlink:type="resource" xlink:label="uknf_a1" parentChildOrder="parent-first" id="uknf_a1" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_a1.root" abstract="true" id="uknf_a1.root">
+      <formula:explicitDimension dimension="uknf_dim:KRP">
+        <formula:member>
+          <formula:qname>uknf_RR:x182</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+      <formula:explicitDimension dimension="uknf_dim:SRP">
+        <formula:member>
+          <formula:qname>uknf_RR:x195</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+      <formula:explicitDimension dimension="uknf_dim:PDM">
+        <formula:member>
+          <formula:qname>uknf_RP:x33</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+    </table:ruleNode>
+    <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/breakdown-tree" xlink:from="uknf_a1" xlink:to="uknf_a1.root" order="0" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c35" abstract="true" id="uknf_c35">
+      <formula:explicitDimension dimension="uknf_dim:RRL">
+        <formula:member>
+          <formula:qname>uknf_RL:x1</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+    </table:ruleNode>
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c37" id="uknf_c37">
+      <formula:concept>
+        <formula:qname>uknf_met:si2102</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c35" xlink:to="uknf_c37" order="1" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c38" id="uknf_c38">
+      <formula:concept>
+        <formula:qname>uknf_met:si2103</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c35" xlink:to="uknf_c38" order="2" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c39" id="uknf_c39">
+      <formula:concept>
+        <formula:qname>uknf_met:si2104</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c35" xlink:to="uknf_c39" order="3" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c40" id="uknf_c40">
+      <formula:concept>
+        <formula:qname>uknf_met:si2105</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c35" xlink:to="uknf_c40" order="4" />
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_a1.root" xlink:to="uknf_c35" order="1" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c41" abstract="true" id="uknf_c41">
+      <formula:explicitDimension dimension="uknf_dim:RRL">
+        <formula:member>
+          <formula:qname>uknf_RL:x12</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+    </table:ruleNode>
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c43" id="uknf_c43">
+      <formula:concept>
+        <formula:qname>uknf_met:si2102</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c41" xlink:to="uknf_c43" order="1" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c44" id="uknf_c44">
+      <formula:concept>
+        <formula:qname>uknf_met:si2103</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c41" xlink:to="uknf_c44" order="2" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c45" id="uknf_c45">
+      <formula:concept>
+        <formula:qname>uknf_met:si2104</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c41" xlink:to="uknf_c45" order="3" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c46" id="uknf_c46">
+      <formula:concept>
+        <formula:qname>uknf_met:si2105</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c41" xlink:to="uknf_c46" order="4" />
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_a1.root" xlink:to="uknf_c41" order="2" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c47" abstract="true" id="uknf_c47">
+      <formula:explicitDimension dimension="uknf_dim:RRL">
+        <formula:member>
+          <formula:qname>uknf_RL:x17</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+    </table:ruleNode>
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c49" id="uknf_c49">
+      <formula:concept>
+        <formula:qname>uknf_met:si2102</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c47" xlink:to="uknf_c49" order="1" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c50" id="uknf_c50">
+      <formula:concept>
+        <formula:qname>uknf_met:si2103</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c47" xlink:to="uknf_c50" order="2" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c51" id="uknf_c51">
+      <formula:concept>
+        <formula:qname>uknf_met:si2104</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c47" xlink:to="uknf_c51" order="3" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c52" id="uknf_c52">
+      <formula:concept>
+        <formula:qname>uknf_met:si2105</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c47" xlink:to="uknf_c52" order="4" />
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_a1.root" xlink:to="uknf_c47" order="3" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c53" abstract="true" id="uknf_c53">
+      <formula:explicitDimension dimension="uknf_dim:RRL">
+        <formula:member>
+          <formula:qname>uknf_RL:x19</formula:qname>
+        </formula:member>
+      </formula:explicitDimension>
+    </table:ruleNode>
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c55" id="uknf_c55">
+      <formula:concept>
+        <formula:qname>uknf_met:si2102</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c53" xlink:to="uknf_c55" order="1" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c56" id="uknf_c56">
+      <formula:concept>
+        <formula:qname>uknf_met:si2103</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c53" xlink:to="uknf_c56" order="2" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c57" id="uknf_c57">
+      <formula:concept>
+        <formula:qname>uknf_met:si2104</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c53" xlink:to="uknf_c57" order="3" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c58" id="uknf_c58">
+      <formula:concept>
+        <formula:qname>uknf_met:si2105</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_c53" xlink:to="uknf_c58" order="4" />
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_a1.root" xlink:to="uknf_c53" order="4" />
+    <table:ruleNode xlink:type="resource" xlink:label="uknf_c29" id="uknf_c29">
+      <formula:concept>
+        <formula:qname>uknf_met:si2231</formula:qname>
+      </formula:concept>
+    </table:ruleNode>
+    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/definition-node-subtree" xlink:from="uknf_a1.root" xlink:to="uknf_c29" order="5" />
+    <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/PWD/2013-05-17/table-breakdown" xlink:from="uknf_tN.ZB.BS.01.00" xlink:to="uknf_a1" axis="y" order="1" />
+  </gen:link>
+</link:linkbase>

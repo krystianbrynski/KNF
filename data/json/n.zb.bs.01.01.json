@@ -1,0 +1,94 @@
+{
+    "n.zb.bs": {
+        "uknf_c3": {
+            "rows": "Stosowana mapa ryzyka  - nazwy obszarów. Należy wskazać wszystkie obszary mapy ryzyka wyodrębniane przez audyt wewnętrzny banku, nie tylko te objęte Planem Audytu na okres sprawozdawczy",
+            "data_point": [
+                "0020"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2164",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c4": {
+            "rows": "Istotność ryzyka (wg skali stosowanej przez bank) ",
+            "data_point": [
+                "0030"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2165",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c5": {
+            "rows": "Obszar objęty Planem Audytu w okresie sprawozdawczym (tak/nie)",
+            "data_point": [
+                "0040"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:QNameItemType",
+            "qname": "ei2162",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c6": {
+            "rows": "Obszar objęty badaniem audytowym w okresie sprawozdawczym (tak/nie)",
+            "data_point": [
+                "0050"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:QNameItemType",
+            "qname": "ei2163",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c8": {
+            "rows": "data rozpoczęcia (dd-mm-rrrr)",
+            "data_point": [
+                "0060"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:dateItemType",
+            "qname": "di2160",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c9": {
+            "rows": "data zakończenia (dd-mm-rrrr)",
+            "data_point": [
+                "0070"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:dateItemType",
+            "qname": "di2161",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c12": {
+            "rows": "pracowników audytu wewnętrznego",
+            "data_point": [
+                "0080"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2275",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c13": {
+            "rows": "pracowników podmiotu dominującego",
+            "data_point": [
+                "0090"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2275",
+            "report_name": "n.zb.bs.01.01"
+        },
+        "uknf_c14": {
+            "rows": "pracowników firm zewnętrznych",
+            "data_point": [
+                "0100"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2275",
+            "report_name": "n.zb.bs.01.01"
+        }
+    }
+}

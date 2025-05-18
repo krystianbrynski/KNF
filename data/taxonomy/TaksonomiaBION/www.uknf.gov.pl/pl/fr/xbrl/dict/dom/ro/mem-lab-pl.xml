@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x0" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">WSZYSTKIE/NIE DOTYCZY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x0" xlink:to="label_uknf_x0" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x19" xlink:label="loc_uknf_x19" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x19" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PIERWSZY KWARTAŁ ROKU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x19" xlink:to="label_uknf_x19" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x20" xlink:label="loc_uknf_x20" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x20" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">DRUGI KWARTAŁ ROKU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x20" xlink:to="label_uknf_x20" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x21" xlink:label="loc_uknf_x21" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x21" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TRZECI KWARTAŁ ROKU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x21" xlink:to="label_uknf_x21" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x22" xlink:label="loc_uknf_x22" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x22" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CZWARTY KWARTAŁ ROKU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x22" xlink:to="label_uknf_x22" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x25" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">OKRES SPRAWOZDAWCZY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x25" xlink:to="label_uknf_x25" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x26" xlink:label="loc_uknf_x26" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x26" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">POCZĄTEK OKRESU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x26" xlink:to="label_uknf_x26" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x27" xlink:label="loc_uknf_x27" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x27" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KONIEC OKRESU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x27" xlink:to="label_uknf_x27" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x28" xlink:label="loc_uknf_x28" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x28" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">OKRES BADANIA AUDYTOWEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x28" xlink:to="label_uknf_x28" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x29" xlink:label="loc_uknf_x29" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x29" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">OKRES 12 MIESIĘCY DO DATY KOŃCA OKRESU SPRAWOZDAWCZEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x29" xlink:to="label_uknf_x29" />
+  </link:labelLink>
+</link:linkbase>

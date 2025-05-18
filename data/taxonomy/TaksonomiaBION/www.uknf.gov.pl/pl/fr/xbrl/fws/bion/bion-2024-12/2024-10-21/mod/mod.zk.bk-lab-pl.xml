@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="mod.zk.bk.xsd#uknf_mod.ZK.BK" xlink:label="loc_uknf_mod.ZK.BK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_mod.ZK.BK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Moduł. Zarządzanie kapitałowe. Banki komercyjne</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mod.ZK.BK" xlink:to="label_uknf_mod.ZK.BK" />
+  </link:labelLink>
+</link:linkbase>

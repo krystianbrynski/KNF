@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomyPackage xml:lang="en" xmlns="http://xbrl.org/2016/taxonomy-package"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+
+  <identifier>http://www.knf.gov.pl/pl/xbrl</identifier>
+  <name>BION</name>
+  <description>Sprawozdanie BION</description>
+  <version>1.0</version>
+  <publisher>Komisja Nadzoru Finansowego</publisher>
+  <publisherURL>http://www.knf.gov.pl/</publisherURL>
+  <publicationDate>2024-10-21</publicationDate>
+  
+  
+ 
+</taxonomyPackage>

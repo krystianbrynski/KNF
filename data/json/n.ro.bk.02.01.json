@@ -1,0 +1,184 @@
+{
+    "n.ro.bk": {
+        "uknf_c10": {
+            "rows": "Liczba modeli na koniec okresu",
+            "data_point": [
+                "0010X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2143",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c11": {
+            "rows": "Liczba nowych modeli, które zostały wprowadzone w Banku",
+            "data_point": [
+                "0020X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2144",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c12": {
+            "rows": "Liczba modeli, dla których nie został wyznaczony poziom istotności modelu",
+            "data_point": [
+                "0030X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2145",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c28": {
+            "rows": "Procent realizacji planu walidacji wg stanu na koniec okresu",
+            "data_point": [
+                "0040X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "num:percentItemType",
+            "qname": "pi2146",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c13": {
+            "rows": "Liczba osób zatrudnionych w jednostce walidacji wewnętrznej wg stanu na koniec okresu",
+            "data_point": [
+                "0050X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2147",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c14": {
+            "rows": "Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy do daty końca okresu nie przeprowadzono monitoringu ",
+            "data_point": [
+                "0060X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2148",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c15": {
+            "rows": "Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy do daty końca okresu nie przeprowadzono oceny jakości danych",
+            "data_point": [
+                "0070X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2149",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c29": {
+            "rows": "Liczba modeli wg stanu na koniec okresu, dla których nie była dostępna kompletna dokumentacja modelu zgodna z wymaganiami Rekomendacji W",
+            "data_point": [
+                "0080X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2150",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c16": {
+            "rows": "Liczba modeli wg stanu na koniec okresu, dla których nie była dostępna dokumentacja wdrożeniowa lub które nie zostały objęte testami wdrożeniowymi",
+            "data_point": [
+                "0090X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2151",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c18": {
+            "rows": "Liczba nowych modeli istotnych, które zostały wprowadzone w Banku w okresie",
+            "data_point": [
+                "0100X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2152",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c19": {
+            "rows": "Liczba modeli istotnych wg stanu na koniec okresu.",
+            "data_point": [
+                "0110X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2153",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c20": {
+            "rows": "Liczba modeli istotnych wg stanu na koniec okresu, które nie podlegały walidacji w okresie 12-stu miesięcy do daty końca okresu ",
+            "data_point": [
+                "0120X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2154",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c21": {
+            "rows": "Liczba modeli istotnych, dla których przeprowadzono równocześnie backtesting, jedno i wieloczynnikową analizę wrażliwości, stress-testy, benchmarking oraz analizę jakościową (zgodnie z rekomendacją 13.7 Rekomendacji W).",
+            "data_point": [
+                "0130X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2155",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c23": {
+            "rows": "Liczba modeli sztucznej inteligencji wg stanu na koniec okresu.",
+            "data_point": [
+                "0140X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2156",
+            "report_name": "n.ro.bk.02.01"
+        },
+        "uknf_c24": {
+            "rows": "Liczba zwalidowanych modeli sztucznej inteligencji",
+            "data_point": [
+                "0150X0010"
+            ],
+            "cols": [
+                "wartość"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2157",
+            "report_name": "n.ro.bk.02.01"
+        }
+    }
+}

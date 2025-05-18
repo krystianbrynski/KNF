@@ -1,0 +1,556 @@
+{
+    "n.ro.bs": {
+        "uknf_c42": {
+            "rows": "Liczba wszystkich zdarzeń",
+            "data_point": [
+                "0010X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c44": {
+            "rows": "Liczba zdarzeń niepowiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0020X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c45": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) z tytułu wszystkich zdarzeń",
+            "data_point": [
+                "0030X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c47": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) niepowiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0040X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c48": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) z uwzględnieniem wszystkich zdarzeń ",
+            "data_point": [
+                "0050X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c50": {
+            "rows": " Kwota odzysków  (od sprawcy oraz od osoby trzeciej, w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0060X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c51": {
+            "rows": "Maksymalna kwota strat (bez odzysków) poniesionych z tytułu pojedynczego zdarzenia w danym okresie  ",
+            "data_point": [
+                "0070X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c53": {
+            "rows": "Maksymalna kwota strat (bez odzysków) poniesionych z tytułu pojedynczego zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0080X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c54": {
+            "rows": "Maksymalna kwota strat  (po uwzględnieniu odzysków) poniesionych z tytułu pojedynczego zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0090X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2135",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c55": {
+            "rows": "Suma dziesięciu największych strat (brutto) z uwzględnieniem zdarzeń z tytułu ryzyka operacyjnego powiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0100X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2136",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c56": {
+            "rows": "Kwota strat związana z ryzykiem postępowania",
+            "data_point": [
+                "0110X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2137",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c57": {
+            "rows": "Kwota strat związana z ryzykiem ICT - Information and communication technology (ICT). W polskiej wersji SREP tak zwane ryzyko technologii informacyjno - komunikacyjnej",
+            "data_point": [
+                "0120X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2137",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c58": {
+            "rows": "Kwota strat związana z ryzykiem modeli",
+            "data_point": [
+                "0130X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2137",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c60": {
+            "rows": "Liczba near-miss z tytułu zdarzeń operacyjnych",
+            "data_point": [
+                "0140X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2139",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c61": {
+            "rows": "Liczba zdarzeń powiązanych z ryzykiem rynkowym",
+            "data_point": [
+                "0150X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c62": {
+            "rows": "Próg rejestracji zdarzeń z uwzględnieniem zdarzeń powiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0160X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2140",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c63": {
+            "rows": "Komentarz do progu rejestracji",
+            "data_point": [
+                "0170X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2141",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c67": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0180X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c68": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0190X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c69": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0200X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c70": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0210X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c73": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0220X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c74": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0230X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c75": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0240X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c76": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0250X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c104": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0260X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c105": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0270X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c106": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0280X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c107": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0290X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c79": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0300X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c80": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0310X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c81": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0320X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c82": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0330X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c85": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0340X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c86": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0350X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c87": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0360X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c88": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0370X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c91": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0380X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c92": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0390X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c93": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0400X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c94": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia nie powiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0410X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c95": {
+            "rows": "Liczba największych strat odpowiadająca za min. 80% łącznych strat z uwzględnieniem strat kredytowych",
+            "data_point": [
+                "0420X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2142",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c98": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0430X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c99": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0440X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c100": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0450X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bs.01.01"
+        },
+        "uknf_c101": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0460X0010"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bs.01.01"
+        }
+    }
+}

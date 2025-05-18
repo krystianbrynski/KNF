@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<xs:schema xmlns:uknf_RR="http://www.uknf.gov.pl/xbrl/dict/dom/RR" targetNamespace="http://www.uknf.gov.pl/xbrl/dict/dom/RR" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:model="http://www.eurofiling.info/xbrl/ext/model" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xsi:schemaLocation="http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd http://www.eurofiling.info/xbrl/ext/model http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd http://www.xbrl.org/dtr/type/non-numeric http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd">
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xs:import namespace="http://www.eurofiling.info/xbrl/ext/model" schemaLocation="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd" />
+  <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:href="mem-lab-pl.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+      <link:linkbaseRef xlink:href="mem-def.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="x2" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2023-10-03" id="uknf_x2" />
+  <xs:element name="x145" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-07-13" id="uknf_x145" />
+  <xs:element name="x146" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-07-13" id="uknf_x146" />
+  <xs:element name="x148" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-07-13" id="uknf_x148" />
+  <xs:element name="x150" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-07-14" id="uknf_x150" />
+  <xs:element name="x151" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-07-14" id="uknf_x151" />
+  <xs:element name="x134" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-07-14" id="uknf_x134" />
+  <xs:element name="x137" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-08-01" id="uknf_x137" />
+  <xs:element name="x140" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-08-20" id="uknf_x140" />
+  <xs:element name="x152" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-10-26" id="uknf_x152" />
+  <xs:element name="x153" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-10-26" id="uknf_x153" />
+  <xs:element name="x155" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-10-28" id="uknf_x155" />
+  <xs:element name="x165" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-02" id="uknf_x165" />
+  <xs:element name="x173" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x173" />
+  <xs:element name="x174" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x174" />
+  <xs:element name="x195" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-05" id="uknf_x195" />
+  <xs:element name="x176" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x176" />
+  <xs:element name="x196" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-05" id="uknf_x196" />
+  <xs:element name="x175" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x175" />
+  <xs:element name="x177" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x177" />
+  <xs:element name="x197" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-06" id="uknf_x197" />
+  <xs:element name="x178" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x178" />
+  <xs:element name="x198" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-06" id="uknf_x198" />
+  <xs:element name="x179" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x179" />
+  <xs:element name="x199" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-06" id="uknf_x199" />
+  <xs:element name="x180" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x180" />
+  <xs:element name="x182" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x182" />
+  <xs:element name="x188" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-11" id="uknf_x188" />
+  <xs:element name="x183" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x183" />
+  <xs:element name="x191" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-24" id="uknf_x191" />
+  <xs:element name="x200" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-06" id="uknf_x200" />
+  <xs:element name="x189" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-11" id="uknf_x189" />
+  <xs:element name="x193" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-25" id="uknf_x193" />
+  <xs:element name="x185" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x185" />
+  <xs:element name="x190" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-11" id="uknf_x190" />
+  <xs:element name="x186" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-04" id="uknf_x186" />
+  <xs:element name="x192" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-11-24" id="uknf_x192" />
+  <xs:element name="x201" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-06" id="uknf_x201" />
+  <xs:element name="x20" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x20" />
+  <xs:element name="x21" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x21" />
+  <xs:element name="x40" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x40" />
+  <xs:element name="x45" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x45" />
+  <xs:element name="x46" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x46" />
+  <xs:element name="x47" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x47" />
+  <xs:element name="x48" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x48" />
+  <xs:element name="x49" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2024-12-09" id="uknf_x49" />
+  <xs:element name="x1" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2023-11-03" id="uknf_x1" />
+  <xs:element name="x0" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2023-01-20" id="uknf_x0" />
+  <xs:element name="x202" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2025-02-24" id="uknf_x202" />
+  <xs:element name="x203" substitutionGroup="xbrli:item" abstract="true" type="nonnum:domainItemType" xbrli:periodType="instant" model:creationDate="2025-02-24" id="uknf_x203" />
+</xs:schema>

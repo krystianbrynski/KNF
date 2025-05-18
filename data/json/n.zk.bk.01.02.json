@@ -1,0 +1,494 @@
+{
+    "n.zk.bk": {
+        "uknf_c5": {
+            "rows": "Ryzyko biznesowe",
+            "data_point": [
+                "0010X0010",
+                "0010X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c6": {
+            "rows": "Ryzyko strategiczne",
+            "data_point": [
+                "0020X0010",
+                "0020X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c7": {
+            "rows": "Ryzyko kredytowe",
+            "data_point": [
+                "0030X0010",
+                "0030X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c8": {
+            "rows": "ryzyko rozliczenia/dostawy",
+            "data_point": [
+                "0040X0010",
+                "0040X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c10": {
+            "rows": "ryzyko koncentracji",
+            "data_point": [
+                "0050X0010",
+                "0050X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c11": {
+            "rows": "ryzyko kredytowania w walutach obcych",
+            "data_point": [
+                "0060X0010",
+                "0060X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c12": {
+            "rows": "ryzyko kredytowe (pozostałe, nie wymienione w ramach powyższych kategorii)",
+            "data_point": [
+                "0070X0010",
+                "0070X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c13": {
+            "rows": "Ryzyko rynkowe",
+            "data_point": [
+                "0080X0010",
+                "0080X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c14": {
+            "rows": "ryzyko pozycji",
+            "data_point": [
+                "0090X0010",
+                "0090X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c15": {
+            "rows": "ryzyko cen towarów",
+            "data_point": [
+                "0100X0010",
+                "0100X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c16": {
+            "rows": "ryzyko ogólne stopy  procentowej w portfelu handlowym (ryzyko ogólne pozycji w instrumentach finansowych)",
+            "data_point": [
+                "0110X0010",
+                "0110X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c17": {
+            "rows": "ryzyko kredytowe w portfelu handlowym (ryzyko szczególne pozycji w instrumenach finansowych)",
+            "data_point": [
+                "0120X0010",
+                "0120X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c18": {
+            "rows": "ryzyko walutowe",
+            "data_point": [
+                "0130X0010",
+                "0130X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c19": {
+            "rows": "ryzyko korekty wyceny kredytowej",
+            "data_point": [
+                "0140X0010",
+                "0140X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c20": {
+            "rows": "ryzyko niedopasowania",
+            "data_point": [
+                "0150X0010",
+                "0150X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c21": {
+            "rows": "ryzyko bazowe",
+            "data_point": [
+                "0160X0010",
+                "0160X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c22": {
+            "rows": "ryzyko opcji",
+            "data_point": [
+                "0170X0010",
+                "0170X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c24": {
+            "rows": " - w tym ryzyko przedpłat kredytów",
+            "data_point": [
+                "0180X0010",
+                "0180X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c23": {
+            "rows": "ryzyko rynkowe (pozostałe, nie wymienione w ramach powyższych kategorii)",
+            "data_point": [
+                "0190X0010",
+                "0190X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c25": {
+            "rows": "Ryzyko operacyjne",
+            "data_point": [
+                "0200X0010",
+                "0200X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c27": {
+            "rows": "ryzyko modelu",
+            "data_point": [
+                "0210X0010",
+                "0210X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c28": {
+            "rows": "ryzyko ICT",
+            "data_point": [
+                "0220X0010",
+                "0220X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c29": {
+            "rows": "ryzyko prawne",
+            "data_point": [
+                "0230X0010",
+                "0230X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c31": {
+            "rows": " - w tym ryzyko związane z wyrokiem TSUE",
+            "data_point": [
+                "0240X0010",
+                "0240X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c30": {
+            "rows": "ryzyko operacyjne (pozostałe, nie wymienione w ramach powyższych kategorii)",
+            "data_point": [
+                "0250X0010",
+                "0250X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c26": {
+            "rows": "Ryzyko płynności i finansowania",
+            "data_point": [
+                "0260X0010",
+                "0260X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c32": {
+            "rows": "ryzyko płynności rynku",
+            "data_point": [
+                "0270X0010",
+                "0270X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c33": {
+            "rows": "ryzyko płynności śróddziennej",
+            "data_point": [
+                "0280X0010",
+                "0280X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c34": {
+            "rows": "ryzyko finansowania",
+            "data_point": [
+                "0290X0010",
+                "0290X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c35": {
+            "rows": "ryzyko koncentracji płynności",
+            "data_point": [
+                "0300X0010",
+                "0300X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c36": {
+            "rows": "ryzyko płynności (pozostałe, nie wymienione w ramach powyższych kategorii)",
+            "data_point": [
+                "0310X0010",
+                "0310X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c37": {
+            "rows": "Ryzyko nadmiernej dźwigni finansowej ",
+            "data_point": [
+                "0320X0010",
+                "0320X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c38": {
+            "rows": "Ryzyko niewypłacalności ",
+            "data_point": [
+                "0330X0010",
+                "0330X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c39": {
+            "rows": "Ryzyko braku zgodności ",
+            "data_point": [
+                "0340X0010",
+                "0340X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        },
+        "uknf_c40": {
+            "rows": "Ryzyko reputacji ",
+            "data_point": [
+                "0350X0010",
+                "0350X0020"
+            ],
+            "cols": [
+                "Kapitał wewnętrzny",
+                "Czy od daty ostatniego badania zmianie uległa metoda kalkulacji ilościowej kategorii/podkategorii ryzyka?"
+            ],
+            "datatype": "string",
+            "qname": "none",
+            "report_name": "n.zk.bk.01.02"
+        }
+    }
+}

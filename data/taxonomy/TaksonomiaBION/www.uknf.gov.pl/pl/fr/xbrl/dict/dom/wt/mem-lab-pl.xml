@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AED" xlink:label="loc_uknf_AED" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AED" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AED</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AED" xlink:to="label_uknf_AED" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AED_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">UAE Dirham</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AED" xlink:to="label_uknf_AED_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AFN" xlink:label="loc_uknf_AFN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AFN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AFN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AFN" xlink:to="label_uknf_AFN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AFN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Afgani</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AFN" xlink:to="label_uknf_AFN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ALL" xlink:label="loc_uknf_ALL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ALL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ALL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ALL" xlink:to="label_uknf_ALL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ALL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lek</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ALL" xlink:to="label_uknf_ALL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AMD" xlink:label="loc_uknf_AMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AMD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AMD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AMD" xlink:to="label_uknf_AMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AMD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dram</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AMD" xlink:to="label_uknf_AMD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ANG" xlink:label="loc_uknf_ANG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ANG" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ANG</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ANG" xlink:to="label_uknf_ANG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ANG_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Gulden antylski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ANG" xlink:to="label_uknf_ANG_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AOA" xlink:label="loc_uknf_AOA" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AOA" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AOA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AOA" xlink:to="label_uknf_AOA" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AOA_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kwanza</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AOA" xlink:to="label_uknf_AOA_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ARS" xlink:label="loc_uknf_ARS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ARS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ARS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ARS" xlink:to="label_uknf_ARS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ARS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso Argentyńskie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ARS" xlink:to="label_uknf_ARS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AUD" xlink:label="loc_uknf_AUD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AUD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AUD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AUD" xlink:to="label_uknf_AUD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AUD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Australijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AUD" xlink:to="label_uknf_AUD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AWG" xlink:label="loc_uknf_AWG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AWG" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AWG</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AWG" xlink:to="label_uknf_AWG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AWG_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Florin arubański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AWG" xlink:to="label_uknf_AWG_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_AZN" xlink:label="loc_uknf_AZN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AZN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">AZN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AZN" xlink:to="label_uknf_AZN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_AZN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Manat Azerbejdżański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_AZN" xlink:to="label_uknf_AZN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BAM" xlink:label="loc_uknf_BAM" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BAM" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BAM</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BAM" xlink:to="label_uknf_BAM" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BAM_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Marka Zamienna</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BAM" xlink:to="label_uknf_BAM_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BBD" xlink:label="loc_uknf_BBD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BBD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BBD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BBD" xlink:to="label_uknf_BBD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BBD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Barbadosu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BBD" xlink:to="label_uknf_BBD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BDT" xlink:label="loc_uknf_BDT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BDT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BDT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BDT" xlink:to="label_uknf_BDT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BDT_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Taka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BDT" xlink:to="label_uknf_BDT_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BGN" xlink:label="loc_uknf_BGN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BGN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BGN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BGN" xlink:to="label_uknf_BGN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BGN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lew</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BGN" xlink:to="label_uknf_BGN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BHD" xlink:label="loc_uknf_BHD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BHD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BHD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BHD" xlink:to="label_uknf_BHD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BHD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dinar bahrajński</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BHD" xlink:to="label_uknf_BHD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BIF" xlink:label="loc_uknf_BIF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BIF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BIF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BIF" xlink:to="label_uknf_BIF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BIF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank burundyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BIF" xlink:to="label_uknf_BIF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BMD" xlink:label="loc_uknf_BMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BMD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BMD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BMD" xlink:to="label_uknf_BMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BMD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Bermudzki</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BMD" xlink:to="label_uknf_BMD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BND" xlink:label="loc_uknf_BND" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BND" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BND</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BND" xlink:to="label_uknf_BND" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BND_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Brunejski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BND" xlink:to="label_uknf_BND_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BOB" xlink:label="loc_uknf_BOB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BOB" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BOB</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BOB" xlink:to="label_uknf_BOB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BOB_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Boliviano</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BOB" xlink:to="label_uknf_BOB_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BOV" xlink:label="loc_uknf_BOV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BOV" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BOV</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BOV" xlink:to="label_uknf_BOV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BOV_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Mvdol</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BOV" xlink:to="label_uknf_BOV_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BRL" xlink:label="loc_uknf_BRL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BRL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BRL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BRL" xlink:to="label_uknf_BRL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BRL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Real Brazylijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BRL" xlink:to="label_uknf_BRL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BSD" xlink:label="loc_uknf_BSD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BSD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BSD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BSD" xlink:to="label_uknf_BSD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BSD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Bahamski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BSD" xlink:to="label_uknf_BSD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BTN" xlink:label="loc_uknf_BTN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BTN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BTN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BTN" xlink:to="label_uknf_BTN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BTN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Ngultrum</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BTN" xlink:to="label_uknf_BTN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BWP" xlink:label="loc_uknf_BWP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BWP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BWP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BWP" xlink:to="label_uknf_BWP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BWP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Pula</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BWP" xlink:to="label_uknf_BWP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BYR" xlink:label="loc_uknf_BYR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BYR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BYR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BYR" xlink:to="label_uknf_BYR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BYR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rubel białoruski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BYR" xlink:to="label_uknf_BYR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_BZD" xlink:label="loc_uknf_BZD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BZD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">BZD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BZD" xlink:to="label_uknf_BZD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_BZD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Belizeński</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_BZD" xlink:to="label_uknf_BZD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CAD" xlink:label="loc_uknf_CAD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CAD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CAD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CAD" xlink:to="label_uknf_CAD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CAD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kanadyjski Dolar</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CAD" xlink:to="label_uknf_CAD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CDF" xlink:label="loc_uknf_CDF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CDF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CDF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CDF" xlink:to="label_uknf_CDF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CDF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank Kongijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CDF" xlink:to="label_uknf_CDF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CED" xlink:label="loc_uknf_CED" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CED" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CED</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CED" xlink:to="label_uknf_CED" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CED_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Cedi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CED" xlink:to="label_uknf_CED_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CHE" xlink:label="loc_uknf_CHE" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CHE" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CHE</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CHE" xlink:to="label_uknf_CHE" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CHE_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">WIR Euro</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CHE" xlink:to="label_uknf_CHE_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CHF" xlink:label="loc_uknf_CHF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CHF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CHF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CHF" xlink:to="label_uknf_CHF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CHF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank szwajcarski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CHF" xlink:to="label_uknf_CHF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CHW" xlink:label="loc_uknf_CHW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CHW" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CHW</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CHW" xlink:to="label_uknf_CHW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CHW_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">WIR Frank</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CHW" xlink:to="label_uknf_CHW_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CLF" xlink:label="loc_uknf_CLF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CLF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CLF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CLF" xlink:to="label_uknf_CLF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CLF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Chilijska Unidad de Fomentos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CLF" xlink:to="label_uknf_CLF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CLP" xlink:label="loc_uknf_CLP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CLP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CLP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CLP" xlink:to="label_uknf_CLP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CLP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Chilijska Unidad de Fomentos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CLP" xlink:to="label_uknf_CLP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CNY" xlink:label="loc_uknf_CNY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CNY" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CNY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CNY" xlink:to="label_uknf_CNY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CNY_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Renminbi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CNY" xlink:to="label_uknf_CNY_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_COP" xlink:label="loc_uknf_COP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_COP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">COP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_COP" xlink:to="label_uknf_COP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_COP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso kolumbijskie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_COP" xlink:to="label_uknf_COP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_COU" xlink:label="loc_uknf_COU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_COU" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">COU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_COU" xlink:to="label_uknf_COU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_COU_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Umowna Jednostka Walutowa</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_COU" xlink:to="label_uknf_COU_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CRC" xlink:label="loc_uknf_CRC" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CRC" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CRC</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CRC" xlink:to="label_uknf_CRC" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CRC_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Colón</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CRC" xlink:to="label_uknf_CRC_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CUC" xlink:label="loc_uknf_CUC" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CUC" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CUC</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CUC" xlink:to="label_uknf_CUC" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CUC_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso Kubańskie Wymienialne</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CUC" xlink:to="label_uknf_CUC_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CVE" xlink:label="loc_uknf_CVE" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CVE" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CVE</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CVE" xlink:to="label_uknf_CVE" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CVE_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Escudo Republiki Zielonego Przylądka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CVE" xlink:to="label_uknf_CVE_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CYD" xlink:label="loc_uknf_CYD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CYD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CYD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CYD" xlink:to="label_uknf_CYD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CYD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Kajmański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CYD" xlink:to="label_uknf_CYD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_CZK" xlink:label="loc_uknf_CZK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CZK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">CZK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CZK" xlink:to="label_uknf_CZK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_CZK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Korona Czeska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_CZK" xlink:to="label_uknf_CZK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_DJF" xlink:label="loc_uknf_DJF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_DJF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">DJF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_DJF" xlink:to="label_uknf_DJF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_DJF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank dżibutyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_DJF" xlink:to="label_uknf_DJF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_DKK" xlink:label="loc_uknf_DKK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_DKK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">DKK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_DKK" xlink:to="label_uknf_DKK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_DKK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Korona Duńska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_DKK" xlink:to="label_uknf_DKK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_DOP" xlink:label="loc_uknf_DOP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_DOP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">DOP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_DOP" xlink:to="label_uknf_DOP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_DOP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso dominikańskie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_DOP" xlink:to="label_uknf_DOP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_EGP" xlink:label="loc_uknf_EGP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_EGP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">EGN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_EGP" xlink:to="label_uknf_EGP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_EGP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt Egipski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_EGP" xlink:to="label_uknf_EGP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ERN" xlink:label="loc_uknf_ERN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ERN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ERN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ERN" xlink:to="label_uknf_ERN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ERN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Nakfa</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ERN" xlink:to="label_uknf_ERN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ETB" xlink:label="loc_uknf_ETB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ETB" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ETB</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ETB" xlink:to="label_uknf_ETB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ETB_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Birr</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ETB" xlink:to="label_uknf_ETB_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_EUR" xlink:label="loc_uknf_EUR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_EUR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">EUR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_EUR" xlink:to="label_uknf_EUR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_EUR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Euro</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_EUR" xlink:to="label_uknf_EUR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_FJD" xlink:label="loc_uknf_FJD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_FJD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">FJD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_FJD" xlink:to="label_uknf_FJD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_FJD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Fidżi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_FJD" xlink:to="label_uknf_FJD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_FKP" xlink:label="loc_uknf_FKP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_FKP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">FKP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_FKP" xlink:to="label_uknf_FKP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_FKP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt Falklandzki</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_FKP" xlink:to="label_uknf_FKP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GBP" xlink:label="loc_uknf_GBP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GBP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GBP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GBP" xlink:to="label_uknf_GBP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GBP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Brytyjski funt szterling</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GBP" xlink:to="label_uknf_GBP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GEL" xlink:label="loc_uknf_GEL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GEL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GEL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GEL" xlink:to="label_uknf_GEL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GEL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lari</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GEL" xlink:to="label_uknf_GEL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GIP" xlink:label="loc_uknf_GIP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GIP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GIP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GIP" xlink:to="label_uknf_GIP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GIP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt Gibraltarski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GIP" xlink:to="label_uknf_GIP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GMD" xlink:label="loc_uknf_GMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GMD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GMD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GMD" xlink:to="label_uknf_GMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GMD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dalasi</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GMD" xlink:to="label_uknf_GMD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GNF" xlink:label="loc_uknf_GNF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GNF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GNF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GNF" xlink:to="label_uknf_GNF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GNF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank gwinejski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GNF" xlink:to="label_uknf_GNF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GTK" xlink:label="loc_uknf_GTK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GTK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GTK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GTK" xlink:to="label_uknf_GTK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GTK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Quetzal</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GTK" xlink:to="label_uknf_GTK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_GYD" xlink:label="loc_uknf_GYD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GYD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">GYD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GYD" xlink:to="label_uknf_GYD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_GYD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Gujański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_GYD" xlink:to="label_uknf_GYD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_HKD" xlink:label="loc_uknf_HKD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HKD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">HKD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HKD" xlink:to="label_uknf_HKD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HKD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar hongkoński</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HKD" xlink:to="label_uknf_HKD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_HNL" xlink:label="loc_uknf_HNL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HNL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">HNL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HNL" xlink:to="label_uknf_HNL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HNL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lempira</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HNL" xlink:to="label_uknf_HNL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_HRK" xlink:label="loc_uknf_HRK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HRK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">HRK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HRK" xlink:to="label_uknf_HRK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HRK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kuna</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HRK" xlink:to="label_uknf_HRK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_HTG" xlink:label="loc_uknf_HTG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HTG" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">HTG</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HTG" xlink:to="label_uknf_HTG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HTG_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Gourde</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HTG" xlink:to="label_uknf_HTG_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_HUF" xlink:label="loc_uknf_HUF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HUF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">HUF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HUF" xlink:to="label_uknf_HUF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_HUF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Forint</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_HUF" xlink:to="label_uknf_HUF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_IDR" xlink:label="loc_uknf_IDR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_IDR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IDR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_IDR" xlink:to="label_uknf_IDR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_IDR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_IDR" xlink:to="label_uknf_IDR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ILS" xlink:label="loc_uknf_ILS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ILS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ILS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ILS" xlink:to="label_uknf_ILS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ILS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Nowy Szekel</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ILS" xlink:to="label_uknf_ILS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_INR" xlink:label="loc_uknf_INR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_INR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">INR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_INR" xlink:to="label_uknf_INR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_INR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia indyjska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_INR" xlink:to="label_uknf_INR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_IQD" xlink:label="loc_uknf_IQD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_IQD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IQD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_IQD" xlink:to="label_uknf_IQD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_IQD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dinar Iracki</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_IQD" xlink:to="label_uknf_IQD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_IRR" xlink:label="loc_uknf_IRR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_IRR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">IRR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_IRR" xlink:to="label_uknf_IRR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_IRR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rial irański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_IRR" xlink:to="label_uknf_IRR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ISK" xlink:label="loc_uknf_ISK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ISK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ISK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ISK" xlink:to="label_uknf_ISK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ISK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rial irański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ISK" xlink:to="label_uknf_ISK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_JMD" xlink:label="loc_uknf_JMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_JMD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">JMD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_JMD" xlink:to="label_uknf_JMD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_JMD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Jamajski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_JMD" xlink:to="label_uknf_JMD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_JPY" xlink:label="loc_uknf_JPY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_JPY" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">JPY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_JPY" xlink:to="label_uknf_JPY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_JPY_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">JMD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_JPY" xlink:to="label_uknf_JPY_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KES" xlink:label="loc_uknf_KES" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KES" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KES</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KES" xlink:to="label_uknf_KES" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KES_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Szyling kenijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KES" xlink:to="label_uknf_KES_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KGS" xlink:label="loc_uknf_KGS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KGS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KGS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KGS" xlink:to="label_uknf_KGS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KGS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Som</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KGS" xlink:to="label_uknf_KGS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KHR" xlink:label="loc_uknf_KHR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KHR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KHR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KHR" xlink:to="label_uknf_KHR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KHR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Riel kambodżański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KHR" xlink:to="label_uknf_KHR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KPW" xlink:label="loc_uknf_KPW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KPW" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KPW</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KPW" xlink:to="label_uknf_KPW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KPW_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Won północnokoreański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KPW" xlink:to="label_uknf_KPW_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KRW" xlink:label="loc_uknf_KRW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KRW" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KRW</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KRW" xlink:to="label_uknf_KRW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KRW_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Won</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KRW" xlink:to="label_uknf_KRW_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KWD" xlink:label="loc_uknf_KWD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KWD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KWD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KWD" xlink:to="label_uknf_KWD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KWD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dinar kuwejcki</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KWD" xlink:to="label_uknf_KWD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_KZT" xlink:label="loc_uknf_KZT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KZT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KZT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KZT" xlink:to="label_uknf_KZT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_KZT_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Tenge</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_KZT" xlink:to="label_uknf_KZT_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_LAK" xlink:label="loc_uknf_LAK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LAK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LAK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LAK" xlink:to="label_uknf_LAK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LAK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kip</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LAK" xlink:to="label_uknf_LAK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_LBP" xlink:label="loc_uknf_LBP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LBP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LBP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LBP" xlink:to="label_uknf_LBP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LBP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt Libański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LBP" xlink:to="label_uknf_LBP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_LKR" xlink:label="loc_uknf_LKR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LKR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LKR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LKR" xlink:to="label_uknf_LKR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LKR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia lankijska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LKR" xlink:to="label_uknf_LKR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_LRD" xlink:label="loc_uknf_LRD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LRD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LRD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LRD" xlink:to="label_uknf_LRD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LRD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar liberyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LRD" xlink:to="label_uknf_LRD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_LSL" xlink:label="loc_uknf_LSL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LSL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LSL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LSL" xlink:to="label_uknf_LSL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LSL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Loti</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LSL" xlink:to="label_uknf_LSL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_LYD" xlink:label="loc_uknf_LYD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LYD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">LYD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LYD" xlink:to="label_uknf_LYD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_LYD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dinar Libijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_LYD" xlink:to="label_uknf_LYD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MAD" xlink:label="loc_uknf_MAD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MAD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MAD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MAD" xlink:to="label_uknf_MAD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MAD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dirham marokański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MAD" xlink:to="label_uknf_MAD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MDL" xlink:label="loc_uknf_MDL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MDL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MDL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MDL" xlink:to="label_uknf_MDL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MDL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lej mołdawski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MDL" xlink:to="label_uknf_MDL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MGA" xlink:label="loc_uknf_MGA" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MGA" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MGA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MGA" xlink:to="label_uknf_MGA" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MGA_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Ariary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MGA" xlink:to="label_uknf_MGA_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MKD" xlink:label="loc_uknf_MKD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MKD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MKD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MKD" xlink:to="label_uknf_MKD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MKD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Denar Macedoński</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MKD" xlink:to="label_uknf_MKD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MMK" xlink:label="loc_uknf_MMK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MMK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MMK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MMK" xlink:to="label_uknf_MMK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MMK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kiat</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MMK" xlink:to="label_uknf_MMK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MNT" xlink:label="loc_uknf_MNT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MNT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MNT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MNT" xlink:to="label_uknf_MNT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MNT_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Tugrik</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MNT" xlink:to="label_uknf_MNT_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MOP" xlink:label="loc_uknf_MOP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MOP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MOP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MOP" xlink:to="label_uknf_MOP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MOP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Pataca</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MOP" xlink:to="label_uknf_MOP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MRU" xlink:label="loc_uknf_MRU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MRU" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MRU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MRU" xlink:to="label_uknf_MRU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MRU_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Ugija</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MRU" xlink:to="label_uknf_MRU_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MUR" xlink:label="loc_uknf_MUR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MUR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MUR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MUR" xlink:to="label_uknf_MUR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MUR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia maurytyjska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MUR" xlink:to="label_uknf_MUR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MVR" xlink:label="loc_uknf_MVR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MVR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MVR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MVR" xlink:to="label_uknf_MVR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MVR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia malediwska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MVR" xlink:to="label_uknf_MVR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MWK" xlink:label="loc_uknf_MWK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MWK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MWK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MWK" xlink:to="label_uknf_MWK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MWK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kwacha malawijska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MWK" xlink:to="label_uknf_MWK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MXN" xlink:label="loc_uknf_MXN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MXN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MXN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MXN" xlink:to="label_uknf_MXN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MXN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso Meksykańskie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MXN" xlink:to="label_uknf_MXN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MXV" xlink:label="loc_uknf_MXV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MXV" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MXV</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MXV" xlink:to="label_uknf_MXV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MXV_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Meksykańskie Unidad de Inversion (UDI)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MXV" xlink:to="label_uknf_MXV_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MYR" xlink:label="loc_uknf_MYR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MYR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MYR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MYR" xlink:to="label_uknf_MYR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MYR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Ringgit</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MYR" xlink:to="label_uknf_MYR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_MZN" xlink:label="loc_uknf_MZN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MZN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">MZN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MZN" xlink:to="label_uknf_MZN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_MZN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Metical</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_MZN" xlink:to="label_uknf_MZN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_NAD" xlink:label="loc_uknf_NAD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NAD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">NAD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NAD" xlink:to="label_uknf_NAD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NAD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar namibijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NAD" xlink:to="label_uknf_NAD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_NGN" xlink:label="loc_uknf_NGN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NGN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">NGN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NGN" xlink:to="label_uknf_NGN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NGN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Naira</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NGN" xlink:to="label_uknf_NGN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_NIO" xlink:label="loc_uknf_NIO" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NIO" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">NIO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NIO" xlink:to="label_uknf_NIO" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NIO_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Córdoba</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NIO" xlink:to="label_uknf_NIO_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_NOK" xlink:label="loc_uknf_NOK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NOK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">NOK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NOK" xlink:to="label_uknf_NOK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NOK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Korona Norweska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NOK" xlink:to="label_uknf_NOK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_NPR" xlink:label="loc_uknf_NPR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NPR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">NPR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NPR" xlink:to="label_uknf_NPR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NPR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Korona Norweska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NPR" xlink:to="label_uknf_NPR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_NZD" xlink:label="loc_uknf_NZD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NZD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">NZD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NZD" xlink:to="label_uknf_NZD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_NZD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Nowozelandzki</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_NZD" xlink:to="label_uknf_NZD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_OMR" xlink:label="loc_uknf_OMR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_OMR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">OMR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_OMR" xlink:to="label_uknf_OMR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_OMR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rial omański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_OMR" xlink:to="label_uknf_OMR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_OTH" xlink:label="loc_uknf_OTH" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_OTH" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">OTH</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_OTH" xlink:to="label_uknf_OTH" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_OTH_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Inne</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_OTH" xlink:to="label_uknf_OTH_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_PEN" xlink:label="loc_uknf_PEN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PEN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PEN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PEN" xlink:to="label_uknf_PEN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PEN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Sol</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PEN" xlink:to="label_uknf_PEN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_PGK" xlink:label="loc_uknf_PGK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PGK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PGK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PGK" xlink:to="label_uknf_PGK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PGK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kina</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PGK" xlink:to="label_uknf_PGK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_PHP" xlink:label="loc_uknf_PHP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PHP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PHP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PHP" xlink:to="label_uknf_PHP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PHP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso filipińskie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PHP" xlink:to="label_uknf_PHP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_PKR" xlink:label="loc_uknf_PKR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PKR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PKR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PKR" xlink:to="label_uknf_PKR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PKR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia pakistańska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PKR" xlink:to="label_uknf_PKR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_PLN" xlink:label="loc_uknf_PLN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PLN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PLN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PLN" xlink:to="label_uknf_PLN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PLN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Złoty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PLN" xlink:to="label_uknf_PLN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_PYG" xlink:label="loc_uknf_PYG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PYG" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PYG</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PYG" xlink:to="label_uknf_PYG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_PYG_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Guarani</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_PYG" xlink:to="label_uknf_PYG_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_QAR" xlink:label="loc_uknf_QAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_QAR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">QAR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_QAR" xlink:to="label_uknf_QAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_QAR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rial katarski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_QAR" xlink:to="label_uknf_QAR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_RON" xlink:label="loc_uknf_RON" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RON" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RON</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RON" xlink:to="label_uknf_RON" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RON_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lej</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RON" xlink:to="label_uknf_RON_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_RSD" xlink:label="loc_uknf_RSD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RSD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RSD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RSD" xlink:to="label_uknf_RSD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RSD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dinar serbski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RSD" xlink:to="label_uknf_RSD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_RUB" xlink:label="loc_uknf_RUB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RUB" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RUB</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RUB" xlink:to="label_uknf_RUB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RUB_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rubel rosyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RUB" xlink:to="label_uknf_RUB_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_RWF" xlink:label="loc_uknf_RWF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RWF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">RWF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RWF" xlink:to="label_uknf_RWF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_RWF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank rwandyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_RWF" xlink:to="label_uknf_RWF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SAR" xlink:label="loc_uknf_SAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SAR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SAR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SAR" xlink:to="label_uknf_SAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SAR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rial saudyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SAR" xlink:to="label_uknf_SAR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SBD" xlink:label="loc_uknf_SBD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SBD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SBD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SBD" xlink:to="label_uknf_SBD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SBD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Wysp Salomona</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SBD" xlink:to="label_uknf_SBD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SCR" xlink:label="loc_uknf_SCR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SCR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SCR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SCR" xlink:to="label_uknf_SCR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SCR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rupia seszelska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SCR" xlink:to="label_uknf_SCR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SDG" xlink:label="loc_uknf_SDG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SDG" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SDG</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SDG" xlink:to="label_uknf_SDG" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SDG_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt sudański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SDG" xlink:to="label_uknf_SDG_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SEK" xlink:label="loc_uknf_SEK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SEK" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SEK</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SEK" xlink:to="label_uknf_SEK" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SEK_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Korona szwedzka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SEK" xlink:to="label_uknf_SEK_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SGD" xlink:label="loc_uknf_SGD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SGD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SGD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SGD" xlink:to="label_uknf_SGD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SGD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar singapurski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SGD" xlink:to="label_uknf_SGD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SHP" xlink:label="loc_uknf_SHP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SHP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SHP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SHP" xlink:to="label_uknf_SHP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SHP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt Świętej Heleny</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SHP" xlink:to="label_uknf_SHP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SLL" xlink:label="loc_uknf_SLL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SLL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SLL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SLL" xlink:to="label_uknf_SLL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SLL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Leone</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SLL" xlink:to="label_uknf_SLL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SOS" xlink:label="loc_uknf_SOS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SOS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SOS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SOS" xlink:to="label_uknf_SOS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SOS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Szyling somalijski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SOS" xlink:to="label_uknf_SOS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SRD" xlink:label="loc_uknf_SRD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SRD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRD" xlink:to="label_uknf_SRD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SRD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar surinamski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SRD" xlink:to="label_uknf_SRD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SSP" xlink:label="loc_uknf_SSP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SSP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SSP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SSP" xlink:to="label_uknf_SSP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SSP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt południowosudański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SSP" xlink:to="label_uknf_SSP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_STN" xlink:label="loc_uknf_STN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_STN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">STN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_STN" xlink:to="label_uknf_STN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_STN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dobra</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_STN" xlink:to="label_uknf_STN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SVC" xlink:label="loc_uknf_SVC" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SVC" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SVC</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SVC" xlink:to="label_uknf_SVC" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SVC_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Colon salwadorski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SVC" xlink:to="label_uknf_SVC_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SYP" xlink:label="loc_uknf_SYP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SYP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SYP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SYP" xlink:to="label_uknf_SYP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SYP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Funt syryjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SYP" xlink:to="label_uknf_SYP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_SZL" xlink:label="loc_uknf_SZL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SZL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SZL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SZL" xlink:to="label_uknf_SZL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_SZL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lilangeni</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_SZL" xlink:to="label_uknf_SZL_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_THB" xlink:label="loc_uknf_THB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_THB" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">THB</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_THB" xlink:to="label_uknf_THB" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_THB_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Bat</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_THB" xlink:to="label_uknf_THB_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TJS" xlink:label="loc_uknf_TJS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TJS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TJS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TJS" xlink:to="label_uknf_TJS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TJS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Somoni</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TJS" xlink:to="label_uknf_TJS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TMT" xlink:label="loc_uknf_TMT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TMT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TMT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TMT" xlink:to="label_uknf_TMT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TMT_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Manat turkmeński</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TMT" xlink:to="label_uknf_TMT_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TND" xlink:label="loc_uknf_TND" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TND" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TND</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TND" xlink:to="label_uknf_TND" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TND_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dinar tunezyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TND" xlink:to="label_uknf_TND_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TOP" xlink:label="loc_uknf_TOP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TOP" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TOP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TOP" xlink:to="label_uknf_TOP" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TOP_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Pa’anga</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TOP" xlink:to="label_uknf_TOP_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TRY" xlink:label="loc_uknf_TRY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TRY" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TRY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TRY" xlink:to="label_uknf_TRY" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TRY_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Lira turecka</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TRY" xlink:to="label_uknf_TRY_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TTD" xlink:label="loc_uknf_TTD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TTD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TTD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TTD" xlink:to="label_uknf_TTD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TTD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Trynidadu i Tobago</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TTD" xlink:to="label_uknf_TTD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TWD" xlink:label="loc_uknf_TWD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TWD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TWD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TWD" xlink:to="label_uknf_TWD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TWD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar tajwański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TWD" xlink:to="label_uknf_TWD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_TZS" xlink:label="loc_uknf_TZS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TZS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">TZS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TZS" xlink:to="label_uknf_TZS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_TZS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Szyling tanzański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_TZS" xlink:to="label_uknf_TZS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_UAH" xlink:label="loc_uknf_UAH" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UAH" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">UAH</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UAH" xlink:to="label_uknf_UAH" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_UGX" xlink:label="loc_uknf_UGX" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UGX" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">UGX</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UGX" xlink:to="label_uknf_UGX" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UGX_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Szyling ugandyjski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UGX" xlink:to="label_uknf_UGX_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_USD" xlink:label="loc_uknf_USD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_USD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">USD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_USD" xlink:to="label_uknf_USD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_USD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Amerykański</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_USD" xlink:to="label_uknf_USD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_USN" xlink:label="loc_uknf_USN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_USN" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">USN</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_USN" xlink:to="label_uknf_USN" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_USN_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar amerykański (Następnego dnia)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_USN" xlink:to="label_uknf_USN_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_UYI" xlink:label="loc_uknf_UYI" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UYI" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">UYI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UYI" xlink:to="label_uknf_UYI" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UYI_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Waluta Urugwaju w jednostkach indeksowanych (URUIURUI)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UYI" xlink:to="label_uknf_UYI_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_UYU" xlink:label="loc_uknf_UYU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UYU" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">UYU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UYU" xlink:to="label_uknf_UYU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UYU_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Peso urugwajskie</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UYU" xlink:to="label_uknf_UYU_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_UZS" xlink:label="loc_uknf_UZS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UZS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">UZS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UZS" xlink:to="label_uknf_UZS" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_UZS_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Sum</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_UZS" xlink:to="label_uknf_UZS_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_VEF" xlink:label="loc_uknf_VEF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_VEF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">VEF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_VEF" xlink:to="label_uknf_VEF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_VEF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Boliwar</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_VEF" xlink:to="label_uknf_VEF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_VND" xlink:label="loc_uknf_VND" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_VND" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">VND</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_VND" xlink:to="label_uknf_VND" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_VND_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dong</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_VND" xlink:to="label_uknf_VND_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_VUV" xlink:label="loc_uknf_VUV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_VUV" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">VUV</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_VUV" xlink:to="label_uknf_VUV" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_VUV_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Vatu</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_VUV" xlink:to="label_uknf_VUV_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_WST" xlink:label="loc_uknf_WST" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WST" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">WST</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WST" xlink:to="label_uknf_WST" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WST_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Tala</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WST" xlink:to="label_uknf_WST_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_WT_WLT" xlink:label="loc_uknf_WT_WLT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WT_WLT" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Wielowalutowe</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WT_WLT" xlink:to="label_uknf_WT_WLT" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_WT_WLT_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Wielowalutowe</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_WT_WLT" xlink:to="label_uknf_WT_WLT_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x0" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">wszystkie/nie dotyczy</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x0" xlink:to="label_uknf_x0" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XAF" xlink:label="loc_uknf_XAF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XAF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XAF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XAF" xlink:to="label_uknf_XAF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XAF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">CFA Frank BEAC</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XAF" xlink:to="label_uknf_XAF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XCD" xlink:label="loc_uknf_XCD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XCD" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XCD</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XCD" xlink:to="label_uknf_XCD" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XCD_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar wschodniokaraibski</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XCD" xlink:to="label_uknf_XCD_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XDR" xlink:label="loc_uknf_XDR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XDR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XDR</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XDR" xlink:to="label_uknf_XDR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XDR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">SDR (Specjalne Prawa Ciągnienia)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XDR" xlink:to="label_uknf_XDR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XOF" xlink:label="loc_uknf_XOF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XOF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XOF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XOF" xlink:to="label_uknf_XOF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XOF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">CFA Frank BCEAO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XOF" xlink:to="label_uknf_XOF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XPF" xlink:label="loc_uknf_XPF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XPF" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XPF</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XPF" xlink:to="label_uknf_XPF" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XPF_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Frank CFP</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XPF" xlink:to="label_uknf_XPF_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XSU" xlink:label="loc_uknf_XSU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XSU" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XSU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XSU" xlink:to="label_uknf_XSU" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XSU_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Sucre</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XSU" xlink:to="label_uknf_XSU_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_XUA" xlink:label="loc_uknf_XUA" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XUA" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">XUA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XUA" xlink:to="label_uknf_XUA" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_XUA_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Jednostka Rozliczeniowa ADB</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_XUA" xlink:to="label_uknf_XUA_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_YER" xlink:label="loc_uknf_YER" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_YER" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">YER</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_YER" xlink:to="label_uknf_YER" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_YER_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Rial jemeński</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_YER" xlink:to="label_uknf_YER_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ZAR" xlink:label="loc_uknf_ZAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ZAR" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ZER</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ZAR" xlink:to="label_uknf_ZAR" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ZAR_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Land</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ZAR" xlink:to="label_uknf_ZAR_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ZMW" xlink:label="loc_uknf_ZMW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ZMW" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ZMW</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ZMW" xlink:to="label_uknf_ZMW" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ZMW_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Kwacha zambijska</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ZMW" xlink:to="label_uknf_ZMW_1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_ZWL" xlink:label="loc_uknf_ZWL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ZWL" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ZWL</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ZWL" xlink:to="label_uknf_ZWL" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_ZWL_1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/verboseLabel">Dolar Zimbabwe</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_ZWL" xlink:to="label_uknf_ZWL_1" />
+  </link:labelLink>
+</link:linkbase>

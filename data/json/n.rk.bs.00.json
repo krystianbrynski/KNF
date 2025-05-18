@@ -1,0 +1,44 @@
+{
+    "n.rk.bs": {
+        "uknf_c4": {
+            "rows": "ID banku",
+            "data_point": [
+                "0010"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2101",
+            "report_name": "n.rk.bs.00"
+        },
+        "uknf_c2": {
+            "rows": "Początek okresu sprawozdawczego BION",
+            "data_point": [
+                "0020"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:dateItemType",
+            "qname": "di2273",
+            "report_name": "n.rk.bs.00"
+        },
+        "uknf_c3": {
+            "rows": "Koniec okresu sprawozdawczego BION (Data BION)",
+            "data_point": [
+                "0030"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:dateItemType",
+            "qname": "di2274",
+            "report_name": "n.rk.bs.00"
+        },
+        "uknf_c5": {
+            "rows": "Flaga korekty",
+            "data_point": [
+                "0040"
+            ],
+            "cols": "Null",
+            "datatype": "xbrli:QNameItemType",
+            "qname": "ei1",
+            "report_name": "n.rk.bs.00"
+        }
+    }
+}

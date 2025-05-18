@@ -1,0 +1,364 @@
+{
+    "n.rr.bs": {
+        "uknf_c124": {
+            "rows": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_point": [
+                "0010X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c125": {
+            "rows": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_point": [
+                "0020X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c126": {
+            "rows": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_point": [
+                "0030X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c127": {
+            "rows": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_point": [
+                "0040X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c128": {
+            "rows": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_point": [
+                "0050X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c130": {
+            "rows": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_point": [
+                "0060X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c131": {
+            "rows": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_point": [
+                "0070X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c132": {
+            "rows": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_point": [
+                "0080X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c133": {
+            "rows": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_point": [
+                "0090X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c134": {
+            "rows": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_point": [
+                "0100X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c61": {
+            "rows": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_point": [
+                "0110X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c62": {
+            "rows": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_point": [
+                "0120X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c63": {
+            "rows": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_point": [
+                "0130X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c64": {
+            "rows": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_point": [
+                "0140X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c65": {
+            "rows": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_point": [
+                "0150X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c67": {
+            "rows": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_point": [
+                "0160X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c68": {
+            "rows": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_point": [
+                "0170X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c69": {
+            "rows": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_point": [
+                "0180X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c70": {
+            "rows": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_point": [
+                "0190X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c71": {
+            "rows": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_point": [
+                "0200X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c75": {
+            "rows": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_point": [
+                "0210X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c76": {
+            "rows": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_point": [
+                "0220X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c77": {
+            "rows": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_point": [
+                "0230X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c78": {
+            "rows": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_point": [
+                "0240X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c79": {
+            "rows": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_point": [
+                "0250X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c81": {
+            "rows": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_point": [
+                "0260X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c82": {
+            "rows": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_point": [
+                "0270X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c83": {
+            "rows": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_point": [
+                "0280X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c84": {
+            "rows": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_point": [
+                "0290X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        },
+        "uknf_c85": {
+            "rows": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_point": [
+                "0300X0010"
+            ],
+            "cols": [
+                "Wartość"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2168",
+            "report_name": "n.rr.bs.01.02"
+        }
+    }
+}

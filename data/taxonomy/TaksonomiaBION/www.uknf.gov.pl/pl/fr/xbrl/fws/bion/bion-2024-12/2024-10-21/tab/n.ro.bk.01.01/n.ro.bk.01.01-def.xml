@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" />
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/1" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role1" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/10" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role10" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/11" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role11" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/12" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role12" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/13" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role13" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/14" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role14" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/15" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role15" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/16" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role16" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/17" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role17" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/18" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role18" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/19" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role19" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/2" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role2" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/20" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role20" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/21" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role21" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/22" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role22" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/23" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role23" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/24" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role24" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/25" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role25" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/26" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role26" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/3" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role3" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/4" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role4" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/5" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role5" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/6" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role6" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/7" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role7" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/8" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role8" />
+  <link:roleRef roleURI="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/9" xlink:type="simple" xlink:href="n.ro.bk.01.01.xsd#role9" />
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/1">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2131" xlink:label="loc_uknf_ii2131" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2139" xlink:label="loc_uknf_ii2139" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_ii2139" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2132" xlink:label="loc_uknf_mi2132" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2132" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2133" xlink:label="loc_uknf_mi2133" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2133" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2134" xlink:label="loc_uknf_mi2134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2134" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2136" xlink:label="loc_uknf_mi2136" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2136" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2138" xlink:label="loc_uknf_mi2138" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2138" order="6" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_ii2131" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/2" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/3" order="6" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/2">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/3">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/4">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2131" xlink:label="loc_uknf_ii2131" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2142" xlink:label="loc_uknf_ii2142" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_ii2142" order="1" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_ii2131" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/5" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/6" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRU" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/7" order="7" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/5">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/6">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/7">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRU" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x429" xlink:label="loc_uknf_x429" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x429" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/8">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2131" xlink:label="loc_uknf_ii2131" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_ii2131" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/9" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/10" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRU" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/11" order="7" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/9">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/10">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/11">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRU" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x424" xlink:label="loc_uknf_x424" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x424" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x425" xlink:label="loc_uknf_x425" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x425" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x426" xlink:label="loc_uknf_x426" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x426" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x427" xlink:label="loc_uknf_x427" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x427" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x428" xlink:label="loc_uknf_x428" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x428" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x430" xlink:label="loc_uknf_x430" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x430" order="6" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/12">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2131" xlink:label="loc_uknf_ii2131" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_ii2131" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x494" xlink:label="loc_uknf_x494" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x494" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/13" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/14" order="6" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/13">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/14">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/15">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_ii2131" xlink:label="loc_uknf_ii2131" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2132" xlink:label="loc_uknf_mi2132" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2132" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2133" xlink:label="loc_uknf_mi2133" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2133" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2134" xlink:label="loc_uknf_mi2134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2134" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2135" xlink:label="loc_uknf_mi2135" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_ii2131" xlink:to="loc_uknf_mi2135" order="4" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_ii2131" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x432" xlink:label="loc_uknf_x432" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x432" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/16" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/17" order="6" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/16">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/17">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/18">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2132" xlink:label="loc_uknf_mi2132" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2133" xlink:label="loc_uknf_mi2133" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_mi2132" xlink:to="loc_uknf_mi2133" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2134" xlink:label="loc_uknf_mi2134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_mi2132" xlink:to="loc_uknf_mi2134" order="2" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_mi2132" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x432" xlink:label="loc_uknf_x432" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x432" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/19" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/20" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRU" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/21" order="7" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/19">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/20">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/21">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRU" xlink:label="loc_uknf_SRU" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRU" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x424" xlink:label="loc_uknf_x424" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x424" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x425" xlink:label="loc_uknf_x425" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x425" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x426" xlink:label="loc_uknf_x426" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x426" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x427" xlink:label="loc_uknf_x427" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x427" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x428" xlink:label="loc_uknf_x428" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x428" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x429" xlink:label="loc_uknf_x429" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x429" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x430" xlink:label="loc_uknf_x430" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x430" order="7" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/22">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2137" xlink:label="loc_uknf_mi2137" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_mi2137" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_RZP" xlink:label="loc_uknf_RZP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_RZP" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_RZP" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x495" xlink:label="loc_uknf_x495" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x495" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x497" xlink:label="loc_uknf_x497" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x497" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x498" xlink:label="loc_uknf_x498" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x498" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/23" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/24" order="6" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/23">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/24">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x412" xlink:label="loc_uknf_x412" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x412" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x413" xlink:label="loc_uknf_x413" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x413" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x414" xlink:label="loc_uknf_x414" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x414" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x415" xlink:label="loc_uknf_x415" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x415" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x416" xlink:label="loc_uknf_x416" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x416" order="6" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x417" xlink:label="loc_uknf_x417" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x417" order="7" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x418" xlink:label="loc_uknf_x418" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x418" order="8" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x419" xlink:label="loc_uknf_x419" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x419" order="9" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/25">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_mi2140" xlink:label="loc_uknf_mi2140" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/met/met.xsd#uknf_si2141" xlink:label="loc_uknf_si2141" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_mi2140" xlink:to="loc_uknf_si2141" order="1" />
+    <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="loc_hyp" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_uknf_mi2140" xlink:to="loc_hyp" xbrldt:closed="true" xbrldt:contextElement="scenario" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_KRP" xlink:label="loc_uknf_KRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_KRP" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_KRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x178" xlink:label="loc_uknf_x178" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x178" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDM" xlink:label="loc_uknf_PDM" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDM" order="2" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RP" xlink:label="loc_uknf_RP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDM" xlink:to="loc_uknf_RP" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rp/mem.xsd#uknf_x3" xlink:label="loc_uknf_x3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RP" xlink:to="loc_uknf_x3" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_PDO" xlink:label="loc_uknf_PDO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_PDO" order="3" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RO" xlink:label="loc_uknf_RO" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_PDO" xlink:to="loc_uknf_RO" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/ro/mem.xsd#uknf_x25" xlink:label="loc_uknf_x25" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RO" xlink:to="loc_uknf_x25" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRP" xbrldt:targetRole="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/26" order="4" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRT" xlink:label="loc_uknf_SRT" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_hyp" xlink:to="loc_uknf_SRT" order="5" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_KG" xlink:label="loc_uknf_KG" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRT" xlink:to="loc_uknf_KG" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/kg/mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_KG" xlink:to="loc_uknf_x0" order="1" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.uknf.gov.pl/xbrl/role/fws/BION/bion-2024-12/2024-10-21/tab/N.RO.BK.01.01/26">
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dim/dim.xsd#uknf_SRP" xlink:label="loc_uknf_SRP" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/exp.xsd#uknf_RR" xlink:label="loc_uknf_RR" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_uknf_SRP" xlink:to="loc_uknf_RR" xbrldt:usable="false" order="1" />
+    <link:loc xlink:type="locator" xlink:href="../../../../../../dict/dom/rr/mem.xsd#uknf_x134" xlink:label="loc_uknf_x134" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_uknf_RR" xlink:to="loc_uknf_x134" order="1" />
+  </link:definitionLink>
+</link:linkbase>

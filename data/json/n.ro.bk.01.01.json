@@ -1,0 +1,1367 @@
+{
+    "n.ro.bk": {
+        "uknf_c42": {
+            "rows": "Liczba wszystkich zdarzeń wraz ze zdarzeniami powiązanymi z ryzykiem kredytowym",
+            "data_point": [
+                "0010X0010",
+                "0010X0020",
+                "0010X0030",
+                "0010X0040",
+                "0010X0050",
+                "0010X0060",
+                "0010X0070",
+                "0010X0080",
+                "0010X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c44": {
+            "rows": "Liczba zdarzeń niepowiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0020X0010",
+                "0020X0020",
+                "0020X0030",
+                "0020X0040",
+                "0020X0050",
+                "0020X0060",
+                "0020X0070",
+                "0020X0080",
+                "0020X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c45": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków)  z  uwzględnieniem zdarzeń powiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0030X0010",
+                "0030X0020",
+                "0030X0030",
+                "0030X0040",
+                "0030X0050",
+                "0030X0060",
+                "0030X0070",
+                "0030X0080",
+                "0030X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c47": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) niepowiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0040X0010",
+                "0040X0020",
+                "0040X0030",
+                "0040X0040",
+                "0040X0050",
+                "0040X0060",
+                "0040X0070",
+                "0040X0080",
+                "0040X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c48": {
+            "rows": "Kwota odzysków (od sprawcy oraz od osoby trzeciej, w tym zakładu ubezpieczeniowego) z uwzględnieniem zdarzeń powiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0050X0010",
+                "0050X0020",
+                "0050X0030",
+                "0050X0040",
+                "0050X0050",
+                "0050X0060",
+                "0050X0070",
+                "0050X0080",
+                "0050X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c50": {
+            "rows": " Kwota odzysków  (od sprawcy oraz od osoby trzeciej, w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0060X0010",
+                "0060X0020",
+                "0060X0030",
+                "0060X0040",
+                "0060X0050",
+                "0060X0060",
+                "0060X0070",
+                "0060X0080",
+                "0060X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c51": {
+            "rows": "Maksymalna kwota strat (bez odzysków) poniesionych z tytułu pojedynczego zdarzenia w danym okresie - z uwzględnieniem zdarzeń powiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0070X0010",
+                "0070X0020",
+                "0070X0030",
+                "0070X0040",
+                "0070X0050",
+                "0070X0060",
+                "0070X0070",
+                "0070X0080",
+                "0070X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c53": {
+            "rows": "Maksymalna kwota strat (bez odzysków) poniesionych z tytułu pojedynczego zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0080X0010",
+                "0080X0020",
+                "0080X0030",
+                "0080X0040",
+                "0080X0050",
+                "0080X0060",
+                "0080X0070",
+                "0080X0080",
+                "0080X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c54": {
+            "rows": "Maksymalna kwota strat (po uwzględnieniu odzysków) poniesionych z tytułu pojedynczego zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0090X0010",
+                "0090X0020",
+                "0090X0030",
+                "0090X0040",
+                "0090X0050",
+                "0090X0060",
+                "0090X0070",
+                "0090X0080",
+                "0090X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2135",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c55": {
+            "rows": "Suma dziesięciu największych strat (brutto) z uwzględnieniem zdarzeń z tytułu ryzyka operacyjnego powiązanych z ryzykiem kredytowym",
+            "data_point": [
+                "0100X0010",
+                "0100X0020",
+                "0100X0030",
+                "0100X0040",
+                "0100X0050",
+                "0100X0060",
+                "0100X0070",
+                "0100X0080",
+                "0100X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2136",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c56": {
+            "rows": "Kwota strat związana z ryzykiem postępowania",
+            "data_point": [
+                "0110X0010",
+                "0110X0020",
+                "0110X0030",
+                "0110X0040",
+                "0110X0050",
+                "0110X0060",
+                "0110X0070",
+                "0110X0080",
+                "0110X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2137",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c57": {
+            "rows": "Kwota strat związana z ryzykiem ICT - Information and communication technology (ICT). W polskiej wersji SREP tak zwane ryzyko technologii informacyjno - komunikacyjnej",
+            "data_point": [
+                "0120X0010",
+                "0120X0020",
+                "0120X0030",
+                "0120X0040",
+                "0120X0050",
+                "0120X0060",
+                "0120X0070",
+                "0120X0080",
+                "0120X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2137",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c58": {
+            "rows": "Kwota strat związana z ryzykiem modeli",
+            "data_point": [
+                "0130X0010",
+                "0130X0020",
+                "0130X0030",
+                "0130X0040",
+                "0130X0050",
+                "0130X0060",
+                "0130X0070",
+                "0130X0080",
+                "0130X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2137",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c59": {
+            "rows": "Łączna kwota zysków z tytułu zdarzeń operacyjnych, (pod warunkiem, że kwota zysku wynosi minimum 5000)",
+            "data_point": [
+                "0140X0010",
+                "0140X0020",
+                "0140X0030",
+                "0140X0040",
+                "0140X0050",
+                "0140X0060",
+                "0140X0070",
+                "0140X0080",
+                "0140X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2138",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c60": {
+            "rows": "Liczba near-miss z tytułu zdarzeń operacyjnych",
+            "data_point": [
+                "0150X0010",
+                "0150X0020",
+                "0150X0030",
+                "0150X0040",
+                "0150X0050",
+                "0150X0060",
+                "0150X0070",
+                "0150X0080",
+                "0150X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2139",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c61": {
+            "rows": "Liczba zdarzeń powiązanych z ryzykiem rynkowym",
+            "data_point": [
+                "0160X0010",
+                "0160X0020",
+                "0160X0030",
+                "0160X0040",
+                "0160X0050",
+                "0160X0060",
+                "0160X0070",
+                "0160X0080",
+                "0160X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c62": {
+            "rows": "Próg rejestracji",
+            "data_point": [
+                "0170X0010",
+                "0170X0020",
+                "0170X0030",
+                "0170X0040",
+                "0170X0050",
+                "0170X0060",
+                "0170X0070",
+                "0170X0080",
+                "0170X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2140",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c63": {
+            "rows": "Komentarz do progu rejestracji",
+            "data_point": [
+                "0180X0010",
+                "0180X0020",
+                "0180X0030",
+                "0180X0040",
+                "0180X0050",
+                "0180X0060",
+                "0180X0070",
+                "0180X0080",
+                "0180X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2141",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c67": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0190X0010",
+                "0190X0020",
+                "0190X0030",
+                "0190X0040",
+                "0190X0050",
+                "0190X0060",
+                "0190X0070",
+                "0190X0080",
+                "0190X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c68": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0200X0010",
+                "0200X0020",
+                "0200X0030",
+                "0200X0040",
+                "0200X0050",
+                "0200X0060",
+                "0200X0070",
+                "0200X0080",
+                "0200X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c69": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0210X0010",
+                "0210X0020",
+                "0210X0030",
+                "0210X0040",
+                "0210X0050",
+                "0210X0060",
+                "0210X0070",
+                "0210X0080",
+                "0210X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c70": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0220X0010",
+                "0220X0020",
+                "0220X0030",
+                "0220X0040",
+                "0220X0050",
+                "0220X0060",
+                "0220X0070",
+                "0220X0080",
+                "0220X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c73": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0230X0010",
+                "0230X0020",
+                "0230X0030",
+                "0230X0040",
+                "0230X0050",
+                "0230X0060",
+                "0230X0070",
+                "0230X0080",
+                "0230X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c74": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0240X0010",
+                "0240X0020",
+                "0240X0030",
+                "0240X0040",
+                "0240X0050",
+                "0240X0060",
+                "0240X0070",
+                "0240X0080",
+                "0240X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c75": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0250X0010",
+                "0250X0020",
+                "0250X0030",
+                "0250X0040",
+                "0250X0050",
+                "0250X0060",
+                "0250X0070",
+                "0250X0080",
+                "0250X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c76": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0260X0010",
+                "0260X0020",
+                "0260X0030",
+                "0260X0040",
+                "0260X0050",
+                "0260X0060",
+                "0260X0070",
+                "0260X0080",
+                "0260X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c104": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0270X0010",
+                "0270X0020",
+                "0270X0030",
+                "0270X0040",
+                "0270X0050",
+                "0270X0060",
+                "0270X0070",
+                "0270X0080",
+                "0270X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c105": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0280X0010",
+                "0280X0020",
+                "0280X0030",
+                "0280X0040",
+                "0280X0050",
+                "0280X0060",
+                "0280X0070",
+                "0280X0080",
+                "0280X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c106": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0290X0010",
+                "0290X0020",
+                "0290X0030",
+                "0290X0040",
+                "0290X0050",
+                "0290X0060",
+                "0290X0070",
+                "0290X0080",
+                "0290X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c107": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0300X0010",
+                "0300X0020",
+                "0300X0030",
+                "0300X0040",
+                "0300X0050",
+                "0300X0060",
+                "0300X0070",
+                "0300X0080",
+                "0300X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c79": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0310X0010",
+                "0310X0020",
+                "0310X0030",
+                "0310X0040",
+                "0310X0050",
+                "0310X0060",
+                "0310X0070",
+                "0310X0080",
+                "0310X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c80": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0320X0010",
+                "0320X0020",
+                "0320X0030",
+                "0320X0040",
+                "0320X0050",
+                "0320X0060",
+                "0320X0070",
+                "0320X0080",
+                "0320X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c81": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0330X0010",
+                "0330X0020",
+                "0330X0030",
+                "0330X0040",
+                "0330X0050",
+                "0330X0060",
+                "0330X0070",
+                "0330X0080",
+                "0330X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c82": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0340X0010",
+                "0340X0020",
+                "0340X0030",
+                "0340X0040",
+                "0340X0050",
+                "0340X0060",
+                "0340X0070",
+                "0340X0080",
+                "0340X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c85": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0350X0010",
+                "0350X0020",
+                "0350X0030",
+                "0350X0040",
+                "0350X0050",
+                "0350X0060",
+                "0350X0070",
+                "0350X0080",
+                "0350X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c86": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0360X0010",
+                "0360X0020",
+                "0360X0030",
+                "0360X0040",
+                "0360X0050",
+                "0360X0060",
+                "0360X0070",
+                "0360X0080",
+                "0360X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c87": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0370X0010",
+                "0370X0020",
+                "0370X0030",
+                "0370X0040",
+                "0370X0050",
+                "0370X0060",
+                "0370X0070",
+                "0370X0080",
+                "0370X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c88": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0380X0010",
+                "0380X0020",
+                "0380X0030",
+                "0380X0040",
+                "0380X0050",
+                "0380X0060",
+                "0380X0070",
+                "0380X0080",
+                "0380X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c91": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0390X0010",
+                "0390X0020",
+                "0390X0030",
+                "0390X0040",
+                "0390X0050",
+                "0390X0060",
+                "0390X0070",
+                "0390X0080",
+                "0390X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c92": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0400X0010",
+                "0400X0020",
+                "0400X0030",
+                "0400X0040",
+                "0400X0050",
+                "0400X0060",
+                "0400X0070",
+                "0400X0080",
+                "0400X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c93": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0410X0010",
+                "0410X0020",
+                "0410X0030",
+                "0410X0040",
+                "0410X0050",
+                "0410X0060",
+                "0410X0070",
+                "0410X0080",
+                "0410X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c94": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia niepowiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0420X0010",
+                "0420X0020",
+                "0420X0030",
+                "0420X0040",
+                "0420X0050",
+                "0420X0060",
+                "0420X0070",
+                "0420X0080",
+                "0420X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c95": {
+            "rows": "Liczba największych strat odpowiadająca za min. 80% łącznych strat z uwzględnieniem strat kredytowych",
+            "data_point": [
+                "0430X0010",
+                "0430X0020",
+                "0430X0030",
+                "0430X0040",
+                "0430X0050",
+                "0430X0060",
+                "0430X0070",
+                "0430X0080",
+                "0430X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2142",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c98": {
+            "rows": "Liczba zdarzeń",
+            "data_point": [
+                "0440X0010",
+                "0440X0020",
+                "0440X0030",
+                "0440X0040",
+                "0440X0050",
+                "0440X0060",
+                "0440X0070",
+                "0440X0080",
+                "0440X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:integerItemType",
+            "qname": "ii2131",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c99": {
+            "rows": "Łączna kwota strat (bez uwzględniania ewentualnych odzysków) dla zdarzeń z tytułu ryzyka operacyjnego niepowiązanych z ryzykiem kredytowym ",
+            "data_point": [
+                "0450X0010",
+                "0450X0020",
+                "0450X0030",
+                "0450X0040",
+                "0450X0050",
+                "0450X0060",
+                "0450X0070",
+                "0450X0080",
+                "0450X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2132",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c100": {
+            "rows": "Kwota odzysków (od sprawcy oraz od strony trzeciej w tym zakładu ubezpieczeniowego) dla zdarzeń niepowiązanych z ryzykiem kredytowym  ",
+            "data_point": [
+                "0460X0010",
+                "0460X0020",
+                "0460X0030",
+                "0460X0040",
+                "0460X0050",
+                "0460X0060",
+                "0460X0070",
+                "0460X0080",
+                "0460X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2133",
+            "report_name": "n.ro.bk.01.01"
+        },
+        "uknf_c101": {
+            "rows": "Maksymalna kwota  poniesionych strat z tytułu zdarzenia  (bez odzysków) w danym okresie dla zdarzenia nie powiązanego z ryzykiem kredytowym",
+            "data_point": [
+                "0470X0010",
+                "0470X0020",
+                "0470X0030",
+                "0470X0040",
+                "0470X0050",
+                "0470X0060",
+                "0470X0070",
+                "0470X0080",
+                "0470X0090"
+            ],
+            "cols": [
+                "LINIE BIZNESOWE RAZEM",
+                "Finansowanie przedsiębiorstw",
+                "Handel i sprzedaż",
+                "Detaliczna działalność maklerska",
+                "Bankowość komercyjna",
+                "Bankowość detaliczna",
+                "W kategorii \"bankowość detaliczna\" należy ująć zdarzenia związane z obrotem kartowym z wyjątkiem strat z tytułu rozliczeń z międzynarodowymi organizacjami kartowymi, które winny być ujęte w kategorii płatności  i rozliczenia. ",
+                "Płatności i rozliczenia",
+                "Usługi pośrednictwa",
+                "Zarządzanie aktywami"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2134",
+            "report_name": "n.ro.bk.01.01"
+        }
+    }
+}

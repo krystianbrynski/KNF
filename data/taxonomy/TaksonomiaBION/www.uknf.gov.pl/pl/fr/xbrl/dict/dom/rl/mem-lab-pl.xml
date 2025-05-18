@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--uknf-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x0" xlink:label="loc_uknf_x0" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x0" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">WSZYSTKIE / NIE DOTYCZY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x0" xlink:to="label_uknf_x0" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x1" xlink:label="loc_uknf_x1" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x1" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">SPORZĄDZAJĄCY RAPORT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x1" xlink:to="label_uknf_x1" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x11" xlink:label="loc_uknf_x11" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x11" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRACOWNIK FIRMY ZEWNĘTRZNEJ</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x11" xlink:to="label_uknf_x11" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x12" xlink:label="loc_uknf_x12" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x12" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">ZATWIERDZAJĄCY RAPORT</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x12" xlink:to="label_uknf_x12" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x13" xlink:label="loc_uknf_x13" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x13" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">KADRA KIEROWNICZA Z WYŁĄCZENIEM CZŁONKÓW ZARZĄDU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x13" xlink:to="label_uknf_x13" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x16" xlink:label="loc_uknf_x16" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x16" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRACOWNIK Z WYŁĄCZENIEM CZŁONKÓW ZARZĄDU</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x16" xlink:to="label_uknf_x16" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x17" xlink:label="loc_uknf_x17" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x17" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRZEDSTAWICIEL KOMÓRKI DS. ZGODNOŚCI</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x17" xlink:to="label_uknf_x17" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x18" xlink:label="loc_uknf_x18" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x18" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PODMIOT UDZIELAJĄCY FINANSOWANIA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x18" xlink:to="label_uknf_x18" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x19" xlink:label="loc_uknf_x19" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x19" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRZEDSTAWICIEL AUDYTU WEWNĘTRZNEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x19" xlink:to="label_uknf_x19" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x20" xlink:label="loc_uknf_x20" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x20" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRACOWNIK PODMIOTU DOMINUJĄCEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x20" xlink:to="label_uknf_x20" />
+    <link:loc xlink:type="locator" xlink:href="mem.xsd#uknf_x22" xlink:label="loc_uknf_x22" />
+    <link:label xlink:type="resource" xlink:label="label_uknf_x22" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">PRACOWNIK AUDYTU WEWNĘTRZNEGO</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_x22" xlink:to="label_uknf_x22" />
+  </link:labelLink>
+</link:linkbase>
