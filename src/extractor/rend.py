@@ -1,5 +1,3 @@
-
-
 def extract_rend_file(root):
     labels = []
     for elem in root.iter():

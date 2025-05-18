@@ -2,8 +2,8 @@ def transform_labels_unique(input_dict,column_flag,name_report):
     output = {}
     if column_flag:
         for key, values in input_dict.items():
-            label_row = values[0]                      # np. "Liczba zdarzen"
-            data_point = values[1]                     # np. ["A", "B"]
+            label_row = values[0]
+            data_point = values[1]
             label_col = values[2]
             datatype = values[3] if values[3] else "string"
             qname = values[4]
@@ -17,8 +17,8 @@ def transform_labels_unique(input_dict,column_flag,name_report):
             }
     else:
         for key, values in input_dict.items():
-            label_row = values[0]                      # np. "Liczba zdarzen"
-            data_point = values[1]                     # np. ["A", "B"]
+            label_row = values[0]
+            data_point = values[1]
             datatype = values[2]
             qname = values[3]
             label_col = "Null"
