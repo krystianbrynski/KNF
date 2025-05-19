@@ -1,7 +1,7 @@
 {
     "n.pif.bk": {
         "uknf_c7": {
-            "rows": "LCR - najniższa dzienna wartość wskaźnika w kwartale",
+            "row": "LCR - najniższa dzienna wartość wskaźnika w kwartale",
             "data_point": [
                 "0010X0010",
                 "0010X0020",
@@ -16,10 +16,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2107",
-            "report_name": "n.pif.bk.01.01"
+            "report_name_sheet": "n.pif.bk.01.01"
         },
         "uknf_c8": {
-            "rows": "LCR - najwyższa dzienna wartość wskaźnika w kwartale",
+            "row": "LCR - najwyższa dzienna wartość wskaźnika w kwartale",
             "data_point": [
                 "0020X0010",
                 "0020X0020",
@@ -34,10 +34,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2108",
-            "report_name": "n.pif.bk.01.01"
+            "report_name_sheet": "n.pif.bk.01.01"
         },
         "uknf_c9": {
-            "rows": "LCR - średnia wartość wskaźnika w kwartale",
+            "row": "LCR - średnia wartość wskaźnika w kwartale",
             "data_point": [
                 "0030X0010",
                 "0030X0020",
@@ -52,10 +52,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2109",
-            "report_name": "n.pif.bk.01.01"
+            "report_name_sheet": "n.pif.bk.01.01"
         },
         "uknf_c10": {
-            "rows": "LCR - mediana wskaźnika w kwartale",
+            "row": "LCR - mediana wskaźnika w kwartale",
             "data_point": [
                 "0040X0010",
                 "0040X0020",
@@ -70,7 +70,7 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2111",
-            "report_name": "n.pif.bk.01.01"
+            "report_name_sheet": "n.pif.bk.01.01"
         }
     }
 }

@@ -1,94 +1,94 @@
 {
     "n.pif.bk": {
         "uknf_c3": {
-            "rows": "Podmiot udzielający finansowania (proszę podać pełną nazwę podmiotu)",
+            "row": "Podmiot udzielający finansowania (proszę podać pełną nazwę podmiotu)",
             "data_point": [
                 "0020"
             ],
             "cols": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2116",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c4": {
-            "rows": "Rodzaj finansowania (np. kredyt/pożyczka/pożyczka podporządkowana/obligacje)",
+            "row": "Rodzaj finansowania (np. kredyt/pożyczka/pożyczka podporządkowana/obligacje)",
             "data_point": [
                 "0030"
             ],
             "cols": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2117",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c11": {
-            "rows": "Kwota finansowania w walucie oryginalnej w dniu udzielenia finansowania",
+            "row": "Kwota finansowania w walucie oryginalnej w dniu udzielenia finansowania",
             "data_point": [
                 "0040"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3123",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c5": {
-            "rows": "Waluta udzielonego finansowania",
+            "row": "Waluta udzielonego finansowania",
             "data_point": [
                 "0050"
             ],
             "cols": "Null",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2118",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c6": {
-            "rows": "Kwota pozostająca do spłaty wg stanu na koniec roku sprawozdawczego",
+            "row": "Kwota pozostająca do spłaty wg stanu na koniec roku sprawozdawczego",
             "data_point": [
                 "0060"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2119",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c7": {
-            "rows": "Data udzielenia finansowania",
+            "row": "Data udzielenia finansowania",
             "data_point": [
                 "0070"
             ],
             "cols": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2120",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c8": {
-            "rows": "Pierwotny termin spłaty",
+            "row": "Pierwotny termin spłaty",
             "data_point": [
                 "0080"
             ],
             "cols": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2121",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c9": {
-            "rows": "Aktualny termin spłaty",
+            "row": "Aktualny termin spłaty",
             "data_point": [
                 "0090"
             ],
             "cols": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2122",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         },
         "uknf_c10": {
-            "rows": "Informacje dodatkowe / komentarze",
+            "row": "Informacje dodatkowe / komentarze",
             "data_point": [
                 "0100"
             ],
             "cols": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2123",
-            "report_name": "n.pif.bk.01.04"
+            "report_name_sheet": "n.pif.bk.01.04"
         }
     }
 }

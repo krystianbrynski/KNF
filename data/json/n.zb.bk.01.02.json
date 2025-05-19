@@ -1,54 +1,54 @@
 {
     "n.zb.bk": {
         "uknf_c3": {
-            "rows": "Dostępne finansowanie",
+            "row": "Dostępne finansowanie",
             "data_point": [
                 "0020"
             ],
             "cols": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2129",
-            "report_name": "n.zb.bk.01.02"
+            "report_name_sheet": "n.zb.bk.01.02"
         },
         "uknf_c13": {
-            "rows": "przyznane",
+            "row": "przyznane",
             "data_point": [
                 "0030"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name": "n.zb.bk.01.02"
+            "report_name_sheet": "n.zb.bk.01.02"
         },
         "uknf_c14": {
-            "rows": "wykorzystane",
+            "row": "wykorzystane",
             "data_point": [
                 "0040"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name": "n.zb.bk.01.02"
+            "report_name_sheet": "n.zb.bk.01.02"
         },
         "uknf_c15": {
-            "rows": "przyznane",
+            "row": "przyznane",
             "data_point": [
                 "0050"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name": "n.zb.bk.01.02"
+            "report_name_sheet": "n.zb.bk.01.02"
         },
         "uknf_c16": {
-            "rows": "wykorzystane",
+            "row": "wykorzystane",
             "data_point": [
                 "0060"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name": "n.zb.bk.01.02"
+            "report_name_sheet": "n.zb.bk.01.02"
         }
     }
 }

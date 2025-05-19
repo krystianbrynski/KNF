@@ -1,7 +1,7 @@
 {
     "n.rk.bs": {
         "uknf_c10": {
-            "rows": "Prawdopodobieństwo niewykonania zobowiązania (ang. Probability of Default)",
+            "row": "Prawdopodobieństwo niewykonania zobowiązania (ang. Probability of Default)",
             "data_point": [
                 "0010X0010",
                 "0010X0020",
@@ -31,10 +31,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2166",
-            "report_name": "n.rk.bs.01.01"
+            "report_name_sheet": "n.rk.bs.01.01"
         },
         "uknf_c11": {
-            "rows": "Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )",
+            "row": "Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )",
             "data_point": [
                 "0020X0010",
                 "0020X0020",
@@ -64,10 +64,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2167",
-            "report_name": "n.rk.bs.01.01"
+            "report_name_sheet": "n.rk.bs.01.01"
         },
         "uknf_c12": {
-            "rows": "Prawdopodobieństwo niewykonania zobowiązania (ang. Probability of Default)",
+            "row": "Prawdopodobieństwo niewykonania zobowiązania (ang. Probability of Default)",
             "data_point": [
                 "0030X0010",
                 "0030X0020",
@@ -97,10 +97,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2166",
-            "report_name": "n.rk.bs.01.01"
+            "report_name_sheet": "n.rk.bs.01.01"
         },
         "uknf_c13": {
-            "rows": "Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )",
+            "row": "Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )",
             "data_point": [
                 "0040X0010",
                 "0040X0020",
@@ -130,10 +130,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2167",
-            "report_name": "n.rk.bs.01.01"
+            "report_name_sheet": "n.rk.bs.01.01"
         },
         "uknf_c14": {
-            "rows": "Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )",
+            "row": "Część ekspozycji kredytowej banku, która w przypadku niewypłacalności kredytobiorcy zostanie utracona (ang. Lost Given Default )",
             "data_point": [
                 "0050X0010",
                 "0050X0020",
@@ -163,7 +163,7 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2167",
-            "report_name": "n.rk.bs.01.01"
+            "report_name_sheet": "n.rk.bs.01.01"
         }
     }
 }

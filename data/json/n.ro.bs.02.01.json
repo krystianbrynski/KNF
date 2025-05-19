@@ -1,7 +1,7 @@
 {
     "n.ro.bs": {
         "uknf_c10": {
-            "rows": "Liczba modeli wg stanu na koniec okresu sprawozdawczego",
+            "row": "Liczba modeli wg stanu na koniec okresu sprawozdawczego",
             "data_point": [
                 "0010X0010"
             ],
@@ -10,10 +10,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2143",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c11": {
-            "rows": "Liczba nowych modeli, które zostały wprowadzone w Banku",
+            "row": "Liczba nowych modeli, które zostały wprowadzone w Banku",
             "data_point": [
                 "0020X0010"
             ],
@@ -22,10 +22,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2144",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c12": {
-            "rows": "Liczba modeli, dla których nie został wyznaczony poziom istotności modelu",
+            "row": "Liczba modeli, dla których nie został wyznaczony poziom istotności modelu",
             "data_point": [
                 "0030X0010"
             ],
@@ -34,10 +34,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2145",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c28": {
-            "rows": "Procent realizacji planu walidacji według stanu na koniec okresu sprawozdawczego",
+            "row": "Procent realizacji planu walidacji według stanu na koniec okresu sprawozdawczego",
             "data_point": [
                 "0060X0010"
             ],
@@ -46,10 +46,10 @@
             ],
             "datatype": "num:percentItemType",
             "qname": "pi2146",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c13": {
-            "rows": "Liczba osób zatrudnionych w jednostce walidacji wewnętrznej wg stanu na koniec okresu sprawozdawczego",
+            "row": "Liczba osób zatrudnionych w jednostce walidacji wewnętrznej wg stanu na koniec okresu sprawozdawczego",
             "data_point": [
                 "0070X0010"
             ],
@@ -58,10 +58,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2147",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c29": {
-            "rows": "Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy nie przeprowadzono monitoringu. ",
+            "row": "Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy nie przeprowadzono monitoringu. ",
             "data_point": [
                 "0040X0010"
             ],
@@ -70,10 +70,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2148",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c30": {
-            "rows": "Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy  nie przeprowadzono oceny jakości danych.",
+            "row": "Liczba modeli wg stanu na koniec okresu, dla których w okresie 12 miesięcy  nie przeprowadzono oceny jakości danych.",
             "data_point": [
                 "0050X0010"
             ],
@@ -82,10 +82,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2149",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c33": {
-            "rows": "Liczba modeli wg stanu na koniec okresu, dla których nie była dostępna kompletna dokumentacja modelu zgodna z wymaganiami Rekomendacji W.",
+            "row": "Liczba modeli wg stanu na koniec okresu, dla których nie była dostępna kompletna dokumentacja modelu zgodna z wymaganiami Rekomendacji W.",
             "data_point": [
                 "0110X0010"
             ],
@@ -94,10 +94,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2150",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c32": {
-            "rows": "Liczba modeli wg stanu na koniec okresu, dla których nie była dostępna dokumentacja wdrożeniowa lub które nie zostały objęte testami wdrożeniowymi.",
+            "row": "Liczba modeli wg stanu na koniec okresu, dla których nie była dostępna dokumentacja wdrożeniowa lub które nie zostały objęte testami wdrożeniowymi.",
             "data_point": [
                 "0120X0010"
             ],
@@ -106,10 +106,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2151",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c18": {
-            "rows": "Liczba nowych modeli istotnych, które zostały wprowadzone w Banku  w okresie sprawozdawczym",
+            "row": "Liczba nowych modeli istotnych, które zostały wprowadzone w Banku  w okresie sprawozdawczym",
             "data_point": [
                 "0140X0010"
             ],
@@ -118,10 +118,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2152",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c19": {
-            "rows": "Liczba modeli istotnych wg stanu na koniec okresu sprawozdawczego",
+            "row": "Liczba modeli istotnych wg stanu na koniec okresu sprawozdawczego",
             "data_point": [
                 "0150X0010"
             ],
@@ -130,10 +130,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2153",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c20": {
-            "rows": "Liczba modeli istotnych wg stanu na koniec okresu sprawozdawczego, które nie podlegały walidacji w okresie sprawozdawczym",
+            "row": "Liczba modeli istotnych wg stanu na koniec okresu sprawozdawczego, które nie podlegały walidacji w okresie sprawozdawczym",
             "data_point": [
                 "0160X0010"
             ],
@@ -142,10 +142,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2154",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c21": {
-            "rows": "Liczba modeli istotnych dla których przeprowadzono równocześnie backtesting, jedno i wieloczynnikową analizę wrażliwości, stress-testy, benchmarking oraz analizę jakościową (zgodnie z rekomendacją 13.7 Rekomendacji W KNF) w okresie 12 miesięcy do daty BION.",
+            "row": "Liczba modeli istotnych dla których przeprowadzono równocześnie backtesting, jedno i wieloczynnikową analizę wrażliwości, stress-testy, benchmarking oraz analizę jakościową (zgodnie z rekomendacją 13.7 Rekomendacji W KNF) w okresie 12 miesięcy do daty BION.",
             "data_point": [
                 "0200X0010"
             ],
@@ -154,10 +154,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2155",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c39": {
-            "rows": "Liczba otwartych rekomendacji walidacyjnych lub audytowych wg stanu na datę BION",
+            "row": "Liczba otwartych rekomendacji walidacyjnych lub audytowych wg stanu na datę BION",
             "data_point": [
                 "0210X0010"
             ],
@@ -166,10 +166,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2253",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c40": {
-            "rows": "Liczba modeli, wobec których w wyniku walidacji, audytu lub monitoringu zostały podjęte działania zaradcze lub naprawcze",
+            "row": "Liczba modeli, wobec których w wyniku walidacji, audytu lub monitoringu zostały podjęte działania zaradcze lub naprawcze",
             "data_point": [
                 "0220X0010"
             ],
@@ -178,10 +178,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2254",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c41": {
-            "rows": "Liczba wydanych rekomendacji walidacyjnych lub audytowych odnoszących się do procesu zarządzania ryzykiem modeli w ciągu 12 miesięcy przed datę BION",
+            "row": "Liczba wydanych rekomendacji walidacyjnych lub audytowych odnoszących się do procesu zarządzania ryzykiem modeli w ciągu 12 miesięcy przed datę BION",
             "data_point": [
                 "0230X0010"
             ],
@@ -190,10 +190,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2255",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c42": {
-            "rows": "Łączny poziom ryzyka (wszystkich) modeli w PLN  o ile został policzony",
+            "row": "Łączny poziom ryzyka (wszystkich) modeli w PLN  o ile został policzony",
             "data_point": [
                 "0240X0010"
             ],
@@ -202,10 +202,10 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2256",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c43": {
-            "rows": "Sposób wyznaczenia poziomu ryzyka modeli",
+            "row": "Sposób wyznaczenia poziomu ryzyka modeli",
             "data_point": [
                 "0250X0010"
             ],
@@ -214,10 +214,10 @@
             ],
             "datatype": "xbrli:stringItemType",
             "qname": "si2257",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c44": {
-            "rows": "Łączny poziom tolerancji ryzyka (wszystkich) modeli w PLN (jeżeli został on wyznaczony) - maksymalny akceptowalny poziom ryzyka modeli",
+            "row": "Łączny poziom tolerancji ryzyka (wszystkich) modeli w PLN (jeżeli został on wyznaczony) - maksymalny akceptowalny poziom ryzyka modeli",
             "data_point": [
                 "0260X0010"
             ],
@@ -226,10 +226,10 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2258",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         },
         "uknf_c45": {
-            "rows": "Sposób wyznaczenia poziomu tolerancji ryzyka modeli (proszę opisać w kolejnym wierszu sposób wyznaczania ww. poziomu) oraz kto zaproponował i ustanowił ów poziom",
+            "row": "Sposób wyznaczenia poziomu tolerancji ryzyka modeli (proszę opisać w kolejnym wierszu sposób wyznaczania ww. poziomu) oraz kto zaproponował i ustanowił ów poziom",
             "data_point": [
                 "0270X0010"
             ],
@@ -238,7 +238,7 @@
             ],
             "datatype": "xbrli:stringItemType",
             "qname": "si2259",
-            "report_name": "n.ro.bs.02.01"
+            "report_name_sheet": "n.ro.bs.02.01"
         }
     }
 }

@@ -8,12 +8,12 @@ def transform_labels_unique(input_dict,column_flag,name_report):
             datatype = values[3] if values[3] else "string"
             qname = values[4]
             output[key] = {
-                "rows": label_row,
+                "row": label_row,
                 "data_point": data_point,
                 "cols": label_col,
                 "datatype": datatype,
                 "qname": qname,
-                "report_name": name_report
+                "report_name_sheet": name_report
             }
     else:
         for key, values in input_dict.items():
@@ -23,12 +23,12 @@ def transform_labels_unique(input_dict,column_flag,name_report):
             qname = values[3]
             label_col = "Null"
             output[key] = {
-                "rows": label_row,
+                "row": label_row,
                 "data_point": data_point,
                 "cols": label_col,
                 "datatype": datatype,
                 "qname": qname,
-                "report_name": name_report
+                "report_name_sheet": name_report
             }
 
     return output

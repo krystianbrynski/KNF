@@ -1,7 +1,7 @@
 {
     "n.ro.bs": {
         "uknf_c28": {
-            "rows": "Liczba osób zatrudnionych na początek okresu ",
+            "row": "Liczba osób zatrudnionych na początek okresu ",
             "data_point": [
                 "0010X0010",
                 "0010X0020",
@@ -32,10 +32,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2260",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c29": {
-            "rows": "Liczba osób które zakończyły pracę w okresie, w tym:",
+            "row": "Liczba osób które zakończyły pracę w okresie, w tym:",
             "data_point": [
                 "0020X0010",
                 "0020X0020",
@@ -66,10 +66,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2261",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c30": {
-            "rows": "liczba osób które pracowały krócej niż 1 rok",
+            "row": "liczba osób które pracowały krócej niż 1 rok",
             "data_point": [
                 "0030X0010",
                 "0030X0020",
@@ -100,10 +100,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2262",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c31": {
-            "rows": " Liczba osób które rozpoczęły pracę w ciągu okresu",
+            "row": " Liczba osób które rozpoczęły pracę w ciągu okresu",
             "data_point": [
                 "0040X0010",
                 "0040X0020",
@@ -134,10 +134,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2263",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c32": {
-            "rows": "Liczba osób na koniec okresu",
+            "row": "Liczba osób na koniec okresu",
             "data_point": [
                 "0050X0010",
                 "0050X0020",
@@ -168,10 +168,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2260",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c33": {
-            "rows": " Liczba osób z orzeczoną niepełnosprawnością",
+            "row": " Liczba osób z orzeczoną niepełnosprawnością",
             "data_point": [
                 "0060X0010",
                 "0060X0020",
@@ -202,10 +202,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2264",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c34": {
-            "rows": "Całkowity koszt wynagrodzeń, tj. łącznie z premiami, narzutami na wynagrodzenia, itp. - pozycja 750 wzorcowego  planu kont dla banków z Rozporządzenie Ministra Finansów z dnia 11.08.2011 r. w sprawie określenia wzorcowego planu kont dla banków (z dalsz. zmian.) w danym okresie w PLN  (z wyłączeniem członków zarządu banku zatrudnionych na podstawie umowy o pracę)",
+            "row": "Całkowity koszt wynagrodzeń, tj. łącznie z premiami, narzutami na wynagrodzenia, itp. - pozycja 750 wzorcowego  planu kont dla banków z Rozporządzenie Ministra Finansów z dnia 11.08.2011 r. w sprawie określenia wzorcowego planu kont dla banków (z dalsz. zmian.) w danym okresie w PLN  (z wyłączeniem członków zarządu banku zatrudnionych na podstawie umowy o pracę)",
             "data_point": [
                 "0070X0010",
                 "0070X0020",
@@ -236,10 +236,10 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2265",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c35": {
-            "rows": "Liczba dni nieobecności z powodu chorób - łączny czas z tytułu zwolnień lekarskich z wyłączeniem przypadków niezdolności do pracy wynikających z ciąży (o ile Bank ma taką wiedzę) ",
+            "row": "Liczba dni nieobecności z powodu chorób - łączny czas z tytułu zwolnień lekarskich z wyłączeniem przypadków niezdolności do pracy wynikających z ciąży (o ile Bank ma taką wiedzę) ",
             "data_point": [
                 "0080X0010",
                 "0080X0020",
@@ -270,10 +270,10 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2266",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c36": {
-            "rows": "Liczba nowych pozwów skierowanych przez pracowników i byłych pracowników przeciwko Bankowi w okresie ",
+            "row": "Liczba nowych pozwów skierowanych przez pracowników i byłych pracowników przeciwko Bankowi w okresie ",
             "data_point": [
                 "0090X0010",
                 "0090X0020",
@@ -304,10 +304,10 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2267",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c37": {
-            "rows": "Kwota rezerw na pozwy pracowników",
+            "row": "Kwota rezerw na pozwy pracowników",
             "data_point": [
                 "0100X0010",
                 "0100X0020",
@@ -338,10 +338,10 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2285",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         },
         "uknf_c38": {
-            "rows": "Kwota wypłat z tytułu niekorzystnych dla Banku roztrzygnięć w sporach z pracownikami w okresie",
+            "row": "Kwota wypłat z tytułu niekorzystnych dla Banku roztrzygnięć w sporach z pracownikami w okresie",
             "data_point": [
                 "0110X0010",
                 "0110X0020",
@@ -372,7 +372,7 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2284",
-            "report_name": "n.ro.bs.04.01"
+            "report_name_sheet": "n.ro.bs.04.01"
         }
     }
 }

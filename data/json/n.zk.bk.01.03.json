@@ -1,44 +1,44 @@
 {
     "n.zk.bk": {
         "uknf_c3": {
-            "rows": "Kategoria ryzyka",
+            "row": "Kategoria ryzyka",
             "data_point": [
                 "0020"
             ],
             "cols": "Null",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2196",
-            "report_name": "n.zk.bk.01.03"
+            "report_name_sheet": "n.zk.bk.01.03"
         },
         "uknf_c4": {
-            "rows": "Nazwa podkategorii ryzyka",
+            "row": "Nazwa podkategorii ryzyka",
             "data_point": [
                 "0030"
             ],
             "cols": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2197",
-            "report_name": "n.zk.bk.01.03"
+            "report_name_sheet": "n.zk.bk.01.03"
         },
         "uknf_c5": {
-            "rows": "Definicja ryzyka stosowana w banku",
+            "row": "Definicja ryzyka stosowana w banku",
             "data_point": [
                 "0040"
             ],
             "cols": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2198",
-            "report_name": "n.zk.bk.01.03"
+            "report_name_sheet": "n.zk.bk.01.03"
         },
         "uknf_c6": {
-            "rows": "Kapitał wewnętrzny",
+            "row": "Kapitał wewnętrzny",
             "data_point": [
                 "0050"
             ],
             "cols": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2194",
-            "report_name": "n.zk.bk.01.03"
+            "report_name_sheet": "n.zk.bk.01.03"
         }
     }
 }
