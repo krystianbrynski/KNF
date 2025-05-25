@@ -1,94 +1,94 @@
 {
     "n.pif.bk": {
         "uknf_c3": {
-            "row": "Podmiot udzielający finansowania (proszę podać pełną nazwę podmiotu)",
-            "data_point": [
+            "value_row": "Podmiot udzielający finansowania (proszę podać pełną nazwę podmiotu)",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2116",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c4": {
-            "row": "Rodzaj finansowania (np. kredyt/pożyczka/pożyczka podporządkowana/obligacje)",
-            "data_point": [
+            "value_row": "Rodzaj finansowania (np. kredyt/pożyczka/pożyczka podporządkowana/obligacje)",
+            "data_points": [
                 "0030"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2117",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c11": {
-            "row": "Kwota finansowania w walucie oryginalnej w dniu udzielenia finansowania",
-            "data_point": [
+            "value_row": "Kwota finansowania w walucie oryginalnej w dniu udzielenia finansowania",
+            "data_points": [
                 "0040"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3123",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c5": {
-            "row": "Waluta udzielonego finansowania",
-            "data_point": [
+            "value_row": "Waluta udzielonego finansowania",
+            "data_points": [
                 "0050"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2118",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c6": {
-            "row": "Kwota pozostająca do spłaty wg stanu na koniec roku sprawozdawczego",
-            "data_point": [
+            "value_row": "Kwota pozostająca do spłaty wg stanu na koniec roku sprawozdawczego",
+            "data_points": [
                 "0060"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2119",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c7": {
-            "row": "Data udzielenia finansowania",
-            "data_point": [
+            "value_row": "Data udzielenia finansowania",
+            "data_points": [
                 "0070"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2120",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c8": {
-            "row": "Pierwotny termin spłaty",
-            "data_point": [
+            "value_row": "Pierwotny termin spłaty",
+            "data_points": [
                 "0080"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2121",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c9": {
-            "row": "Aktualny termin spłaty",
-            "data_point": [
+            "value_row": "Aktualny termin spłaty",
+            "data_points": [
                 "0090"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2122",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         },
         "uknf_c10": {
-            "row": "Informacje dodatkowe / komentarze",
-            "data_point": [
+            "value_row": "Informacje dodatkowe / komentarze",
+            "data_points": [
                 "0100"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2123",
-            "report_name_sheet": "n.pif.bk.01.04"
+            "sheet_name": "n.pif.bk.01.04"
         }
     }
 }

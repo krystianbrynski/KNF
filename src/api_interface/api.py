@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from src.create_db.connection import connect
-from src.config.paths import FILE_PATH
+from src.config.constants import FILE_PATH
 
 app = FastAPI()
 

@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 
+
+#  Funkcja, która pobiera wszystkie przestrzenie nazw (namespaces) z pliku XML.
 def extract_namespaces(xml_file):
     events = "start", "start-ns"
     ns_map = {}

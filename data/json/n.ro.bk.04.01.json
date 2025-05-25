@@ -1,8 +1,8 @@
 {
     "n.ro.bk": {
         "uknf_c28": {
-            "row": "Liczba osób zatrudnionych na początek okresu ",
-            "data_point": [
+            "value_row": "Liczba osób zatrudnionych na początek okresu ",
+            "data_points": [
                 "0010X0010",
                 "0010X0020",
                 "0010X0030",
@@ -14,7 +14,7 @@
                 "0010X0090",
                 "0010X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -28,11 +28,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2260",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c29": {
-            "row": "Liczba osób które zakończyły pracę w okresie, w tym:",
-            "data_point": [
+            "value_row": "Liczba osób które zakończyły pracę w okresie, w tym:",
+            "data_points": [
                 "0020X0010",
                 "0020X0020",
                 "0020X0030",
@@ -44,7 +44,7 @@
                 "0020X0090",
                 "0020X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -58,11 +58,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2261",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c30": {
-            "row": "Liczba pracowników, którzy opuścili bank z własnej inicjatywy (odejścia dobrowolne) ",
-            "data_point": [
+            "value_row": "Liczba pracowników, którzy opuścili bank z własnej inicjatywy (odejścia dobrowolne) ",
+            "data_points": [
                 "0030X0010",
                 "0030X0020",
                 "0030X0030",
@@ -74,7 +74,7 @@
                 "0030X0090",
                 "0030X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -88,11 +88,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2261",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c39": {
-            "row": "Liczba pracowników, którzy opuścili bank z inicjatywy pracodawcy (odejścia niedobrowolne) ",
-            "data_point": [
+            "value_row": "Liczba pracowników, którzy opuścili bank z inicjatywy pracodawcy (odejścia niedobrowolne) ",
+            "data_points": [
                 "0040X0010",
                 "0040X0020",
                 "0040X0030",
@@ -104,7 +104,7 @@
                 "0040X0090",
                 "0040X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -118,11 +118,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2261",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c31": {
-            "row": " Liczba osób które rozpoczęły pracę w ciągu okresu",
-            "data_point": [
+            "value_row": " Liczba osób które rozpoczęły pracę w ciągu okresu",
+            "data_points": [
                 "0050X0010",
                 "0050X0020",
                 "0050X0030",
@@ -134,7 +134,7 @@
                 "0050X0090",
                 "0050X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -148,11 +148,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2263",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c32": {
-            "row": "Liczba osób na koniec okresu",
-            "data_point": [
+            "value_row": "Liczba osób na koniec okresu",
+            "data_points": [
                 "0060X0010",
                 "0060X0020",
                 "0060X0030",
@@ -164,7 +164,7 @@
                 "0060X0090",
                 "0060X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -178,11 +178,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2260",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c40": {
-            "row": "Średnia liczba pracowników w okresie sprawozdawczym  ",
-            "data_point": [
+            "value_row": "Średnia liczba pracowników w okresie sprawozdawczym  ",
+            "data_points": [
                 "0070X0010",
                 "0070X0020",
                 "0070X0030",
@@ -194,7 +194,7 @@
                 "0070X0090",
                 "0070X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -208,11 +208,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii3119",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c41": {
-            "row": "Średni staż pracy w banku pracowników zatrudnionych w okresie (staż pracy \"\"w banku\"\" a nie staż pracy ogółem) ",
-            "data_point": [
+            "value_row": "Średni staż pracy w banku pracowników zatrudnionych w okresie (staż pracy \"\"w banku\"\" a nie staż pracy ogółem) ",
+            "data_points": [
                 "0080X0010",
                 "0080X0020",
                 "0080X0030",
@@ -224,7 +224,7 @@
                 "0080X0090",
                 "0080X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -238,11 +238,11 @@
             ],
             "datatype": "xbrli:decimalItemType",
             "qname": "ri3120",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c34": {
-            "row": "Całkowity koszt wynagrodzeń, tj. łącznie z premiami, narzutami na wynagrodzenia, itp. - pozycja 750 wzorcowego  planu kont dla banków z Rozporządzenie Ministra Finansów z dnia 11.08.2011 r. w sprawie określenia wzorcowego planu kont dla banków (z dalsz. zmian.) w danym okresie w PLN  (z wyłączeniem członków zarządu banku zatrudnionych na podstawie umowy o pracę)",
-            "data_point": [
+            "value_row": "Całkowity koszt wynagrodzeń, tj. łącznie z premiami, narzutami na wynagrodzenia, itp. - pozycja 750 wzorcowego  planu kont dla banków z Rozporządzenie Ministra Finansów z dnia 11.08.2011 r. w sprawie określenia wzorcowego planu kont dla banków (z dalsz. zmian.) w danym okresie w PLN  (z wyłączeniem członków zarządu banku zatrudnionych na podstawie umowy o pracę)",
+            "data_points": [
                 "0090X0010",
                 "0090X0020",
                 "0090X0030",
@@ -254,7 +254,7 @@
                 "0090X0090",
                 "0090X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -268,11 +268,11 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2265",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c35": {
-            "row": "Liczba dni nieobecności z powodu chorób - łączny czas z tytułu zwolnień lekarskich z wyłączeniem przypadków niezdolności do pracy wynikających z ciąży (o ile Bank ma taką wiedzę) ",
-            "data_point": [
+            "value_row": "Liczba dni nieobecności z powodu chorób - łączny czas z tytułu zwolnień lekarskich z wyłączeniem przypadków niezdolności do pracy wynikających z ciąży (o ile Bank ma taką wiedzę) ",
+            "data_points": [
                 "0100X0010",
                 "0100X0020",
                 "0100X0030",
@@ -284,7 +284,7 @@
                 "0100X0090",
                 "0100X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -298,11 +298,11 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2266",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c36": {
-            "row": "Liczba nowych pozwów skierowanych przez pracowników i byłych pracowników przeciwko Bankowi w okresie ",
-            "data_point": [
+            "value_row": "Liczba nowych pozwów skierowanych przez pracowników i byłych pracowników przeciwko Bankowi w okresie ",
+            "data_points": [
                 "0110X0010",
                 "0110X0020",
                 "0110X0030",
@@ -314,7 +314,7 @@
                 "0110X0090",
                 "0110X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -328,11 +328,11 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2267",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c37": {
-            "row": "Kwota rezerw na pozwy pracowników",
-            "data_point": [
+            "value_row": "Kwota rezerw na pozwy pracowników",
+            "data_points": [
                 "0120X0010",
                 "0120X0020",
                 "0120X0030",
@@ -344,7 +344,7 @@
                 "0120X0090",
                 "0120X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -358,11 +358,11 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2285",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c38": {
-            "row": "Kwota wypłat z tytułu niekorzystnych dla Banku roztrzygnięć w sporach z pracownikami w okresie",
-            "data_point": [
+            "value_row": "Kwota wypłat z tytułu niekorzystnych dla Banku roztrzygnięć w sporach z pracownikami w okresie",
+            "data_points": [
                 "0130X0010",
                 "0130X0020",
                 "0130X0030",
@@ -374,7 +374,7 @@
                 "0130X0090",
                 "0130X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -388,11 +388,11 @@
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2284",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         },
         "uknf_c33": {
-            "row": " Liczba osób z orzeczoną niepełnosprawnością",
-            "data_point": [
+            "value_row": " Liczba osób z orzeczoną niepełnosprawnością",
+            "data_points": [
                 "0140X0010",
                 "0140X0020",
                 "0140X0030",
@@ -404,7 +404,7 @@
                 "0140X0090",
                 "0140X0100"
             ],
-            "cols": [
+            "value_columns": [
                 "Pracownicy ogółem",
                 "Kadra kierownicza",
                 "Pracownicy ogółem",
@@ -418,7 +418,7 @@
             ],
             "datatype": "xbrli:integerItemType",
             "qname": "ii2264",
-            "report_name_sheet": "n.ro.bk.04.01"
+            "sheet_name": "n.ro.bk.04.01"
         }
     }
 }

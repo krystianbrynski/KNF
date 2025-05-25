@@ -1,760 +1,760 @@
 {
     "n.rr.bk": {
         "uknf_c44": {
-            "row": "Wartość M-t-M portfela instrumentów dłużnych zaliczanych do portfela handlowego na koniec okresu, w tym:",
-            "data_point": [
+            "value_row": "Wartość M-t-M portfela instrumentów dłużnych zaliczanych do portfela handlowego na koniec okresu, w tym:",
+            "data_points": [
                 "0010X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c46": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0020X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c47": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0030X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c48": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0040X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c49": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0050X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c50": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0060X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c51": {
-            "row": "Średnia wartość M-t-M (wg częstotliwości przeprowadzania wycen) portfela instrumentów dłużnych zaliczanych do portfela handlowego w okresie, w tym:",
-            "data_point": [
+            "value_row": "Średnia wartość M-t-M (wg częstotliwości przeprowadzania wycen) portfela instrumentów dłużnych zaliczanych do portfela handlowego w okresie, w tym:",
+            "data_points": [
                 "0070X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2169",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c53": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0080X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2169",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c54": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0090X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c55": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0100X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c56": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0110X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c57": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0120X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c60": {
-            "row": "Wartość M-t-M portfela bankowego wycenianego wg wartości godziwej na koniec okresu, w tym:",
-            "data_point": [
+            "value_row": "Wartość M-t-M portfela bankowego wycenianego wg wartości godziwej na koniec okresu, w tym:",
+            "data_points": [
                 "0130X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c61": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0140X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c62": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0150X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c63": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0160X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c64": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0170X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c65": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0180X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c66": {
-            "row": "Średnia dzienna wartość M-t-M  portfela bankowego wycenianego wg wartości godziwej w okresie, w tym:",
-            "data_point": [
+            "value_row": "Średnia dzienna wartość M-t-M  portfela bankowego wycenianego wg wartości godziwej w okresie, w tym:",
+            "data_points": [
                 "0190X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c67": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0200X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c68": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0210X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c69": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0220X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c70": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0230X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c71": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0240X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c74": {
-            "row": "Wartość bilansowa portfela instrumentów dłużnych wycenianego wg zamortyzowanego kosztu na koniec okresu, w tym:",
-            "data_point": [
+            "value_row": "Wartość bilansowa portfela instrumentów dłużnych wycenianego wg zamortyzowanego kosztu na koniec okresu, w tym:",
+            "data_points": [
                 "0250X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2171",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c75": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0260X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2171",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c76": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0270X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2171",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c77": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0280X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2171",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c78": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0290X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2171",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c79": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0300X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2171",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c80": {
-            "row": "Średnia wartość bilansowa portfela instrumentów dłużnych wycenianego wg zamortyzowanego kosztu w okresie, w tym:  ",
-            "data_point": [
+            "value_row": "Średnia wartość bilansowa portfela instrumentów dłużnych wycenianego wg zamortyzowanego kosztu w okresie, w tym:  ",
+            "data_points": [
                 "0310X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3121",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c81": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0320X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3121",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c82": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0330X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3121",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c83": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0340X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3121",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c84": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0350X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3121",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c85": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0360X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi3121",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c88": {
-            "row": "Wartość M-t-M portfela bankowego wycenianego wg wartości godziwej na koniec okresu, w tym:",
-            "data_point": [
+            "value_row": "Wartość M-t-M portfela bankowego wycenianego wg wartości godziwej na koniec okresu, w tym:",
+            "data_points": [
                 "0370X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c89": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0380X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c90": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0390X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c91": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0400X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c92": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0410X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c93": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0420X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2168",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c94": {
-            "row": "Średnia dzienna wartość M-t-M  portfela bankowego wycenianego wg wartości godziwej w okresie, w tym:",
-            "data_point": [
+            "value_row": "Średnia dzienna wartość M-t-M  portfela bankowego wycenianego wg wartości godziwej w okresie, w tym:",
+            "data_points": [
                 "0430X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c95": {
-            "row": "instrumenty emitowane przez Ministerstwo Finansów",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Ministerstwo Finansów",
+            "data_points": [
                 "0440X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c96": {
-            "row": "instrumenty emitowane przez Narodowy Bank Polski",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Narodowy Bank Polski",
+            "data_points": [
                 "0450X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c97": {
-            "row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez podmioty wchodzące w skład grupy kapitałowej banku    ",
+            "data_points": [
                 "0460X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c98": {
-            "row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez Jednostki Samorządu Terytorialnego w Polsce",
+            "data_points": [
                 "0470X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c99": {
-            "row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
-            "data_point": [
+            "value_row": "instrumenty emitowane przez pozostałych emitentów (niewykazanych powyżej)",
+            "data_points": [
                 "0480X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2170",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c102": {
-            "row": "Wartość na początku okresu",
-            "data_point": [
+            "value_row": "Wartość na początku okresu",
+            "data_points": [
                 "0490X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2230",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c103": {
-            "row": "Nabycie instrumentów dłużnych",
-            "data_point": [
+            "value_row": "Nabycie instrumentów dłużnych",
+            "data_points": [
                 "0500X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c104": {
-            "row": "Sprzedaż instrumentów dłużnych",
-            "data_point": [
+            "value_row": "Sprzedaż instrumentów dłużnych",
+            "data_points": [
                 "0510X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c105": {
-            "row": "Inne zmiany",
-            "data_point": [
+            "value_row": "Inne zmiany",
+            "data_points": [
                 "0520X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c106": {
-            "row": "Wartość na koniec okresu ",
-            "data_point": [
+            "value_row": "Wartość na koniec okresu ",
+            "data_points": [
                 "0530X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2230",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c109": {
-            "row": "Wartość na początku okresu",
-            "data_point": [
+            "value_row": "Wartość na początku okresu",
+            "data_points": [
                 "0540X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2230",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c110": {
-            "row": "Nabycie instrumentów dłużnych",
-            "data_point": [
+            "value_row": "Nabycie instrumentów dłużnych",
+            "data_points": [
                 "0550X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c111": {
-            "row": "Sprzedaż instrumentów dłużnych",
-            "data_point": [
+            "value_row": "Sprzedaż instrumentów dłużnych",
+            "data_points": [
                 "0560X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c112": {
-            "row": "Inne zmiany",
-            "data_point": [
+            "value_row": "Inne zmiany",
+            "data_points": [
                 "0570X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c113": {
-            "row": "Wartość na koniec okresu ",
-            "data_point": [
+            "value_row": "Wartość na koniec okresu ",
+            "data_points": [
                 "0580X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2230",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c116": {
-            "row": "Wartość na początku okresu",
-            "data_point": [
+            "value_row": "Wartość na początku okresu",
+            "data_points": [
                 "0590X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2230",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c117": {
-            "row": "Nabycie instrumentów dłużnych",
-            "data_point": [
+            "value_row": "Nabycie instrumentów dłużnych",
+            "data_points": [
                 "0600X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c118": {
-            "row": "Sprzedaż instrumentów dłużnych",
-            "data_point": [
+            "value_row": "Sprzedaż instrumentów dłużnych",
+            "data_points": [
                 "0610X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c119": {
-            "row": "Inne zmiany",
-            "data_point": [
+            "value_row": "Inne zmiany",
+            "data_points": [
                 "0620X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2175",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         },
         "uknf_c120": {
-            "row": "Wartość na koniec okresu ",
-            "data_point": [
+            "value_row": "Wartość na koniec okresu ",
+            "data_points": [
                 "0630X0010"
             ],
-            "cols": [
+            "value_columns": [
                 "Wartość"
             ],
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2230",
-            "report_name_sheet": "n.rr.bk.01.02"
+            "sheet_name": "n.rr.bk.01.02"
         }
     }
 }

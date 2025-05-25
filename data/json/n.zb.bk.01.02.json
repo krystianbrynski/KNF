@@ -1,54 +1,54 @@
 {
     "n.zb.bk": {
         "uknf_c3": {
-            "row": "Dostępne finansowanie",
-            "data_point": [
+            "value_row": "Dostępne finansowanie",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2129",
-            "report_name_sheet": "n.zb.bk.01.02"
+            "sheet_name": "n.zb.bk.01.02"
         },
         "uknf_c13": {
-            "row": "przyznane",
-            "data_point": [
+            "value_row": "przyznane",
+            "data_points": [
                 "0030"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name_sheet": "n.zb.bk.01.02"
+            "sheet_name": "n.zb.bk.01.02"
         },
         "uknf_c14": {
-            "row": "wykorzystane",
-            "data_point": [
+            "value_row": "wykorzystane",
+            "data_points": [
                 "0040"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name_sheet": "n.zb.bk.01.02"
+            "sheet_name": "n.zb.bk.01.02"
         },
         "uknf_c15": {
-            "row": "przyznane",
-            "data_point": [
+            "value_row": "przyznane",
+            "data_points": [
                 "0050"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name_sheet": "n.zb.bk.01.02"
+            "sheet_name": "n.zb.bk.01.02"
         },
         "uknf_c16": {
-            "row": "wykorzystane",
-            "data_point": [
+            "value_row": "wykorzystane",
+            "data_points": [
                 "0060"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2128",
-            "report_name_sheet": "n.zb.bk.01.02"
+            "sheet_name": "n.zb.bk.01.02"
         }
     }
 }

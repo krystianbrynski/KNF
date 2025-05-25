@@ -1,44 +1,44 @@
 {
     "n.zk.bs": {
         "uknf_c3": {
-            "row": "Kategoria ryzyka",
-            "data_point": [
+            "value_row": "Kategoria ryzyka",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2196",
-            "report_name_sheet": "n.zk.bs.01.03"
+            "sheet_name": "n.zk.bs.01.03"
         },
         "uknf_c4": {
-            "row": "Nazwa podkategorii ryzyka",
-            "data_point": [
+            "value_row": "Nazwa podkategorii ryzyka",
+            "data_points": [
                 "0030"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2197",
-            "report_name_sheet": "n.zk.bs.01.03"
+            "sheet_name": "n.zk.bs.01.03"
         },
         "uknf_c5": {
-            "row": "Definicja ryzyka stosowana w banku",
-            "data_point": [
+            "value_row": "Definicja ryzyka stosowana w banku",
+            "data_points": [
                 "0040"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2198",
-            "report_name_sheet": "n.zk.bs.01.03"
+            "sheet_name": "n.zk.bs.01.03"
         },
         "uknf_c6": {
-            "row": "Kapitał wewnętrzny w PLN",
-            "data_point": [
+            "value_row": "Kapitał wewnętrzny w PLN",
+            "data_points": [
                 "0050"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2194",
-            "report_name_sheet": "n.zk.bs.01.03"
+            "sheet_name": "n.zk.bs.01.03"
         }
     }
 }

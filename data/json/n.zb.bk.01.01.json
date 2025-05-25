@@ -1,44 +1,44 @@
 {
     "n.zb.bk": {
         "uknf_c3": {
-            "row": "Nazwa umowy ",
-            "data_point": [
+            "value_row": "Nazwa umowy ",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2124",
-            "report_name_sheet": "n.zb.bk.01.01"
+            "sheet_name": "n.zb.bk.01.01"
         },
         "uknf_c4": {
-            "row": "Strony umowy ",
-            "data_point": [
+            "value_row": "Strony umowy ",
+            "data_points": [
                 "0030"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2125",
-            "report_name_sheet": "n.zb.bk.01.01"
+            "sheet_name": "n.zb.bk.01.01"
         },
         "uknf_c5": {
-            "row": "Przedmiot umowy ",
-            "data_point": [
+            "value_row": "Przedmiot umowy ",
+            "data_points": [
                 "0040"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2126",
-            "report_name_sheet": "n.zb.bk.01.01"
+            "sheet_name": "n.zb.bk.01.01"
         },
         "uknf_c6": {
-            "row": "Koszty poniesione przez bank z tytułu umowy w okresie sprawozdawczym",
-            "data_point": [
+            "value_row": "Koszty poniesione przez bank z tytułu umowy w okresie sprawozdawczym",
+            "data_points": [
                 "0050"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2127",
-            "report_name_sheet": "n.zb.bk.01.01"
+            "sheet_name": "n.zb.bk.01.01"
         }
     }
 }

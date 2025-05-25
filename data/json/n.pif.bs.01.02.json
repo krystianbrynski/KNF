@@ -1,24 +1,24 @@
 {
     "n.pif.bs": {
         "uknf_c4": {
-            "row": "Wielkosć bazy depozytowej ogółem wg. stanu na koniec okresu",
-            "data_point": [
+            "value_row": "Wielkosć bazy depozytowej ogółem wg. stanu na koniec okresu",
+            "data_points": [
                 "0010"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2278",
-            "report_name_sheet": "n.pif.bs.01.02"
+            "sheet_name": "n.pif.bs.01.02"
         },
         "uknf_c6": {
-            "row": "Zakładany, zgodnie z najbardziej dotkliwym scenariuszem wewnętrznym testów warunków skrajnych, wypływ depozytów detalicznych, który może nastąpić w okresie 1 miesiąca (%)",
-            "data_point": [
+            "value_row": "Zakładany, zgodnie z najbardziej dotkliwym scenariuszem wewnętrznym testów warunków skrajnych, wypływ depozytów detalicznych, który może nastąpić w okresie 1 miesiąca (%)",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "num:percentItemType",
             "qname": "pi2277",
-            "report_name_sheet": "n.pif.bs.01.02"
+            "sheet_name": "n.pif.bs.01.02"
         }
     }
 }

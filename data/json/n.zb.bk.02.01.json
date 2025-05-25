@@ -1,134 +1,134 @@
 {
     "n.zb.bk": {
         "uknf_c3": {
-            "row": "Obszar mapy ryzyka ",
-            "data_point": [
+            "value_row": "Obszar mapy ryzyka ",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2164",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c4": {
-            "row": "Istotność ryzyka (wg skali stosowanej przez bank) ",
-            "data_point": [
+            "value_row": "Istotność ryzyka (wg skali stosowanej przez bank) ",
+            "data_points": [
                 "0030"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2165",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c5": {
-            "row": "Obszar objęty Planem audytu na rok sprawozdawczy (tak/nie)",
-            "data_point": [
+            "value_row": "Obszar objęty Planem audytu na rok sprawozdawczy (tak/nie)",
+            "data_points": [
                 "0040"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2162",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c6": {
-            "row": "Obszar objęty badaniem audytowym (tak/nie)",
-            "data_point": [
+            "value_row": "Obszar objęty badaniem audytowym (tak/nie)",
+            "data_points": [
                 "0050"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2163",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c8": {
-            "row": "data rozpoczęcia",
-            "data_point": [
+            "value_row": "data rozpoczęcia",
+            "data_points": [
                 "0060"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2160",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c9": {
-            "row": "data zakończenia",
-            "data_point": [
+            "value_row": "data zakończenia",
+            "data_points": [
                 "0070"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:dateItemType",
             "qname": "di2161",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c12": {
-            "row": "pracowników audytu wewnętrznego",
-            "data_point": [
+            "value_row": "pracowników audytu wewnętrznego",
+            "data_points": [
                 "0080"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2158",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c13": {
-            "row": "pracowników podmiotu dominującego",
-            "data_point": [
+            "value_row": "pracowników podmiotu dominującego",
+            "data_points": [
                 "0090"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2158",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c14": {
-            "row": "pracowników firm zewnętrznych",
-            "data_point": [
+            "value_row": "pracowników firm zewnętrznych",
+            "data_points": [
                 "0100"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2158",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c15": {
-            "row": "braku realizacji Planu audytu na rok sprawozdawczy",
-            "data_point": [
+            "value_row": "braku realizacji Planu audytu na rok sprawozdawczy",
+            "data_points": [
                 "0110"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2159",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c16": {
-            "row": "realizacji badania pozaplanowego ",
-            "data_point": [
+            "value_row": "realizacji badania pozaplanowego ",
+            "data_points": [
                 "0120"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2159",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c17": {
-            "row": "nieobjęcia Planem audytu na rok sprawozdawczy/ badaniami obszaru mapy ryzyka",
-            "data_point": [
+            "value_row": "nieobjęcia Planem audytu na rok sprawozdawczy/ badaniami obszaru mapy ryzyka",
+            "data_points": [
                 "0130"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2159",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         },
         "uknf_c18": {
-            "row": "realizacji badania przy udziale podmiotu dominującego / firmy zewnętrznej",
-            "data_point": [
+            "value_row": "realizacji badania przy udziale podmiotu dominującego / firmy zewnętrznej",
+            "data_points": [
                 "0140"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:stringItemType",
             "qname": "si2159",
-            "report_name_sheet": "n.zb.bk.02.01"
+            "sheet_name": "n.zb.bk.02.01"
         }
     }
 }

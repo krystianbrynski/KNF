@@ -1,44 +1,44 @@
 {
     "n.ro.bs": {
         "uknf_c28": {
-            "row": " Liczba powołanych członków Zarządu w okresie ",
-            "data_point": [
+            "value_row": " Liczba powołanych członków Zarządu w okresie ",
+            "data_points": [
                 "0010"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2271",
-            "report_name_sheet": "n.ro.bs.04.02"
+            "sheet_name": "n.ro.bs.04.02"
         },
         "uknf_c31": {
-            "row": " Liczba odwołanych członków Zarządu  w okresie ",
-            "data_point": [
+            "value_row": " Liczba odwołanych członków Zarządu  w okresie ",
+            "data_points": [
                 "0020"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2270",
-            "report_name_sheet": "n.ro.bs.04.02"
+            "sheet_name": "n.ro.bs.04.02"
         },
         "uknf_c32": {
-            "row": "Liczba członków  Zarządu na koniec okresu",
-            "data_point": [
+            "value_row": "Liczba członków  Zarządu na koniec okresu",
+            "data_points": [
                 "0030"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2268",
-            "report_name_sheet": "n.ro.bs.04.02"
+            "sheet_name": "n.ro.bs.04.02"
         },
         "uknf_c33": {
-            "row": "Liczba kobiet w Zarządzie na koniec okresu",
-            "data_point": [
+            "value_row": "Liczba kobiet w Zarządzie na koniec okresu",
+            "data_points": [
                 "0040"
             ],
-            "cols": "Null",
+            "value_columns": "Null",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2269",
-            "report_name_sheet": "n.ro.bs.04.02"
+            "sheet_name": "n.ro.bs.04.02"
         }
     }
 }
