@@ -1,4 +1,6 @@
-# Funkcja, która zbiera pary (nazwa, typ danych) z dokumentu XML
+# Funkcja, która zbiera pary (name, typ) z dokumentu XML
+# name - nazwa metryki
+# typ - typ danych
 def extract_types_and_names(met_parsed):
     data_types_with_names = []
 

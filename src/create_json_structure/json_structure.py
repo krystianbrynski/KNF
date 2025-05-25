@@ -41,10 +41,8 @@ def build_json_for_sheet(lab_codes_path,rend_path,lab_pl_path,data_types_with_na
         json.dump(wrapped_data, json_file, ensure_ascii=False, indent=4)
 
 
-# Funkcja, która dla każdego formularza:
-# - wyszukuje odpowiadające mu pliki źródłowe (rend, lab-pl, lab-codes),
-# - wywołuje funkcję create_json_file, która tworzy strukturę danych i zapisuje ją do pliku JSON,
-# - proces ten jest powtarzany dla wszystkich arkuszy.
+# Funkcja, która dla każdego arkusza:
+# - wywołuje funkcję build_json_for_sheet, która tworzy strukturę danych i zapisuje ją do pliku JSON,
 def create_structure() -> None:
     met_parsed = parse_xml(MET_PATH)
     form_names = collect_unique_form_names(TAB_PATH)

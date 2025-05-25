@@ -1,10 +1,16 @@
-# Funkcja przekształca dane wejściowe (słownik) w zunifikowaną strukturę.
-# Dodaje informacje o wierszu, kolumnie (jeśli dotyczy), punkcie danych, typie danych, qname oraz nazwie arkusza.
-# Umożliwia obsługę zarówno jedno-, jak i dwuwymiarowych arkuszy (kolumny obecne lub nie).
-def transform_data(input_dict, column_flag, sheet_name):
+# Funkcja tworzy słownik, którego kluczem głównym jest "label" np."uknf_c1".
+# Zawiera on:
+# - tekst wiersza,
+# - tekst znajdujący się w kolumnach (jeśli występują) lub Null,
+# - przecięcia,
+# - typ danych,
+# - nazwę metryki,
+# - nazwę arkusza.
+# Funkcja obsługuje zarówno arkusze jednowymiarowe, jak i dwuwymiarowe.
+def transform_data(data_with_types, column_flag, sheet_name):
     transformed_data = {}
-    for key, values in input_dict.items():
-        if column_flag:  # Sprawdzenie warunkowe czy arkusz jest dwuwymiarowy
+    for key, values in data_with_types.items():
+        if column_flag:   # Obsługa jeśli arkusz jest dwuwymiarowy
             label_row = values[0]
             data_point = values[1]
             label_col = values[2]
