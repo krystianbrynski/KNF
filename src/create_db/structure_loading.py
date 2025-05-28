@@ -4,6 +4,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from pathlib import Path
 
 
+
 def load_all_json_from_folder(folder_path: str):
     folder = Path(folder_path)
     all_jsons = []
@@ -15,7 +16,7 @@ def load_all_json_from_folder(folder_path: str):
     return all_jsons
 
 
-def connect(folder_path):
+def structure(folder_path):
     all_jsons = load_all_json_from_folder(folder_path)
     engine = create_engine(
         "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
@@ -67,6 +68,7 @@ def connect(folder_path):
             ).mappings().all()
             existing_forms_dict = {row['name_form']: row['id_form'] for row in existing_forms}
 
+
             for json_obj in all_jsons:
                 for form_name, form_content in json_obj.items():
 
@@ -81,15 +83,41 @@ def connect(folder_path):
                         existing_forms_dict[form_name] = id_form
 
                     for label_key, label_content in form_content.items():
-                        row_value = label_content.get("rows")
-                        cols = label_content.get("cols", [])
-                        data_points = label_content.get("data_point", [])
+                        row_value = label_content.get("value_row")
+
+                        # Pobierz cols i upewnij się, że to lista
+                        cols = label_content.get("value_columns", [])
+                        if isinstance(cols, str):
+                            cols = [cols]
+
+                        # Pobierz data_points i upewnij się, że to lista
+                        data_points = label_content.get("data_points", [])
+                        if isinstance(data_points, str):
+                            data_points = [data_points]
+
                         data_type = label_content.get("datatype")
-                        report_name = label_content.get("report_name")
+                        report_name = label_content.get("sheet_name")
                         qname = label_content.get("qname")
 
+                        # Zamiana pustych stringów na None
+                        if row_value == "" or row_value is None:
+                            row_value = None
+                        if report_name == "" or report_name is None:
+                            report_name = None
+                        if data_type == "" or data_type is None:
+                            data_type = None
+                        if qname == "" or qname is None:
+                            qname = None
+
+                        max_len = max(len(cols), len(data_points))
+                        cols += [None] * (max_len - len(cols))
+                        data_points += [None] * (max_len - len(data_points))
 
                         for col_value, data_point in zip(cols, data_points):
+                            if col_value == "" or col_value is None:
+                                col_value = None
+                            if data_point == "" or data_point is None:
+                                data_point = None
 
                             result = conn.execute(
                                 text('''
@@ -105,7 +133,6 @@ def connect(folder_path):
                             )
                             id_label = result.scalar_one()
 
-
                             conn.execute(
                                 text('''
                                     INSERT INTO Data_points (id_label, data_point, qname, data_type)
@@ -117,7 +144,10 @@ def connect(folder_path):
                                     "data_type": data_type
                                 }
                             )
-            print("Data are loaded.")
+        print("Data from reports are loaded successfully")
 
     except SQLAlchemyError as e:
-        print(f"Error: {e}")
+        print(f" {e}")
+    return engine
+
+

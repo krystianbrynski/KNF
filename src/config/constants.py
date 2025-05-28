@@ -1,4 +1,5 @@
-FILE_PATH = r"C:\Users\marta\PycharmProjects\KNF\data\json"
+FILE_PATH = r"..\data\json"
+REPORTS_PATH = r"..\data\json_reports"
 
 
 # Ścieżka do pliku XSD z definicjami typów danych
@@ -16,3 +17,4 @@ LAB_CODES = 'lab-codes'
 # Domyślne wartości używane, gdy nie uda się dopasować innego typu lub qname
 DATA_TYPE = "xbrli:stringItemType"  # Domyślny typ danych (standardowy typ, gdy brak dopasowania)
 QNAME = "None"                      # Domyślny qname, jeśli nie uda się dopasować
+
