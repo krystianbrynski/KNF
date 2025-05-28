@@ -1,7 +1,8 @@
 from src.config.constants import DATA_TYPE, QNAME
+from typing import List, Tuple
 
 # Funkcja, która łączy dane wyciągnięte z plików rend, lab-pl oraz lab-codes dla jednowymiarowego arkusza.
-def combine_data_axis_y(lab_codes_labels_and_value, lab_pl_labels_and_value, axis_y_labels):
+def combine_data_axis_y(lab_codes_labels_and_value: List[Tuple[str, str]], lab_pl_labels_and_value: List[Tuple[str, str]], axis_y_labels: list[str]):
     axis_y_labels_data_points = []
     dict_label_value_data_point = {}
     dict_label_data_point = {}
@@ -22,7 +23,7 @@ def combine_data_axis_y(lab_codes_labels_and_value, lab_pl_labels_and_value, axi
     return dict_label_value_data_point, False  # Zwraca słownik oraz informację, czy arkusz jest dwuwymiarowy — w tym przypadku False (arkusz jednowymiarowy)
 
 # Funkcja, która łączy dane wyciągnięte z plików rend, lab-pl oraz lab-codes dla dwuwymiarowego arkusza.
-def combine_data_axis_x_and_y(lab_codes_labels_and_value, lab_pl_labels_and_value,axis_x_labels, axis_y_labels):
+def combine_data_axis_x_and_y(lab_codes_labels_and_value: List[Tuple[str, str]], lab_pl_labels_and_value: List[Tuple[str, str]],axis_x_labels: list[str], axis_y_labels: list[str]):
     axis_x_labels_data_points = []
     axis_y_labels_data_points = []
     axis_x_values = []
@@ -59,14 +60,18 @@ def combine_data_axis_x_and_y(lab_codes_labels_and_value, lab_pl_labels_and_valu
 
     return dict_label_value_data_point, True # Zwraca słownik oraz informację, czy arkusz jest dwuwymiarowy — w tym przypadku True (arkusz dwuwymiarowy)
 
-# Funkcja zwraca słownik, w którym:
-# - kluczami są etykiety (label) np. 'uknf_c34',
-# - wartościami są listy zawierające:
-#   - etykietę tekstową przypisaną do labela Y (np. 'Imię'),
-#   - etykietę tekstową przypisaną do labela X, jeśli arkusz jest dwuwymiarowy,
-#   - listę punktów danych (tzw. data points),
-#     np. ['0010'] dla formularza jednowymiarowego lub ['0010X0020'] dla dwuwymiarowego
-def combine_data_from_files(rend_labels, lab_codes_labels_and_value, lab_pl_labels_and_value):
+# Funkcja została stworzona w celu połączenia danych z trzech plików XML: REND, LAB_CODES oraz LAB_PL.
+# Każdy z plików dostarcza inne informacje:
+# - REND: służy do określenia, które etykiety (labels) przypisane są do osi X i Y.
+# - LAB_CODES: przypisanie technicznych etykiet (label) do punktów danych (data points),
+# - LAB_PL: przypisanie technicznych etykiet (label) do wartosci tekstowych
+#
+# Wynik tej funkcji to wstępnie połączona struktura danych w formie słownika,
+# która integruje etykiety przypisane do wierszy i kolumn oraz wykonuje ich crossowanie,
+# aby uzyskać powiązania między wierszami a kolumnami
+#
+# Słownik będzie później przetwarzany w celu dodania typów danych, nazw metryk oraz nazwy arkusza w celu uzyskania pełnej struktury danych.
+def combine_data_from_files(rend_labels: List[str], lab_codes_labels_and_value: List[Tuple[str, str]], lab_pl_labels_and_value: List[Tuple[str, str]]):
     if 'x' in rend_labels and 'y' in rend_labels:# Sprawdzenie, czy w danych z pliku REND występują obie osie: "x" i "y" (oznacza formularz dwuwymiarowy)
         idx_x = rend_labels.index('x')
         idx_y = rend_labels.index('y')
@@ -96,13 +101,9 @@ def combine_data_from_files(rend_labels, lab_codes_labels_and_value, lab_pl_labe
         return combine_data_axis_y(lab_codes_labels_and_value, lab_pl_labels_and_value, axis_y_labels)
 
 
-# Funkcja zwraca listę trójek [label, data_type, name],
-# name - nazwa metryki
-# data_type - typ danych
-# label - label wiersza lub kolumny
-def match_labels_with_data_types(rend_labels_and_qnames, data_types):
+#  Funkcja została stworzona po to, aby dopasować do każdego z podanych labeli odpowiednią metrykę (nazwę) oraz jej typ danych
+def match_labels_with_data_types(rend_labels_and_qnames: List[List[str]], data_types: List[Tuple[str, str]])-> List[List[str]]:
     label_and_data_types = []
-
     for label, qname in rend_labels_and_qnames:
         for name, data_type in data_types:
             if name in qname:
@@ -111,7 +112,8 @@ def match_labels_with_data_types(rend_labels_and_qnames, data_types):
 
     return label_and_data_types
 
-# Funkcja do danego labela przypisuje typ danych oraz nazwe metryki
+#Ta funkcja została napisana po to, aby do istniejącej struktury danych (słownika combine_data)
+#dopisać informacje o typie danych (data_type) oraz nazwie metryki (qname) dla danego klucza (labela)
 def match_datatypes_and_qnames(labels_and_data_types, combine_data):
     for key, type_val, name in labels_and_data_types:  # Dodanie typów danych oraz nazw metryk do słownika, jeśli jest możliwość dopasowania
         if key in combine_data:

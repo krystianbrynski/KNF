@@ -1,6 +1,11 @@
-# Funkcja, która z podanego korzenia XML szuka przestrzeni nazw (namespace)
-# na podstawie atrybutów zawierających słowo "label" i zwraca ją w formacie '{namespace}'
-def extract_namespace(lab_codes_parsed):
+from xml.etree.ElementTree import Element
+from typing import List, Tuple, Optional
+
+
+# Funkcja została stworzona, aby automatycznie wykrywać przestrzeń nazw (namespace)
+# używaną w atrybutach typu "label". Jest to niezbędne do poprawnego odczytu danych
+# z atrybutów XML, które zawierają prefiksy przestrzeni nazw.
+def extract_namespace(lab_codes_parsed: Element)-> Optional[str]:
     namespace = None
     for elem in lab_codes_parsed.iter():
         for attr in elem.attrib:
@@ -12,18 +17,15 @@ def extract_namespace(lab_codes_parsed):
     return namespace
 
 
-# Funkcja, która z podanego korzenia XML wyciąga wszystkie elementy <label>,
-# których atrybut 'label' zawiera ciąg "uknf_c".
-# Zwraca listę krotek (label, wartość), gdzie:
-# - label to oczyszczony atrybut 'label' (usunięty prefiks "label_"),
-# - wartość to tekst zawarty w elemencie <label>
-def extract_lab_codes_labels_and_values(lab_codes_parsed):
+# Funkcja została stworzona, aby wyodrębnić z pliku XML powiązania między etykietami (labels) a ich wartościami (data points).
+# Dzięki temu można dokładnie określić, jaki konkretny punkt danych (data point) jest przypisany do której etykiety.
+def extract_lab_codes_labels_and_values(lab_codes_parsed: Element)-> List[Tuple[str, str]]:
     namespace = extract_namespace(lab_codes_parsed)
-
     labels_and_value = []
+
     for label in lab_codes_parsed.findall(".//{*}label"):
         label_attr = label.get(f"{namespace}label")
-        label_value = label.text.strip() if label.text else None
+        label_value = label.text.strip()
 
         if label_attr and "uknf_c" in label_attr:
             clean_label = label_attr.replace("label_", "")

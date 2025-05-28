@@ -9,7 +9,11 @@ def extract_form_name(dirname):
     return dirname
 
 
-#  Funkcja, która wyciąga unikalne nazwy formularzy na podstawie nazw folderów znajdujących się w katalogu tab
+# Funkcja, która wyciąga unikalne nazwy formularzy na podstawie nazw folderów znajdujących się w katalogu 'tab'.
+#
+# Jest potrzebna do zidentyfikowania, ile unikalnych formularzy znajduje się w taksonomii.
+# Na podstawie nazw folderów można określić, które formularze należy przetworzyć,
+# co stanowi punkt wyjścia do dalszego przetwarzania danych i budowy finalnej struktury.
 def collect_unique_form_names(tab_path):
     unique_form_names = set()
 

@@ -1,13 +1,5 @@
-# Funkcja tworzy słownik, którego kluczem głównym jest "label" np."uknf_c1".
-# Zawiera on:
-# - tekst wiersza,
-# - tekst znajdujący się w kolumnach (jeśli występują) lub Null,
-# - przecięcia,
-# - typ danych,
-# - nazwę metryki,
-# - nazwę arkusza.
-# Funkcja obsługuje zarówno arkusze jednowymiarowe, jak i dwuwymiarowe.
-def transform_data(data_with_types, column_flag, sheet_name):
+# Funkcja przygotowuje finalną strukturę danych, która może zostać zapisana do pliku JSON.
+def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name: str):
     transformed_data = {}
     for key, values in data_with_types.items():
         if column_flag:   # Obsługa jeśli arkusz jest dwuwymiarowy
@@ -32,5 +24,6 @@ def transform_data(data_with_types, column_flag, sheet_name):
             "qname": qname,
             "sheet_name": sheet_name
         }
+    final_data = {f"{form_name}": transformed_data}
 
-    return transformed_data
+    return final_data

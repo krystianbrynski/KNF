@@ -4,11 +4,13 @@ from src.config.constants import LAB_PL
 from src.config.constants import REND
 from src.config.constants import LAB_CODES
 
-# Funkcja, która dla każdego folderu docelowego (np. 'n.pif.bk.00')
-# zbiera listę ścieżek do plików zawierających w nazwie frazy
+# Funkcja została stworzona po to, aby dla każdego folderu docelowego (np. 'n.pif.bk.00')
+# zebrać listę ścieżek do plików zawierających w nazwie frazy:
 # 'rend', 'lab-pl' lub 'lab-codes'.
-# Do każdej listy dołącza nazwę arkusza.
-# Zwraca listę krotek, gdzie każda krotka to ([lab-codes-sciezka, lab-pl-sciezka, rend-sciezka]], nazwa arkusza).
+#
+# Celem działania funkcji jest zebranie wszystkich istotnych plików źródłowych
+# powiązanych z danym arkuszem, tak aby możliwe było dalsze przetwarzanie danych
+# z tych plików i wykorzystanie ich do zbudowania finalnej, kompletnej struktury danych.
 def collect_target_paths_and_sheet_name(form_names):
     target_paths_and_sheet_name = []
 

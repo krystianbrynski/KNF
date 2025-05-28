@@ -1,11 +1,16 @@
-# Funkcja, która w kolejności występowania w pliku XML
-# wyciąga wartości atrybutów 'id' z elementów 'ruleNode'
-# oraz wartości atrybutów 'axis' z elementów 'tableBreakdownArc'.
-# Zwraca listę wszystkich tych wartości, pomijając te, które zaczynają się od 'uknf_a'.
-# Przykładowy wynik to lista takich wartości:
-# ['uknf_c2', 'uknf_c3', 'uknf_c4', 'x', 'uknf_c9', 'uknf_c6', 'uknf_c7', 'uknf_c8', 'y']
-# Dzięki zachowaniu kolejności łatwo później dopasować, które etykiety (labels) należą do konkretnego axis (x lub y).
-def extract_rend_ordered_labels_and_axes(rend_parsed):
+from xml.etree.ElementTree import Element
+from typing import List, Tuple
+from dataclasses import dataclass
+
+
+@dataclass
+class Entry:
+    description: str
+    data_points: List[str]
+    values: List[str]
+# Funkcja została stworzona, aby wyodrębnić kolejność etykiet i osi z pliku XML, w takiej kolejności, w jakiej występują w pliku.
+# Dzięki temu możemy łatwo rozróżnić, które etykiety należą do osi x, a które do osi y.
+def extract_rend_ordered_labels_and_axes(rend_parsed: Element)-> List[str]:
     labels = []
     for elem in rend_parsed.iter():
         if elem.tag.endswith('ruleNode') and 'id' in elem.attrib:
@@ -14,16 +19,22 @@ def extract_rend_ordered_labels_and_axes(rend_parsed):
             labels.append(elem.attrib['axis'])
 
     labels = [elem for elem in labels if not elem.startswith('uknf_a')]
+
     return labels
 
 
-# Funkcja, która wyciąga identyfikatory elementów (id) oraz powiązane z nimi nazwy kwalifikowane (qname)
-def extract_rend_labels_and_qnames(rend_parsed):
+# Funkcja wyodrębnia powiązania pomiędzy identyfikatorami etykiet a nazwami kwalifikowanymi (qname).
+# Te powiązania są niezbędne, ponieważ pozwalają zrozumieć, które etykiety (labels) odpowiadają
+# konkretnym nazwom kwalifikowanym (qname). Dzięki temu możliwe jest późniejsze dopasowanie
+# typu danych do odpowiednich etykiet, bazując właśnie na qname.
+def extract_rend_labels_and_qnames(rend_parsed: Element) -> List[Tuple[str, str]]:
     labels_and_qnames = []
+
     for elem in rend_parsed.iter():
         if elem.tag.endswith('ruleNode') and 'id' in elem.attrib:
             rule_id = elem.attrib['id']
             for qname_elem in elem.iter():
                 if qname_elem.tag.endswith('qname'):
                     labels_and_qnames.append([rule_id, qname_elem.text])
+
     return labels_and_qnames
