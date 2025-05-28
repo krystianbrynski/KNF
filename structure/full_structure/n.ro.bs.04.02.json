@@ -1,41 +1,42 @@
 {
-    "n.ro.bs": {
+    "form_name": "n.ro.bs",
+    "data": {
         "uknf_c28": {
-            "value_row": " Liczba powołanych członków Zarządu w okresie ",
+            "value_row": "Null",
             "data_points": [
                 "0010"
             ],
-            "value_columns": "Null",
+            "value_columns": " Liczba powołanych członków Zarządu w okresie ",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2271",
             "sheet_name": "n.ro.bs.04.02"
         },
         "uknf_c31": {
-            "value_row": " Liczba odwołanych członków Zarządu  w okresie ",
+            "value_row": "Null",
             "data_points": [
                 "0020"
             ],
-            "value_columns": "Null",
+            "value_columns": " Liczba odwołanych członków Zarządu  w okresie ",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2270",
             "sheet_name": "n.ro.bs.04.02"
         },
         "uknf_c32": {
-            "value_row": "Liczba członków  Zarządu na koniec okresu",
+            "value_row": "Null",
             "data_points": [
                 "0030"
             ],
-            "value_columns": "Null",
+            "value_columns": "Liczba członków  Zarządu na koniec okresu",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2268",
             "sheet_name": "n.ro.bs.04.02"
         },
         "uknf_c33": {
-            "value_row": "Liczba kobiet w Zarządzie na koniec okresu",
+            "value_row": "Null",
             "data_points": [
                 "0040"
             ],
-            "value_columns": "Null",
+            "value_columns": "Liczba kobiet w Zarządzie na koniec okresu",
             "datatype": "xbrli:integerItemType",
             "qname": "ii2269",
             "sheet_name": "n.ro.bs.04.02"

@@ -1,5 +1,6 @@
 {
-    "n.ro.bk": {
+    "form_name": "n.ro.bk",
+    "data": {
         "uknf_c4": {
             "value_row": "Liczba skarg i reklamacji złożonych przez klientów w tym:   ",
             "data_points": [

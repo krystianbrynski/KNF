@@ -1,5 +1,6 @@
 {
-    "n.ro.bk": {
+    "form_name": "n.ro.bk",
+    "data": {
         "uknf_c10": {
             "value_row": "Liczba modeli na koniec okresu",
             "data_points": [

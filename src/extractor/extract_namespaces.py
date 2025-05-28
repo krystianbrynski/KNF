@@ -5,7 +5,7 @@ from typing import Dict
 # Funkcja została stworzona, aby wyodrębnić wszystkie przestrzenie nazw (namespaces) z pliku XML
 def extract_namespaces(xml_file: str) -> Dict[str, str]:
     events = "start", "start-ns"
-    ns_map = {}
+    ns_map: Dict[str, str] = {}
     for event, elem in ET.iterparse(xml_file, events):
         if event == "start-ns":
             prefix, uri = elem

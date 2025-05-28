@@ -1,91 +1,92 @@
 {
-    "n.zb.bs": {
+    "form_name": "n.zb.bs",
+    "data": {
         "uknf_c3": {
-            "value_row": "Stosowana mapa ryzyka  - nazwy obszarów. Należy wskazać wszystkie obszary mapy ryzyka wyodrębniane przez audyt wewnętrzny banku, nie tylko te objęte Planem Audytu na okres sprawozdawczy",
+            "value_row": "Null",
             "data_points": [
                 "0020"
             ],
-            "value_columns": "Null",
+            "value_columns": "Stosowana mapa ryzyka  - nazwy obszarów. Należy wskazać wszystkie obszary mapy ryzyka wyodrębniane przez audyt wewnętrzny banku, nie tylko te objęte Planem Audytu na okres sprawozdawczy",
             "datatype": "xbrli:stringItemType",
             "qname": "si2164",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c4": {
-            "value_row": "Istotność ryzyka (wg skali stosowanej przez bank) ",
+            "value_row": "Null",
             "data_points": [
                 "0030"
             ],
-            "value_columns": "Null",
+            "value_columns": "Istotność ryzyka (wg skali stosowanej przez bank) ",
             "datatype": "xbrli:stringItemType",
             "qname": "si2165",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c5": {
-            "value_row": "Obszar objęty Planem Audytu w okresie sprawozdawczym (tak/nie)",
+            "value_row": "Null",
             "data_points": [
                 "0040"
             ],
-            "value_columns": "Null",
+            "value_columns": "Obszar objęty Planem Audytu w okresie sprawozdawczym (tak/nie)",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2162",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c6": {
-            "value_row": "Obszar objęty badaniem audytowym w okresie sprawozdawczym (tak/nie)",
+            "value_row": "Null",
             "data_points": [
                 "0050"
             ],
-            "value_columns": "Null",
+            "value_columns": "Obszar objęty badaniem audytowym w okresie sprawozdawczym (tak/nie)",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei2163",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c8": {
-            "value_row": "data rozpoczęcia (dd-mm-rrrr)",
+            "value_row": "Null",
             "data_points": [
                 "0060"
             ],
-            "value_columns": "Null",
+            "value_columns": "data rozpoczęcia (dd-mm-rrrr)",
             "datatype": "xbrli:dateItemType",
             "qname": "di2160",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c9": {
-            "value_row": "data zakończenia (dd-mm-rrrr)",
+            "value_row": "Null",
             "data_points": [
                 "0070"
             ],
-            "value_columns": "Null",
+            "value_columns": "data zakończenia (dd-mm-rrrr)",
             "datatype": "xbrli:dateItemType",
             "qname": "di2161",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c12": {
-            "value_row": "pracowników audytu wewnętrznego",
+            "value_row": "Null",
             "data_points": [
                 "0080"
             ],
-            "value_columns": "Null",
+            "value_columns": "pracowników audytu wewnętrznego",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2275",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c13": {
-            "value_row": "pracowników podmiotu dominującego",
+            "value_row": "Null",
             "data_points": [
                 "0090"
             ],
-            "value_columns": "Null",
+            "value_columns": "pracowników podmiotu dominującego",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2275",
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c14": {
-            "value_row": "pracowników firm zewnętrznych",
+            "value_row": "Null",
             "data_points": [
                 "0100"
             ],
-            "value_columns": "Null",
+            "value_columns": "pracowników firm zewnętrznych",
             "datatype": "xbrli:monetaryItemType",
             "qname": "mi2275",
             "sheet_name": "n.zb.bs.01.01"

@@ -1,4 +1,5 @@
 import json
+from dataclasses import asdict
 
 from src.config.constants import MET_PATH
 from src.config.constants import TAB_PATH
@@ -50,7 +51,7 @@ def build_json_for_sheet(lab_codes_path: str,
     final_data = transform_data(data_with_types, column_flag, sheet_name,form_name)
 
     with open(f'../structure/full_structure/{sheet_name}.json', 'a', encoding='utf-8') as json_file:
-        json.dump(final_data, json_file, ensure_ascii=False, indent=4)
+        json.dump(asdict(final_data), json_file, ensure_ascii=False, indent=4)
 
 
 # Główna funkcja odpowiedzialna za tworzenie struktury w bazie danych.

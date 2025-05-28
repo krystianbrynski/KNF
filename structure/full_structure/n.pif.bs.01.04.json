@@ -1,5 +1,6 @@
 {
-    "n.pif.bs": {
+    "form_name": "n.pif.bs",
+    "data": {
         "uknf_c9": {
             "value_row": "Wartość depozytu największego deponenta",
             "data_points": [

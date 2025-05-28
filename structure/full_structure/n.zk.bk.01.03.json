@@ -1,5 +1,6 @@
 {
-    "n.zk.bk": {
+    "form_name": "n.zk.bk",
+    "data": {
         "uknf_c3": {
             "value_row": "Kategoria ryzyka",
             "data_points": [

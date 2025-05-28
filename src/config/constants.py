@@ -1,3 +1,4 @@
+
 FILE_PATH = r"C:\Users\marta\PycharmProjects\KNF\data\json"
 
 
@@ -22,3 +23,5 @@ LAB_CODES = 'lab-codes'
 # Domyślne wartości używane, gdy nie uda się dopasować innego typu lub qname
 DATA_TYPE = "xbrli:stringItemType"  # Domyślny typ danych (standardowy typ, gdy brak dopasowania)
 QNAME = "None"                      # Domyślny qname, jeśli nie uda się dopasować
+
+

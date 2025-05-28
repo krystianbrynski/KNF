@@ -1,4 +1,6 @@
 import os
+from typing import List, Tuple
+
 from src.config.constants import TAB_PATH
 from src.config.constants import LAB_PL
 from src.config.constants import REND
@@ -11,8 +13,8 @@ from src.config.constants import LAB_CODES
 # Celem działania funkcji jest zebranie wszystkich istotnych plików źródłowych
 # powiązanych z danym arkuszem, tak aby możliwe było dalsze przetwarzanie danych
 # z tych plików i wykorzystanie ich do zbudowania finalnej, kompletnej struktury danych.
-def collect_target_paths_and_sheet_name(form_names):
-    target_paths_and_sheet_name = []
+def collect_target_paths_and_sheet_name(form_names: List [str])-> List[Tuple[List[str], str]]:
+    target_paths_and_sheet_name: List[Tuple[List[str], str]] = []
 
     for form_name in form_names:   # Iteracja po unikalnych nazwach formularzy
         for item_name in os.listdir(TAB_PATH):

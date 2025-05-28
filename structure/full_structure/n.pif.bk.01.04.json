@@ -1,5 +1,6 @@
 {
-    "n.pif.bk": {
+    "form_name": "n.pif.bk",
+    "data": {
         "uknf_c3": {
             "value_row": "Podmiot udzielający finansowania (proszę podać pełną nazwę podmiotu)",
             "data_points": [

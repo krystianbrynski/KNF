@@ -1,5 +1,6 @@
 {
-    "n.ro.bk": {
+    "form_name": "n.ro.bk",
+    "data": {
         "uknf_c42": {
             "value_row": "Liczba wszystkich zdarzeń wraz ze zdarzeniami powiązanymi z ryzykiem kredytowym",
             "data_points": [

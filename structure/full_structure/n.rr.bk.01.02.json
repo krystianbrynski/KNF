@@ -1,5 +1,6 @@
 {
-    "n.rr.bk": {
+    "form_name": "n.rr.bk",
+    "data": {
         "uknf_c44": {
             "value_row": "Wartość M-t-M portfela instrumentów dłużnych zaliczanych do portfela handlowego na koniec okresu, w tym:",
             "data_points": [

@@ -1,5 +1,6 @@
 {
-    "n.rk.bk": {
+    "form_name": "n.rk.bk",
+    "data": {
         "uknf_c10": {
             "value_row": "Prawdopodobieństwo niewykonania zobowiązania (ang. Probability of Default)",
             "data_points": [

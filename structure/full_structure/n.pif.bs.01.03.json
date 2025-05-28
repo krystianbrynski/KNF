@@ -1,5 +1,6 @@
 {
-    "n.pif.bs": {
+    "form_name": "n.pif.bs",
+    "data": {
         "uknf_c5": {
             "value_row": "segment detaliczny",
             "data_points": [

@@ -1,5 +1,6 @@
 {
-    "n.ro.bs": {
+    "form_name": "n.ro.bs",
+    "data": {
         "uknf_c10": {
             "value_row": "Liczba modeli wg stanu na koniec okresu sprawozdawczego",
             "data_points": [

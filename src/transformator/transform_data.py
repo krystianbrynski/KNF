@@ -1,29 +1,39 @@
+from typing import Dict
+
+from src.config.data_classes import FinalDataItem, FinalData
+
+
 # Funkcja przygotowuje finalną strukturę danych, która może zostać zapisana do pliku JSON.
-def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name: str):
-    transformed_data = {}
+def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name: str)-> FinalData:
+    transformed_data: Dict[str, FinalDataItem] = {}
+
     for key, values in data_with_types.items():
         if column_flag:   # Obsługa jeśli arkusz jest dwuwymiarowy
-            label_row = values[0]
-            data_point = values[1]
-            label_col = values[2]
-            datatype = values[3]
-            qname = values[4]
+            label_row = values.row_text
+            data_point = values.data_points
+            label_col = values.column_texts
+            datatype = values.data_typ
+            qname = values.qname
 
         else:  # Obsługa jeśli arkusz jest jednowymiarowy
-            label_row = values[0]
-            data_point = values[1]
-            label_col = "Null"
-            datatype = values[2]
-            qname = values[3]
+            if values.axis == 'x':
+                label_row = values.text
+                label_col = "Null"
+            else:
+                label_col = values.text
+                label_row = "Null"
 
-        transformed_data[key] = {
-            "value_row": label_row,
-            "data_points": data_point,
-            "value_columns": label_col,
-            "datatype": datatype,
-            "qname": qname,
-            "sheet_name": sheet_name
-        }
-    final_data = {f"{form_name}": transformed_data}
+            data_point = values.data_points
+            datatype = values.data_typ
+            qname = values.qname
 
-    return final_data
+        transformed_data[key] = FinalDataItem(
+            value_row=label_row,
+            data_points=data_point,
+            value_columns=label_col,
+            datatype=datatype,
+            qname=qname,
+            sheet_name=sheet_name
+        )
+
+    return FinalData(form_name=form_name, data=transformed_data)

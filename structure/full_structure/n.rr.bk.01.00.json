@@ -1,161 +1,162 @@
 {
-    "n.rr.bk": {
+    "form_name": "n.rr.bk",
+    "data": {
         "uknf_c32": {
-            "value_row": "Imię",
+            "value_row": "Null",
             "data_points": [
                 "0010"
             ],
-            "value_columns": "Null",
+            "value_columns": "Imię",
             "datatype": "xbrli:stringItemType",
             "qname": "si2102",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c33": {
-            "value_row": "Nazwisko",
+            "value_row": "Null",
             "data_points": [
                 "0020"
             ],
-            "value_columns": "Null",
+            "value_columns": "Nazwisko",
             "datatype": "xbrli:stringItemType",
             "qname": "si2103",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c34": {
-            "value_row": "telefon",
+            "value_row": "Null",
             "data_points": [
                 "0030"
             ],
-            "value_columns": "Null",
+            "value_columns": "telefon",
             "datatype": "xbrli:stringItemType",
             "qname": "si2104",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c35": {
-            "value_row": "e-mail",
+            "value_row": "Null",
             "data_points": [
                 "0040"
             ],
-            "value_columns": "Null",
+            "value_columns": "e-mail",
             "datatype": "xbrli:stringItemType",
             "qname": "si2105",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c38": {
-            "value_row": "Imię",
+            "value_row": "Null",
             "data_points": [
                 "0050"
             ],
-            "value_columns": "Null",
+            "value_columns": "Imię",
             "datatype": "xbrli:stringItemType",
             "qname": "si2102",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c39": {
-            "value_row": "Nazwisko",
+            "value_row": "Null",
             "data_points": [
                 "0060"
             ],
-            "value_columns": "Null",
+            "value_columns": "Nazwisko",
             "datatype": "xbrli:stringItemType",
             "qname": "si2103",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c40": {
-            "value_row": "telefon",
+            "value_row": "Null",
             "data_points": [
                 "0070"
             ],
-            "value_columns": "Null",
+            "value_columns": "telefon",
             "datatype": "xbrli:stringItemType",
             "qname": "si2104",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c41": {
-            "value_row": "e-mail",
+            "value_row": "Null",
             "data_points": [
                 "0080"
             ],
-            "value_columns": "Null",
+            "value_columns": "e-mail",
             "datatype": "xbrli:stringItemType",
             "qname": "si2105",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c50": {
-            "value_row": "Imię",
+            "value_row": "Null",
             "data_points": [
                 "0130"
             ],
-            "value_columns": "Null",
+            "value_columns": "Imię",
             "datatype": "xbrli:stringItemType",
             "qname": "si2102",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c51": {
-            "value_row": "Nazwisko",
+            "value_row": "Null",
             "data_points": [
                 "0140"
             ],
-            "value_columns": "Null",
+            "value_columns": "Nazwisko",
             "datatype": "xbrli:stringItemType",
             "qname": "si2103",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c52": {
-            "value_row": "telefon",
+            "value_row": "Null",
             "data_points": [
                 "0150"
             ],
-            "value_columns": "Null",
+            "value_columns": "telefon",
             "datatype": "xbrli:stringItemType",
             "qname": "si2104",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c53": {
-            "value_row": "e-mail",
+            "value_row": "Null",
             "data_points": [
                 "0160"
             ],
-            "value_columns": "Null",
+            "value_columns": "e-mail",
             "datatype": "xbrli:stringItemType",
             "qname": "si2105",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c44": {
-            "value_row": "Imię",
+            "value_row": "Null",
             "data_points": [
                 "0090"
             ],
-            "value_columns": "Null",
+            "value_columns": "Imię",
             "datatype": "xbrli:stringItemType",
             "qname": "si2102",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c45": {
-            "value_row": "Nazwisko",
+            "value_row": "Null",
             "data_points": [
                 "0100"
             ],
-            "value_columns": "Null",
+            "value_columns": "Nazwisko",
             "datatype": "xbrli:stringItemType",
             "qname": "si2103",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c46": {
-            "value_row": "telefon",
+            "value_row": "Null",
             "data_points": [
                 "0110"
             ],
-            "value_columns": "Null",
+            "value_columns": "telefon",
             "datatype": "xbrli:stringItemType",
             "qname": "si2104",
             "sheet_name": "n.rr.bk.01.00"
         },
         "uknf_c47": {
-            "value_row": "e-mail",
+            "value_row": "Null",
             "data_points": [
                 "0120"
             ],
-            "value_columns": "Null",
+            "value_columns": "e-mail",
             "datatype": "xbrli:stringItemType",
             "qname": "si2105",
             "sheet_name": "n.rr.bk.01.00"

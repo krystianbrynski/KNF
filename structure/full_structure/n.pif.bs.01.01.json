@@ -1,5 +1,6 @@
 {
-    "n.pif.bs": {
+    "form_name": "n.pif.bs",
+    "data": {
         "uknf_c13": {
             "value_row": "Najniższa dzienna wartość wskaźnika w kwartale",
             "data_points": [

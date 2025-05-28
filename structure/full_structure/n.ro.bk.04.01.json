@@ -1,5 +1,6 @@
 {
-    "n.ro.bk": {
+    "form_name": "n.ro.bk",
+    "data": {
         "uknf_c28": {
             "value_row": "Liczba osób zatrudnionych na początek okresu ",
             "data_points": [
