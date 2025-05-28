@@ -70,7 +70,7 @@ def combine_data_axis_x_and_y(lab_codes_labels_and_value: List[Tuple[str, str]],
 # która integruje etykiety przypisane do wierszy i kolumn oraz wykonuje ich crossowanie,
 # aby uzyskać powiązania między wierszami a kolumnami
 #
-# Słownik będzie później przetwarzany w celu dodania typów danych, nazw metryk oraz nazwy arkusza w celu uzyskania pełnej struktury danych.
+# Dane będą później przetwarzany w celu dodania typów danych, nazw metryk, nazwy arkusza oraz nazwy formularza w celu uzyskania pełnej struktury danych.
 def combine_data_from_files(rend_labels: List[str], lab_codes_labels_and_value: List[Tuple[str, str]], lab_pl_labels_and_value: List[Tuple[str, str]]):
     if 'x' in rend_labels and 'y' in rend_labels:# Sprawdzenie, czy w danych z pliku REND występują obie osie: "x" i "y" (oznacza formularz dwuwymiarowy)
         idx_x = rend_labels.index('x')

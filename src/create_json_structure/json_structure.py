@@ -49,7 +49,7 @@ def build_json_for_sheet(lab_codes_path: str,
     data_with_types = match_datatypes_and_qnames(labels_and_data_types, combine_data)
     final_data = transform_data(data_with_types, column_flag, sheet_name,form_name)
 
-    with open(f'../data/json/{sheet_name}.json', 'a', encoding='utf-8') as json_file:
+    with open(f'../structure/full_structure/{sheet_name}.json', 'a', encoding='utf-8') as json_file:
         json.dump(final_data, json_file, ensure_ascii=False, indent=4)
 
 
