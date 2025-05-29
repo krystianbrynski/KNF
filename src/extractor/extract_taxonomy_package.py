@@ -20,7 +20,7 @@ def collect_name_and_version_taxonomy(tax_parsed: Element)-> None:
 
     taxonomy_info = TaxonomyInfo(name=name, version=version)
 
-    if not name or not version:
+    if name == "None" or version == "None":
         print("Błąd: Nie można odnaleźć nazwy lub wersji w tax_parsed.")
         sys.exit(1)
 
