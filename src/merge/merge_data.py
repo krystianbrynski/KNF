@@ -2,7 +2,7 @@ from typing import List, Tuple, Dict, Union
 from src.config.data_classes import OneDimensionalAxis, TwoDimensionalAxis
 
 # Funkcja, która łączy dane wyciągnięte z plików rend, lab-pl oraz lab-codes dla jednowymiarowego arkusza.
-def combine_data_axis_y(lab_codes_labels_and_value: List[Tuple[str, str]]
+def combine_one_dimensional_data(lab_codes_labels_and_value: List[Tuple[str, str]]
                         , lab_pl_labels_and_value: List[Tuple[str, str]],
                         axis_labels: list[str],
                         axis: str) -> Tuple[Dict[str, OneDimensionalAxis], bool]:
@@ -31,13 +31,14 @@ def combine_data_axis_y(lab_codes_labels_and_value: List[Tuple[str, str]]
     return dict_label_value_data_point, False  # Zwraca słownik oraz informację, czy arkusz jest dwuwymiarowy — w tym przypadku False (arkusz jednowymiarowy)
 
 # Funkcja, która łączy dane wyciągnięte z plików rend, lab-pl oraz lab-codes dla dwuwymiarowego arkusza.
-def combine_data_axis_x_and_y(lab_codes_labels_and_value: List[Tuple[str, str]],
+def combine_two_dimensional_data(lab_codes_labels_and_value: List[Tuple[str, str]],
                               lab_pl_labels_and_value: List[Tuple[str, str]],
                               axis_x_labels: list[str], axis_y_labels: list[str])-> Tuple[Dict[str, TwoDimensionalAxis], bool]:
 
     axis_x_labels_data_points: List[Tuple[str, str]] = []
     axis_y_labels_data_points: List[Tuple[str, str]] = []
     axis_x_values: List[str] = []
+    label_x: list[str] = []
     combined_x_points_by_y_label: Dict[str, List[str]] = {}
     dict_label_value_data_point: Dict[str, TwoDimensionalAxis] = {}
 
@@ -110,20 +111,21 @@ def combine_data_from_files(rend_labels: List[str],
         if len(axis_y_labels) == 0 or len(axis_x_labels) == 0:
             axis_labels = rend_labels[:-2]
             axis = rend_labels[-2]
-            return combine_data_axis_y(lab_codes_labels_and_value, lab_pl_labels_and_value, axis_labels, axis)
+            return combine_one_dimensional_data(lab_codes_labels_and_value, lab_pl_labels_and_value, axis_labels, axis)
 
         else:
-            return combine_data_axis_x_and_y(lab_codes_labels_and_value, lab_pl_labels_and_value,axis_x_labels,axis_y_labels)
+            return combine_two_dimensional_data(lab_codes_labels_and_value, lab_pl_labels_and_value,axis_x_labels,axis_y_labels)
 
     else:  # Jeśli arkusz jest jednowymiarowy
         axis_labels = rend_labels[:-1]
         axis = rend_labels[-1]
-        return combine_data_axis_y(lab_codes_labels_and_value, lab_pl_labels_and_value, axis_labels, axis)
+        return combine_one_dimensional_data(lab_codes_labels_and_value, lab_pl_labels_and_value, axis_labels, axis)
 
 
 #  Funkcja została stworzona po to, aby dopasować do każdego z podanych labeli odpowiednią metrykę (nazwę) oraz jej typ danych
-def match_labels_with_data_types(rend_labels_and_qnames: List[List[str]], data_types: List[Tuple[str, str]])-> List[List[str]]:
+def match_labels_with_data_types(rend_labels_and_qnames: List[Tuple[str, str]], data_types: List[Tuple[str, str]])-> List[List[str]]:
     label_and_data_types: List[List[str]] = []
+
     for label, qname in rend_labels_and_qnames:
         for name, data_type in data_types:
             if name in qname:

@@ -2,7 +2,7 @@
     "form_name": "n.zb.bs",
     "data": {
         "uknf_c3": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0020"
             ],
@@ -12,7 +12,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c4": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0030"
             ],
@@ -22,7 +22,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c5": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0040"
             ],
@@ -32,7 +32,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c6": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0050"
             ],
@@ -42,7 +42,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c8": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0060"
             ],
@@ -52,7 +52,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c9": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0070"
             ],
@@ -62,7 +62,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c12": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0080"
             ],
@@ -72,7 +72,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c13": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0090"
             ],
@@ -82,7 +82,7 @@
             "sheet_name": "n.zb.bs.01.01"
         },
         "uknf_c14": {
-            "value_row": "Null",
+            "value_row": "None",
             "data_points": [
                 "0100"
             ],

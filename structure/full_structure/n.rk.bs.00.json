@@ -2,41 +2,41 @@
     "form_name": "n.rk.bs",
     "data": {
         "uknf_c4": {
-            "value_row": "Null",
+            "value_row": "ID banku",
             "data_points": [
                 "0010"
             ],
-            "value_columns": "ID banku",
+            "value_columns": "None",
             "datatype": "xbrli:stringItemType",
             "qname": "si2101",
             "sheet_name": "n.rk.bs.00"
         },
         "uknf_c2": {
-            "value_row": "Null",
+            "value_row": "Początek okresu sprawozdawczego BION",
             "data_points": [
                 "0020"
             ],
-            "value_columns": "Początek okresu sprawozdawczego BION",
+            "value_columns": "None",
             "datatype": "xbrli:dateItemType",
             "qname": "di2273",
             "sheet_name": "n.rk.bs.00"
         },
         "uknf_c3": {
-            "value_row": "Null",
+            "value_row": "Koniec okresu sprawozdawczego BION (Data BION)",
             "data_points": [
                 "0030"
             ],
-            "value_columns": "Koniec okresu sprawozdawczego BION (Data BION)",
+            "value_columns": "None",
             "datatype": "xbrli:dateItemType",
             "qname": "di2274",
             "sheet_name": "n.rk.bs.00"
         },
         "uknf_c5": {
-            "value_row": "Null",
+            "value_row": "Flaga korekty",
             "data_points": [
                 "0040"
             ],
-            "value_columns": "Flaga korekty",
+            "value_columns": "None",
             "datatype": "xbrli:QNameItemType",
             "qname": "ei1",
             "sheet_name": "n.rk.bs.00"

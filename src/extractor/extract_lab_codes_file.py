@@ -1,12 +1,11 @@
 from xml.etree.ElementTree import Element
-from typing import List, Tuple, Optional
-
+from typing import List, Tuple
 
 # Funkcja została stworzona, aby automatycznie wykrywać przestrzeń nazw (namespace)
 # używaną w atrybutach typu "label". Jest to niezbędne do poprawnego odczytu danych
 # z atrybutów XML, które zawierają prefiksy przestrzeni nazw.
-def extract_namespace(lab_codes_parsed: Element)-> Optional[str]:
-    namespace = None
+def extract_namespace(lab_codes_parsed: Element)-> str:
+    namespace = ""
     for elem in lab_codes_parsed.iter():
         for attr in elem.attrib:
             if namespace:

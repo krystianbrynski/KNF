@@ -24,4 +24,6 @@ LAB_CODES = 'lab-codes'
 DATA_TYPE = "xbrli:stringItemType"  # Domyślny typ danych (standardowy typ, gdy brak dopasowania)
 QNAME = "None"                      # Domyślny qname, jeśli nie uda się dopasować
 
+# Wartość w przypadku braku textu w kolumnie/wierszu
+EMPTY = "None"
 

@@ -1,6 +1,5 @@
 from typing import List, Tuple
-from xml.etree.ElementTree import Element  # lub odpowiednia klasa parsowanego elementu
-
+from xml.etree.ElementTree import Element
 
 # Funkcja została stworzona po to, aby zidentyfikować i wyodrębnić wszystkie metryki (name)
 # wraz z przypisanymi im typami danych z dokumentu XML.
@@ -18,4 +17,5 @@ def extract_types_and_names(met_parsed: Element) -> List[Tuple[str, str]]:
             typ = elem.attrib.get('type')
             if name and typ:
                 data_types_with_names.append((name, typ))
+
     return data_types_with_names

@@ -1,7 +1,7 @@
 from typing import Dict
 
 from src.config.data_classes import FinalDataItem, FinalData
-
+from src.config.constants import EMPTY
 
 # Funkcja przygotowuje finalną strukturę danych, która może zostać zapisana do pliku JSON.
 def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name: str)-> FinalData:
@@ -16,12 +16,12 @@ def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name
             qname = values.qname
 
         else:  # Obsługa jeśli arkusz jest jednowymiarowy
-            if values.axis == 'x':
+            if values.axis == 'y':
                 label_row = values.text
-                label_col = "Null"
+                label_col = EMPTY
             else:
                 label_col = values.text
-                label_row = "Null"
+                label_row = EMPTY
 
             data_point = values.data_points
             datatype = values.data_typ
