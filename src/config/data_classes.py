@@ -23,7 +23,7 @@ class OneDimensionalAxis:
 class FinalDataItem:
     value_row: str
     data_points: List[str]
-    value_columns: str | list[str]
+    value_columns: List[str]
     datatype: str
     qname: str
     sheet_name: str

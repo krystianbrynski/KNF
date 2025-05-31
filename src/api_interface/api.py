@@ -12,7 +12,7 @@ app = FastAPI()
 def upload():
     try:
         create_structure(STRUCTURE_JSON_PATH,TAXONOMY_INF_PATH)
-        load_reports(REPORTS_JSON_PATH)
+        #load_reports(REPORTS_JSON_PATH)
         return {"status": "success", "message": "Data are loaded to thw database."}
 
     except Exception as e:

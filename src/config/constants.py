@@ -33,3 +33,89 @@ QNAME = "None"                      # Domyślny qname, jeśli nie uda się dopas
 # Wartość w przypadku braku textu w kolumnie/wierszu
 EMPTY = "None"
 
+CREATE_TABLE_TAXONOMY = '''
+            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Taxonomy')
+            BEGIN
+                CREATE TABLE Taxonomy (
+                    id_taxonomy INT PRIMARY KEY IDENTITY(1,1),
+                    version NVARCHAR(255),
+                    name NVARCHAR(255)
+                )
+            END
+        '''
+
+CREATE_TABLE_FORMS ='''
+            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Forms')
+            BEGIN
+                CREATE TABLE Forms (
+                    id_form INT PRIMARY KEY IDENTITY(1,1),
+                    name_form NVARCHAR(255),
+                    id_taxonomy INT FOREIGN KEY REFERENCES Taxonomy(id_taxonomy)
+                )
+            END
+        '''
+
+
+CREATE_TABLE_LABELS ='''
+            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Labels')
+            BEGIN
+                CREATE TABLE Labels (
+                    id_label INT PRIMARY KEY IDENTITY(1,1),
+                    row_name NVARCHAR(MAX),
+                    column_name NVARCHAR(255),       
+                    report_name NVARCHAR(255),
+                    id_form INT FOREIGN KEY REFERENCES Forms(id_form)
+                )
+            END
+        '''
+
+CREATE_TABLE_DATAPOINTS='''
+            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Data_points')
+            BEGIN
+                CREATE TABLE Data_points (
+                    id_data_point INT PRIMARY KEY IDENTITY(1,1),
+                    id_label INT FOREIGN KEY REFERENCES Labels(id_label),
+                    data_point NVARCHAR(255),
+                    qname NVARCHAR(255),
+                    data_type NVARCHAR(255)
+                )
+            END
+        '''
+
+CREATE_TABLE_REPORTS="""
+            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Reports')
+            BEGIN
+                CREATE TABLE Reports (
+                    id_report INT PRIMARY KEY IDENTITY(1,1)
+                )
+            END
+        """
+
+CREATE_TABLE_DATA="""
+            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Data')
+            BEGIN
+                CREATE TABLE Data (
+                    id_data INT PRIMARY KEY IDENTITY(1,1),
+                    id_report INT FOREIGN KEY REFERENCES Reports(id_report),
+                    id_data_point INT FOREIGN KEY REFERENCES Data_points(id_data_point),
+                    form_name NVARCHAR(255),
+                    data NVARCHAR(MAX)
+                )
+            END
+        """
+
+INSERT_INTO_LABELS_TABLE='''
+                INSERT INTO Labels (row_name, column_name, report_name, id_form)
+                OUTPUT INSERTED.id_label
+                VALUES (:row_name, :column_name, :report_name, :id_form)
+            '''
+
+INSERT_INTO_DATAPOINTS_TABLE='''INSERT INTO Data_points (id_label, data_point, qname, data_type)
+                                            VALUES (:id_label, :data_point, :qname, :data_type)
+                                    '''
+
+INSERT_INTO_TAXONOMY_TABLE="INSERT INTO Taxonomy (version, name) OUTPUT INSERTED.id_taxonomy VALUES (:version, :name)"
+
+INSERT_INTO_FORMS_TABLE="INSERT INTO Forms (name_form, id_taxonomy) OUTPUT INSERTED.id_form VALUES (:name_form, :id_taxonomy)"
+
+SELECT_TAXONOMY_TABLE="SELECT id_taxonomy FROM Taxonomy WHERE version = :version"

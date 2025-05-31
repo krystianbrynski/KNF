@@ -1,0 +1,65 @@
+{
+    "form_name": "n.zb.bk",
+    "data": {
+        "uknf_c3": {
+            "value_row": "None",
+            "data_points": [
+                "0020"
+            ],
+            "value_columns": [
+                "Dostępne finansowanie"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2129",
+            "sheet_name": "n.zb.bk.01.02"
+        },
+        "uknf_c13": {
+            "value_row": "None",
+            "data_points": [
+                "0030"
+            ],
+            "value_columns": [
+                "przyznane"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2128",
+            "sheet_name": "n.zb.bk.01.02"
+        },
+        "uknf_c14": {
+            "value_row": "None",
+            "data_points": [
+                "0040"
+            ],
+            "value_columns": [
+                "wykorzystane"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2128",
+            "sheet_name": "n.zb.bk.01.02"
+        },
+        "uknf_c15": {
+            "value_row": "None",
+            "data_points": [
+                "0050"
+            ],
+            "value_columns": [
+                "przyznane"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2128",
+            "sheet_name": "n.zb.bk.01.02"
+        },
+        "uknf_c16": {
+            "value_row": "None",
+            "data_points": [
+                "0060"
+            ],
+            "value_columns": [
+                "wykorzystane"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2128",
+            "sheet_name": "n.zb.bk.01.02"
+        }
+    }
+}

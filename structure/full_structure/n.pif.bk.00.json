@@ -1,0 +1,53 @@
+{
+    "form_name": "n.pif.bk",
+    "data": {
+        "uknf_c4": {
+            "value_row": "ID banku",
+            "data_points": [
+                "0010"
+            ],
+            "value_columns": [
+                "None"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "si2101",
+            "sheet_name": "n.pif.bk.00"
+        },
+        "uknf_c2": {
+            "value_row": "Początek okresu sprawozdawczego",
+            "data_points": [
+                "0020"
+            ],
+            "value_columns": [
+                "None"
+            ],
+            "datatype": "xbrli:dateItemType",
+            "qname": "di2273",
+            "sheet_name": "n.pif.bk.00"
+        },
+        "uknf_c3": {
+            "value_row": "Koniec okresu sprawozdawczego",
+            "data_points": [
+                "0030"
+            ],
+            "value_columns": [
+                "None"
+            ],
+            "datatype": "xbrli:dateItemType",
+            "qname": "di2274",
+            "sheet_name": "n.pif.bk.00"
+        },
+        "uknf_c5": {
+            "value_row": "Flaga korekty",
+            "data_points": [
+                "0040"
+            ],
+            "value_columns": [
+                "None"
+            ],
+            "datatype": "xbrli:QNameItemType",
+            "qname": "ei1",
+            "sheet_name": "n.pif.bk.00"
+        }
+    }
+}

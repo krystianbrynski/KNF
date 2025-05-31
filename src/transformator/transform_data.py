@@ -18,9 +18,9 @@ def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name
         else:  # Obsługa jeśli arkusz jest jednowymiarowy
             if values.axis == 'y':
                 label_row = values.text
-                label_col = EMPTY
+                label_col = [EMPTY]
             else:
-                label_col = values.text
+                label_col = [values.text]
                 label_row = EMPTY
 
             data_point = values.data_points

@@ -4,6 +4,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.engine import Engine
 from pathlib import Path
 import json
+from src.config import constants
 
 
 def create_tables() -> Engine:
@@ -15,70 +16,12 @@ def create_tables() -> Engine:
         "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
     with engine.begin() as conn:
-        conn.execute(text('''
-            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Taxonomy')
-            BEGIN
-                CREATE TABLE Taxonomy (
-                    id_taxonomy INT PRIMARY KEY IDENTITY(1,1),
-                    version NVARCHAR(255),
-                    name NVARCHAR(255)
-                )
-            END
-        '''))
-        conn.execute(text('''
-            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Forms')
-            BEGIN
-                CREATE TABLE Forms (
-                    id_form INT PRIMARY KEY IDENTITY(1,1),
-                    name_form NVARCHAR(255) UNIQUE,
-                    id_taxonomy INT FOREIGN KEY REFERENCES Taxonomy(id_taxonomy)
-                )
-            END
-        '''))
-        conn.execute(text('''
-            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Labels')
-            BEGIN
-                CREATE TABLE Labels (
-                    id_label INT PRIMARY KEY IDENTITY(1,1),
-                    row_name NVARCHAR(MAX),
-                    column_name NVARCHAR(255),       
-                    report_name NVARCHAR(255),
-                    id_form INT FOREIGN KEY REFERENCES Forms(id_form)
-                )
-            END
-        '''))
-        conn.execute(text('''
-            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Data_points')
-            BEGIN
-                CREATE TABLE Data_points (
-                    id_data_point INT PRIMARY KEY IDENTITY(1,1),
-                    id_label INT FOREIGN KEY REFERENCES Labels(id_label),
-                    data_point NVARCHAR(255),
-                    qname NVARCHAR(255),
-                    data_type NVARCHAR(255)
-                )
-            END
-        '''))
-        conn.execute(text("""
-            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Reports')
-            BEGIN
-                CREATE TABLE Reports (
-                    id_report INT PRIMARY KEY IDENTITY(1,1)
-                )
-            END
-        """))
-        conn.execute(text("""
-            IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Data')
-            BEGIN
-                CREATE TABLE Data (
-                    id_data INT PRIMARY KEY IDENTITY(1,1),
-                    id_report INT FOREIGN KEY REFERENCES Reports(id_report),
-                    id_data_point INT FOREIGN KEY REFERENCES Data_points(id_data_point),
-                    form_name NVARCHAR(255),
-                    data NVARCHAR(MAX)
-                )
-            END
-        """))
+        conn.execute(text(constants.CREATE_TABLE_TAXONOMY))
+        conn.execute(text(constants.CREATE_TABLE_FORMS))
+        conn.execute(text(constants.CREATE_TABLE_LABELS))
+        conn.execute(text(constants.CREATE_TABLE_DATAPOINTS))
+        conn.execute(text(constants.CREATE_TABLE_REPORTS))
+        conn.execute(text(constants.CREATE_TABLE_DATA))
     return engine
 
 
@@ -102,7 +45,7 @@ def load_json_structure(folder_path: str) -> List[Dict[str, Any]]:
     return all_jsons
 
 
-def load_taxonomy_version_from_file(json_path: str) -> tuple[str | None, str | None]:
+def load_taxonomy_version_from_file(json_path: str) -> tuple[str, str]:
     """
         Funkcja jest stosowana w procesie sprawdzania wersji taksonomii.
        Wczytuje plik JSON zawierający informację na temat wersji i nazwy ładowanej taksonomii
@@ -123,7 +66,7 @@ def check_and_insert_taxonomy_version(engine, taxonomy_json_path: str) -> int | 
 
     with engine.begin() as conn:
         existing = conn.execute(
-            text("SELECT id_taxonomy FROM Taxonomy WHERE version = :version"),
+            text(constants.SELECT_TAXONOMY_TABLE),
             {"version": version}
         ).first()
 
@@ -132,12 +75,70 @@ def check_and_insert_taxonomy_version(engine, taxonomy_json_path: str) -> int | 
             return None
 
         result = conn.execute(
-            text("INSERT INTO Taxonomy (version, name) OUTPUT INSERTED.id_taxonomy VALUES (:version, :name)"),
+            text(constants.INSERT_INTO_TAXONOMY_TABLE),
             {"version": version, "name": name}
         )
         id_taxonomy = result.scalar_one()
         print(f"Dodano nową wersję taxonomy: {version} z id {id_taxonomy}")
         return id_taxonomy
+
+
+def load_form_name(conn, form_name, id_taxonomy):
+    result = conn.execute(
+        text(constants.INSERT_INTO_FORMS_TABLE),
+        {"name_form": form_name, "id_taxonomy": id_taxonomy}
+    )
+    id_form = result.scalar_one()
+
+    return id_form
+
+
+def load_labels_and_datapoints(conn, id_form, label_content):
+    row_value = label_content.get("value_row")
+    col_values = label_content.get("value_columns")
+    data_points = label_content.get("data_points")
+    data_type = label_content.get("datatype")
+    report_name = label_content.get("sheet_name")
+    qname = label_content.get("qname")
+
+    for col_value, data_point in zip(col_values, data_points):
+        result = conn.execute(
+            text(constants.INSERT_INTO_LABELS_TABLE), {
+                "row_name": row_value,
+                "column_name": col_value,
+                "report_name": report_name,
+                "id_form": id_form
+            }
+        )
+        id_label = result.scalar_one()
+        conn.execute(
+            text(constants.INSERT_INTO_DATAPOINTS_TABLE), {
+                "id_label": id_label,
+                "data_point": data_point,
+                "qname": qname,
+                "data_type": data_type
+            }
+        )
+
+
+def load_structure(engine, all_jsons, id_taxonomy):
+    form_names = []
+    try:
+        with engine.begin() as conn:
+            for json_obj in all_jsons:
+                form_name = json_obj.get("form_name")
+                form_data = json_obj.get("data", {})
+
+                if form_name not in form_names:
+                    id_form = load_form_name(conn, form_name, id_taxonomy)
+                form_names.append(form_name)
+
+                for label_key, label_content in form_data.items():
+                    load_labels_and_datapoints(conn, id_form, label_content)
+
+            print("Data from reports are loaded successfully")
+    except SQLAlchemyError as e:
+        print({e})
 
 
 def create_structure(folder_path: str, folder_path_2: str):
@@ -148,93 +149,11 @@ def create_structure(folder_path: str, folder_path_2: str):
     - zapis całej struktury danych z wcześniej wygenerowanych plików JSON
     Zwraca obiekt Engine dla bazy danych.
     """
-    engine = create_tables() # tworzenie tabel
-    id_taxonomy = check_and_insert_taxonomy_version(engine, folder_path_2) # sprawdza czy nowa wersja taksonomii jest już w bazie, jeśli nie, to ją dodaje
+    engine = create_tables()  # tworzenie tabel
+    id_taxonomy = check_and_insert_taxonomy_version(engine, folder_path_2)  # sprawdza czy nowa wersja taksonomii jest już w bazie, jeśli nie, to ją dodaje
 
     if id_taxonomy is None:
         return engine
 
     all_jsons = load_json_structure(folder_path)
-
-    try:
-        with engine.begin() as conn:
-            # Pobieramy wszystkie już istniejące formularze z bazy:
-            existing_forms = conn.execute(
-                text("SELECT id_form, name_form FROM Forms")
-            ).mappings().all()
-            existing_forms_dict = {row['name_form']: row['id_form'] for row in existing_forms}
-
-            for json_obj in all_jsons:
-                form_name = json_obj.get("form_name")
-                form_data = json_obj.get("data", {})
-
-                if form_name in existing_forms_dict:
-                    id_form = existing_forms_dict[form_name]
-                else:
-                    result = conn.execute(
-                        text("INSERT INTO Forms (name_form, id_taxonomy) OUTPUT INSERTED.id_form VALUES (:name_form, :id_taxonomy)"),
-                        {"name_form": form_name, "id_taxonomy": id_taxonomy}
-                    )
-                    id_form = result.scalar_one()
-                    existing_forms_dict[form_name] = id_form
-
-                for label_key, label_content in form_data.items():
-                    row_value = label_content.get("value_row")
-
-                    cols = label_content.get("value_columns", [])
-                    if isinstance(cols, str):
-                        cols = [] if cols.lower().strip() in ("none", "") else [cols]
-                    elif cols is None or not isinstance(cols, list):
-                        cols = []
-
-                    data_points = label_content.get("data_points", [])
-                    if not isinstance(data_points, list):
-                        data_points = []
-                    data_type = label_content.get("datatype")
-                    report_name = label_content.get("sheet_name")
-                    qname = label_content.get("qname")
-
-                    row_value = row_value or None
-                    report_name = report_name or None
-                    data_type = data_type or None
-                    qname = qname or None
-
-                    max_len = max(len(cols), len(data_points))
-                    cols += [None] * (max_len - len(cols))
-                    data_points += [None] * (max_len - len(data_points))
-
-                    for col_value, data_point in zip(cols, data_points):
-                        col_value = col_value or None
-                        data_point = data_point or None
-
-                        result = conn.execute(
-                            text('''
-                                INSERT INTO Labels (row_name, column_name, report_name, id_form)
-                                OUTPUT INSERTED.id_label
-                                VALUES (:row_name, :column_name, :report_name, :id_form)
-                            '''), {
-                                "row_name": row_value,
-                                "column_name": col_value,
-                                "report_name": report_name,
-                                "id_form": id_form
-                            }
-                        )
-                        id_label = result.scalar_one()
-
-                        conn.execute(
-                            text('''
-                                INSERT INTO Data_points (id_label, data_point, qname, data_type)
-                                VALUES (:id_label, :data_point, :qname, :data_type)
-                            '''), {
-                                "id_label": id_label,
-                                "data_point": data_point,
-                                "qname": qname,
-                                "data_type": data_type
-                            }
-                        )
-        print("Data from reports are loaded successfully")
-
-    except SQLAlchemyError as e:
-        print({e})
-
-
+    load_structure(engine, all_jsons, id_taxonomy)
