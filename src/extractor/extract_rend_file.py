@@ -1,9 +1,10 @@
 from xml.etree.ElementTree import Element
 from typing import List, Tuple
 
+
 # Funkcja została stworzona, aby wyodrębnić kolejność etykiet i osi z pliku XML, w takiej kolejności, w jakiej występują w pliku.
 # Dzięki temu możemy łatwo rozróżnić, które etykiety należą do osi x, a które do osi y.
-def extract_rend_ordered_labels_and_axes(rend_parsed: Element)-> List[str]:
+def extract_rend_ordered_labels_and_axes(rend_parsed: Element) -> List[str]:
     labels: List[str] = []
     for elem in rend_parsed.iter():
         if elem.tag.endswith('ruleNode') and 'id' in elem.attrib:
@@ -12,7 +13,6 @@ def extract_rend_ordered_labels_and_axes(rend_parsed: Element)-> List[str]:
             labels.append(elem.attrib['axis'])
 
     labels = [elem for elem in labels if not elem.startswith('uknf_a')]
-
     return labels
 
 

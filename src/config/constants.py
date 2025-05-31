@@ -1,5 +1,8 @@
-
-FILE_PATH = r"C:\Users\marta\PycharmProjects\KNF\data\json"
+STRUCTURE_JSON_PATH = r'C:\Users\marta\PycharmProjects\KNF_new1\structure\full_structure'
+REPORTS_JSON_PATH = r'C:\Users\marta\PycharmProjects\KNF_new1\data\json_reports'
+REPORT_EXCEL_PATH = '../../data/reports/PiF_BK_c2025_2024_XXX_0.xlsx'
+TAXONOMY_INF_PATH = r"C:\Users\marta\PycharmProjects\KNF_new1\structure\taxonomy_info\taxonomy_info.json"
+DROP_LIST = ['miara'] #lista zawiera nazwy pól, które są używane do usuwania niepotrzebnych kolumn
 
 
 # Ścieżka do pliku XSD z definicjami typów danych
@@ -14,6 +17,9 @@ TAXONOMY_PACKAGE_PATH = "../data/taxonomy/TaksonomiaBION/META-INF/taxonomyPackag
 
 # Ścieżka do pliku, w którym zostanie zapisany JSON z nazwą oraz wersją taksonomii
 TAXONOMY_INFO_PATH = "../structure/taxonomy_info/taxonomy_info.json"
+
+# Scieżka do folderu, gdzie będą zapisywane strutury w formacie json dla arkuszy
+STRUCTURE_PATH = "../structure/full_structure"
 
 # Nazwy kluczowe plików do wyszukiwania w ścieżkach
 LAB_PL = 'lab-pl'

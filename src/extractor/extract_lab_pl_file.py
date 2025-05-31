@@ -15,7 +15,7 @@ def extract_lab_pl_labels_and_values(lab_pl_parsed: Element, lab_pl_namespaces: 
         label_id = label.attrib[f'{{{lab_pl_namespaces["xlink"]}}}label']
         label_text = label.text
         label_dict[label_id] = label_text
-
+    label_dict = {k: v for k, v in label_dict.items() if k.count('_') != 3}
     loc_dict: Dict[str, str] = {}
     for loc in lab_pl_parsed.findall(f'.//{qname("link:loc", lab_pl_namespaces)}'):
         label_id = loc.attrib[f'{{{lab_pl_namespaces["xlink"]}}}label']
@@ -28,5 +28,4 @@ def extract_lab_pl_labels_and_values(lab_pl_parsed: Element, lab_pl_namespaces: 
         to_label = arc.attrib[f'{{{lab_pl_namespaces["xlink"]}}}to']
         if from_label in loc_dict and to_label in label_dict:
             labels_and_values.append((loc_dict[from_label], label_dict[to_label]))
-
     return labels_and_values

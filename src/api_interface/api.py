@@ -1,16 +1,18 @@
 from fastapi import FastAPI, HTTPException
-from src.create_db.structure_loading import structure
-from src.create_db.reports_loading import reports
-from src.config.constants import FILE_PATH
-from src.config.constants import REPORTS_PATH
+from src.create_db.structure_loading import create_structure
+from src.create_db.reports_loading import load_reports
+from src.config.constants import STRUCTURE_JSON_PATH
+from src.config.constants import REPORTS_JSON_PATH
+from src.config.constants import TAXONOMY_INF_PATH
+
 
 app = FastAPI()
 
 @app.on_event("startup")
 def upload():
     try:
-        structure(FILE_PATH)
-        reports(REPORTS_PATH)
+        create_structure(STRUCTURE_JSON_PATH,TAXONOMY_INF_PATH)
+        load_reports(REPORTS_JSON_PATH)
         return {"status": "success", "message": "Data are loaded to thw database."}
 
     except Exception as e:

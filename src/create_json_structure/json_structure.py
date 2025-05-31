@@ -4,6 +4,7 @@ from dataclasses import asdict
 from src.config.constants import MET_PATH
 from src.config.constants import TAB_PATH
 from src.config.constants import TAXONOMY_PACKAGE_PATH
+from src.config.constants import STRUCTURE_PATH
 
 from src.extractor.extract_data_types import extract_types_and_names
 from src.extractor.extract_lab_codes_file import extract_lab_codes_labels_and_values
@@ -41,6 +42,7 @@ def build_json_for_sheet(lab_codes_path: str,
     rend_parsed = parse_xml(rend_path)
     lab_pl_parsed = parse_xml(lab_pl_path)
     lab_pl_namespaces = extract_namespaces(lab_pl_path)
+    print(sheet_name)
     rend_labels_and_qnames = extract_rend_labels_and_qnames(rend_parsed)
     rend_labels = extract_rend_ordered_labels_and_axes(rend_parsed)
     lab_codes_labels_and_value = extract_lab_codes_labels_and_values(lab_codes_parsed)
@@ -50,7 +52,7 @@ def build_json_for_sheet(lab_codes_path: str,
     data_with_types = match_datatypes_and_qnames(labels_and_data_types, combine_data)
     final_data = transform_data(data_with_types, column_flag, sheet_name,form_name)
 
-    with open(f'../structure/full_structure/{sheet_name}.json', 'a', encoding='utf-8') as json_file:
+    with open(f'{STRUCTURE_PATH}/{sheet_name}.json', 'a', encoding='utf-8') as json_file:
         json.dump(asdict(final_data), json_file, ensure_ascii=False, indent=4)
 
 
