@@ -1,4 +1,3 @@
-import sys
 from src.config.constants import REPORTS_JSON_PATH
 from src.config.constants import REPORT_DIR_PATH
 from src.config.constants import DROP_LIST
@@ -224,8 +223,7 @@ def generate_json_reports() -> NoReturn:
 
     if not excel_files:
         print(f"Nie znaleziono pliku Excel w folderze: {REPORT_DIR_PATH}")
-        sys.exit(1)
-
+        return None
     excel_file_path = os.path.join(REPORT_DIR_PATH, excel_files[0])
 
     xls = pd.ExcelFile(excel_file_path)
@@ -254,4 +252,3 @@ def generate_json_reports() -> NoReturn:
     print("Dane zostały wyekstraktowane oraz zapisane do katalogu report_data")
 
 
-generate_json_reports()

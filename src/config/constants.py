@@ -4,11 +4,22 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORTS_JSON_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../report_data"))
 STRUCTURE_JSON_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../structure/full_structure"))
 TAXONOMY_INF_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../structure/taxonomy_info/taxonomy_info.json"))
-
+REPORT_DIR_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../data/reports"))
 DROP_LIST = ['miara']  # lista zawiera nazwy pól, które są używane do usuwania niepotrzebnych kolumn
 
-REPORT_DIR_PATH = r"../../data/reports"
+BASE_URL = "http://127.0.0.1:8000"
+MENU = """
+        === MENU PROGRAMU ===
+        Wybierz jedną z opcji:
 
+        1 - Tworzenie struktury bazodanowej na podstawie taksonomii
+        2 - Ekstrakcja danych z raportu
+        3 - Ładowanie struktury bazodanowej do bazy danych
+        4 - Ładowanie danych z raportu do bazy danych
+        0 - Wyjście z programu
+
+        =====================
+        """
 # Ścieżka do pliku XSD z definicjami typów danych
 MET_PATH = '../data/taxonomy/TaksonomiaBION/www.uknf.gov.pl/pl/fr/xbrl/dict/met/met.xsd'
 
@@ -36,19 +47,6 @@ QNAME = "None"  # Domyślny qname, jeśli nie uda się dopasować
 
 # Wartość w przypadku braku textu w kolumnie/wierszu
 EMPTY = "None"
-
-ACTION = 1
-
-
-def set_action(value: int):
-    global ACTION
-    ACTION = value
-
-
-def get_action():
-    global ACTION
-    return ACTION
-
 
 CREATE_TABLE_TAXONOMY = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Taxonomy')
