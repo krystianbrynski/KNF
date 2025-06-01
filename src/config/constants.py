@@ -48,6 +48,14 @@ QNAME = "None"  # Domyślny qname, jeśli nie uda się dopasować
 # Wartość w przypadku braku textu w kolumnie/wierszu
 EMPTY = "None"
 
+DIRECTORIES = [
+        "../data/reports",
+        "../data/taxonomy",
+        "../structure/taxonomy_info",
+        "../structure/full_structure",
+        "../report_data"
+    ]
+
 CREATE_TABLE_TAXONOMY = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Taxonomy')
             BEGIN

@@ -1,13 +1,22 @@
+import os
+
 import requests
 
 from create_json_structure.json_structure import create_structure
-from src.config.constants import BASE_URL, MENU
+from src.config.constants import BASE_URL, MENU, DIRECTORIES
 from src.extractor.extract_report import generate_json_reports
+
+
+def create_directory():
+    for directory in DIRECTORIES:
+        os.makedirs(directory, exist_ok=True)
 
 
 def run_pipeline() -> None:
     '''Głowna funkcja realizująca generowanie struktury bazodanowej, ekstrakcji danych z raportów oraz ładowanie tych danych do bazy.
     Przed uruchmieniem upewnij się, że wrzuciłeś model taksonomi oraz raport oraz czy stworzyłeś zgodnie z dokumentacją techniczną potrzebne katalogi, jeśli nie istnieją'''
+    create_directory()
+
     akcja = None
     while akcja != "0":
         print(MENU)

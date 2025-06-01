@@ -2,7 +2,8 @@ from typing import List, Tuple, Dict
 from xml.etree.ElementTree import Element
 
 
-#  Funkcja zamienia skróconą nazwę tagu XML z prefixem na pełną nazwę z przestrzenią nazw, zgodną ze składnią biblioteki xml.etree.ElementTree.
+# Funkcja zamienia skróconą nazwę tagu XML z prefixem na pełną nazwę z przestrzenią nazw, zgodną ze składnią
+# biblioteki xml.etree.ElementTree.
 def qname(tag: str, nsmap: Dict[str, str]) -> str:
     prefix, local = tag.split(":")
     return f"{{{nsmap[prefix]}}}{local}"

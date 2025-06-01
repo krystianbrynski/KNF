@@ -174,7 +174,7 @@ def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[i
 
         datapoint_result = {}
         for code, col in code_to_col.items():
-            if col == 0:  #  pomijamy kolumne z labelem 0010, ponieważ nie mamy jak dodać danych z taksonomi i bez tego struktura będzie nie zgodna
+            if col == 0:  # pomijamy kolumne z labelem 0010, ponieważ nie mamy jak dodać danych z taksonomi i bez tego struktura będzie nie zgodna
                 continue
 
             val = df.iat[row, col]
@@ -190,8 +190,6 @@ def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[i
             grouped[k].append(str(v))
 
     return [{k: ",".join(v)} for k, v in grouped.items()]
-
-
 
 
 def extract_from_vertical(df: pd.DataFrame, positions_vertical: List[Tuple[int, int]]) -> List[Dict[Any, Any]]:
@@ -215,12 +213,12 @@ def extract_from_vertical(df: pd.DataFrame, positions_vertical: List[Tuple[int, 
 
     return results
 
+
 def generate_json_reports() -> NoReturn:
     """ Funkcja generuje pliki JSON z raportu Excel, używając wyżej wymionych funkcji."""
     os.makedirs(REPORTS_JSON_PATH, exist_ok=True)
 
     excel_files = [f for f in os.listdir(REPORT_DIR_PATH) if f.endswith(('.xls', '.xlsx'))]
-
     if not excel_files:
         print(f"Nie znaleziono pliku Excel w folderze: {REPORT_DIR_PATH}")
         return None
@@ -247,8 +245,6 @@ def generate_json_reports() -> NoReturn:
         json_filename = os.path.join(REPORTS_JSON_PATH, f"{filename}__{sheet_name}.json")
 
         with open(json_filename, "w", encoding="utf-8") as f:
-                json.dump({sheet_name: results}, f, ensure_ascii=False, indent=4)
+            json.dump({sheet_name: results}, f, ensure_ascii=False, indent=4)
 
     print("Dane zostały wyekstraktowane oraz zapisane do katalogu report_data")
-
-

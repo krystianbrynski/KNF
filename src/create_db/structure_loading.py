@@ -160,9 +160,8 @@ def create_structure() -> bool:
 
     id_taxonomy = check_and_insert_taxonomy_version(engine)
 
-    if all_jsons or id_taxonomy is None:
+    if all_jsons is None or id_taxonomy is None:
         return False
 
     load_taxonomy_structure(engine, all_jsons, id_taxonomy)
-
     return True

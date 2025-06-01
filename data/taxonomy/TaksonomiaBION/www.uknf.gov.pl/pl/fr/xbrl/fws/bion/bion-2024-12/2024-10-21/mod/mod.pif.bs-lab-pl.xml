@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--uknf-->
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
-  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
-    <link:loc xlink:type="locator" xlink:href="mod.pif.bs.xsd#uknf_mod.PiF.BS" xlink:label="loc_uknf_mod.PiF.BS" />
-    <link:label xlink:type="resource" xlink:label="label_uknf_mod.PiF.BS" xml:lang="pl" xlink:role="http://www.xbrl.org/2003/role/label">Moduł. Płynność i finansowanie. Banki spółdzielcze i zrzeszające</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_uknf_mod.PiF.BS" xlink:to="label_uknf_mod.PiF.BS" />
-  </link:labelLink>
-</link:linkbase>
