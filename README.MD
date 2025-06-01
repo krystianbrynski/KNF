@@ -1,73 +1,130 @@
 # Generator struktur danych i szablonów plików na podstawie taksonomii EBA
 
-## Opis projektu
+## Cel Projektu
 
-Projekt umożliwia automatyczne generowanie:
-
-1. Szablonów plików transportowych w formatach:
-   - ?
-
-2. Struktury bazy danych odpowiadającej modelowi danych zawartemu w taksonomii EBA.
-
-Wejściem do programu jest **TaxonomiaBIon** — taksonomia EBA w postaci plików XML, dostarczanych lokalnie lub pobieranych ze strony [EBA](https://www.eba.europa.eu/).
-
-## Funkcjonalność
-
-- Parsowanie plików XML z taksonomii
-- Generowanie struktur JSON dla każdego arkusza formularza
-- Generowanie struktury bazy danych
-- Tworzenie szablonów plików transportowych (?)
-- Ładowanie plików transportowych do bazy danych
-
-## Technologie
-
-- Python
-- `xml.etree.ElementTree` — biblioteka do parsowania plików XML
-- `pathlib.Path` — obiektowa obsługa ścieżek plików w Pythonie
-- `json` — zapis struktury danych w formacie JSON
-- `os` — operacje na plikach i ścieżkach systemowych
+Celem projektu jest opracowanie i wdrożenie zautomatyzowanego procesu przygotowania i przetwarzania danych raportowych oraz taksonomii. W ramach projektu zostały
+zrealizowane nastepujace zadania:
+• Generowanie plikow transportowych na podstawie raportu oraz ich załadunek do
+bazy danych
+• Generyczne tworzenie struktury bazy danych na podstawie modelu taksonomii (TaksonomiaBION)
+• Opracowanie skyptów w jezyku Python, które realizuja powyższe zadania
 
 
-## Tworzenie struktury bazy danych
+## Instalacja bibliotek 
 
-### 1. Ekstrakcja danych i generowanie struktur JSON
+Zainstaluj wymagane zależności i biblioteki za pomocą poniższego polecenia:
 
-- Inputem do programu jest **TaxonomiaBIon** – zestaw plików XML opisujących strukturę formularzy, wraz z typami danych i metrykami.
-- Skrypt przechodzi przez wszystkie foldery, w których znajdują się definicje formularzy, a następnie analizuje każdy formularz oraz każdy arkusz w ramach formularza.
-- Pliki XML są przetwarzane z użyciem biblioteki `xml.etree.ElementTree`, a następnie analizowane przez logikę programu.
-- Dla każdego formularza i każdego arkusza w tym formularzu generowany jest osobny plik JSON opisujący strukturę danych.
+```pip install -r .\requirements.txt```
 
+## Tworzenie katalogów
 
-#### Struktura wygenerowanego JSON-a
+Aby stworzyć potrzebne katalogi należy uruchomic skrypt src/main.py. Skrypt ten automatycznie utworzy wszystkie niezbędne katalogi.
+W terminalu skorzystaj z polecenia:
 
-```text
-{
-  "nazwa_formularza": {
-    "uknf_cXX": {
-      "rows": [...],
-      "data_point": [...],
-      "cols": [...],
-      "datatype": "...",
-      "qname": "...",
-      "report_name": "..."
-    }
-  }
-}
+```python src/main.py```
+
+## Użycie programu
+
+### Po uruchomieniu programu src/main.py w terminalu wyświetli się menu dla użytkownika, a zaraz po nim prośba o wybranie numeru akcjii.
+
+```
+ === MENU PROGRAMU ===
+        Wybierz jedną z opcji:
+
+        1 - Tworzenie struktury bazodanowej na podstawie taksonomii
+        2 - Ekstrakcja danych z raportu
+        3 - Ładowanie struktury bazodanowej do bazy danych
+        4 - Ładowanie danych z raportu do bazy danych
+        0 - Wyjście z programu
+
+        =====================
 ```
 
-## Opis pól:
 
-| Pole            | Opis |
-|----------------|-------------------------------------------|
-| **nazwa_formularza** | Nazwa formularza jako główny klucz |
-| **uknf_cXX** | Unikalny klucz/label dla wiersza |
-| **rows** | Wartość wiersza |
-| **data_point** | Przecięcie wiersza i kolumny np. 0010X0010 |
-| **cols** | Lista wartości kolumn |
-| **datatype** | Typ danych |
-| **qname** | Nazwa metryki |
-| **report_name** | Nazwa arkusza w formularzu |
+** 1. Tworzenie struktury bazodanowej na podstawie taksonomii.**
 
-### 2. Ładowanie plików JSON do bazy danych MS SQL
+Do powstałego katalogu data/taxonomy należy wrzucić model taksonomii, przed wybraniem akcjii. 
 
-- Marta doda
+```
+input
+KNF/
+├───data/
+│   ├───taxonomy/
+│       └───Taxonomy
+```
+
+Po wrzuceniu modelu taksonomii można w terminalu wpisać wartość 1, aby uruchomić skrypt realizujący to zadanie.
+
+```
+output
+KNF/
+├───structure/
+│   ├───full_structure/
+│   │   ├───form_name_1.json
+│   │   ├───form_name_2.json
+│   │   └───form_name_3.json
+│   └───taxonomy_info/
+│   │   ├───taxonomy_info.json
+```
+
+Skrypt, na podstawie Twojej taksonomii, wygeneruje pliki transportowe. Plików transportowych (zawierających strukture dla danego arkuszaA) będzie tyle ile arkuszy znajduje się we wszystkich formularzach. Każdy plik zostanie zapisany w formacie JSON i nazwany zgodnie z nazwą odpowiadającego mu arkusza. Skrypt również zapisze plik taxonomy_info.json do katalogu taxonomy_info wraz z nazwą oraz wersją taksonomii
+
+** 2. Ekstrakcja danych z raportu.**
+
+Do katalogu data/reports należy wrzucić jeden raport w formacie '.xls' lub '.xlsx' z uzupełnionymi danymi, przed wykonaniem akcjii.
+
+
+```
+input
+KNF/
+├───data/
+│   ├───reports/
+│       └───report.xlsx
+```
+
+Po wrzuceniu raportu można w terminalu wpisać wartość 2, aby uruchomić skrypt.
+
+```
+output
+KNF/
+├───report_data/
+│   ├───reports/
+│   │   ├───sheet_name1.json
+│   │   ├───sheet_name2.json
+│   │   └───sheet_name3.json
+```
+
+Skrypt na podstawie wrzuconego raportu wyekstraktuje dane z raportu oraz utworzy tyle plików transportowych ile jest arkuszy w  danym formularzu.
+
+** 3. Ładowanie struktury bazodanowej do bazy danych.**
+
+Przed załadunkiem struktury bazodanowej trzeba najpierw wykonać akcję nr 1, aby utworzyć pliki transportowe (pełną strukturę dla taksonomii zapisaną w formatach JSON).
+Należy uruchomić api w terminalu, jeśli tego jeszcze nie zrobiłeś.
+
+```uvicorn src.api_interface.api:app --reload```
+
+po poprawnym uruchomieniu dostaniemu informację: INFO:     Application startup complete.
+Teraz możemy uruchomić akcję i wpisać w terminal wartość 3.
+Skrypt załaduje Twoją strukture do bazy danych i wyświetli w terminalu komunikat:
+"Struktura została załadowana do bazy danych", jeśli operacja zakończy się sukcesem.
+
+** 4. Ładowanie danych z raportu do bazy danych.**
+
+Przed załadunkiem danych do bazy danych, upewnij się że wykonałeś akcje 2.
+Należy uruchomić api w terminalu, jeśli tego jeszcze nie zrobiłeś.
+
+```uvicorn src.api_interface.api:app --reload```
+
+po poprawnym uruchomieniu dostaniemu informację: INFO:     Application startup complete.
+Teraz możemy uruchomić akcję i wpisać w terminal wartość 4.
+Skrypt załaduje twoje wyekstraktowane dane do bazy danych i wyświetli w terminalu komentarz:
+"Raport został pomyślnie rozładowany do bazydanych", jeśli operacja zakończy się sukcesem.
+
+** 0 - Wyjście z programu.**
+
+Wybierz akcje 0 jeśli chcesz zakończyć program
+
+
+
+
+
