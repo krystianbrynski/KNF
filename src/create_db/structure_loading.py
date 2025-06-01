@@ -1,10 +1,16 @@
-from typing import List, Optional, Any, Dict
-from sqlalchemy import create_engine, text
-from sqlalchemy.exc import SQLAlchemyError
-from sqlalchemy.engine import Engine
-from pathlib import Path
 import json
+
+from pathlib import Path
+
+from sqlalchemy import create_engine, text
+from sqlalchemy.engine import Connection
+from sqlalchemy.engine import Engine
+from sqlalchemy.exc import SQLAlchemyError
+
+from typing import Any, Dict, List, Optional
+
 from src.config import constants
+from src.config.constants import STRUCTURE_JSON_PATH, TAXONOMY_INF_PATH
 
 
 def create_tables() -> Engine:
@@ -22,21 +28,21 @@ def create_tables() -> Engine:
         conn.execute(text(constants.CREATE_TABLE_DATAPOINTS))
         conn.execute(text(constants.CREATE_TABLE_REPORTS))
         conn.execute(text(constants.CREATE_TABLE_DATA))
+
     return engine
 
 
-def load_json_structure(folder_path: str) -> List[Dict[str, Any]]:
+def load_json_structure() -> Optional[List[Dict[str, Any]]]:
     """
-     Wczytuje wszystkie pliki JSON z podanego folderu i zwraca listę ich zawartości.
-     Pliki zawierają wcześniej wygenerowaną strukturę taksonomii.
+     Wczytuje wszystkie pliki JSON z wcześniej wygenerowaną strukturę taksonomii z podanego folderu i zwraca listę ich zawartości.
      """
-    folder = Path(folder_path).resolve()
+    folder = Path(STRUCTURE_JSON_PATH).resolve()
     json_files = [f for f in folder.iterdir() if f.is_file() and f.suffix.lower() == '.json']
 
     if not json_files:
-        return []
+        return None
 
-    all_jsons = []
+    all_jsons: List[Dict[str, Any]] = []
     for json_file in json_files:
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -45,24 +51,24 @@ def load_json_structure(folder_path: str) -> List[Dict[str, Any]]:
     return all_jsons
 
 
-def load_taxonomy_version_from_file(json_path: str) -> tuple[str, str]:
+def load_taxonomy_version_from_file() -> tuple[str, str]:
     """
         Funkcja jest stosowana w procesie sprawdzania wersji taksonomii.
        Wczytuje plik JSON zawierający informację na temat wersji i nazwy ładowanej taksonomii
         i zwraca te informacje.
        """
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open(TAXONOMY_INF_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data.get("version"), data.get("name")
 
 
-def check_and_insert_taxonomy_version(engine, taxonomy_json_path: str) -> int | None:
+def check_and_insert_taxonomy_version(engine) -> int | None:
     """
-    Funkcja używana jest do rozpoznania czy ładowana struktura danych nie została już wcześniej załadowana do MSSQL.
+    Funkcja używana jest do rozpoznania czy ładowana struktura danych nie została już wcześniej załadowana do bazy.
     Proces polega na sprawdzeniu czy wersja i nazwa taksonomii już istnieje w bazie danych.
     Jeśli nie, dodaje ją i zwraca `id_taxonomy`. Jeśli istnieje – zwraca None.
     """
-    version, name = load_taxonomy_version_from_file(taxonomy_json_path)
+    version, name = load_taxonomy_version_from_file()
 
     with engine.begin() as conn:
         existing = conn.execute(
@@ -79,11 +85,11 @@ def check_and_insert_taxonomy_version(engine, taxonomy_json_path: str) -> int | 
             {"version": version, "name": name}
         )
         id_taxonomy = result.scalar_one()
-        print(f"Dodano nową wersję taxonomy: {version} z id {id_taxonomy}")
+        print(f"Dodano nową wersję taxonomy: {version}")
         return id_taxonomy
 
 
-def load_form_name(conn, form_name, id_taxonomy):
+def load_form_name(conn: Connection, form_name: str, id_taxonomy: int) -> int:
     result = conn.execute(
         text(constants.INSERT_INTO_FORMS_TABLE),
         {"name_form": form_name, "id_taxonomy": id_taxonomy}
@@ -93,12 +99,12 @@ def load_form_name(conn, form_name, id_taxonomy):
     return id_form
 
 
-def load_labels_and_datapoints(conn, id_form, label_content):
+def load_labels_and_datapoints(conn: Connection, id_form: int, label_content: Dict[str, Any]) -> None:
     row_value = label_content.get("value_row")
     col_values = label_content.get("value_columns")
     data_points = label_content.get("data_points")
     data_type = label_content.get("datatype")
-    report_name = label_content.get("sheet_name")
+    sheet_name = label_content.get("sheet_name")
     qname = label_content.get("qname")
 
     for col_value, data_point in zip(col_values, data_points):
@@ -106,7 +112,7 @@ def load_labels_and_datapoints(conn, id_form, label_content):
             text(constants.INSERT_INTO_LABELS_TABLE), {
                 "row_name": row_value,
                 "column_name": col_value,
-                "report_name": report_name,
+                "sheet_name": sheet_name,
                 "id_form": id_form
             }
         )
@@ -121,8 +127,9 @@ def load_labels_and_datapoints(conn, id_form, label_content):
         )
 
 
-def load_structure(engine, all_jsons, id_taxonomy):
-    form_names = []
+def load_taxonomy_structure(engine: Engine, all_jsons: List[Dict[str, str]], id_taxonomy: int) -> None:
+    """ Ładuje strukturę taksonomii wywołująć dwie funkcje: """
+    form_names: list[str] = []
     try:
         with engine.begin() as conn:
             for json_obj in all_jsons:
@@ -136,24 +143,28 @@ def load_structure(engine, all_jsons, id_taxonomy):
                 for label_key, label_content in form_data.items():
                     load_labels_and_datapoints(conn, id_form, label_content)
 
-            print("Data from reports are loaded successfully")
+            print("Struktura bazodanowa została utworzona pomyślnie")
     except SQLAlchemyError as e:
         print({e})
 
 
-def create_structure(folder_path: str, folder_path_2: str):
+def create_structure() -> None:
     """
-    Główna funkcja odpowiedzialna za:
-    - tworzenie tabel w bazie,
-    - sprawdzenie i ewentualne wstawienie nowej wersji taksonomii,
-    - zapis całej struktury danych z wcześniej wygenerowanych plików JSON
-    Zwraca obiekt Engine dla bazy danych.
+    Funkcja tworzy strukturę taksonomii w bazie danych jeśli nie została załadowana do niej wcześniej.
+    Używając funkcji 'check_and_insert_taxonomy_version' sprawdza czy nowa wersja i nazwa taksonomii jest już w bazie,
+    jeśli nie, to ją dodaje.
     """
-    engine = create_tables()  # tworzenie tabel
-    id_taxonomy = check_and_insert_taxonomy_version(engine, folder_path_2)  # sprawdza czy nowa wersja taksonomii jest już w bazie, jeśli nie, to ją dodaje
+    engine = create_tables()
+    all_jsons = load_json_structure()
+
+    if all_jsons is None:
+        print("Brak stworzonej struktury bazodanowej dla tej taksonomii")
+
+        return None
+
+    id_taxonomy = check_and_insert_taxonomy_version(engine)
 
     if id_taxonomy is None:
-        return engine
+        return None
 
-    all_jsons = load_json_structure(folder_path)
-    load_structure(engine, all_jsons, id_taxonomy)
+    load_taxonomy_structure(engine, all_jsons, id_taxonomy)

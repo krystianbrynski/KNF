@@ -1,6 +1,7 @@
 from typing import List, Tuple
 from xml.etree.ElementTree import Element
 
+
 # Funkcja została stworzona po to, aby zidentyfikować i wyodrębnić wszystkie metryki (name)
 # wraz z przypisanymi im typami danych z dokumentu XML.
 #

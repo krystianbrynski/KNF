@@ -1,5 +1,6 @@
+import sys
 from src.config.constants import REPORTS_JSON_PATH
-from src.config.constants import REPORT_EXCEL_PATH
+from src.config.constants import REPORT_DIR_PATH
 from src.config.constants import DROP_LIST
 from typing import List, Tuple, Dict, Any, NoReturn
 from collections import defaultdict
@@ -34,7 +35,7 @@ def find_sequence_positions(df: pd.DataFrame) -> Tuple[List[Tuple[int, int]], Li
 
     positions_0010 = [
         (r, c) for r in range(df.shape[0]) for c in range(df.shape[1])
-        if str(df.iat[r, c]).zfill(4) == "0010"
+        if str(df.iat[r, c]) == "0010"
     ]
 
     if len(positions_0010) == 2:  # Znalezione dwie wartości '0010' oznaczają obecność dwóch osi Datapoint'ów
@@ -53,7 +54,7 @@ def find_sequence_positions(df: pd.DataFrame) -> Tuple[List[Tuple[int, int]], Li
         has_vertical = False
 
         for nr in range(r + 1, df.shape[0]):
-            cell_val = str(df.iat[nr, c]).zfill(4)
+            cell_val = str(df.iat[nr, c])
 
             if cell_val == '0020':
                 has_vertical = True
@@ -62,7 +63,7 @@ def find_sequence_positions(df: pd.DataFrame) -> Tuple[List[Tuple[int, int]], Li
         has_horizontal = False
 
         for nc in range(c + 1, df.shape[1]):
-            cell_val = str(df.iat[r, nc]).zfill(4)
+            cell_val = str(df.iat[r, nc])
 
             if cell_val == '0020':
                 has_horizontal = True
@@ -95,7 +96,7 @@ def find_sequence_positions(df: pd.DataFrame) -> Tuple[List[Tuple[int, int]], Li
                 continue
 
             try:
-                cell_val_int = int(str(cell).zfill(4))
+                cell_val_int = int(str(cell))
             except ValueError:
                 break
 
@@ -121,7 +122,7 @@ def find_sequence_positions(df: pd.DataFrame) -> Tuple[List[Tuple[int, int]], Li
                 continue
 
             try:
-                cell_val_int = int(str(cell).zfill(4))
+                cell_val_int = int(str(cell))
             except ValueError:
                 break
 
@@ -153,7 +154,7 @@ def extract_intersections(df: pd.DataFrame,
     return results
 
 
-def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[int, int]]) -> Dict[str, str]:
+def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[int, int]]) -> List[Dict[str, str]]:
     """ Funkcja jest wykorzystywana do ekstrakcji danych w przypadku jeśli w arkuszu znajdują się sekwencje Datapoint'ów wyłącznie poziome.
             Ekstraktuje dane finansowe bezpośrednio pod wcześniej zidentyfikowanymi Datapointam'i.
              ponieważ w taki sposób rozmieszone są one w arkuszu."""
@@ -174,6 +175,9 @@ def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[i
 
         datapoint_result = {}
         for code, col in code_to_col.items():
+            if col == 0:  #  pomijamy kolumne z labelem 0010, ponieważ nie mamy jak dodać danych z taksonomi i bez tego struktura będzie nie zgodna
+                continue
+
             val = df.iat[row, col]
             if pd.notna(val):
                 datapoint_result[code] = val
@@ -186,7 +190,9 @@ def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[i
         for k, v in record.items():
             grouped[k].append(str(v))
 
-    return {k: ",".join(v) for k, v in grouped.items()}
+    return [{k: ",".join(v)} for k, v in grouped.items()]
+
+
 
 
 def extract_from_vertical(df: pd.DataFrame, positions_vertical: List[Tuple[int, int]]) -> List[Dict[Any, Any]]:
@@ -210,35 +216,42 @@ def extract_from_vertical(df: pd.DataFrame, positions_vertical: List[Tuple[int, 
 
     return results
 
-
 def generate_json_reports() -> NoReturn:
     """ Funkcja generuje pliki JSON z raportu Excel, używając wyżej wymionych funkcji."""
     os.makedirs(REPORTS_JSON_PATH, exist_ok=True)
-    xls = pd.ExcelFile(REPORT_EXCEL_PATH)
+
+    excel_files = [f for f in os.listdir(REPORT_DIR_PATH) if f.endswith(('.xls', '.xlsx'))]
+
+    if not excel_files:
+        print(f"Nie znaleziono pliku Excel w folderze: {REPORT_DIR_PATH}")
+        sys.exit(1)
+
+    excel_file_path = os.path.join(REPORT_DIR_PATH, excel_files[0])
+
+    xls = pd.ExcelFile(excel_file_path)
 
     for sheet_name in xls.sheet_names[2:]:
-        try:
-            df = xls.parse(sheet_name, header=None, dtype=str)
-            df = clean_data(df)
-            positions_horizontal, positions_vertical = find_sequence_positions(df)
+        df = xls.parse(sheet_name, header=None, dtype=str)
+        df = clean_data(df)
 
-            if positions_horizontal and positions_vertical:
-                results = extract_intersections(df, positions_horizontal, positions_vertical)
-            elif positions_horizontal:
-                results = extract_from_horizontal(df, positions_horizontal)
-            elif positions_vertical:
-                results = extract_from_vertical(df, positions_vertical)
-            else:
-                results = []
+        positions_horizontal, positions_vertical = find_sequence_positions(df)
 
-            filename = os.path.splitext(os.path.basename(REPORT_EXCEL_PATH))[0]
-            json_filename = os.path.join(REPORTS_JSON_PATH, f"{filename}__{sheet_name}.json")
+        if positions_horizontal and positions_vertical:
+            results = extract_intersections(df, positions_horizontal, positions_vertical)
+        elif positions_horizontal:
+            results = extract_from_horizontal(df, positions_horizontal)
+        elif positions_vertical:
+            results = extract_from_vertical(df, positions_vertical)
+        else:
+            results = []
 
-            with open(json_filename, "w", encoding="utf-8") as f:
+        filename = os.path.splitext(os.path.basename(excel_file_path))[0]
+        json_filename = os.path.join(REPORTS_JSON_PATH, f"{filename}__{sheet_name}.json")
+
+        with open(json_filename, "w", encoding="utf-8") as f:
                 json.dump({sheet_name: results}, f, ensure_ascii=False, indent=4)
 
-        except Exception as e:
-            print(f"Error in {sheet_name} in {REPORT_EXCEL_PATH}: {e}")
+    print("Dane zostały wyekstraktowane oraz zapisane do katalogu report_data")
 
 
 generate_json_reports()

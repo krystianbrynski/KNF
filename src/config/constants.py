@@ -1,9 +1,13 @@
-STRUCTURE_JSON_PATH = r'C:\Users\marta\PycharmProjects\KNF_new1\structure\full_structure'
-REPORTS_JSON_PATH = r'C:\Users\marta\PycharmProjects\KNF_new1\data\json_reports'
-REPORT_EXCEL_PATH = '../../data/reports/PiF_BK_c2025_2024_XXX_0.xlsx'
-TAXONOMY_INF_PATH = r"C:\Users\marta\PycharmProjects\KNF_new1\structure\taxonomy_info\taxonomy_info.json"
-DROP_LIST = ['miara'] #lista zawiera nazwy pól, które są używane do usuwania niepotrzebnych kolumn
+import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+REPORTS_JSON_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../report_data"))
+STRUCTURE_JSON_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../structure/full_structure"))
+TAXONOMY_INF_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../structure/taxonomy_info/taxonomy_info.json"))
+
+DROP_LIST = ['miara']  # lista zawiera nazwy pól, które są używane do usuwania niepotrzebnych kolumn
+
+REPORT_DIR_PATH = r"../../data/reports"
 
 # Ścieżka do pliku XSD z definicjami typów danych
 MET_PATH = '../data/taxonomy/TaksonomiaBION/www.uknf.gov.pl/pl/fr/xbrl/dict/met/met.xsd'
@@ -28,10 +32,23 @@ LAB_CODES = 'lab-codes'
 
 # Domyślne wartości używane, gdy nie uda się dopasować innego typu lub qname
 DATA_TYPE = "xbrli:stringItemType"  # Domyślny typ danych (standardowy typ, gdy brak dopasowania)
-QNAME = "None"                      # Domyślny qname, jeśli nie uda się dopasować
+QNAME = "None"  # Domyślny qname, jeśli nie uda się dopasować
 
 # Wartość w przypadku braku textu w kolumnie/wierszu
 EMPTY = "None"
+
+ACTION = 1
+
+
+def set_action(value: int):
+    global ACTION
+    ACTION = value
+
+
+def get_action():
+    global ACTION
+    return ACTION
+
 
 CREATE_TABLE_TAXONOMY = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Taxonomy')
@@ -44,7 +61,7 @@ CREATE_TABLE_TAXONOMY = '''
             END
         '''
 
-CREATE_TABLE_FORMS ='''
+CREATE_TABLE_FORMS = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Forms')
             BEGIN
                 CREATE TABLE Forms (
@@ -55,21 +72,20 @@ CREATE_TABLE_FORMS ='''
             END
         '''
 
-
-CREATE_TABLE_LABELS ='''
+CREATE_TABLE_LABELS = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Labels')
             BEGIN
                 CREATE TABLE Labels (
                     id_label INT PRIMARY KEY IDENTITY(1,1),
                     row_name NVARCHAR(MAX),
                     column_name NVARCHAR(255),       
-                    report_name NVARCHAR(255),
+                    sheet_name NVARCHAR(255),
                     id_form INT FOREIGN KEY REFERENCES Forms(id_form)
                 )
             END
         '''
 
-CREATE_TABLE_DATAPOINTS='''
+CREATE_TABLE_DATAPOINTS = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Data_points')
             BEGIN
                 CREATE TABLE Data_points (
@@ -82,16 +98,17 @@ CREATE_TABLE_DATAPOINTS='''
             END
         '''
 
-CREATE_TABLE_REPORTS="""
+CREATE_TABLE_REPORTS = """
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Reports')
             BEGIN
                 CREATE TABLE Reports (
-                    id_report INT PRIMARY KEY IDENTITY(1,1)
+                    id_report INT PRIMARY KEY IDENTITY(1,1),
+                    report_date_time DATETIME NOT NULL DEFAULT GETDATE()
                 )
             END
         """
 
-CREATE_TABLE_DATA="""
+CREATE_TABLE_DATA = """
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Data')
             BEGIN
                 CREATE TABLE Data (
@@ -104,18 +121,27 @@ CREATE_TABLE_DATA="""
             END
         """
 
-INSERT_INTO_LABELS_TABLE='''
-                INSERT INTO Labels (row_name, column_name, report_name, id_form)
+INSERT_INTO_LABELS_TABLE = '''
+                INSERT INTO Labels (row_name, column_name, sheet_name, id_form)
                 OUTPUT INSERTED.id_label
-                VALUES (:row_name, :column_name, :report_name, :id_form)
+                VALUES (:row_name, :column_name, :sheet_name, :id_form)
             '''
 
-INSERT_INTO_DATAPOINTS_TABLE='''INSERT INTO Data_points (id_label, data_point, qname, data_type)
+INSERT_INTO_DATAPOINTS_TABLE = """INSERT INTO Data_points (id_label, data_point, qname, data_type)
                                             VALUES (:id_label, :data_point, :qname, :data_type)
-                                    '''
+                                    """
 
-INSERT_INTO_TAXONOMY_TABLE="INSERT INTO Taxonomy (version, name) OUTPUT INSERTED.id_taxonomy VALUES (:version, :name)"
+INSERT_INTO_TAXONOMY_TABLE = """INSERT INTO Taxonomy (version, name) OUTPUT INSERTED.id_taxonomy VALUES (:version, :name)"""
 
-INSERT_INTO_FORMS_TABLE="INSERT INTO Forms (name_form, id_taxonomy) OUTPUT INSERTED.id_form VALUES (:name_form, :id_taxonomy)"
+INSERT_INTO_FORMS_TABLE = """INSERT INTO Forms (name_form, id_taxonomy) OUTPUT INSERTED.id_form VALUES (:name_form, :id_taxonomy)"""
 
-SELECT_TAXONOMY_TABLE="SELECT id_taxonomy FROM Taxonomy WHERE version = :version"
+SELECT_TAXONOMY_TABLE = """SELECT id_taxonomy FROM Taxonomy WHERE version = :version"""
+
+INSERT_INTO_REPORTS_TABLE = """INSERT INTO Reports OUTPUT INSERTED.id_report DEFAULT VALUES
+                                """
+
+SELECT_DATAPOINTS_TABLE = """SELECT dp.id_data_point, dp.data_point FROM Data_points dp JOIN Labels l ON dp.id_label = l.id_label WHERE l.sheet_name = :form_name
+"""
+INSERT_INTO_DATA_TABLE = """INSERT INTO Data (id_report, id_data_point, form_name, data)
+                                    VALUES (:id_report, :id_data_point, :form_name, :data)
+                                """

@@ -42,7 +42,6 @@ def build_json_for_sheet(lab_codes_path: str,
     rend_parsed = parse_xml(rend_path)
     lab_pl_parsed = parse_xml(lab_pl_path)
     lab_pl_namespaces = extract_namespaces(lab_pl_path)
-    print(sheet_name)
     rend_labels_and_qnames = extract_rend_labels_and_qnames(rend_parsed)
     rend_labels = extract_rend_ordered_labels_and_axes(rend_parsed)
     lab_codes_labels_and_value = extract_lab_codes_labels_and_values(lab_codes_parsed)

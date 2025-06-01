@@ -16,8 +16,9 @@ def extract_namespace(lab_codes_parsed: Element)-> str:
     return namespace
 
 
-# Funkcja została stworzona, aby wyodrębnić z pliku XML powiązania między etykietami (labels) a ich wartościami (data points).
-# Dzięki temu można dokładnie określić, jaki konkretny punkt danych (data point) jest przypisany do której etykiety.
+# Funkcja została stworzona, aby wyodrębnić z pliku XML powiązania między etykietami (labels) a ich wartościami (data
+# points). Dzięki temu można dokładnie określić, jaki konkretny punkt danych (data point) jest przypisany do której
+# etykiety.
 def extract_lab_codes_labels_and_values(lab_codes_parsed: Element)-> List[Tuple[str, str]]:
     namespace = extract_namespace(lab_codes_parsed)
     labels_and_value: List[Tuple[str, str]] = []
