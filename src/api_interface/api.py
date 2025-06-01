@@ -8,8 +8,10 @@ app = FastAPI()
 @app.post("/load/structure")
 def upload_structure():
     try:
-        create_structure()
-        return {"status": "success", "message": "Structure loaded successfully."}
+        if create_structure():
+            return "Struktura została załadaowana do bazydanych."
+        else:
+            return "Sprawdz logi w api, nie udało się załadowac struktury do bazydanych"
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -17,7 +19,10 @@ def upload_structure():
 @app.post("/load/reports")
 def upload_reports():
     try:
-        load_report()
-        return {"status": "success", "message": "Reports loaded successfully."}
+        if load_report():
+            return "Raport został pomyślnie rozładowany do bazydanych"
+        else:
+            return "Sprawdz logi w api, niestety nie udało się załadować danych do bazydanych"
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -68,7 +68,7 @@ def load_data(conn: Connection, all_jsons: List[Dict[str, Any]]) -> None:
     print("Twoje dane z raportów zostaly załadowane do bazy danych")
 
 
-def load_report() -> None:
+def load_report() -> bool:
     """
        Wczytuje pliki JSON zawierający wcześniej wyekstraktowanych danych raportowych i wstawia ich dane do bazy danych.
 
@@ -83,7 +83,7 @@ def load_report() -> None:
 
     if all_jsons is None:
         print("Error: Brak wyekstraktowanych jsonow z raportu!")
-        return None
+        return False
 
     engine = create_engine(
         "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
@@ -93,10 +93,11 @@ def load_report() -> None:
         with engine.begin() as conn:
             if validate_structure(all_jsons, conn):
                 load_data(conn, all_jsons)
+                return True
             else:
                 print("Struktra którą próbujesz załadować jest inna niż w bazie danych, w formularzu występują inne "
                       "datapointy niż w bazie danych")
-                return None
+                return False
 
     except SQLAlchemyError as e:
         print({e})

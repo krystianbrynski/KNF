@@ -58,4 +58,64 @@
             "sheet_name": "n.pif.bk.01.03"
         }
     }
+}{
+    "form_name": "n.pif.bk",
+    "data": {
+        "uknf_c5": {
+            "value_row": "Wartość depozytu największego deponenta",
+            "data_points": [
+                "0010X0010",
+                "0010X0020"
+            ],
+            "value_columns": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.03"
+        },
+        "uknf_c6": {
+            "value_row": "Suma wartości depozytów 5 największych deponentów",
+            "data_points": [
+                "0020X0010",
+                "0020X0020"
+            ],
+            "value_columns": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.03"
+        },
+        "uknf_c7": {
+            "value_row": "Suma wartości depozytów 10 największych deponentów",
+            "data_points": [
+                "0030X0010",
+                "0030X0020"
+            ],
+            "value_columns": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.03"
+        },
+        "uknf_c8": {
+            "value_row": "Suma wartości depozytów 20 największych deponentów",
+            "data_points": [
+                "0040X0010",
+                "0040X0020"
+            ],
+            "value_columns": [
+                "Wartość",
+                "Udział w depozytach ogółem (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.03"
+        }
+    }
 }

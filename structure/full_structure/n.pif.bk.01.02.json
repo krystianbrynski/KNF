@@ -72,4 +72,78 @@
             "sheet_name": "n.pif.bk.01.02"
         }
     }
+}{
+    "form_name": "n.pif.bk",
+    "data": {
+        "uknf_c27": {
+            "value_row": "segment detaliczny",
+            "data_points": [
+                "0010X0010",
+                "0010X0020"
+            ],
+            "value_columns": [
+                "wartość depozytów niestabilnych",
+                "udział depozytów niestabilnych w ogólnej bazie depozytowej (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.02"
+        },
+        "uknf_c28": {
+            "value_row": "segment korporacyjny",
+            "data_points": [
+                "0020X0010",
+                "0020X0020"
+            ],
+            "value_columns": [
+                "wartość depozytów niestabilnych",
+                "udział depozytów niestabilnych w ogólnej bazie depozytowej (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.02"
+        },
+        "uknf_c29": {
+            "value_row": "segment finansowy",
+            "data_points": [
+                "0030X0010",
+                "0030X0020"
+            ],
+            "value_columns": [
+                "wartość depozytów niestabilnych",
+                "udział depozytów niestabilnych w ogólnej bazie depozytowej (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.02"
+        },
+        "uknf_c30": {
+            "value_row": "segment budżetowy",
+            "data_points": [
+                "0040X0010",
+                "0040X0020"
+            ],
+            "value_columns": [
+                "wartość depozytów niestabilnych",
+                "udział depozytów niestabilnych w ogólnej bazie depozytowej (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.02"
+        },
+        "uknf_c31": {
+            "value_row": "SUMA",
+            "data_points": [
+                "0050X0010",
+                "0050X0020"
+            ],
+            "value_columns": [
+                "wartość depozytów niestabilnych",
+                "udział depozytów niestabilnych w ogólnej bazie depozytowej (%)"
+            ],
+            "datatype": "xbrli:stringItemType",
+            "qname": "None",
+            "sheet_name": "n.pif.bk.01.02"
+        }
+    }
 }

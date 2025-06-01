@@ -26,4 +26,32 @@
             "sheet_name": "n.zk.bk.01.01"
         }
     }
+}{
+    "form_name": "n.zk.bk",
+    "data": {
+        "uknf_c2": {
+            "value_row": "Łączna kwota kapitału wewnętrznego",
+            "data_points": [
+                "0010"
+            ],
+            "value_columns": [
+                "None"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2192",
+            "sheet_name": "n.zk.bk.01.01"
+        },
+        "uknf_c3": {
+            "value_row": "Łączna kwota wymogu regulacyjnego",
+            "data_points": [
+                "0020"
+            ],
+            "value_columns": [
+                "None"
+            ],
+            "datatype": "xbrli:monetaryItemType",
+            "qname": "mi2193",
+            "sheet_name": "n.zk.bk.01.01"
+        }
+    }
 }

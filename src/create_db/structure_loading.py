@@ -2,7 +2,7 @@ import json
 
 from pathlib import Path
 
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine, text, Engine
 from sqlalchemy.engine import Connection
 from sqlalchemy.engine import Engine
 from sqlalchemy.exc import SQLAlchemyError
@@ -40,6 +40,7 @@ def load_json_structure() -> Optional[List[Dict[str, Any]]]:
     json_files = [f for f in folder.iterdir() if f.is_file() and f.suffix.lower() == '.json']
 
     if not json_files:
+        print("Brak utworzonej struktury, brak plików transportowych json")
         return None
 
     all_jsons: List[Dict[str, Any]] = []
@@ -77,7 +78,7 @@ def check_and_insert_taxonomy_version(engine) -> int | None:
         ).first()
 
         if existing:
-            print(f"Struktura z wersją {version} już istnieje – pomijam ładowanie struktury.")
+            print(f"Struktura z wersj {version} już istnieje – pomijam ładowanie struktury.")
             return None
 
         result = conn.execute(
@@ -148,7 +149,7 @@ def load_taxonomy_structure(engine: Engine, all_jsons: List[Dict[str, str]], id_
         print({e})
 
 
-def create_structure() -> str | None:
+def create_structure() -> bool:
     """
     Funkcja tworzy strukturę taksonomii w bazie danych jeśli nie została załadowana do niej wcześniej.
     Używając funkcji 'check_and_insert_taxonomy_version' sprawdza czy nowa wersja i nazwa taksonomii jest już w bazie,
@@ -157,12 +158,11 @@ def create_structure() -> str | None:
     engine = create_tables()
     all_jsons = load_json_structure()
 
-    if all_jsons is None:
-        return "Brak stworzonej struktury bazodanowej dla tej taksonomii"
-
     id_taxonomy = check_and_insert_taxonomy_version(engine)
 
-    if id_taxonomy is None:
-        return "Brak stworzonej struktury bazodanowej dla tej taksonomii"
+    if all_jsons or id_taxonomy is None:
+        return False
 
     load_taxonomy_structure(engine, all_jsons, id_taxonomy)
+
+    return True
