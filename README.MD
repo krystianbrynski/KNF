@@ -2,12 +2,13 @@
 
 ## Cel Projektu
 
-Celem projektu jest opracowanie i wdrożenie zautomatyzowanego procesu przygotowania i przetwarzania danych raportowych oraz taksonomii. W ramach projektu zostały
-zrealizowane nastepujace zadania:
-• Generowanie plikow transportowych na podstawie raportu oraz ich załadunek do
-bazy danych
-• Generyczne tworzenie struktury bazy danych na podstawie modelu taksonomii (TaksonomiaBION)
-• Opracowanie skyptów w jezyku Python, które realizuja powyższe zadania
+Celem projektu jest opracowanie i wdrożenie zautomatyzowanego procesu przygotowania i przetwarzania danych raportowych oraz taksonomii.
+
+## Zrealizowane zadania
+
+- Generowanie plików transportowych na podstawie raportu oraz ich załadunek do bazy danych  
+- Generyczne tworzenie struktury bazy danych na podstawie modelu taksonomii (TaksonomiaBION)  
+- Opracowanie skryptów w języku Python, które realizują powyższe zadania
 
 
 ## Instalacja bibliotek 
