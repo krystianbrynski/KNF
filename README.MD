@@ -1,4 +1,4 @@
-# Generator struktur danych i szablonów plików na podstawie taksonomii EBA
+# Generowanie struktury bazy danych na podstawie taksonomii oraz roz ladunek danych do tej bazy
 
 ## Cel Projektu
 
