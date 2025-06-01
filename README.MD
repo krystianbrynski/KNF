@@ -1,4 +1,4 @@
-# Generowanie struktury bazy danych na podstawie taksonomii oraz roz ladunek danych do tej bazy
+# Generowanie struktury bazy danych na podstawie taksonomii oraz rozładunek danych do tej bazy
 
 ## Cel Projektu
 
