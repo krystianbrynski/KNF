@@ -68,7 +68,7 @@ KNF/
 │   │   ├───taxonomy_info.json
 ```
 
-Skrypt, na podstawie Twojej taksonomii, wygeneruje pliki transportowe. Plików transportowych (zawierających strukture dla danego arkuszaA) będzie tyle ile arkuszy znajduje się we wszystkich formularzach. Każdy plik zostanie zapisany w formacie JSON i nazwany zgodnie z nazwą odpowiadającego mu arkusza. Skrypt również zapisze plik taxonomy_info.json do katalogu taxonomy_info wraz z nazwą oraz wersją taksonomii
+Skrypt, na podstawie Twojej taksonomii, wygeneruje pliki transportowe. Plików transportowych (zawierających strukture dla danego arkusza) będzie tyle ile arkuszy znajduje się we wszystkich formularzach. Każdy plik zostanie zapisany w formacie JSON i nazwany zgodnie z nazwą odpowiadającego mu arkusza. Skrypt również zapisze plik taxonomy_info.json do katalogu taxonomy_info wraz z nazwą oraz wersją taksonomii
 
 ** 2. Ekstrakcja danych z raportu.**
 
