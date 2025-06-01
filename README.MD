@@ -26,7 +26,7 @@ W terminalu skorzystaj z polecenia:
 
 ## Użycie programu
 
-### Po uruchomieniu programu src/main.py w terminalu wyświetli się menu dla użytkownika, a zaraz po nim prośba o wybranie numeru akcjii.
+Po uruchomieniu programu src/main.py w terminalu wyświetli się menu dla użytkownika, a zaraz po nim prośba o wybranie numeru akcjii.
 
 ```
  === MENU PROGRAMU ===
