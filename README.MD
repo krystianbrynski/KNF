@@ -39,6 +39,8 @@ Po uruchomieniu programu src/main.py w terminalu wyświetli się menu dla użytk
         0 - Wyjście z programu
 
         =====================
+
+Akcja:
 ```
 
 
@@ -89,7 +91,6 @@ Po wrzuceniu raportu można w terminalu wpisać wartość 2, aby uruchomić skry
 output
 KNF/
 ├───report_data/
-│   ├───reports/
 │   │   ├───sheet_name1.json
 │   │   ├───sheet_name2.json
 │   │   └───sheet_name3.json
@@ -104,19 +105,19 @@ Należy uruchomić api w terminalu, jeśli tego jeszcze nie zrobiłeś.
 
 ```uvicorn src.api_interface.api:app --reload```
 
-po poprawnym uruchomieniu dostaniemu informację: INFO:     Application startup complete.
+po poprawnym uruchomieniu dostaniemu informację: "INFO:     Application startup complete".
 Teraz możemy uruchomić akcję i wpisać w terminal wartość 3.
 Skrypt załaduje Twoją strukture do bazy danych i wyświetli w terminalu komunikat:
 "Struktura została załadowana do bazy danych", jeśli operacja zakończy się sukcesem.
 
 ** 4. Ładowanie danych z raportu do bazy danych.**
 
-Przed załadunkiem danych do bazy danych, upewnij się że wykonałeś akcje 2.
+Przed załadunkiem danych do bazy danych, upewnij się że wykonałeś akcje 2, która wyekstraktuje twoje dane z raportu i zapisze pliki transportowe.
 Należy uruchomić api w terminalu, jeśli tego jeszcze nie zrobiłeś.
 
 ```uvicorn src.api_interface.api:app --reload```
 
-po poprawnym uruchomieniu dostaniemu informację: INFO:     Application startup complete.
+po poprawnym uruchomieniu dostaniemu informację: "INFO:     Application startup complete".
 Teraz możemy uruchomić akcję i wpisać w terminal wartość 4.
 Skrypt załaduje twoje wyekstraktowane dane do bazy danych i wyświetli w terminalu komentarz:
 "Raport został pomyślnie rozładowany do bazydanych", jeśli operacja zakończy się sukcesem.
