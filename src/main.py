@@ -7,7 +7,7 @@ from src.config.constants import BASE_URL, MENU, DIRECTORIES
 from src.extractor.extract_report import generate_json_reports
 
 
-def create_directory():
+def create_directory() -> None:
     """Funkcja podczas włączenia programu tworzy wszystkie potrzebne katalogi do przechowywania danych."""
     for directory in DIRECTORIES:
         os.makedirs(directory, exist_ok=True)

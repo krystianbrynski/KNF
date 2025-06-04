@@ -11,6 +11,9 @@ from src.config.constants import INSERT_INTO_DATA_TABLE, INSERT_INTO_REPORTS_TAB
 
 
 def load_folder_reports() -> Optional[List[Dict[str, Any]]]:
+    """
+       Wczytuje wszystkie pliki JSON z folderu REPORTS_JSON_PATH.
+    """
     folder = Path(REPORTS_JSON_PATH)
     all_jsons: List[Dict[str, Any]] = []
 
@@ -26,6 +29,9 @@ def load_folder_reports() -> Optional[List[Dict[str, Any]]]:
 
 
 def validate_structure(all_jsons: List[Dict[str, Any]], conn: Connection) -> bool:
+    """
+       Funkcja, czy datapoint'y plikach JSON są zgodne z istniejącą strukturą w bazie danych.
+    """
     data_points_report: list[str] = []
     data_points_structure: list[str] = []
 
@@ -50,6 +56,8 @@ def validate_structure(all_jsons: List[Dict[str, Any]], conn: Connection) -> boo
 
 
 def load_data(conn: Connection, all_jsons: List[Dict[str, Any]]) -> None:
+    """Zapisuje dane z raportów wczytanych z plików JSON do bazy danych
+    """
     result = conn.execute(text(INSERT_INTO_REPORTS_TABLE))
     id_report = result.scalar_one()
 

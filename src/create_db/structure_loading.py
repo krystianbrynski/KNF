@@ -2,7 +2,7 @@ import json
 
 from pathlib import Path
 
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine, text, Engine
 from sqlalchemy.engine import Connection
 from sqlalchemy.engine import Engine
 from sqlalchemy.exc import SQLAlchemyError
@@ -18,7 +18,6 @@ def create_tables() -> Engine:
     Funkcja używana jest do stworzenia połączenia z bazą danych MSSQL i wymaganych tabel, jeśli nie istnieją.
     Zwraca obiekt SQLAlchemy Engine.
     """
-
     engine = create_engine(
         "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
@@ -35,10 +34,9 @@ def create_tables() -> Engine:
 
 def load_json_structure() -> Optional[List[Dict[str, Any]]]:
     """
-     Wczytuje wszystkie pliki JSON z wcześniej wygenerowaną strukturę taksonomii z podanego folderu i zwraca listę ich
-     zawartości.
-     """
-
+        Wczytuje wszystkie pliki JSON zawierające strukturę taksonomii z podanego folderu.
+        Zwraca listę słowników z danych JSON lub None, jeśli nie znaleziono plików
+    """
     folder = Path(STRUCTURE_JSON_PATH).resolve()
     json_files = [f for f in folder.iterdir() if f.is_file() and f.suffix.lower() == '.json']
 
@@ -57,11 +55,10 @@ def load_json_structure() -> Optional[List[Dict[str, Any]]]:
 
 def load_taxonomy_version_from_file() -> tuple[str, str]:
     """
-    Funkcja jest stosowana w procesie sprawdzania wersji taksonomii.
-    Wczytuje plik JSON zawierający informację na temat wersji i nazwy ładowanej taksonomii
-    i zwraca te informacje.
+        Funkcja jest stosowana w procesie sprawdzania wersji taksonomii.
+       Wczytuje plik JSON zawierający informację na temat wersji i nazwy ładowanej taksonomii
+        i zwraca te informacje.
     """
-
     with open(TAXONOMY_INF_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data.get("version"), data.get("name")
@@ -95,6 +92,9 @@ def check_and_insert_taxonomy_version(engine) -> int | None:
 
 
 def load_form_name(conn: Connection, form_name: str, id_taxonomy: int) -> int:
+    """
+    Funkcja iteruje po pliku JSON i wstawia nowy formularz do tabeli `forms` w bazie danych i zwraca jego identyfikator.
+    """
     result = conn.execute(
         text(constants.INSERT_INTO_FORMS_TABLE),
         {"name_form": form_name, "id_taxonomy": id_taxonomy}
@@ -105,6 +105,11 @@ def load_form_name(conn: Connection, form_name: str, id_taxonomy: int) -> int:
 
 
 def load_labels_and_datapoints(conn: Connection, id_form: int, label_content: Dict[str, Any]) -> None:
+    """
+        Wstawia etykiety i odpowiadające im datapoint'y do bazy danych.
+        Funkcja iteruje po pliku JSON i wstawia każdą etykietę do tabeli `labels`, a następnie odpowiadający jej data_point
+        do tabeli `datapoints`, przypisując je do określonego formularza.
+    """
     row_value = label_content.get("value_row")
     col_values = label_content.get("value_columns")
     data_points = label_content.get("data_points")
@@ -133,7 +138,9 @@ def load_labels_and_datapoints(conn: Connection, id_form: int, label_content: Di
 
 
 def load_taxonomy_structure(engine: Engine, all_jsons: List[Dict[str, str]], id_taxonomy: int) -> None:
-    """ Ładuje strukturę taksonomii wywołująć dwie funkcje: """
+    """ Wywołując funkcje 'load_labels_and_datapoints' oraz 'load_form_name' dla każdego form_name w plikach JSON:
+    - Wstawia nowy formularz do tabeli `Forms` (jeśli nie był jeszcze zapisany).
+    - Wstawia przypisane etykiety i odpowiadające im datapoint'y do tabel `Labels` i `Datapoints`."""
     form_names: list[str] = []
     try:
         with engine.begin() as conn:
@@ -157,7 +164,7 @@ def create_structure() -> bool:
     """
     Funkcja tworzy strukturę taksonomii w bazie danych jeśli nie została załadowana do niej wcześniej.
     Używając funkcji 'check_and_insert_taxonomy_version' sprawdza czy nowa wersja i nazwa taksonomii jest już w bazie,
-    jeśli nie, to ją dodaje.
+    jeśli nie, dodaje ją.
     """
     engine = create_tables()
     all_jsons = load_json_structure()
