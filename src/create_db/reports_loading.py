@@ -105,3 +105,4 @@ def load_report() -> bool:
 
     except SQLAlchemyError as e:
         print({e})
+        return False

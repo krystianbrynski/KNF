@@ -1,7 +1,7 @@
 from src.config.constants import REPORTS_JSON_PATH
 from src.config.constants import REPORT_DIR_PATH
 from src.config.constants import DROP_LIST
-from typing import List, Tuple, Dict, Any, NoReturn
+from typing import List, Tuple, Dict, Any
 from collections import defaultdict
 import pandas as pd
 import json
@@ -12,7 +12,8 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """
     Usuwa kolumny zawierające słowa kluczowe podane w pliku config.
 
-        W arkuszach Excel mogą znajdować się dodatkowe kolumny opisowe, które utrudniają dalszą implementację procesu ekstrakcji.
+        W arkuszach Excel mogą znajdować się dodatkowe kolumny opisowe, które utrudniają dalszą implementację procesu
+        ekstrakcji.
         Wartości te pojawia się jako etykieta w różnych miejscach tabeli.
         Usunięcie tych kolumn pozwala na poprawne przetwarzanie danych w dalszych krokach."""
 
@@ -138,8 +139,9 @@ def find_sequence_positions(df: pd.DataFrame) -> Tuple[List[Tuple[int, int]], Li
 def extract_intersections(df: pd.DataFrame,
                           positions_horizontal: List[Tuple[int, int]],
                           positions_vertical: List[Tuple[int, int]]) -> List[Dict[str, Any]]:
-    """ Funkcja jest wykorzystywana tylko w przypadku jeśli w arkuszu znajdują się sekwencje Datapoint'ów zarówno pionowe jak i poziome.
-            Ekstraktuje dane finansowe znajdujące się na miejscu przecięć wcześniej zidentyfikowanych Datapointów."""
+    """ Funkcja jest wykorzystywana tylko w przypadku jeśli w arkuszu znajdują się sekwencje Datapoint'ów zarówno
+    pionowe jak i poziome. Ekstraktuje dane finansowe znajdujące się na miejscu przecięć wcześniej
+    zidentyfikowanych Datapointów."""
     results = []
 
     for (row_v, col_v) in positions_vertical:
@@ -154,9 +156,9 @@ def extract_intersections(df: pd.DataFrame,
 
 
 def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[int, int]]) -> List[Dict[str, str]]:
-    """ Funkcja jest wykorzystywana do ekstrakcji danych w przypadku jeśli w arkuszu znajdują się sekwencje Datapoint'ów wyłącznie poziome.
-            Ekstraktuje dane finansowe bezpośrednio pod wcześniej zidentyfikowanymi Datapointam'i.
-             ponieważ w taki sposób rozmieszone są one w arkuszu."""
+    """ Funkcja jest wykorzystywana do ekstrakcji danych w przypadku jeśli w arkuszu znajdują się sekwencje
+    Datapoint'ów wyłącznie poziome. Ekstraktuje dane finansowe bezpośrednio pod wcześniej zidentyfikowanymi
+    Datapointam'i. ponieważ w taki sposób rozmieszone są one w arkuszu."""
 
     results = []
 
@@ -174,7 +176,8 @@ def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[i
 
         datapoint_result = {}
         for code, col in code_to_col.items():
-            if col == 0:  # pomijamy kolumne z labelem 0010, ponieważ nie mamy jak dodać danych z taksonomi i bez tego struktura będzie nie zgodna
+            if col == 0:  # pomijamy kolumne z labelem 0010, ponieważ nie mamy jak dodać danych z taksonomi i bez
+                # tego struktura będzie nie zgodna
                 continue
 
             val = df.iat[row, col]
@@ -193,9 +196,10 @@ def extract_from_horizontal(df: pd.DataFrame, positions_horizontal: List[Tuple[i
 
 
 def extract_from_vertical(df: pd.DataFrame, positions_vertical: List[Tuple[int, int]]) -> List[Dict[Any, Any]]:
-    """ Funkcja jest wykorzystywana do ekstrakcji danych w przypadku jeśli w arkuszu znajdują się sekwencje Datapoint'ów wyłącznie pionowe.
-                Ekstraktuje dane finansowe bezpośrednio z prawej strony wcześniej zidentyfikowanych Datapoint'ów,
-                 ponieważ w taki sposób rozmieszone są one w arkuszu."""
+    """ Funkcja jest wykorzystywana do ekstrakcji danych w przypadku jeśli w arkuszu znajdują się sekwencje
+    Datapoint'ów wyłącznie pionowe. Ekstraktuje dane finansowe bezpośrednio z prawej strony wcześniej zidentyfikowanych
+    Datapoint'ów, ponieważ w taki sposób rozmieszone są one w arkuszu."""
+
     results = []
 
     for (row, col) in positions_vertical:
@@ -214,7 +218,7 @@ def extract_from_vertical(df: pd.DataFrame, positions_vertical: List[Tuple[int, 
     return results
 
 
-def generate_json_reports() -> NoReturn:
+def generate_json_reports() -> None:
     """ Funkcja generuje pliki JSON z raportu Excel, używając wyżej wymionych funkcji."""
     os.makedirs(REPORTS_JSON_PATH, exist_ok=True)
 
@@ -248,3 +252,4 @@ def generate_json_reports() -> NoReturn:
             json.dump({sheet_name: results}, f, ensure_ascii=False, indent=4)
 
     print("Dane zostały wyekstraktowane oraz zapisane do katalogu report_data")
+    return None

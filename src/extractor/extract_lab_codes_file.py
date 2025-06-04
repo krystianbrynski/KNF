@@ -1,10 +1,12 @@
 from xml.etree.ElementTree import Element
 from typing import List, Tuple
 
-# Funkcja została stworzona, aby automatycznie wykrywać przestrzeń nazw (namespace)
-# używaną w atrybutach typu "label". Jest to niezbędne do poprawnego odczytu danych
-# z atrybutów XML, które zawierają prefiksy przestrzeni nazw.
-def extract_namespace(lab_codes_parsed: Element)-> str:
+
+def extract_namespace(lab_codes_parsed: Element) -> str:
+    """Funkcja została stworzona, aby automatycznie wykrywać przestrzeń nazw (namespace)
+       używaną w atrybutach typu "label". Jest to niezbędne do poprawnego odczytu danych
+       z atrybutów XML, które zawierają prefiksy przestrzeni nazw."""
+
     namespace = ""
     for elem in lab_codes_parsed.iter():
         for attr in elem.attrib:
@@ -16,10 +18,11 @@ def extract_namespace(lab_codes_parsed: Element)-> str:
     return namespace
 
 
-# Funkcja została stworzona, aby wyodrębnić z pliku XML powiązania między etykietami (labels) a ich wartościami (data
-# points). Dzięki temu można dokładnie określić, jaki konkretny punkt danych (data point) jest przypisany do której
-# etykiety.
-def extract_lab_codes_labels_and_values(lab_codes_parsed: Element)-> List[Tuple[str, str]]:
+def extract_lab_codes_labels_and_values(lab_codes_parsed: Element) -> List[Tuple[str, str]]:
+    """Funkcja została stworzona, aby wyodrębnić z pliku XML powiązania między etykietami (labels) a ich wartościami
+    (data points). Dzięki temu można dokładnie określić, jaki konkretny punkt danych (data point) jest przypisany do
+    której etykiety."""
+
     namespace = extract_namespace(lab_codes_parsed)
     labels_and_value: List[Tuple[str, str]] = []
 

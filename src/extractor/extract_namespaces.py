@@ -2,8 +2,9 @@ import xml.etree.ElementTree as ET
 from typing import Dict
 
 
-# Funkcja została stworzona, aby wyodrębnić wszystkie przestrzenie nazw (namespaces) z pliku XML
 def extract_namespaces(xml_file: str) -> Dict[str, str]:
+    """Funkcja została stworzona, aby wyodrębnić wszystkie przestrzenie nazw (namespaces) z pliku XML."""
+
     events = "start", "start-ns"
     ns_map: Dict[str, str] = {}
     for event, elem in ET.iterparse(xml_file, events):

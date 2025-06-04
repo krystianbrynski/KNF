@@ -2,7 +2,7 @@ import json
 
 from pathlib import Path
 
-from sqlalchemy import create_engine, text, Engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Connection
 from sqlalchemy.engine import Engine
 from sqlalchemy.exc import SQLAlchemyError
@@ -18,6 +18,7 @@ def create_tables() -> Engine:
     Funkcja używana jest do stworzenia połączenia z bazą danych MSSQL i wymaganych tabel, jeśli nie istnieją.
     Zwraca obiekt SQLAlchemy Engine.
     """
+
     engine = create_engine(
         "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
@@ -34,8 +35,10 @@ def create_tables() -> Engine:
 
 def load_json_structure() -> Optional[List[Dict[str, Any]]]:
     """
-     Wczytuje wszystkie pliki JSON z wcześniej wygenerowaną strukturę taksonomii z podanego folderu i zwraca listę ich zawartości.
+     Wczytuje wszystkie pliki JSON z wcześniej wygenerowaną strukturę taksonomii z podanego folderu i zwraca listę ich
+     zawartości.
      """
+
     folder = Path(STRUCTURE_JSON_PATH).resolve()
     json_files = [f for f in folder.iterdir() if f.is_file() and f.suffix.lower() == '.json']
 
@@ -54,10 +57,11 @@ def load_json_structure() -> Optional[List[Dict[str, Any]]]:
 
 def load_taxonomy_version_from_file() -> tuple[str, str]:
     """
-        Funkcja jest stosowana w procesie sprawdzania wersji taksonomii.
-       Wczytuje plik JSON zawierający informację na temat wersji i nazwy ładowanej taksonomii
-        i zwraca te informacje.
-       """
+    Funkcja jest stosowana w procesie sprawdzania wersji taksonomii.
+    Wczytuje plik JSON zawierający informację na temat wersji i nazwy ładowanej taksonomii
+    i zwraca te informacje.
+    """
+
     with open(TAXONOMY_INF_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data.get("version"), data.get("name")

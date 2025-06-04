@@ -8,20 +8,22 @@ from src.extractor.extract_report import generate_json_reports
 
 
 def create_directory():
+    """Funkcja podczas włączenia programu tworzy wszystkie potrzebne katalogi do przechowywania danych."""
     for directory in DIRECTORIES:
         os.makedirs(directory, exist_ok=True)
 
 
 def run_pipeline() -> None:
-    '''Głowna funkcja realizująca generowanie struktury bazodanowej, ekstrakcji danych z raportów oraz ładowanie tych danych do bazy.
-    Przed uruchmieniem zostaną stworzone wszystkie potrzebne katalogi.'''
+    """Głowna funkcja realizująca generowanie struktury bazodanowej, ekstrakcji danych z raportów oraz ładowanie tych
+    danych do bazy. Po uruchmieniu zostaną stworzone wszystkie potrzebne katalogi."""
+
     create_directory()
 
-    akcja = None
-    while akcja != "0":
+    action = None
+    while action != "0":
         print(MENU)
-        akcja = input("Akcja: ")
-        match akcja:
+        action = input("Akcja: ")
+        match action:
             case "0":
                 print("Koniec programu")
             case "1":

@@ -3,12 +3,14 @@ from typing import Dict
 from src.config.data_classes import FinalDataItem, FinalData
 from src.config.constants import EMPTY
 
-# Funkcja przygotowuje finalną strukturę danych, która może zostać zapisana do pliku JSON.
-def transform_data(data_with_types, column_flag: bool, sheet_name: str,form_name: str)-> FinalData:
+
+def transform_data(data_with_types, column_flag: bool, sheet_name: str, form_name: str) -> FinalData:
+    """Funkcja przygotowuje finalną strukturę danych, która może zostać zapisana do pliku JSON."""
+
     transformed_data: Dict[str, FinalDataItem] = {}
 
     for key, values in data_with_types.items():
-        if column_flag:   # Obsługa jeśli arkusz jest dwuwymiarowy
+        if column_flag:  # Obsługa jeśli arkusz jest dwuwymiarowy
             label_row = values.row_text
             data_point = values.data_points
             label_col = values.column_texts

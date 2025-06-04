@@ -5,9 +5,11 @@ REPORTS_JSON_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../report_data"))
 STRUCTURE_JSON_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../structure/full_structure"))
 TAXONOMY_INF_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../structure/taxonomy_info/taxonomy_info.json"))
 REPORT_DIR_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../data/reports"))
+
 DROP_LIST = ['miara']  # lista zawiera nazwy pól, które są używane do usuwania niepotrzebnych kolumn
 
 BASE_URL = "http://127.0.0.1:8000"
+
 MENU = """
         === MENU PROGRAMU ===
         Wybierz jedną z opcji:
@@ -48,6 +50,8 @@ QNAME = "None"  # Domyślny qname, jeśli nie uda się dopasować
 # Wartość w przypadku braku textu w kolumnie/wierszu
 EMPTY = "None"
 
+
+# lista zawierająca potrzebne katalogi do utworzenia na początku programu
 DIRECTORIES = [
         "../data/reports",
         "../data/taxonomy",
@@ -56,6 +60,8 @@ DIRECTORIES = [
         "../report_data"
     ]
 
+
+#Zapisane teksty które tworzą tabele oraz dodają rekordy
 CREATE_TABLE_TAXONOMY = '''
             IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'Taxonomy')
             BEGIN

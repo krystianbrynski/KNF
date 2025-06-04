@@ -2,18 +2,20 @@ from typing import List, Tuple, Dict
 from xml.etree.ElementTree import Element
 
 
-# Funkcja zamienia skróconą nazwę tagu XML z prefixem na pełną nazwę z przestrzenią nazw, zgodną ze składnią
-# biblioteki xml.etree.ElementTree.
 def qname(tag: str, nsmap: Dict[str, str]) -> str:
+    """Funkcja zamienia skróconą nazwę tagu XML z prefixem na pełną nazwę z przestrzenią nazw, zgodną ze składnią
+    biblioteki xml.etree.ElementTree."""
+
     prefix, local = tag.split(":")
     return f"{{{nsmap[prefix]}}}{local}"
 
 
-# Funkcja została stworzona w celu wyodrębnienia powiązań między etykietami (labelami) a ich opisami tekstowymi.
-# Pozwala to ustalić, która etykieta odpowiada jakiej wartości, co jest niezbędne do dalszego przetwarzania danych.
-# Informacje te są wykorzystywane do zbudowania pełnej struktury formularza w kolejnych etapach przetwarzania.
 def extract_lab_pl_labels_and_values(lab_pl_parsed: Element, lab_pl_namespaces: Dict[str, str]) -> List[
     Tuple[str, str]]:
+    """Funkcja została stworzona w celu wyodrębnienia powiązań między etykietami (labelami) a ich opisami tekstowymi.
+       Pozwala to ustalić, która etykieta odpowiada jakiej wartości, co jest niezbędne do dalszego przetwarzania danych.
+       Informacje te są wykorzystywane do zbudowania pełnej struktury formularza w kolejnych etapach przetwarzania."""
+
     label_dict: Dict[str, str] = {}
     for label in lab_pl_parsed.findall(f'.//{qname("label:label", lab_pl_namespaces)}'):
         label_id = label.attrib[f'{{{lab_pl_namespaces["xlink"]}}}label']
