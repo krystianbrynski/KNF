@@ -105,7 +105,7 @@ Należy uruchomić api w terminalu, jeśli tego jeszcze nie zrobiłeś.
 
 ```uvicorn src.api_interface.api:app --reload```
 
-po poprawnym uruchomieniu dostaniemu informację: "INFO:     Application startup complete".
+Po poprawnym uruchomieniu dostaniemu informację: "INFO:     Application startup complete".
 Teraz możemy uruchomić akcję i wpisać w terminal wartość 3.
 Skrypt załaduje Twoją strukture do bazy danych i wyświetli w terminalu komunikat:
 "Struktura została załadowana do bazy danych", jeśli operacja zakończy się sukcesem.
@@ -117,7 +117,7 @@ Należy uruchomić api w terminalu, jeśli tego jeszcze nie zrobiłeś.
 
 ```uvicorn src.api_interface.api:app --reload```
 
-po poprawnym uruchomieniu dostaniemu informację: "INFO:     Application startup complete".
+Po poprawnym uruchomieniu dostaniemu informację: "INFO:     Application startup complete".
 Teraz możemy uruchomić akcję i wpisać w terminal wartość 4.
 Skrypt załaduje twoje wyekstraktowane dane do bazy danych i wyświetli w terminalu komentarz:
 "Raport został pomyślnie rozładowany do bazydanych", jeśli operacja zakończy się sukcesem.
