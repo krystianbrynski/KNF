@@ -121,7 +121,7 @@ CREATE_TABLE_DATA = """
                     id_data INT PRIMARY KEY IDENTITY(1,1),
                     id_report INT FOREIGN KEY REFERENCES Reports(id_report),
                     id_data_point INT FOREIGN KEY REFERENCES Data_points(id_data_point),
-                    form_name NVARCHAR(255),
+                    sheet_name NVARCHAR(255),
                     data NVARCHAR(MAX)
                 )
             END
@@ -146,8 +146,8 @@ SELECT_TAXONOMY_TABLE = """SELECT id_taxonomy FROM Taxonomy WHERE version = :ver
 INSERT_INTO_REPORTS_TABLE = """INSERT INTO Reports OUTPUT INSERTED.id_report DEFAULT VALUES
                                 """
 
-SELECT_DATAPOINTS_TABLE = """SELECT dp.id_data_point, dp.data_point FROM Data_points dp JOIN Labels l ON dp.id_label = l.id_label WHERE l.sheet_name = :form_name
-"""
-INSERT_INTO_DATA_TABLE = """INSERT INTO Data (id_report, id_data_point, form_name, data)
-                                    VALUES (:id_report, :id_data_point, :form_name, :data)
+SELECT_DATAPOINTS_TABLE = """SELECT dp.id_data_point, dp.data_point FROM Data_points dp JOIN Labels l ON dp.id_label = l.id_label WHERE l.sheet_name = :sheet_name"""
+
+INSERT_INTO_DATA_TABLE = """INSERT INTO Data (id_report, id_data_point, sheet_name, data)
+                                    VALUES (:id_report, :id_data_point, :sheet_name, :data)
                                 """

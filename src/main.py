@@ -14,7 +14,7 @@ def create_directory():
 
 def run_pipeline() -> None:
     '''Głowna funkcja realizująca generowanie struktury bazodanowej, ekstrakcji danych z raportów oraz ładowanie tych danych do bazy.
-    Przed uruchmieniem upewnij się, że wrzuciłeś model taksonomi oraz raport oraz czy stworzyłeś zgodnie z dokumentacją techniczną potrzebne katalogi, jeśli nie istnieją'''
+    Przed uruchmieniem zostaną stworzone wszystkie potrzebne katalogi.'''
     create_directory()
 
     akcja = None

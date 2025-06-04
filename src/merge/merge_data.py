@@ -2,6 +2,7 @@ from typing import List, Tuple, Dict, Union
 from src.config.data_classes import OneDimensionalAxis, TwoDimensionalAxis
 
 # Funkcja, która łączy dane wyciągnięte z plików rend, lab-pl oraz lab-codes dla jednowymiarowego arkusza.
+
 def combine_one_dimensional_data(lab_codes_labels_and_value: List[Tuple[str, str]]
                         , lab_pl_labels_and_value: List[Tuple[str, str]],
                         axis_labels: list[str],

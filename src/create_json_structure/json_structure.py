@@ -71,3 +71,5 @@ def create_structure() -> None:
             if form_name in lab_codes_path and form_name in lab_pl_path and form_name in rend_path:  # Sprawdzenie, czy nazwa arkusza występuje w nazwach wszystkich trzech ścieżek
                 build_json_for_sheet(lab_codes_path, rend_path, lab_pl_path, data_types_with_names, sheet_name,
                                      form_name)
+    print("Twoja struktura została pomyślnie utworzona")
+

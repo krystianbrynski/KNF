@@ -26,12 +26,16 @@ def load_folder_reports() -> Optional[List[Dict[str, Any]]]:
 
 
 def validate_structure(all_jsons: List[Dict[str, Any]], conn: Connection) -> bool:
+    data_points_report: list[str] = []
+    data_points_structure: list[str] = []
+
     for json_obj in all_jsons:
-        for form_name, records in json_obj.items():
+        for sheet_name, records in json_obj.items():
             id_datapoint_and_datapoint = conn.execute(text(SELECT_DATAPOINTS_TABLE),
-                                                      {"form_name": form_name}).mappings().all()
-            data_points_report: list[str] = []
-            data_points_structure: list[str] = []
+                                                      {"sheet_name": sheet_name}).mappings().all()
+
+            data_points_report.clear()
+            data_points_structure.clear()
 
             for record in records:
                 for data_point in record:
@@ -50,9 +54,9 @@ def load_data(conn: Connection, all_jsons: List[Dict[str, Any]]) -> None:
     id_report = result.scalar_one()
 
     for json_obj in all_jsons:
-        for form_name, records in json_obj.items():
+        for sheet_name, records in json_obj.items():
             id_datapoint_and_datapoint = conn.execute(text(SELECT_DATAPOINTS_TABLE),
-                                                      {"form_name": form_name}).mappings().all()
+                                                      {"sheet_name": sheet_name}).mappings().all()
             data_point_map = {row["data_point"]: row["id_data_point"] for row in id_datapoint_and_datapoint}
 
             for record in records:
@@ -61,7 +65,7 @@ def load_data(conn: Connection, all_jsons: List[Dict[str, Any]]) -> None:
                     conn.execute(text(INSERT_INTO_DATA_TABLE), {
                         "id_report": id_report,
                         "id_data_point": id_data_point,
-                        "form_name": form_name,
+                        "sheet_name": sheet_name,
                         "data": value
                     })
 
