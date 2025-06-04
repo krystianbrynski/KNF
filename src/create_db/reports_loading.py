@@ -12,7 +12,7 @@ from src.config.constants import INSERT_INTO_DATA_TABLE, INSERT_INTO_REPORTS_TAB
 
 def load_folder_reports() -> Optional[List[Dict[str, Any]]]:
     """
-       Wczytuje wszystkie pliki JSON z folderu REPORTS_JSON_PATH.
+       Wczytuje wszystkie pliki JSON z folderu.
     """
     folder = Path(REPORTS_JSON_PATH)
     all_jsons: List[Dict[str, Any]] = []
