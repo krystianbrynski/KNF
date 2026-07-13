@@ -30,7 +30,7 @@ def extract_lab_codes_labels_and_values(lab_codes_parsed: Element) -> List[Tuple
         label_attr = label.get(f"{namespace}label")
         label_value = label.text.strip()
 
-        if label_attr and "uknf_c" in label_attr:
+        if label_attr and "tax_c" in label_attr:
             clean_label = label_attr.replace("label_", "")
             labels_and_value.append((clean_label, label_value))
 

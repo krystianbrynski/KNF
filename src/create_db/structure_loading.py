@@ -19,7 +19,7 @@ def create_tables() -> Engine:
     Zwraca obiekt SQLAlchemy Engine.
     """
     engine = create_engine(
-        "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
+        "mssql+pyodbc://localhost\\SQLEXPRESS/SprawozdawczoscDB?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
     with engine.begin() as conn:
         conn.execute(text(constants.CREATE_TABLE_TAXONOMY))

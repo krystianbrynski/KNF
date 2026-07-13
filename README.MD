@@ -7,7 +7,7 @@ Celem projektu jest opracowanie i wdrożenie zautomatyzowanego procesu przygotow
 ## Zrealizowane zadania
 
 - Generowanie plików transportowych na podstawie raportu oraz ich załadunek do bazy danych  
-- Generyczne tworzenie struktury bazy danych na podstawie modelu taksonomii (TaksonomiaBION)  
+- Generyczne tworzenie struktury bazy danych na podstawie modelu taksonomii
 - Opracowanie skryptów w języku Python, które realizują powyższe zadania
 
 
@@ -50,7 +50,7 @@ Do powstałego katalogu data/taxonomy należy wrzucić model taksonomii, przed w
 
 ```
 input
-KNF/
+Sprawozdawczosc/
 ├───data/
 │   ├───taxonomy/
 │       └───Taxonomy
@@ -60,7 +60,7 @@ Po wrzuceniu modelu taksonomii można w terminalu wpisać wartość 1, aby uruch
 
 ```
 output
-KNF/
+Sprawozdawczosc/
 ├───structure/
 │   ├───full_structure/
 │   │   ├───form_name_1.json
@@ -79,7 +79,7 @@ Do katalogu data/reports należy wrzucić jeden raport w formacie '.xls' lub '.x
 
 ```
 input
-KNF/
+Sprawozdawczosc/
 ├───data/
 │   ├───reports/
 │       └───report.xlsx
@@ -89,7 +89,7 @@ Po wrzuceniu raportu można w terminalu wpisać wartość 2, aby uruchomić skry
 
 ```
 output
-KNF/
+Sprawozdawczosc/
 ├───report_data/
 │   │   ├───sheet_name1.json
 │   │   ├───sheet_name2.json

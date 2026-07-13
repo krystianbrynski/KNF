@@ -22,15 +22,10 @@ MENU = """
 
         =====================
         """
-# Ścieżka do pliku XSD z definicjami typów danych
-MET_PATH = '../data/taxonomy/TaksonomiaBION/www.uknf.gov.pl/pl/fr/xbrl/dict/met/met.xsd'
 
-# Ścieżka do folderu 'tab', w którym znajdują się podfoldery dla poszczególnych arkuszy.
-# W każdym z podfolderów znajdują się pliki opisujące definicje i strukturę odpowiednich arkuszy danych.
-TAB_PATH = '../data/taxonomy/TaksonomiaBION/www.uknf.gov.pl/pl/fr/xbrl/fws/bion/bion-2024-12/2024-10-21/tab'
-
-# Ścieżka do pliku zawierającego nazwę i wersję taksonomii
-TAXONOMY_PACKAGE_PATH = "../data/taxonomy/TaksonomiaBION/META-INF/taxonomyPackage.xml"
+MET_PATH = '../data/taxonomy/TaksonomiaSprawozdawcza/dict/met/met.xsd' # Ścieżka do pliku XSD z definicjami typów danych
+TAB_PATH = '../data/taxonomy/TaksonomiaSprawozdawcza/fws/tab' # Ścieżka do folderu 'tab', w którym znajdują się podfoldery dla poszczególnych arkuszy.  W każdym z podfolderów znajdują się pliki opisujące definicje i strukturę odpowiednich arkuszy danych.
+TAXONOMY_PACKAGE_PATH = "../data/taxonomy/TaksonomiaSprawozdawcza/META-INF/taxonomyPackage.xml" # Ścieżka do pliku zawierającego nazwę i wersję taksonomii
 
 # Ścieżka do pliku, w którym zostanie zapisany JSON z nazwą oraz wersją taksonomii
 TAXONOMY_INFO_PATH = "../structure/taxonomy_info/taxonomy_info.json"

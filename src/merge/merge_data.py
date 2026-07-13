@@ -101,8 +101,8 @@ def combine_data_from_files(rend_labels: List[str],
         idx_x = rend_labels.index('x')
         idx_y = rend_labels.index('y')
 
-        # W pliku REND osie "x" i "y" mogą występować w różnej kolejności (np. [uknf_c1, uknf_c2, x, uknf_c3, y] lub
-        # [uknf_c1, uknf_c2, y, uknf_c3, x]).
+        # W pliku REND osie "x" i "y" mogą występować w różnej kolejności (np. [tax_c1, tax_c2, x, tax_c3, y] lub
+        # [tax_c1, tax_c2, y, tax_c3, x]).
         # Dlatego ten warunek sprawdza, która oś pojawia się wcześniej, aby poprawnie podzielić etykiety na osie x i y.
         if idx_x < idx_y:
             axis_y_labels = rend_labels[idx_x + 1:idx_y]
@@ -115,7 +115,7 @@ def combine_data_from_files(rend_labels: List[str],
         # Mimo że warunek wykrył formularz jako dwuwymiarowy, może wystąpić sytuacja, w której do osi x nie jest
         # przypisany żaden label.
         # W takim przypadku traktujemy formularz jako jednowymiarowy.
-        # Przykład takiej sytuacji: [uknf_c1, uknf_c2, y, x], gdzie wszystkie etykiety przypisane są do osi y, a oś x
+        # Przykład takiej sytuacji: [tax_c1, tax_c2, y, x], gdzie wszystkie etykiety przypisane są do osi y, a oś x
         # zawiera np. tylko wymiar techniczny (jednak my wyciągamy tylko labele, wiec np. wymiar nie będzie zawarty).
         if len(axis_y_labels) == 0 or len(axis_x_labels) == 0:
             axis_labels = rend_labels[:-2]

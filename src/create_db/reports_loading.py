@@ -98,7 +98,7 @@ def load_report() -> bool:
         return False
 
     engine = create_engine(
-        "mssql+pyodbc://localhost\\SQLEXPRESS/KNF?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
+        "mssql+pyodbc://localhost\\SQLEXPRESS/Sprawozdawczosc?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
     )
 
     try:

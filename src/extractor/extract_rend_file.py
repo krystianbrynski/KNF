@@ -14,7 +14,7 @@ def extract_rend_ordered_labels_and_axes(rend_parsed: Element) -> List[str]:
         if elem.tag.endswith('tableBreakdownArc') and 'axis' in elem.attrib:
             labels.append(elem.attrib['axis'])
 
-    labels = [elem for elem in labels if not elem.startswith('uknf_a')]
+    labels = [elem for elem in labels if not elem.startswith('tax_a')]
     return labels
 
 
